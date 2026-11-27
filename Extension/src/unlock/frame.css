@@ -1,0 +1,8 @@
+html, body { margin: 0; padding: 0; background: var(--surface-raised); color: var(--text); font: var(--fs-body)/1.4 var(--font); overflow: hidden; }
+.unlock { display: flex; flex-direction: column; gap: 8px; padding: 2px 10px 10px; }
+.lbl { margin: 0 0 -2px; color: var(--text); font-size: var(--fs-sm); font-weight: 600; }
+.row { display: flex; flex-direction: column; gap: 8px; }
+.row .input { height: 40px; }
+.row .btn { width: 100%; min-height: 40px; font-size: var(--fs-md); }
+.msg { margin: 0; color: var(--text-2); font-size: var(--fs-sm); text-align: center; }
+.msg.error { color: var(--danger); }

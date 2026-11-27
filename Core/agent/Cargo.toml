@@ -1,0 +1,64 @@
+[package]
+name = "pass-agent"
+description = "Headless desktop agent: unlocked session, auto-lock, IPC server for the browser extension"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[features]
+default = ["native", "webdav", "gdrive", "import-qr", "icons"]
+# The desktop host: local IPC, files on disk, the Windows passkey provider. Without it the request
+# handlers build for WebAssembly (`pass-wasm`).
+native = ["dep:interprocess"]
+webdav = ["pass-core/webdav"]
+gdrive = ["webdav", "pass-core/gdrive"]
+# `totp.from_image`: read a 2FA QR code from an image.
+import-qr = ["pass-core/import-qr"]
+# `icons.get` from the app's icon cache.
+icons = ["webdav", "pass-core/icons"]
+
+[dependencies]
+interprocess = { version = "2", optional = true }
+pass-core = { path = "../core", default-features = false }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+url = "2"
+zeroize = "1"
+
+# std's `Instant::now()` panics on wasm32-unknown-unknown.
+[target.'cfg(all(target_arch = "wasm32", target_os = "unknown"))'.dependencies]
+web-time = "1"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = [
+    "Win32_Foundation",
+    # Process hardening (harden.rs): the process DACL (SDDL, SetKernelObjectSecurity, the user's
+    # SID) and no Windows Error Reporting dumps (SetErrorMode).
+    "Win32_Security",
+    "Win32_Security_Authorization",
+    # DPAPI for the list kept between runs (kept_list.rs).
+    "Win32_Security_Cryptography",
+    "Win32_System_Diagnostics_Debug",
+    "Win32_System_Pipes",
+    "Win32_System_Threading",
+] }
+
+# IPC peer checks.
+[target.'cfg(target_os = "macos")'.dependencies]
+libc = "0.2"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+libc = "0.2"
+
+# Harness for the browser end-to-end tests.
+[[example]]
+name = "e2e_agent"
+required-features = ["native", "gdrive"]
+
+[dev-dependencies]
+tempfile = "3"
+interprocess = "2"
+p256 = { version = "0.14", features = ["ecdsa", "pkcs8"] }
+# A real QR code PNG for the `totp.from_image` tests (the versions pass-core already uses).
+qrcode = { version = "0.14", default-features = false }
+image = { version = "0.25", default-features = false, features = ["png"] }

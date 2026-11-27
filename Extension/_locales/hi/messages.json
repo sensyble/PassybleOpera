@@ -1,0 +1,3677 @@
+{
+  "catalogLocale": {
+    "message": "hi"
+  },
+  "extName": {
+    "message": "Passyble"
+  },
+  "extDescription": {
+    "message": "Passyble डेस्कटॉप ऐप के पासवर्ड, 2FA कोड और पासकी, ब्राउज़र में अपने-आप भरे जाते हैं।"
+  },
+  "actionTitle": {
+    "message": "Passyble"
+  },
+  "cmdOpenPopup": {
+    "message": "Passyble खोलें और अपने वॉल्ट में खोजें"
+  },
+  "cmdFillLogin": {
+    "message": "इस साइट का लॉगिन भरें"
+  },
+  "cmdFillOtp": {
+    "message": "इस साइट का 2FA कोड भरें या दिखाएं"
+  },
+  "cmdScanQr": {
+    "message": "इस पेज पर 2FA QR कोड स्कैन करें"
+  },
+  "cmdGenerate": {
+    "message": "पासवर्ड बनाएं (चुने गए फ़ील्ड में भरें, नहीं तो कॉपी करें)"
+  },
+  "cmdNewNote": {
+    "message": "नया सुरक्षित नोट"
+  },
+  "cmdLock": {
+    "message": "Passyble लॉक करें"
+  },
+  "cmdSync": {
+    "message": "अपने वॉल्ट अभी सिंक करें"
+  },
+  "cmdUseToolbar": {
+    "message": "आगे बढ़ने के लिए, ब्राउज़र टूलबार में Passyble पर क्लिक करें।"
+  },
+  "cmdGeneratedCopied": {
+    "message": "मज़बूत पासवर्ड कॉपी किया गया (45 सेकंड में साफ़ हो जाएगा)"
+  },
+  "cmdGeneratedCopiedByApp": {
+    "message": "Passyble ने मज़बूत पासवर्ड कॉपी किया (45 सेकंड में साफ़ हो जाएगा)"
+  },
+  "cmdGenerateCopyFailed": {
+    "message": "पासवर्ड कॉपी नहीं हो सका। फिर से कोशिश करें।"
+  },
+  "cmdLocked": {
+    "message": "Passyble लॉक हो गया है।"
+  },
+  "syncNow": {
+    "message": "अभी सिंक करें"
+  },
+  "syncSyncing": {
+    "message": "सिंक हो रहा है…"
+  },
+  "syncDone": {
+    "message": "अभी-अभी सिंक हुआ"
+  },
+  "syncFailed": {
+    "message": "$VAULT$ सिंक नहीं हुआ: $REASON$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$2",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedNoName": {
+    "message": "सिंक नहीं हो सका: $REASON$",
+    "placeholders": {
+      "reason": {
+        "content": "$1",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedMany_one": {
+    "message": "$COUNT$ वॉल्ट सिंक नहीं हुआ। $VAULT$: $REASON$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$3",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedMany_other": {
+    "message": "$COUNT$ वॉल्ट सिंक नहीं हुए। $VAULT$: $REASON$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$3",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncVaultUnnamed": {
+    "message": "वॉल्ट"
+  },
+  "syncNeedsUpdate": {
+    "message": "यहाँ से सिंक करने के लिए Passyble ऐप अपडेट करें"
+  },
+  "syncNoneApp": {
+    "message": "अभी कोई वॉल्ट सिंक नहीं होता। इसे Passyble ऐप में सेट अप करें।"
+  },
+  "syncNoneBrowser": {
+    "message": "अभी कोई वॉल्ट सिंक नहीं होता: यह वॉल्ट सिर्फ़ इसी ब्राउज़र में है।"
+  },
+  "commonCancel": {
+    "message": "रद्द करें"
+  },
+  "commonSave": {
+    "message": "सेव करें"
+  },
+  "commonUndo": {
+    "message": "पहले जैसा करें"
+  },
+  "commonDismiss": {
+    "message": "खारिज करें"
+  },
+  "commonClose": {
+    "message": "बंद करें"
+  },
+  "commonMore": {
+    "message": "और"
+  },
+  "commonUsername": {
+    "message": "उपयोगकर्ता नाम"
+  },
+  "commonPassword": {
+    "message": "पासवर्ड"
+  },
+  "commonNoUsername": {
+    "message": "(कोई उपयोगकर्ता नाम नहीं)"
+  },
+  "commonPasskey": {
+    "message": "पासकी"
+  },
+  "commonBadge2fa": {
+    "message": "2FA"
+  },
+  "commonShowPassword": {
+    "message": "पासवर्ड दिखाएं"
+  },
+  "commonHidePassword": {
+    "message": "पासवर्ड छिपाएं"
+  },
+  "commonOpenPassyble": {
+    "message": "Passyble खोलें"
+  },
+  "commonOpenInPassyble": {
+    "message": "Passyble में खोलें"
+  },
+  "commonOpenedInPassyble": {
+    "message": "Passyble में खोला गया"
+  },
+  "commonUnlockInApp": {
+    "message": "Passyble ऐप में अनलॉक करें"
+  },
+  "commonConfirmHello": {
+    "message": "Windows Hello से पुष्टि करें…"
+  },
+  "commonNoLoginForm": {
+    "message": "इस पेज पर कोई लॉगिन फ़ॉर्म नहीं मिला।"
+  },
+  "commonIdentity": {
+    "message": "पहचान"
+  },
+  "commonNameAndAddress": {
+    "message": "नाम और पता"
+  },
+  "creditSensyble": {
+    "message": "Sensyble द्वारा बनाया गया"
+  },
+  "errAgentUnavailable": {
+    "message": "Passyble चल नहीं रहा है।"
+  },
+  "errTimeout": {
+    "message": "Passyble ने जवाब नहीं दिया। कोई खुली Passyble विंडो देखें।"
+  },
+  "errExtensionReloaded": {
+    "message": "Passyble अपडेट हो गया है। इसे इस्तेमाल करने के लिए यह पेज रीलोड करें।"
+  },
+  "errHostMissing": {
+    "message": "Passyble से कनेक्ट नहीं हो पा रहा। Passyble → सेटिंग → ऑटोफ़िल देखें।"
+  },
+  "errLocked": {
+    "message": "Passyble लॉक है। आगे बढ़ने के लिए इसे अनलॉक करें।"
+  },
+  "errUrlMismatch": {
+    "message": "वह लॉगिन किसी दूसरी साइट के लिए सेव किया गया है।"
+  },
+  "errCancelled": {
+    "message": "रद्द किया गया।"
+  },
+  "errNotFound": {
+    "message": "इस साइट के लिए अभी कुछ सेव नहीं किया गया है।"
+  },
+  "errNotSupported": {
+    "message": "इसके लिए Passyble ऐप का नया वर्शन चाहिए। Passyble अपडेट करें, फिर दोबारा कोशिश करें।"
+  },
+  "errBadServerInput": {
+    "message": "यह सर्वर पता या pass+server:// लिंक नहीं है।"
+  },
+  "errAddressNeedsUpdate": {
+    "message": "पते से सर्वर जोड़ने के लिए Passyble डेस्कटॉप ऐप अपडेट करें, या इसके बजाय pass+server:// लिंक पेस्ट करें।"
+  },
+  "errStartFailed": {
+    "message": "Start मेन्यू से Passyble खोलें।"
+  },
+  "errEditNeedsUpdate": {
+    "message": "यहां लॉगिन बदलने के लिए Passyble अपडेट करें।"
+  },
+  "errRateLimited": {
+    "message": "बहुत ज़्यादा बदलाव हुए। एक मिनट रुकें।"
+  },
+  "errWrongPassword": {
+    "message": "मास्टर पासवर्ड गलत है। Caps Lock जांचें और फिर कोशिश करें।"
+  },
+  "errTooManyAttempts": {
+    "message": "बहुत ज़्यादा कोशिशें हो गईं। एक मिनट रुकें, फिर कोशिश करें।"
+  },
+  "errUnlockNeedsUpdate": {
+    "message": "यहां अनलॉक करने के लिए Passyble डेस्कटॉप ऐप अपडेट करें, या Passyble में अनलॉक करें।"
+  },
+  "errUnlockFailed": {
+    "message": "Passyble अनलॉक नहीं हो सका। दोबारा कोशिश करें, या Passyble ऐप में अनलॉक करें।"
+  },
+  "errAliasNotSupported": {
+    "message": "यह Passyble ऐप ईमेल उपनाम नहीं बना सकता। कोई दूसरा विकल्प चुनें।"
+  },
+  "errFormsOff": {
+    "message": "सेटिंग में \"कार्ड और पते सुझाएं\" चालू करें।"
+  },
+  "errWebPagesOnly": {
+    "message": "Passyble सिर्फ़ सामान्य वेब पेजों पर काम करता है।"
+  },
+  "errPickInPopup": {
+    "message": "पहले Passyble पॉपअप में लॉगिन चुनें।"
+  },
+  "errNothingToSave": {
+    "message": "सेव करने का यह सुझाव अब मान्य नहीं है। लॉगिन सेव करने के लिए फिर से साइन इन करें।"
+  },
+  "errNothingToUndo": {
+    "message": "अब पहले जैसा करने के लिए कुछ नहीं बचा।"
+  },
+  "errGenerateNotSetUp": {
+    "message": "पहले इसे Passyble डेस्कटॉप ऐप में सेट अप करें: Passyble → सेटिंग खोलें।"
+  },
+  "errAliasRateLimited": {
+    "message": "बहुत ज़्यादा नए उपनाम बनाए गए। एक मिनट रुकें।"
+  },
+  "errGeneric": {
+    "message": "कुछ गड़बड़ हो गई। दोबारा कोशिश करें।"
+  },
+  "ctxFill": {
+    "message": "Passyble से भरें"
+  },
+  "ctxGenerate": {
+    "message": "पासवर्ड बनाएं"
+  },
+  "ctxGenerateNoSymbols": {
+    "message": "पासवर्ड बनाएं (केवल अक्षर और अंक)"
+  },
+  "ctxGenerateUsername": {
+    "message": "उपयोगकर्ता नाम बनाएं"
+  },
+  "ctxGenerateAlias": {
+    "message": "ईमेल उपनाम बनाएं"
+  },
+  "commonCreatingAlias": {
+    "message": "ईमेल उपनाम बनाया जा रहा है…"
+  },
+  "badgeLogins_one": {
+    "message": "Passyble: इस साइट के लिए $COUNT$ लॉगिन",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "badgeLogins_other": {
+    "message": "Passyble: इस साइट के लिए $COUNT$ लॉगिन",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "badgeLoginsLocked_one": {
+    "message": "Passyble (लॉक): इस साइट के लिए $COUNT$ लॉगिन",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "badgeLoginsLocked_other": {
+    "message": "Passyble (लॉक): इस साइट के लिए $COUNT$ लॉगिन",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "badgeLocked": {
+    "message": "Passyble लॉक है"
+  },
+  "badgeNotRunning": {
+    "message": "Passyble डेस्कटॉप ऐप चल नहीं रहा है"
+  },
+  "bgNewPasswordTitle": {
+    "message": "$SITE$ (नया पासवर्ड)",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "bgFormsNeedHttps": {
+    "message": "Passyble कार्ड और पते सिर्फ़ सुरक्षित (https) पेज पर भरता है"
+  },
+  "bgCannotRunHere": {
+    "message": "Passyble इस पेज पर नहीं चल सकता"
+  },
+  "bgPageTooLarge": {
+    "message": "स्कैन करने के लिए पेज बहुत बड़ा है"
+  },
+  "popupLock": {
+    "message": "Passyble लॉक करें"
+  },
+  "popupMoreOptions": {
+    "message": "और विकल्प"
+  },
+  "popupLoading": {
+    "message": "लोड हो रहा है"
+  },
+  "popupStatusLocked": {
+    "message": "लॉक है। अनलॉक करने के लिए क्लिक करें"
+  },
+  "popupLockedTitle": {
+    "message": "Passyble लॉक है"
+  },
+  "popupMasterPassword": {
+    "message": "मास्टर पासवर्ड"
+  },
+  "popupUnlock": {
+    "message": "अनलॉक करें"
+  },
+  "popupUseHello": {
+    "message": "Windows Hello इस्तेमाल करें"
+  },
+  "popupHelloOrPassword": {
+    "message": "Windows Hello से पुष्टि करें, या अपना मास्टर पासवर्ड टाइप करें।"
+  },
+  "popupUnlockEmpty": {
+    "message": "अपना मास्टर पासवर्ड दर्ज करें।"
+  },
+  "popupUnlocking": {
+    "message": "अनलॉक हो रहा है…"
+  },
+  "popupWaitingWindow": {
+    "message": "Passyble विंडो का इंतज़ार है…"
+  },
+  "popupOfflineTitle": {
+    "message": "Passyble चल नहीं रहा है"
+  },
+  "popupHostTitle": {
+    "message": "Passyble तक पहुंचा नहीं जा सकता"
+  },
+  "popupStart": {
+    "message": "Passyble शुरू करें"
+  },
+  "popupStarting": {
+    "message": "Passyble शुरू हो रहा है…"
+  },
+  "popupStartWait": {
+    "message": "इसमें कुछ सेकंड लग सकते हैं।"
+  },
+  "popupRetry": {
+    "message": "दोबारा कोशिश करें"
+  },
+  "popupSetupGuide": {
+    "message": "सेटअप गाइड"
+  },
+  "popupBack": {
+    "message": "वापस जाएं"
+  },
+  "popupBackEsc": {
+    "message": "वापस जाएं (Esc)"
+  },
+  "popupAddServer": {
+    "message": "Passyble Server जोड़ें"
+  },
+  "popupSettings": {
+    "message": "सेटिंग"
+  },
+  "popupQuickSettings": {
+    "message": "क्विक सेटिंग"
+  },
+  "popupMoreSettings": {
+    "message": "और सेटिंग"
+  },
+  "settingInlineMenu": {
+    "message": "इनलाइन मेन्यू"
+  },
+  "settingInlineMenuDetails": {
+    "message": "लॉगिन फ़ील्ड में Passyble आइकन और मेन्यू दिखाता है।"
+  },
+  "settingAutoSuggest": {
+    "message": "सुझाव अपने-आप खोलें"
+  },
+  "settingAutoSuggestDetails": {
+    "message": "बंद होने पर: ↓ दबाएं या आइकन पर क्लिक करें।"
+  },
+  "settingAutoGenerate": {
+    "message": "मज़बूत पासवर्ड सुझाएं"
+  },
+  "settingAutoGenerateDetails": {
+    "message": "बंद होने पर: मेन्यू में फिर भी मिलेगा।"
+  },
+  "settingAutoFillOtp": {
+    "message": "2FA कोड अपने-आप भरें"
+  },
+  "settingAutoFillOtpDetails": {
+    "message": "अगले चरण में कोड भरता है, कभी सबमिट नहीं करता।"
+  },
+  "settingSaveBanner": {
+    "message": "लॉगिन सेव करने का सुझाव दें"
+  },
+  "settingFormFill": {
+    "message": "कार्ड और पते सुझाएं"
+  },
+  "settingFormFillDetails": {
+    "message": "सिर्फ़ सुरक्षित (https) पेजों पर।"
+  },
+  "revealCaption": {
+    "message": "बनाया गया पासवर्ड"
+  },
+  "settingPasskeys": {
+    "message": "पासकी के लिए Passyble इस्तेमाल करें"
+  },
+  "settingPasskeysDetails": {
+    "message": "बंद होने पर: ब्राउज़र का अपना डायलॉग।"
+  },
+  "settingAutoPasskey": {
+    "message": "पासकी से साइन इन सुझाएँ"
+  },
+  "popupSearch": {
+    "message": "खोजें"
+  },
+  "popupSearchLabel": {
+    "message": "लॉगिन खोजें"
+  },
+  "popupSearchVault": {
+    "message": "वॉल्ट में खोजें"
+  },
+  "popupSiteLogins": {
+    "message": "इस साइट के लॉगिन"
+  },
+  "popupAddLogin": {
+    "message": "लॉगिन जोड़ें"
+  },
+  "popupInVault": {
+    "message": "आपके वॉल्ट में"
+  },
+  "popupVaultLogins": {
+    "message": "आपके वॉल्ट के लॉगिन"
+  },
+  "popupCardsAndAddresses": {
+    "message": "कार्ड और पते"
+  },
+  "popupNothingHere": {
+    "message": "यहां भरने के लिए कुछ नहीं है"
+  },
+  "popupNoSiteMatches": {
+    "message": "इस साइट के लिए कोई नतीजा नहीं मिला।"
+  },
+  "popupNoSiteLogins": {
+    "message": "इस साइट के लिए अभी कोई लॉगिन नहीं है।"
+  },
+  "popupNoOtherMatches": {
+    "message": "कोई और लॉगिन मेल नहीं खाता।"
+  },
+  "popupSearchNeedsUpdate": {
+    "message": "पूरे वॉल्ट में खोजने के लिए Passyble डेस्कटॉप ऐप अपडेट करें।"
+  },
+  "popupLookUp": {
+    "message": "$SITE$ खोजें",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "popupLoginsFor": {
+    "message": "$SITE$ के लॉगिन",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "popupLookingUp": {
+    "message": "खोजा जा रहा है…"
+  },
+  "popupNothingForSite": {
+    "message": "उस साइट के लिए कुछ सेव नहीं किया गया है।"
+  },
+  "popupSearchKeywordsCard": {
+    "message": "कार्ड"
+  },
+  "popupSearchKeywordsIdentity": {
+    "message": "पता पहचान"
+  },
+  "popupUntitled": {
+    "message": "(बिना शीर्षक)"
+  },
+  "popupUntitledLogin": {
+    "message": "लॉगिन"
+  },
+  "popupMoreFor": {
+    "message": "$NAME$ के लिए और",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupEdit": {
+    "message": "बदलें"
+  },
+  "popupCopyUsername": {
+    "message": "उपयोगकर्ता नाम कॉपी करें"
+  },
+  "popupCopyPassword": {
+    "message": "पासवर्ड कॉपी करें"
+  },
+  "popupCopyPasswordOf": {
+    "message": "$NAME$ का पासवर्ड कॉपी करें",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupCopyOtp": {
+    "message": "2FA कोड कॉपी करें"
+  },
+  "popupFillHere": {
+    "message": "इस पेज पर भरें"
+  },
+  "popupFillItem": {
+    "message": "$NAME$ भरें",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupFillHereConfirm": {
+    "message": "इस पेज पर भरें (Passyble पहले पूछेगा)"
+  },
+  "popupFillItemHere": {
+    "message": "इस पेज पर $NAME$ भरें",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupConfirmFill": {
+    "message": "भरने के लिए Passyble ऐप में पुष्टि करें।"
+  },
+  "popupOtpCode": {
+    "message": "2FA कोड"
+  },
+  "popupNextStepOtp": {
+    "message": "अगला चरण: 2FA कोड"
+  },
+  "popupOtpStep": {
+    "message": "2FA चरण"
+  },
+  "popupOtpPillLabel": {
+    "message": "2FA कोड, कॉपी करने के लिए क्लिक करें"
+  },
+  "popupOtpLockedTitle": {
+    "message": "2FA कोड कॉपी करने के लिए अनलॉक करें"
+  },
+  "popupOtpLockedLabel": {
+    "message": "2FA कोड, लॉक है। अनलॉक करके कॉपी करने के लिए क्लिक करें"
+  },
+  "popupCopyFailed": {
+    "message": "कॉपी नहीं हो सका"
+  },
+  "popupCopiedUsername": {
+    "message": "उपयोगकर्ता नाम कॉपी हो गया"
+  },
+  "popupCopiedPassword": {
+    "message": "पासवर्ड कॉपी हो गया"
+  },
+  "popupCopiedPasswordClears": {
+    "message": "पासवर्ड कॉपी हो गया (45 सेकंड में साफ़ हो जाएगा)"
+  },
+  "popupCopiedOtp": {
+    "message": "2FA कोड कॉपी हो गया"
+  },
+  "popupCopiedOtpClears": {
+    "message": "2FA कोड कॉपी हो गया (45 सेकंड में साफ़ हो जाएगा)"
+  },
+  "popupCopiedExpiry": {
+    "message": "समाप्ति तिथि कॉपी हो गई"
+  },
+  "popupCopiedExpiryClears": {
+    "message": "समाप्ति तिथि कॉपी हो गई (45 सेकंड में साफ़ हो जाएगी)"
+  },
+  "popupCopiedCardNumber": {
+    "message": "कार्ड नंबर कॉपी हो गया"
+  },
+  "popupCopiedCardNumberClears": {
+    "message": "कार्ड नंबर कॉपी हो गया (45 सेकंड में साफ़ हो जाएगा)"
+  },
+  "popupCopiedSecurityCode": {
+    "message": "सुरक्षा कोड कॉपी हो गया"
+  },
+  "popupCopiedSecurityCodeClears": {
+    "message": "सुरक्षा कोड कॉपी हो गया (45 सेकंड में साफ़ हो जाएगा)"
+  },
+  "popupCopiedName": {
+    "message": "नाम कॉपी हो गया"
+  },
+  "popupCopiedEmail": {
+    "message": "ईमेल कॉपी हो गया"
+  },
+  "popupCopiedPhone": {
+    "message": "फ़ोन नंबर कॉपी हो गया"
+  },
+  "popupCopiedAddress": {
+    "message": "पता कॉपी हो गया"
+  },
+  "popupCopiedByAppPassword": {
+    "message": "Passyble ने पासवर्ड कॉपी किया (45 सेकंड में साफ़ हो जाएगा)"
+  },
+  "popupCopiedByAppOtp": {
+    "message": "Passyble ने 2FA कोड कॉपी किया (45 सेकंड में साफ़ हो जाएगा)"
+  },
+  "popupNotCopiedUsername": {
+    "message": "उपयोगकर्ता नाम कॉपी नहीं हुआ"
+  },
+  "popupNotCopiedPassword": {
+    "message": "पासवर्ड कॉपी नहीं हुआ"
+  },
+  "popupNotCopiedOtp": {
+    "message": "2FA कोड कॉपी नहीं हुआ"
+  },
+  "popupNotCopiedCardNumber": {
+    "message": "कार्ड नंबर कॉपी नहीं हुआ"
+  },
+  "popupNotCopiedSecurityCode": {
+    "message": "सुरक्षा कोड कॉपी नहीं हुआ"
+  },
+  "popupCopyNeedsUpdate": {
+    "message": "खोज से कॉपी करने के लिए Passyble डेस्कटॉप ऐप अपडेट करें।"
+  },
+  "popupCopyCardNumber": {
+    "message": "कार्ड नंबर कॉपी करें"
+  },
+  "popupCopyNumberOf": {
+    "message": "$NAME$ का नंबर कॉपी करें",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Visa •••• 4242"
+      }
+    }
+  },
+  "popupCopyExpiry": {
+    "message": "समाप्ति तिथि कॉपी करें"
+  },
+  "popupCopySecurityCode": {
+    "message": "सुरक्षा कोड कॉपी करें"
+  },
+  "popupCardNoNumber": {
+    "message": "इस कार्ड में कार्ड नंबर नहीं है।"
+  },
+  "popupCardNoSecurityCode": {
+    "message": "इस कार्ड में सुरक्षा कोड नहीं है।"
+  },
+  "popupCardsNeedUpdate": {
+    "message": "कार्ड की जानकारी कॉपी करने के लिए Passyble डेस्कटॉप ऐप अपडेट करें।"
+  },
+  "popupCopyName": {
+    "message": "नाम कॉपी करें"
+  },
+  "popupCopyEmail": {
+    "message": "ईमेल कॉपी करें"
+  },
+  "popupCopyPhone": {
+    "message": "फ़ोन नंबर कॉपी करें"
+  },
+  "popupCopyAddress": {
+    "message": "पता कॉपी करें"
+  },
+  "popupCopyEmailOf": {
+    "message": "$NAME$ का ईमेल कॉपी करें",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Ada Lovelace"
+      }
+    }
+  },
+  "popupCopyNameOf": {
+    "message": "$NAME$ का नाम कॉपी करें",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Ada Lovelace"
+      }
+    }
+  },
+  "popupNoNameSaved": {
+    "message": "कोई नाम सेव नहीं किया गया है।"
+  },
+  "popupNoEmailSaved": {
+    "message": "कोई ईमेल सेव नहीं किया गया है।"
+  },
+  "popupNoPhoneSaved": {
+    "message": "कोई फ़ोन नंबर सेव नहीं किया गया है।"
+  },
+  "popupNoAddressSaved": {
+    "message": "कोई पता सेव नहीं किया गया है।"
+  },
+  "popupDeleted": {
+    "message": "$NAME$ हटा दिया गया",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupRestored": {
+    "message": "रीस्टोर किया गया"
+  },
+  "editorAddLogin": {
+    "message": "लॉगिन जोड़ें"
+  },
+  "editorEditLogin": {
+    "message": "लॉगिन बदलें"
+  },
+  "editorTitle": {
+    "message": "शीर्षक"
+  },
+  "editorTotp": {
+    "message": "2FA"
+  },
+  "editorWebsites": {
+    "message": "वेबसाइट"
+  },
+  "editorWebsite": {
+    "message": "वेबसाइट"
+  },
+  "editorMoreDetails": {
+    "message": "और विवरण",
+    "description": "Popup editor: the button that shows or hides a login's other websites, 2FA, notes and vault (closed for a new login)."
+  },
+  "editorAddWebsite": {
+    "message": "वेबसाइट जोड़ें"
+  },
+  "editorRemoveWebsite": {
+    "message": "वेबसाइट हटाएं"
+  },
+  "editorNotes": {
+    "message": "नोट"
+  },
+  "editorNotesCount": {
+    "message": "$MAX$ में से $COUNT$ अक्षर",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "18,500"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20,000"
+      }
+    }
+  },
+  "editorGenerate": {
+    "message": "पासवर्ड बनाएं"
+  },
+  "editorGenerateUsername": {
+    "message": "उपयोगकर्ता नाम बनाएं"
+  },
+  "editorGenRandomUsername": {
+    "message": "रैंडम उपयोगकर्ता नाम"
+  },
+  "editorGenPlus": {
+    "message": "प्लस पता"
+  },
+  "editorGenCatchAll": {
+    "message": "कैच-ऑल पता"
+  },
+  "editorGenAlias": {
+    "message": "ईमेल उपनाम ($SERVICE$)",
+    "placeholders": {
+      "service": {
+        "content": "$1",
+        "example": "SimpleLogin"
+      }
+    }
+  },
+  "editorGenMentionWebsite": {
+    "message": "इस वेबसाइट का नाम जोड़ें"
+  },
+  "editorMoreActions": {
+    "message": "और कार्रवाइयां"
+  },
+  "editorLoginActions": {
+    "message": "लॉगिन की कार्रवाइयां"
+  },
+  "editorDelete": {
+    "message": "लॉगिन हटाएं"
+  },
+  "editorSaved": {
+    "message": "सेव हो गया"
+  },
+  "editorLoginFallback": {
+    "message": "लॉगिन"
+  },
+  "editorShowCode": {
+    "message": "मौजूदा कोड दिखाएं"
+  },
+  "editorSecondsLeft": {
+    "message": "$SECONDS$ सेकंड",
+    "placeholders": {
+      "seconds": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "editorTotpOn": {
+    "message": "2FA चालू"
+  },
+  "editorTotpNew": {
+    "message": "नया · \"सेव करें\" पर सेव होगा"
+  },
+  "editorTotpNewNamed": {
+    "message": "नया: $NAME$ · \"सेव करें\" पर सेव होगा",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub · octocat"
+      }
+    }
+  },
+  "editorRemoveTotp": {
+    "message": "2FA हटाएं"
+  },
+  "editorAddTotp": {
+    "message": "2FA जोड़ें"
+  },
+  "editorTotpRemoved": {
+    "message": "\"सेव करें\" पर 2FA हट जाएगा"
+  },
+  "editorSecretPlaceholder": {
+    "message": "सीक्रेट या otpauth:// लिंक"
+  },
+  "editorSecretLabel": {
+    "message": "2FA सीक्रेट या otpauth लिंक"
+  },
+  "editorScanQr": {
+    "message": "इस पेज पर QR स्कैन करें"
+  },
+  "editorAdd": {
+    "message": "जोड़ें"
+  },
+  "editorNoQr": {
+    "message": "इस पेज पर कोई 2FA QR कोड नहीं है।"
+  },
+  "editorCantReadPage": {
+    "message": "Passyble इस पेज को पढ़ नहीं सकता।"
+  },
+  "editorOpenQrPageFirst": {
+    "message": "पहले QR कोड वाला पेज खोलें।"
+  },
+  "editorTotpInvalid": {
+    "message": "यह 2FA सीक्रेट मान्य नहीं है। जांचकर दोबारा कोशिश करें।"
+  },
+  "editorRuleMenu": {
+    "message": "इस वेबसाइट पर ऑटोफ़िल"
+  },
+  "editorRuleSubdomains": {
+    "message": "सबडोमेन"
+  },
+  "editorRuleSubdomainsDetail": {
+    "message": "यह साइट और इसके सभी सबडोमेन। डिफ़ॉल्ट।"
+  },
+  "editorRuleHost": {
+    "message": "सिर्फ़ यही होस्ट"
+  },
+  "editorRuleHostDetail": {
+    "message": "सिर्फ़ यही पता, इसके दूसरे सबडोमेन नहीं।"
+  },
+  "editorRuleNever": {
+    "message": "कभी न दिखाएं"
+  },
+  "editorRuleNeverDetail": {
+    "message": "अपने आप कभी सुझाया या भरा नहीं जाता। खोज में फिर भी मिलता है।"
+  },
+  "editorRuleSuggested": {
+    "message": "सुझाया गया"
+  },
+  "editorRuleBadgeHost": {
+    "message": "यही होस्ट"
+  },
+  "editorRuleBadgeNever": {
+    "message": "छिपा हुआ"
+  },
+  "editorPopularSites": {
+    "message": "लोकप्रिय साइटें"
+  },
+  "serverKindPairing": {
+    "message": "डिवाइस पेयरिंग लिंक"
+  },
+  "serverKindInvite": {
+    "message": "साइन इन लिंक: आप Passyble ऐप में साइन इन करेंगे"
+  },
+  "serverKindAddress": {
+    "message": "सर्वर का पता: आप Passyble ऐप में साइन इन करेंगे"
+  },
+  "serverHint": {
+    "message": "सर्वर पता या pass+server:// लिंक।"
+  },
+  "serverSignInOpened": {
+    "message": "Passyble ने साइन इन विंडो खोल दी है। वहीं पूरा करें।"
+  },
+  "serverInputLabel": {
+    "message": "Passyble Server का पता या लिंक"
+  },
+  "serverContinue": {
+    "message": "जारी रखें"
+  },
+  "serverContinueTitle": {
+    "message": "Passyble में जारी रखें (Enter)"
+  },
+  "serverRowServer": {
+    "message": "सर्वर"
+  },
+  "serverRowAddress": {
+    "message": "पता"
+  },
+  "serverRowNext": {
+    "message": "आगे"
+  },
+  "serverNextSignIn": {
+    "message": "Passyble ऐप में साइन इन करें"
+  },
+  "serverRowLink": {
+    "message": "लिंक"
+  },
+  "serverRowAccount": {
+    "message": "खाता"
+  },
+  "serverRowDevice": {
+    "message": "डिवाइस"
+  },
+  "serverDeviceUnnamed": {
+    "message": "(नाम नहीं दिया गया)"
+  },
+  "serverRowCertificate": {
+    "message": "सर्टिफ़िकेट"
+  },
+  "serverCertLinked": {
+    "message": "सेल्फ़-साइन्ड, इस लिंक से जांचा गया"
+  },
+  "serverCertPublic": {
+    "message": "सार्वजनिक रूप से भरोसेमंद सर्टिफ़िकेट"
+  },
+  "serverCertNone": {
+    "message": "कोई नहीं (एन्क्रिप्टेड नहीं)"
+  },
+  "serverRowPassword": {
+    "message": "पासवर्ड"
+  },
+  "serverPasswordAsked": {
+    "message": "Passyble ऐप में मांगा जाएगा"
+  },
+  "serverRowToken": {
+    "message": "साइन इन कुंजी"
+  },
+  "serverTokenIncluded": {
+    "message": "शामिल है (छिपा हुआ)"
+  },
+  "serverHttpWarning": {
+    "message": "यह कनेक्शन एन्क्रिप्टेड नहीं है। इसे सिर्फ़ इसी कंप्यूटर, अपने घर के नेटवर्क या VPN के सर्वर के लिए इस्तेमाल करें।"
+  },
+  "serverOpening": {
+    "message": "Passyble खुल रहा है…"
+  },
+  "serverCheckWindow": {
+    "message": "$USER$ के रूप में $HOST$ से कनेक्ट करना पूरा करने के लिए Passyble विंडो देखें।",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "pass.example.com"
+      },
+      "user": {
+        "content": "$2",
+        "example": "ada"
+      }
+    }
+  },
+  "pairBadPercent": {
+    "message": "यह लिंक खराब है। पूरा लिंक फिर से कॉपी करें और यहां पेस्ट करें।"
+  },
+  "pairAddressEmpty": {
+    "message": "अपने Passyble Server का पता दर्ज करें, जैसे pass.example.com।"
+  },
+  "pairAddressTooLong": {
+    "message": "यह सर्वर का पता होने के लिए बहुत लंबा है।"
+  },
+  "pairAddressSpaces": {
+    "message": "सर्वर के पते में स्पेस नहीं होते। सिर्फ़ पता पेस्ट करें, जैसे pass.example.com।"
+  },
+  "pairAddressScheme": {
+    "message": "सर्वर का पता https:// से शुरू होता है (या किसी से भी नहीं), जैसे https://pass.example.com।"
+  },
+  "pairAddressCredentials": {
+    "message": "सर्वर के पते में उपयोगकर्ता नाम या पासवर्ड नहीं हो सकता।"
+  },
+  "pairAddressEmail": {
+    "message": "यह ईमेल पते जैसा लगता है। इसके बजाय सर्वर का पता (जैसे pass.example.com) पेस्ट करें।"
+  },
+  "pairAddressQuery": {
+    "message": "सिर्फ़ सर्वर का पता पेस्ट करें, जैसे pass.example.com, बाकी वेब पते के बिना।"
+  },
+  "pairAddressInvalid": {
+    "message": "यह सर्वर का मान्य पता नहीं है। pass.example.com या https://pass.example.com:8443 जैसा पता इस्तेमाल करें।"
+  },
+  "pairInputEmpty": {
+    "message": "अपने Passyble Server का पता या pass+server:// लिंक पेस्ट करें।"
+  },
+  "pairLinkEmpty": {
+    "message": "पहले पेयरिंग लिंक पेस्ट करें।"
+  },
+  "pairLinkTooLong": {
+    "message": "Passyble Server लिंक होने के लिए यह बहुत लंबा है। सिर्फ़ लिंक कॉपी करें और दोबारा कोशिश करें।"
+  },
+  "pairLinkPrefix": {
+    "message": "यह Passyble Server का लिंक नहीं है। वह लिंक पेस्ट करें जो pass+server:// से शुरू होता है"
+  },
+  "pairLinkAddress": {
+    "message": "इस लिंक में सर्वर का सही पता नहीं है। सर्वर पर नया लिंक बनाएं और दोबारा कोशिश करें।"
+  },
+  "pairLinkScheme": {
+    "message": "यह लिंक खराब है। सर्वर पर नया लिंक बनाएं और दोबारा कोशिश करें।"
+  },
+  "pairLinkNoVersion": {
+    "message": "यह लिंक अधूरा है। सर्वर पर नया लिंक बनाएं और दोबारा कोशिश करें।"
+  },
+  "pairLinkVersion": {
+    "message": "यह लिंक Passyble Server के नए वर्शन का है। Passyble अपडेट करें, फिर दोबारा कोशिश करें।"
+  },
+  "pairLinkPin": {
+    "message": "यह लिंक खराब है या इसके लिए Passyble का नया वर्शन चाहिए। Passyble अपडेट करें, या सर्वर पर नया लिंक बनाएं।"
+  },
+  "pairLinkNoUser": {
+    "message": "इस लिंक में यह नहीं बताया गया कि कौन-सा खाता इस्तेमाल करना है। सर्वर पर नया लिंक बनाएं और दोबारा कोशिश करें।"
+  },
+  "pairLinkEmptyToken": {
+    "message": "यह पेयरिंग लिंक अधूरा है। सर्वर पर नया लिंक बनाएं और दोबारा कोशिश करें।"
+  },
+  "pairLinkTokenAndCode": {
+    "message": "यह लिंक खराब है। सर्वर पर नया लिंक बनाएं और दोबारा कोशिश करें।"
+  },
+  "pairLinkNoPath": {
+    "message": "यह पेयरिंग लिंक अधूरा है। सर्वर पर नया लिंक बनाएं और दोबारा कोशिश करें।"
+  },
+  "pairLinkCodes": {
+    "message": "यह साइन इन लिंक खराब है। सर्वर पर नया लिंक बनाएं और दोबारा कोशिश करें।"
+  },
+  "optionsPageTitle": {
+    "message": "Passyble सेटिंग"
+  },
+  "optionsTitle": {
+    "message": "सेटिंग"
+  },
+  "optionsAutofill": {
+    "message": "ऑटोफ़िल"
+  },
+  "optionsNeverSaveTitle": {
+    "message": "बिना सेव प्रॉम्प्ट वाली साइटें"
+  },
+  "optionsNeverSaveEmpty": {
+    "message": "अभी कोई नहीं"
+  },
+  "optionsRemove": {
+    "message": "हटाएं"
+  },
+  "optionsRemoveSite": {
+    "message": "$SITE$ हटाएं",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "optionsRemoveSiteTitle": {
+    "message": "$SITE$ पर लॉगिन सेव करने के लिए फिर से पूछें",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "optionsRemoved": {
+    "message": "हटा दिया गया"
+  },
+  "optionsRemoveFailed": {
+    "message": "हटाया नहीं जा सका"
+  },
+  "optionsSaved": {
+    "message": "सेव हो गया"
+  },
+  "optionsPasskeys": {
+    "message": "पासकी"
+  },
+  "optionsShortcuts": {
+    "message": "कीबोर्ड शॉर्टकट"
+  },
+  "optionsServerHeading": {
+    "message": "Passyble Server"
+  },
+  "optionsShortcutFillLogin": {
+    "message": "लॉगिन भरें"
+  },
+  "optionsShortcutFillOtp": {
+    "message": "2FA कोड भरें या दिखाएं"
+  },
+  "optionsShortcutOpenPopup": {
+    "message": "Passyble खोलें और खोजें"
+  },
+  "optionsShortcutNotSet": {
+    "message": "सेट नहीं है"
+  },
+  "optionsShortcutHelpFirefox": {
+    "message": "इन्हें about:addons → गियर मेन्यू → \"Manage Extension Shortcuts\" में बदलें।"
+  },
+  "optionsShortcutScanQr": {
+    "message": "QR कोड स्कैन करें"
+  },
+  "optionsShortcutGenerate": {
+    "message": "पासवर्ड बनाएं"
+  },
+  "optionsShortcutNewNote": {
+    "message": "नया सुरक्षित नोट"
+  },
+  "optionsShortcutLock": {
+    "message": "लॉक करें"
+  },
+  "optionsShortcutSync": {
+    "message": "अभी सिंक करें"
+  },
+  "optionsShortcutRecord": {
+    "message": "बदलें"
+  },
+  "optionsShortcutRecordLabel": {
+    "message": "$NAME$ का शॉर्टकट बदलें",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Scan QR code"
+      }
+    }
+  },
+  "optionsShortcutReset": {
+    "message": "रीसेट करें"
+  },
+  "optionsShortcutResetLabel": {
+    "message": "$NAME$ का शॉर्टकट रीसेट करें",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Scan QR code"
+      }
+    }
+  },
+  "optionsShortcutRecording": {
+    "message": "नई कुंजियाँ दबाएं"
+  },
+  "optionsShortcutHelpFirefoxRecord": {
+    "message": "बदलें पर क्लिक करें, फिर नई कुंजियाँ दबाएं। Esc रद्द करता है, Backspace शॉर्टकट हटा देता है।"
+  },
+  "optionsShortcutNeedsModifier": {
+    "message": "Ctrl या Alt (Mac पर: Command, Option या Control) दबाए रखें और कोई अक्षर, अंक या फ़ंक्शन कुंजी दबाएं।"
+  },
+  "optionsShortcutBadKey": {
+    "message": "यह कुंजी शॉर्टकट में इस्तेमाल नहीं हो सकती। कोई अक्षर, अंक या फ़ंक्शन कुंजी चुनें।"
+  },
+  "optionsShortcutRefused": {
+    "message": "Firefox ने यह शॉर्टकट स्वीकार नहीं किया। हो सकता है यह पहले से इस्तेमाल में हो।"
+  },
+  "optionsAbout": {
+    "message": "इसके बारे में"
+  },
+  "optionsDesktopApp": {
+    "message": "Passyble डेस्कटॉप ऐप"
+  },
+  "optionsNotChecked": {
+    "message": "अभी जांचा नहीं गया"
+  },
+  "optionsChecking": {
+    "message": "जांच हो रही है…"
+  },
+  "optionsConnected": {
+    "message": "कनेक्ट है · $APP$ · $STATE$",
+    "placeholders": {
+      "app": {
+        "content": "$1",
+        "example": "Passyble 1.4.0"
+      },
+      "state": {
+        "content": "$2",
+        "example": "unlocked"
+      }
+    }
+  },
+  "optionsStateLocked": {
+    "message": "लॉक"
+  },
+  "optionsStateUnlocked": {
+    "message": "अनलॉक"
+  },
+  "optionsStart": {
+    "message": "शुरू करें"
+  },
+  "optionsStarting": {
+    "message": "Passyble शुरू हो रहा है… इसमें कुछ सेकंड लग सकते हैं।"
+  },
+  "optionsCheck": {
+    "message": "जांचें"
+  },
+  "optionsOpenGuide": {
+    "message": "खोलें"
+  },
+  "optionsVersion": {
+    "message": "वर्शन"
+  },
+  "welcomePageTitle": {
+    "message": "Passyble में आपका स्वागत है"
+  },
+  "welcomeTitle": {
+    "message": "Passyble सेट अप करें"
+  },
+  "welcomeSetupHeading": {
+    "message": "शुरू करें"
+  },
+  "welcomeAllSetTitle": {
+    "message": "सब तैयार है"
+  },
+  "welcomeStepDone": {
+    "message": "हो गया"
+  },
+  "welcomeInstallTitle": {
+    "message": "Windows के लिए Passyble इंस्टॉल करें"
+  },
+  "welcomeDownload": {
+    "message": "डाउनलोड करें"
+  },
+  "welcomeInstallRetryHint": {
+    "message": "इंस्टॉल है? उसे खोलें, फिर दोबारा कोशिश करें।"
+  },
+  "welcomeStartTitle": {
+    "message": "Passyble शुरू करें"
+  },
+  "welcomeStartNoVault": {
+    "message": "वॉल्ट बनते ही यह कनेक्ट हो जाता है।"
+  },
+  "welcomeVaultTitle": {
+    "message": "अपना वॉल्ट बनाएं या अनलॉक करें"
+  },
+  "welcomeAccessTitle": {
+    "message": "वेबसाइटों पर Passyble को अनुमति दें"
+  },
+  "welcomeAccessButton": {
+    "message": "पहुंच की अनुमति दें"
+  },
+  "welcomeAccessDeniedChromium": {
+    "message": "अनुमति नहीं मिली। इसे $PAGE$ → Passyble → साइट का ऐक्सेस में चालू करें।",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "chrome://extensions"
+      }
+    }
+  },
+  "welcomeAccessDeniedFirefox": {
+    "message": "अनुमति नहीं मिली। इसे about:addons → Passyble → अनुमतियाँ में चालू करें।"
+  },
+  "welcomePinTitle": {
+    "message": "Passyble को टूलबार पर पिन करें"
+  },
+  "welcomePinChrome": {
+    "message": "पज़ल का टुकड़ा → Passyble के पास पिन।"
+  },
+  "welcomePinEdge": {
+    "message": "पज़ल का टुकड़ा → Passyble के पास आँख।"
+  },
+  "welcomePinOpera": {
+    "message": "क्यूब → Passyble के पास पिन।"
+  },
+  "welcomePinFirefox": {
+    "message": "पज़ल का टुकड़ा → Passyble के पास गियर → Pin to Toolbar।"
+  },
+  "welcomePinMark": {
+    "message": "मैंने पिन कर दिया"
+  },
+  "welcomeTipsTitle": {
+    "message": "Passyble कैसे इस्तेमाल करें"
+  },
+  "welcomeOpenSettings": {
+    "message": "सेटिंग खोलें"
+  },
+  "menuLoading": {
+    "message": "लोड हो रहा है…"
+  },
+  "menuNoLogins": {
+    "message": "इस साइट के लिए कोई लॉगिन नहीं है।"
+  },
+  "menuNoMatches": {
+    "message": "कोई लॉगिन मेल नहीं खाता।"
+  },
+  "menuLocked": {
+    "message": "Passyble लॉक है।"
+  },
+  "menuUnlock": {
+    "message": "Passyble अनलॉक करें"
+  },
+  "menuUnlockHello": {
+    "message": "Windows Hello से अनलॉक करें"
+  },
+  "menuUnlockPassword": {
+    "message": "मास्टर पासवर्ड दर्ज करें"
+  },
+  "menuUnlockToFill": {
+    "message": "$NAME$ भरने के लिए Passyble अनलॉक करें।",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "menuUnlockToFillOtp": {
+    "message": "$NAME$ का 2FA कोड भरने के लिए Passyble अनलॉक करें।",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "menuUnlockToSee": {
+    "message": "अपने लॉगिन देखने के लिए Passyble अनलॉक करें।"
+  },
+  "menuUnlockingInApp": {
+    "message": "Passyble ऐप में अनलॉक करें…"
+  },
+  "menuHelloCancelled": {
+    "message": "Windows Hello रद्द कर दिया गया।"
+  },
+  "menuUsePassword": {
+    "message": "इसके बजाय मास्टर पासवर्ड इस्तेमाल करें"
+  },
+  "menuHelloCancelledPassword": {
+    "message": "Windows Hello रद्द कर दिया गया। अपना मास्टर पासवर्ड दर्ज करें।"
+  },
+  "unlockFrameTitle": {
+    "message": "Passyble मास्टर पासवर्ड"
+  },
+  "unlockFrameNote": {
+    "message": "आप जो टाइप करते हैं, यह वेबसाइट नहीं देख सकती।"
+  },
+  "menuHeadingLocked": {
+    "message": "Passyble · लॉक"
+  },
+  "menuHeadingOtp": {
+    "message": "Passyble · 2FA"
+  },
+  "menuHeadingOtpLocked": {
+    "message": "Passyble · 2FA · लॉक"
+  },
+  "menuHeadingCards": {
+    "message": "Passyble · कार्ड"
+  },
+  "menuHeadingCardsLocked": {
+    "message": "Passyble · कार्ड · लॉक"
+  },
+  "menuHeadingAddresses": {
+    "message": "Passyble · पते"
+  },
+  "menuHeadingAddressesLocked": {
+    "message": "Passyble · पते · लॉक"
+  },
+  "menuNoCards": {
+    "message": "Passyble में कोई कार्ड नहीं है।"
+  },
+  "menuNoAddresses": {
+    "message": "Passyble में कोई पता नहीं है।"
+  },
+  "menuNoOtp": {
+    "message": "इस साइट के लिए कोई 2FA कोड नहीं है।"
+  },
+  "menuFillOtp": {
+    "message": "2FA कोड भरें"
+  },
+  "menuOtpCodeFor": {
+    "message": "2FA कोड · $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      }
+    }
+  },
+  "menuPasskeyFor": {
+    "message": "पासकी से साइन इन करें · $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      }
+    }
+  },
+  "passkeyPromptTitle": {
+    "message": "अपनी पासकी से साइन इन करें?"
+  },
+  "passkeyPromptChoose": {
+    "message": "साइन इन के लिए पासकी चुनें"
+  },
+  "passkeyPromptSignIn": {
+    "message": "साइन इन करें"
+  },
+  "passkeyPromptUnlockSignIn": {
+    "message": "अनलॉक करके साइन इन करें"
+  },
+  "passkeyPromptSignInAs": {
+    "message": "$ACCOUNT$ के रूप में साइन इन करें",
+    "placeholders": {
+      "account": {
+        "content": "$1",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "passkeyPromptSigningIn": {
+    "message": "साइन इन हो रहा है…"
+  },
+  "passkeyPromptUnlocking": {
+    "message": "Passyble अनलॉक हो रहा है…"
+  },
+  "passkeyPromptTitleLocked": {
+    "message": "Passyble की पासकी से साइन इन करें?"
+  },
+  "passkeyPromptLockedFull": {
+    "message": "Passyble लॉक है। इस साइट के लिए अपनी पासकी इस्तेमाल करने के लिए इसे अनलॉक करें।"
+  },
+  "passkeyElsewhere": {
+    "message": "दूसरा डिवाइस इस्तेमाल करें"
+  },
+  "passkeySaveTitle": {
+    "message": "$SITE$ के लिए पासकी Passyble में सेव करें?",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "passkeySaveKeepWith": {
+    "message": "किसके साथ सेव करें"
+  },
+  "passkeySaveNewLogin": {
+    "message": "नया लॉगिन"
+  },
+  "passkeySaveLoginUser": {
+    "message": "$TITLE$ · $USERNAME$",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "Example"
+      },
+      "username": {
+        "content": "$2",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "passkeySaveVault": {
+    "message": "वॉल्ट: $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Personal"
+      }
+    }
+  },
+  "passkeySaveButton": {
+    "message": "पासकी सेव करें"
+  },
+  "passkeySaveUnlock": {
+    "message": "अनलॉक करके सेव करें"
+  },
+  "passkeySaveSaving": {
+    "message": "पासकी सेव हो रही है…"
+  },
+  "passkeyUnlock": {
+    "message": "अनलॉक करें"
+  },
+  "passkeyNoneTitle": {
+    "message": "इस साइट के लिए Passyble में कोई पासकी नहीं है"
+  },
+  "passkeyNoneNotice": {
+    "message": "Passyble में $SITE$ के लिए कोई पासकी नहीं है",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "passkeyNotRunningTitle": {
+    "message": "Passyble नहीं चल रहा है"
+  },
+  "passkeyOpening": {
+    "message": "Passyble खुल रहा है…"
+  },
+  "passkeyErrorTitle": {
+    "message": "Passyble अभी जवाब नहीं दे सकता"
+  },
+  "passkeyTryAgain": {
+    "message": "दोबारा कोशिश करें"
+  },
+  "passkeyFrameTitle": {
+    "message": "Passyble यहाँ जवाब नहीं दे सकता"
+  },
+  "passkeyNeedsVerification": {
+    "message": "इस साइट को Windows Hello चाहिए, जिसे Passyble अभी इस्तेमाल नहीं कर सकता।"
+  },
+  "menuUnlockToSignIn": {
+    "message": "$ACCOUNT$ के रूप में साइन इन करने के लिए Passyble अनलॉक करें।",
+    "placeholders": {
+      "account": {
+        "content": "$1",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "menuGenerateEntry": {
+    "message": "मज़बूत पासवर्ड बनाएं"
+  },
+  "menuGenerateNoSymbolsSub": {
+    "message": "विशेष वर्णों के बिना, उन साइटों के लिए जो इन्हें स्वीकार नहीं करतीं"
+  },
+  "menuGenerateSymbolsSub": {
+    "message": "विशेष वर्णों के साथ"
+  },
+  "menuGenerateTitle": {
+    "message": "मज़बूत पासवर्ड बनाएं और उसे Passyble में सेव करें"
+  },
+  "menuGenerateLabel": {
+    "message": "मज़बूत पासवर्ड बनाएं और सेव करें"
+  },
+  "menuGenerated": {
+    "message": "बनाया गया पासवर्ड"
+  },
+  "menuGeneratedHidden": {
+    "message": "बनाया गया पासवर्ड (छिपा हुआ)"
+  },
+  "genOptionsButton": {
+    "message": "पासवर्ड विकल्प"
+  },
+  "genOptionsTitle": {
+    "message": "पासवर्ड जनरेटर"
+  },
+  "genOptionsEntry": {
+    "message": "पासवर्ड विकल्प"
+  },
+  "genOptionsEntrySub": {
+    "message": "लंबाई, वर्ण प्रकार, पासफ़्रेज़"
+  },
+  "genPassphraseEntry": {
+    "message": "पासफ़्रेज़ बनाएँ"
+  },
+  "genModeLabel": {
+    "message": "क्या बनाना है"
+  },
+  "genModePassword": {
+    "message": "पासवर्ड"
+  },
+  "genModePassphrase": {
+    "message": "पासफ़्रेज़"
+  },
+  "genLength": {
+    "message": "लंबाई"
+  },
+  "genWords": {
+    "message": "शब्द"
+  },
+  "genTypes": {
+    "message": "वर्ण प्रकार"
+  },
+  "genUppercase": {
+    "message": "अपरकेस अक्षर (A-Z)"
+  },
+  "genLowercase": {
+    "message": "लोअरकेस अक्षर (a-z)"
+  },
+  "genDigits": {
+    "message": "अंक (0-9)"
+  },
+  "genSymbols": {
+    "message": "विशेष वर्ण (!@#)"
+  },
+  "genHyphensChip": {
+    "message": "हाइफ़न"
+  },
+  "genHyphens": {
+    "message": "शब्दों के बीच हाइफ़न"
+  },
+  "genRegenerate": {
+    "message": "फिर से बनाएँ"
+  },
+  "genDone": {
+    "message": "हो गया"
+  },
+  "genNoteNoSymbols": {
+    "message": "यह साइट विशेष वर्ण स्वीकार नहीं करती।"
+  },
+  "genNoteMaxLength_one": {
+    "message": "यह साइट अधिकतम $COUNT$ वर्ण स्वीकार करती है।",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "genNoteMaxLength_other": {
+    "message": "यह साइट अधिकतम $COUNT$ वर्ण स्वीकार करती है।",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "16"
+      }
+    }
+  },
+  "genNoteMinLength_one": {
+    "message": "इस साइट को कम से कम $COUNT$ वर्ण चाहिए।",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "genNoteMinLength_other": {
+    "message": "इस साइट को कम से कम $COUNT$ वर्ण चाहिए।",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "24"
+      }
+    }
+  },
+  "genNotePassphraseTooLong": {
+    "message": "पासफ़्रेज़ इस साइट की लंबाई सीमा में नहीं समाता, इसलिए यह एक पासवर्ड है।"
+  },
+  "genNoteLettersDigits": {
+    "message": "कोई वर्ण प्रकार चालू न होने पर अक्षर और अंक इस्तेमाल होते हैं।"
+  },
+  "menuPasswordStrength_one": {
+    "message": "$STRENGTH$ · $COUNT$ वर्ण",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      },
+      "strength": {
+        "content": "$2",
+        "example": "Strong"
+      }
+    }
+  },
+  "menuPasswordStrength_other": {
+    "message": "$STRENGTH$ · $COUNT$ वर्ण",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "20"
+      },
+      "strength": {
+        "content": "$2",
+        "example": "Strong"
+      }
+    }
+  },
+  "menuNotRunningGenerate": {
+    "message": "इसे सेव करने के लिए सबमिट से पहले Passyble शुरू करें।"
+  },
+  "menuFormsNeedUpdate": {
+    "message": "कार्ड और पते भरने के लिए Passyble अपडेट करें।"
+  },
+  "menuFormChanged": {
+    "message": "फ़ॉर्म बदल गया। उसे फिर से चुनें।"
+  },
+  "strengthVeryStrong": {
+    "message": "बहुत मज़बूत"
+  },
+  "strengthStrong": {
+    "message": "मज़बूत"
+  },
+  "strengthFair": {
+    "message": "ठीक-ठाक"
+  },
+  "strengthWeak": {
+    "message": "कमज़ोर"
+  },
+  "noticeNoOtp": {
+    "message": "इस साइट के लिए कोई 2FA कोड सेव नहीं किया गया है।"
+  },
+  "toastOtpTitle": {
+    "message": "2FA कोड · $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "toastCopy": {
+    "message": "कॉपी करें"
+  },
+  "toastCopyTitle": {
+    "message": "2FA कोड कॉपी करें"
+  },
+  "toastCopied": {
+    "message": "कॉपी हो गया"
+  },
+  "toastCopyFailed": {
+    "message": "कॉपी नहीं हो सका"
+  },
+  "toastShowDesktop": {
+    "message": "डेस्कटॉप पर दिखाएं"
+  },
+  "toastShowDesktopTitle": {
+    "message": "डेस्कटॉप पर दिखाएं (Passyble ऐप में)"
+  },
+  "toastShownDesktop": {
+    "message": "Passyble डेस्कटॉप ऐप में दिखाया गया।"
+  },
+  "toastSecondsLeft_one": {
+    "message": "$COUNT$ सेकंड बाकी",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "toastSecondsLeft_other": {
+    "message": "$COUNT$ सेकंड बाकी",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "toastRefreshFailed": {
+    "message": "कोड रीफ़्रेश नहीं हो सका। $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "toastFilledSaveLater": {
+    "message": "पासवर्ड भर दिया गया। सबमिट करने पर Passyble सेव करने को पूछेगा।"
+  },
+  "toastFilledNotSaved": {
+    "message": "पासवर्ड भर दिया गया, अभी सेव नहीं किया गया। $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "toastDraftSaved": {
+    "message": "Passyble में सेव किया गया"
+  },
+  "toastDraftUpdated": {
+    "message": "Passyble में अपडेट किया गया"
+  },
+  "toastDraftChangeDetail": {
+    "message": "बदलाव सबमिट करने तक अलग लॉगिन के रूप में रखा गया।"
+  },
+  "toastDraftRemoved": {
+    "message": "Passyble से हटा दिया गया।"
+  },
+  "toastAutoUpdated": {
+    "message": "Passyble में पासवर्ड अपडेट किया गया"
+  },
+  "toastAutoRestored": {
+    "message": "पिछला पासवर्ड वापस आ गया।"
+  },
+  "bannerSave": {
+    "message": "लॉगिन Passyble में सेव करें?"
+  },
+  "bannerUpdatePassword": {
+    "message": "Passyble में पासवर्ड अपडेट करें?"
+  },
+  "bannerUpdateUsername": {
+    "message": "Passyble में उपयोगकर्ता नाम अपडेट करें?"
+  },
+  "bannerUserOnSite": {
+    "message": "$SITE$ पर $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      },
+      "site": {
+        "content": "$2",
+        "example": "github.com"
+      }
+    }
+  },
+  "bannerUpdate": {
+    "message": "अपडेट करें"
+  },
+  "bannerNotNow": {
+    "message": "अभी नहीं"
+  },
+  "bannerEdit": {
+    "message": "बदलें"
+  },
+  "bannerKeepPassword": {
+    "message": "आपका टाइप किया पासवर्ड रखें"
+  },
+  "bannerEditFrameTitle": {
+    "message": "Passyble उपयोगकर्ता नाम और पासवर्ड"
+  },
+  "bannerNever": {
+    "message": "इस साइट के लिए कभी नहीं"
+  },
+  "bannerSaving": {
+    "message": "सेव किया जा रहा है…"
+  },
+  "bannerSaved": {
+    "message": "Passyble में सेव किया गया।"
+  },
+  "bannerPasswordUpdated": {
+    "message": "पासवर्ड अपडेट हो गया।"
+  },
+  "bannerUsernameUpdated": {
+    "message": "उपयोगकर्ता नाम अपडेट हो गया।"
+  },
+  "bannerAlreadySaved": {
+    "message": "पहले से सेव किया हुआ है।"
+  },
+  "bannerSaveFailed": {
+    "message": "सेव नहीं हो सका। $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "bannerNeverDone": {
+    "message": "इस साइट पर दोबारा नहीं पूछेगा।"
+  },
+  "bannerNeverFailed": {
+    "message": "यह सेव नहीं हो सका। $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Something went wrong. Try again."
+      }
+    }
+  },
+  "cardsCard": {
+    "message": "कार्ड"
+  },
+  "cardsBadge": {
+    "message": "कार्ड"
+  },
+  "browserAutofillOff": {
+    "message": "ब्राउज़र का ऑटोफ़िल बंद किया गया।"
+  },
+  "browserAutofillBack": {
+    "message": "ब्राउज़र का ऑटोफ़िल फिर से चालू है।"
+  },
+  "issueListLabel": {
+    "message": "पासवर्ड जांच"
+  },
+  "issueCommon": {
+    "message": "यह सबसे आम पासवर्ड में से एक है।"
+  },
+  "issueWeak": {
+    "message": "इस पासवर्ड का आसानी से अनुमान लगाया जा सकता है।"
+  },
+  "issueReused_one": {
+    "message": "आप यह पासवर्ड $COUNT$ दूसरे लॉगिन के लिए भी इस्तेमाल करते हैं।",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "issueReused_other": {
+    "message": "आप यह पासवर्ड $COUNT$ दूसरे लॉगिन के लिए भी इस्तेमाल करते हैं।",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "issueUsedBefore": {
+    "message": "आप इस लॉगिन के लिए यह पासवर्ड पहले इस्तेमाल कर चुके हैं।"
+  },
+  "issueContainsUsername": {
+    "message": "इस पासवर्ड में आपका उपयोगकर्ता नाम है।"
+  },
+  "issueContainsSite": {
+    "message": "इस पासवर्ड में साइट का नाम है।"
+  },
+  "issueShort": {
+    "message": "छोटा: कम से कम $MIN$ अक्षर इस्तेमाल करें।",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "issueUseStrong": {
+    "message": "मज़बूत पासवर्ड इस्तेमाल करें"
+  },
+  "issueStrong": {
+    "message": "मज़बूत"
+  },
+  "errNoVault": {
+    "message": "इस ब्राउज़र में अभी कोई वॉल्ट नहीं है।"
+  },
+  "errVerificationRequired": {
+    "message": "अपने मास्टर पासवर्ड से पुष्टि करें कि यह आप हैं, फिर दोबारा कोशिश करें।"
+  },
+  "errPasskeysNeedApp": {
+    "message": "फ़िलहाल पासकी के लिए Passyble ऐप चाहिए।"
+  },
+  "errBackupFirst": {
+    "message": "पहले एक कॉपी डाउनलोड करें।"
+  },
+  "popupUseBrowserVault": {
+    "message": "इस ब्राउज़र में वॉल्ट रखें"
+  },
+  "popupNoVaultTitle": {
+    "message": "अभी कोई वॉल्ट नहीं"
+  },
+  "vaultCreate": {
+    "message": "वॉल्ट बनाएं"
+  },
+  "popupAskConfirm": {
+    "message": "पुष्टि करें"
+  },
+  "popupAskFillButton": {
+    "message": "भरें"
+  },
+  "popupDismiss": {
+    "message": "हटाएं"
+  },
+  "popupStatusLockedBrowser": {
+    "message": "लॉक है (इस ब्राउज़र का वॉल्ट)। अनलॉक करने के लिए क्लिक करें"
+  },
+  "popupVerifyTitle": {
+    "message": "पुष्टि करें कि यह आप हैं"
+  },
+  "popupCardConfirmTitle": {
+    "message": "यह कार्ड भरें?"
+  },
+  "popupCardConfirmText": {
+    "message": "$SITE$ पर $CARD$ भरें?",
+    "placeholders": {
+      "card": {
+        "content": "$1",
+        "example": "Visa •••• 4242"
+      },
+      "site": {
+        "content": "$2",
+        "example": "shop.example.com"
+      }
+    }
+  },
+  "popupThisCard": {
+    "message": "यह कार्ड"
+  },
+  "popupCrossConfirmTitle": {
+    "message": "किसी दूसरी साइट का लॉगिन भरें?"
+  },
+  "popupCrossConfirmText": {
+    "message": "$LOGIN$ तभी भरें जब आपको $SITE$ पर भरोसा हो।",
+    "placeholders": {
+      "login": {
+        "content": "$1",
+        "example": "GitHub"
+      },
+      "site": {
+        "content": "$2",
+        "example": "github.example.net"
+      }
+    }
+  },
+  "popupLookalikeTag": {
+    "message": "मिलती-जुलती साइट"
+  },
+  "popupLookalikeHint": {
+    "message": "$HOST$ दिखने में $SITE$ जैसी है, लेकिन यह अलग साइट है।",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeTitle": {
+    "message": "यह नकली साइट हो सकती है"
+  },
+  "popupLookalikeFillText": {
+    "message": "$HOST$, $SITE$ नहीं है, हालाँकि इसका पता उसी जैसा दिखता है। फ़िशिंग साइटें लॉगिन चुराने के लिए ऐसा करती हैं। लॉगिन तभी भरें जब आपको पक्का हो कि यह सही साइट है।",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeCopyText": {
+    "message": "$HOST$, $SITE$ नहीं है, हालाँकि इसका पता उसी जैसा दिखता है। फ़िशिंग साइटें लॉगिन चुराने के लिए ऐसा करती हैं। लॉगिन तभी कॉपी करें जब आपको पक्का हो कि यह सही साइट है।",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeFillButton": {
+    "message": "फिर भी भरें"
+  },
+  "popupLookalikeCopyButton": {
+    "message": "फिर भी कॉपी करें"
+  },
+  "popupIntlHost": {
+    "message": "अंतरराष्ट्रीय पता: $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "xn--bcher-kva.example"
+      }
+    }
+  },
+  "bannerLookalike": {
+    "message": "$HOST$, $SITE$ नहीं है, हालाँकि इसका पता उसी जैसा दिखता है। तभी सेव करें जब आपको इस साइट पर भरोसा हो।",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "commonIntlAddress": {
+    "message": "अंतरराष्ट्रीय पता"
+  },
+  "passkeyBrowserVaultTitle": {
+    "message": "अभी पासकी के लिए Passyble ऐप चाहिए"
+  },
+  "welcomeVaultHeading": {
+    "message": "आपका वॉल्ट"
+  },
+  "welcomeChoiceExisting": {
+    "message": "इस ब्राउज़र का वॉल्ट इस्तेमाल करें"
+  },
+  "welcomeRepeatPassword": {
+    "message": "मास्टर पासवर्ड दोबारा लिखें"
+  },
+  "welcomeCreateWarning": {
+    "message": "Passyble आपका मास्टर पासवर्ड रीसेट नहीं कर सकता। इसे लिख लें।"
+  },
+  "welcomeCreateButton": {
+    "message": "वॉल्ट बनाएं"
+  },
+  "welcomeVaultFile": {
+    "message": "वॉल्ट फ़ाइल (.vault)"
+  },
+  "welcomeOpenButton": {
+    "message": "वॉल्ट खोलें"
+  },
+  "welcomeVaultReadyTitle": {
+    "message": "आपका वॉल्ट तैयार है"
+  },
+  "welcomeUseBrowserInstead": {
+    "message": "इसके बजाय इस ब्राउज़र में वॉल्ट रखें"
+  },
+  "vaultMasterTooShort": {
+    "message": "कम से कम $MIN$ अक्षर इस्तेमाल करें।",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "vaultMasterCommon": {
+    "message": "यह सबसे आम पासवर्ड में से एक है। कुछ और चुनें।"
+  },
+  "vaultMasterContainsName": {
+    "message": "अपना ईमेल पता, उपयोगकर्ता नाम और वॉल्ट का नाम इसमें न रखें।"
+  },
+  "vaultMasterPattern": {
+    "message": "दोहराए गए अक्षरों, abcd या 1234 जैसे क्रमों और qwerty जैसी कीबोर्ड पंक्तियों से बचें।"
+  },
+  "vaultMasterGuessable": {
+    "message": "अनुमान लगाना बहुत आसान है। और शब्द या रैंडम अक्षर जोड़ें: चार या उससे ज़्यादा असंबंधित शब्द अच्छे रहते हैं।"
+  },
+  "vaultMasterStrongEnough": {
+    "message": "$STRENGTH$: मास्टर पासवर्ड के लिए काफ़ी मज़बूत।",
+    "placeholders": {
+      "strength": {
+        "content": "$1",
+        "example": "अच्छा"
+      }
+    }
+  },
+  "vaultStrengthOk": {
+    "message": "अच्छा"
+  },
+  "vaultStrengthStrong": {
+    "message": "मज़बूत"
+  },
+  "welcomePasswordsDiffer": {
+    "message": "पासवर्ड मेल नहीं खाते। उन्हें फिर से लिखें।"
+  },
+  "welcomeCreating": {
+    "message": "आपका वॉल्ट बन रहा है…"
+  },
+  "welcomeVaultExists": {
+    "message": "इस ब्राउज़र में पहले से एक वॉल्ट है। उसे इस्तेमाल करें, या पहले सेटिंग में हटाएं।"
+  },
+  "welcomePickFile": {
+    "message": "पहले कोई वॉल्ट फ़ाइल चुनें।"
+  },
+  "welcomeNotVaultFile": {
+    "message": "यह Passyble वॉल्ट फ़ाइल नहीं है।"
+  },
+  "optionsVaultModeHeading": {
+    "message": "वॉल्ट"
+  },
+  "optionsVaultHeading": {
+    "message": "इस ब्राउज़र का वॉल्ट"
+  },
+  "optionsAutoLock": {
+    "message": "इतनी देर बाद लॉक करें"
+  },
+  "optionsAutoLockDetails": {
+    "message": "ब्राउज़र बंद होने पर हमेशा लॉक हो जाता है।"
+  },
+  "optionsAutoLockMinutes": {
+    "message": "$COUNT$ मिनट",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "optionsAutoLockBrowserClose": {
+    "message": "सिर्फ़ ब्राउज़र बंद होने पर"
+  },
+  "optionsLockOnIdle": {
+    "message": "कंप्यूटर लॉक होने पर लॉक करें"
+  },
+  "optionsVerifyEachFill": {
+    "message": "हर बार भरने की पुष्टि करें"
+  },
+  "optionsVerifyEachFillDetails": {
+    "message": "हर बार आपका मास्टर पासवर्ड पूछता है।"
+  },
+  "optionsDeleteVault": {
+    "message": "वॉल्ट हटाएं"
+  },
+  "optionsDelete": {
+    "message": "हटाएं"
+  },
+  "optionsDeleteWarn": {
+    "message": "इस ब्राउज़र का वॉल्ट हमेशा के लिए हटा देता है।"
+  },
+  "optionsMasterTipBody": {
+    "message": "आपके मास्टर पासवर्ड का अनुमान लगाना उससे आसान है, जितना Passyble अब नए मास्टर पासवर्ड के लिए अनुमति देता है। यह अब भी काम करता है।"
+  },
+  "optionsDeleteForGood": {
+    "message": "हमेशा के लिए हटाएं"
+  },
+  "optionsDeleted": {
+    "message": "इस ब्राउज़र से वॉल्ट हटा दिया गया"
+  },
+  "optionsModeBrowser": {
+    "message": "इस ब्राउज़र में"
+  },
+  "optionsModeApp": {
+    "message": "Passyble ऐप में"
+  },
+  "optionsModeBrowserLocked": {
+    "message": "लॉक है"
+  },
+  "optionsModeBrowserUnlocked": {
+    "message": "अनलॉक है"
+  },
+  "optionsModeBrowserNone": {
+    "message": "अभी कोई वॉल्ट नहीं"
+  },
+  "optionsUseApp": {
+    "message": "ऐप इस्तेमाल करें"
+  },
+  "optionsUseBrowserVault": {
+    "message": "इस ब्राउज़र में वॉल्ट इस्तेमाल करें"
+  },
+  "welcomeGetApp": {
+    "message": "Windows ऐप पाएं"
+  },
+  "optionsShortcutChange": {
+    "message": "बदलें"
+  },
+  "accountSignIn": {
+    "message": "साइन इन करें"
+  },
+  "accountSignOut": {
+    "message": "साइन आउट करें"
+  },
+  "accountTitle": {
+    "message": "खाता"
+  },
+  "accountSignedInAs": {
+    "message": "$EMAIL$ के रूप में साइन इन",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "ada@example.com"
+      }
+    }
+  },
+  "accountSignInFailed": {
+    "message": "साइन इन नहीं हो सका। फिर कोशिश करें।"
+  },
+  "accountCloudSoon": {
+    "message": "Passyble Cloud स्टोरेज जल्द आ रहा है।"
+  },
+  "accountUseDrive": {
+    "message": "Google Drive इस्तेमाल करें"
+  },
+  "accountViaApp": {
+    "message": "इस कंप्यूटर पर Passyble ऐप के ज़रिए साइन इन"
+  },
+  "accountSignOutAppToo": {
+    "message": "इस कंप्यूटर पर Passyble ऐप से भी साइन आउट करें"
+  },
+  "accountOtherInBrowser": {
+    "message": "Passyble ऐप $APP$ के रूप में साइन इन है; यह ब्राउज़र $BROWSER$ के रूप में।",
+    "placeholders": {
+      "app": {
+        "content": "$1",
+        "example": "ada@example.com"
+      },
+      "browser": {
+        "content": "$2",
+        "example": "grace@example.com"
+      }
+    }
+  },
+  "accountUseAppAccount": {
+    "message": "ऐप का खाता इस्तेमाल करें"
+  },
+  "optionsDownloadCopy": {
+    "message": "कॉपी डाउनलोड करें"
+  },
+  "vaultCopySaved": {
+    "message": "कॉपी सहेजी गई।"
+  },
+  "popupLockedText": {
+    "message": "इस साइट पर अपने लॉगिन भरने के लिए अनलॉक करें।"
+  },
+  "popupOfflineText": {
+    "message": "यहां अपने लॉगिन भरने के लिए इस कंप्यूटर पर Passyble ऐप शुरू करें।"
+  },
+  "popupNoVaultText": {
+    "message": "इस ब्राउज़र में वॉल्ट बनाएं, या Google Drive सिंक के लिए Passyble ऐप इस्तेमाल करें।"
+  },
+  "optionsLead": {
+    "message": "Passyble इस ब्राउज़र में कैसे भरता है, सेव करता है और साइन इन करता है।"
+  },
+  "optionsVaultModeLead": {
+    "message": "यह ब्राउज़र जिस वॉल्ट से भरता है, वह कहां रखा है।"
+  },
+  "optionsAutofillLead": {
+    "message": "वेबसाइटों के लॉगिन फ़ील्ड में Passyble क्या सुझाता है।"
+  },
+  "optionsNeverSaveLead": {
+    "message": "Passyble इन साइटों पर लॉगिन या कार्ड सेव करने का सुझाव नहीं देगा।"
+  },
+  "optionsPasskeysLead": {
+    "message": "अपने वॉल्ट की पासकी से वेबसाइटों में साइन इन करें।"
+  },
+  "optionsShortcutsLead": {
+    "message": "कीबोर्ड शॉर्टकट जो इस ब्राउज़र के हर पेज पर काम करते हैं।"
+  },
+  "optionsServerLead": {
+    "message": "आपकी टीम या परिवार का अपना सर्वर। Passyble ऐप उसमें साइन इन करता है।"
+  },
+  "optionsAboutLead": {
+    "message": "यह एक्सटेंशन और वह Passyble ऐप जिसके साथ यह काम करता है।"
+  },
+  "welcomeLead": {
+    "message": "कुछ चरण, फिर Passyble इस ब्राउज़र में आपके लॉगिन भरेगा।"
+  },
+  "popupHostText": {
+    "message": "Passyble → सेटिंग → ऑटोफ़िल देखें, फिर दोबारा कोशिश करें।"
+  },
+  "popupOnThisSite": {
+    "message": "इस साइट पर"
+  },
+  "settingSaveBannerDetails": {
+    "message": "साइन इन करने के बाद लॉगिन सेव करने को पूछता है।"
+  },
+  "settingAutoPasskeyDetails": {
+    "message": "जब कोई साइट पासकी मांगती है, तो एक कार्ड दिखाता है।"
+  },
+  "welcomeChoiceDriveText": {
+    "message": "इस कंप्यूटर पर Passyble ऐप चाहिए।"
+  },
+  "welcomeChoiceSignInText": {
+    "message": "Passyble Cloud, Family और Team के लिए आपका Passyble खाता।"
+  },
+  "welcomeChoiceExistingText": {
+    "message": "वह वॉल्ट जो यह ब्राउज़र पहले से रखता है।"
+  },
+  "welcomeChoiceAppText": {
+    "message": "आपका वॉल्ट इस PC पर Passyble ऐप में रहता है।"
+  },
+  "welcomeAllSetLead": {
+    "message": "Passyble इस ब्राउज़र में आपके लॉगिन भरता है। कभी भी टूलबार में इसके आइकन पर क्लिक करें।"
+  },
+  "welcomeDone": {
+    "message": "हो गया"
+  },
+  "popupNoSiteLoginsText": {
+    "message": "अभी एक जोड़ें, या साइन इन करने पर Passyble उसे सेव करने का सुझाव देगा।"
+  },
+  "popupNothingHereText": {
+    "message": "किसी लॉगिन को कॉपी करने के लिए अपने वॉल्ट में खोजें।"
+  },
+  "optionsAppRowTitle": {
+    "message": "Passyble ऐप"
+  },
+  "optionsAppRowText": {
+    "message": "वॉल्ट को इस कंप्यूटर पर Passyble ऐप में रखें।"
+  },
+  "commonOr": {
+    "message": "या"
+  },
+  "commonNoSymbols": {
+    "message": "केवल अक्षर और अंक"
+  },
+  "welcomeRecommended": {
+    "message": "सुझाया गया"
+  },
+  "passkeySaveShort": {
+    "message": "पासकी सेव करें?"
+  },
+  "serverAddressLabel": {
+    "message": "सर्वर का पता"
+  },
+  "welcomeStepOf": {
+    "message": "$TOTAL$ में से चरण $CURRENT$",
+    "placeholders": {
+      "current": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "4"
+      }
+    }
+  },
+  "optionsStorage": {
+    "message": "स्टोरेज"
+  },
+  "optionsLocking": {
+    "message": "लॉकिंग"
+  },
+  "optionsDownloadCopyText": {
+    "message": "एन्क्रिप्टेड वॉल्ट फ़ाइल (.vault)। यह सिर्फ़ आपके मास्टर पासवर्ड से खुलती है।"
+  },
+  "optionsSaveFile": {
+    "message": "फ़ाइल सेव करें"
+  },
+  "passkeySaveVaultNamed": {
+    "message": "$VAULT$ में",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Work vault"
+      }
+    }
+  },
+  "updateRequiredTitle": {
+    "message": "अपडेट ज़रूरी है"
+  },
+  "updateRequiredText": {
+    "message": "Passyble के इस वर्शन को अब सपोर्ट नहीं किया जाता। पासवर्ड भरते और सेव करते रहने के लिए इसे अपडेट करें।"
+  },
+  "updateNow": {
+    "message": "अपडेट करें"
+  },
+  "updateViewPasswords": {
+    "message": "मेरे पासवर्ड देखें"
+  },
+  "updateReadOnlyTitle": {
+    "message": "आपके पासवर्ड"
+  },
+  "updateReadOnlyNote": {
+    "message": "अपडेट करने तक Passyble एक्सटेंशन सिर्फ़ देखने के लिए है। आप अब भी अपने पासवर्ड देख और कॉपी कर सकते हैं।"
+  },
+  "updateAvailable": {
+    "message": "Passyble का नया वर्शन उपलब्ध है।"
+  },
+  "updateChecking": {
+    "message": "अपडेट की जांच हो रही है…"
+  },
+  "updateInstalling": {
+    "message": "अपडेट इंस्टॉल हो रहा है…"
+  },
+  "updateSearchHint": {
+    "message": "लॉगिन खोजने के लिए कम से कम 2 अक्षर टाइप करें।"
+  },
+  "errAppUpdateRequired": {
+    "message": "भरना जारी रखने के लिए Passyble ऐप अपडेट करें।"
+  },
+  "errExtensionUpdateRequired": {
+    "message": "भरना जारी रखने के लिए Passyble एक्सटेंशन अपडेट करें।"
+  },
+  "driveSyncTitle": {
+    "message": "Google Drive सिंक"
+  },
+  "driveNeedsAppTitle": {
+    "message": "Google Drive सिंक के लिए इस कंप्यूटर पर Passyble ऐप चाहिए"
+  },
+  "driveNeedsAppText": {
+    "message": "Passyble ऐप Google में साइन इन करता है और आपके वॉल्ट सिंक रखता है। इसे इंस्टॉल करें, ऐप में Google Drive चालू करें, फिर इस ब्राउज़र में Passyble ऐप के वॉल्ट से भरेगा।"
+  },
+  "driveNeedsAppMove": {
+    "message": "इस ब्राउज़र का वॉल्ट साथ ले जाने के लिए, सेटिंग में कॉपी डाउनलोड करें और उसे Passyble ऐप में खोलें।"
+  },
+  "driveNeedsAppShort": {
+    "message": "Google Drive सिंक के लिए ऐप चाहिए"
+  },
+  "driveRecordText": {
+    "message": "यह वॉल्ट पुराने वर्शन में Google Drive के साथ सिंक होता था। यह इस ब्राउज़र में काम करता रहेगा; इसे फिर से सिंक करने के लिए Passyble ऐप इस्तेमाल करें।"
+  },
+  "driveDownloadApp": {
+    "message": "Passyble ऐप डाउनलोड करें"
+  },
+  "driveCheckAgain": {
+    "message": "फिर से जांचें"
+  },
+  "driveAppFound": {
+    "message": "Passyble ऐप इस कंप्यूटर पर है। उसे इस्तेमाल करें, फिर ऐप में Google Drive चालू करें।"
+  },
+  "driveAppMissing": {
+    "message": "Passyble ऐप अभी इस कंप्यूटर पर नहीं है।"
+  },
+  "driveTurnOnInApp": {
+    "message": "Google Drive सिंक के लिए Passyble ऐप में सेटिंग खोलें, फिर सिंक, और Google Drive चालू करें।"
+  },
+  "welcomeChoiceCreate": {
+    "message": "इस ब्राउज़र में वॉल्ट बनाएं"
+  },
+  "welcomeChoiceCreateText": {
+    "message": "सिर्फ़ इसी डिवाइस पर रखा जाता है। कोई ऐप नहीं चाहिए।"
+  },
+  "welcomeChoiceOpen": {
+    "message": "वॉल्ट फ़ाइल खोलें"
+  },
+  "welcomeChoiceOpenText": {
+    "message": "किसी दूसरे डिवाइस की कॉपी, या बैकअप।"
+  },
+  "localOnlyTitle": {
+    "message": "यह वॉल्ट सिर्फ़ इसी डिवाइस पर है"
+  },
+  "localOnlyBody": {
+    "message": "अगर यह डिवाइस खो जाए, चोरी हो जाए, खराब हो जाए या रीसेट हो जाए, तो इस वॉल्ट के पासवर्ड हमेशा के लिए चले जाएंगे। सिंक या बैकअप चालू करें (Google Drive मुफ़्त है), या नियमित रूप से बैकअप कॉपी एक्सपोर्ट करें।"
+  },
+  "localOnlyCreateNotice": {
+    "message": "सिर्फ़ इसी डिवाइस पर। अगर यह डिवाइस खो जाए, तो ये पासवर्ड भी खो जाएंगे। आप Google Drive बैकअप अभी या बाद में चालू कर सकते हैं।"
+  },
+  "localOnlySetUpSync": {
+    "message": "सिंक सेट अप करें"
+  },
+  "localOnlyNotNow": {
+    "message": "अभी नहीं"
+  },
+  "localOnlyDetails": {
+    "message": "इसका क्या मतलब है"
+  },
+  "errReadOnly": {
+    "message": "आप इस वॉल्ट के लॉगिन इस्तेमाल कर सकते हैं, पर बदल नहीं सकते।"
+  },
+  "errFillOnly": {
+    "message": "यह लॉगिन भरा जा सकता है, पर दिखाया या कॉपी नहीं किया जा सकता।"
+  },
+  "bannerSaveIn": {
+    "message": "यहाँ सहेजें"
+  },
+  "bannerMyVault": {
+    "message": "निजी"
+  },
+  "bannerInVault": {
+    "message": "$VAULT$ में",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupAllVaults": {
+    "message": "सभी वॉल्ट"
+  },
+  "popupPinVault": {
+    "message": "वॉल्ट पिन करें",
+    "description": "Popup: a vault row's context menu in the Filter menu or the vault switcher: pin that vault, so it comes right after the current vault in every vault list."
+  },
+  "popupUnpinVault": {
+    "message": "वॉल्ट अनपिन करें",
+    "description": "Popup: a pinned vault row's context menu in the Filter menu or the vault switcher: take its pin off."
+  },
+  "popupFilter": {
+    "message": "फ़िल्टर",
+    "description": "Popup: the Filter button next to the search box while the list shows everything, and the name of its menu (vaults and kinds of item)."
+  },
+  "popupFilterShowing": {
+    "message": "फ़िल्टर: $FILTER$",
+    "description": "Popup: tooltip and screen reader name of the Filter button while the list is narrowed. $FILTER$ is what it shows, e.g. \"Engineering · 2FA\".",
+    "placeholders": {
+      "filter": {
+        "content": "$1",
+        "example": "Engineering · 2FA"
+      }
+    }
+  },
+  "popupFilterVaults": {
+    "message": "वॉल्ट",
+    "description": "Popup, Filter menu: heading of the section that picks the vault shown."
+  },
+  "popupFilterShow": {
+    "message": "दिखाएं",
+    "description": "Popup, Filter menu: heading of the section that picks the kind of item shown (All, Logins, 2FA, ...)."
+  },
+  "popupFilterClear": {
+    "message": "फ़िल्टर हटाएं",
+    "description": "Popup: the x beside the Filter button and the last entry of its menu: show every vault and every kind again."
+  },
+  "popupPinNamed": {
+    "message": "$VAULT$ पिन करें",
+    "description": "Popup, a vault's row in the Filter menu or the vault switcher: its pin button. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupUnpinNamed": {
+    "message": "$VAULT$ अनपिन करें",
+    "description": "Popup, a pinned vault's row in the Filter menu or the vault switcher: its pin button takes the pin off. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupVaultPinned": {
+    "message": "पिन किया गया",
+    "description": "Popup: what a screen reader hears after a pinned vault's name in a vault list."
+  },
+  "popupPinLimit": {
+    "message": "आप ज़्यादा से ज़्यादा $COUNT$ वॉल्ट पिन कर सकते हैं। पहले एक अनपिन करें।",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "popupNoLoginsInVault": {
+    "message": "$VAULT$ में इस साइट के लिए कोई लॉगिन नहीं",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupSwitchVault": {
+    "message": "वॉल्ट बदलें"
+  },
+  "popupSwitchUnlockInApp": {
+    "message": "Passyble ऐप में $VAULT$ अनलॉक करें",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Work"
+      }
+    }
+  },
+  "popupMovedTo": {
+    "message": "$VAULT$ में ले जाया गया",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "editorVault": {
+    "message": "वॉल्ट"
+  },
+  "editorMove": {
+    "message": "ले जाएं"
+  },
+  "editorMoveConfirm": {
+    "message": "$TITLE$ को $VAULT$ में ले जाएं? $VAULT$ तक पहुंच वाले सभी लोग इसे देख पाएंगे।",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Engineering"
+      }
+    }
+  },
+  "teamsFillOnly": {
+    "message": "केवल भरना"
+  },
+  "teamsOpenInPassyble": {
+    "message": "Passyble में खोलें"
+  },
+  "teamsNeedsUpdate": {
+    "message": "यहाँ से टीमें और परिवार खोलने के लिए Passyble ऐप अपडेट करें।"
+  },
+  "teamsLineErrors_one": {
+    "message": "$COUNT$ नहीं खुल सकता",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineErrors_other": {
+    "message": "$COUNT$ नहीं खुल सकते",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineConfirm_one": {
+    "message": "$COUNT$ व्यक्ति की पुष्टि करनी है",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineConfirm_other": {
+    "message": "$COUNT$ लोगों की पुष्टि करनी है",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineInvites_one": {
+    "message": "$COUNT$ आमंत्रण",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineInvites_other": {
+    "message": "$COUNT$ आमंत्रण",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsRoleManage": {
+    "message": "प्रबंधित कर सकते हैं"
+  },
+  "teamsRoleEdit": {
+    "message": "संपादित कर सकते हैं"
+  },
+  "teamsRoleView": {
+    "message": "देख सकते हैं"
+  },
+  "teamsRoleFill": {
+    "message": "भर सकते हैं"
+  },
+  "teamsErrNoKeyset": {
+    "message": "पहले Passyble ऐप में साझा करना सेट करें"
+  },
+  "teamsErrNotMember": {
+    "message": "अब आपके पास पहुँच नहीं है"
+  },
+  "teamsErrKeysMismatch": {
+    "message": "आपके खाते की दूसरी कुंजियों के साथ साझा किया गया"
+  },
+  "teamsErrUntrusted": {
+    "message": "Passyble ऐप में मैनेजर का फ़िंगरप्रिंट मिलाएँ"
+  },
+  "teamsErrRollback": {
+    "message": "इस डिवाइस पर पहले से मौजूद कॉपी से पुरानी"
+  },
+  "teamsErrReadOnlyMember": {
+    "message": "आपकी भूमिका बदलाव की अनुमति नहीं देती"
+  },
+  "teamsErrSubscriptionInactive": {
+    "message": "केवल पढ़ने के लिए: प्लान सक्रिय नहीं है"
+  },
+  "teamsErrAccountSuspended": {
+    "message": "आपका खाता निलंबित है"
+  },
+  "teamsErrNetwork": {
+    "message": "सर्वर से कनेक्ट नहीं हो सका"
+  },
+  "teamsErrInternal": {
+    "message": "यह वॉल्ट नहीं खुल सका"
+  },
+  "teamsErrVaultLimit": {
+    "message": "आपका प्लान Passyble Cloud पर इससे ज़्यादा वॉल्ट होस्ट नहीं करता। और वॉल्ट के लिए Google Drive, WebDAV या फ़ोल्डर इस्तेमाल करें, या प्लान बदलें।"
+  },
+  "teamsOpenConsole": {
+    "message": "वेबसाइट पर प्रबंधित करें"
+  },
+  "teamsRuleSecondTitle": {
+    "message": "आपकी टीम को दूसरा पासवर्ड चाहिए"
+  },
+  "teamsRuleSecondBrowser": {
+    "message": "यह ब्राउज़र अपने वॉल्ट को दूसरा पासवर्ड नहीं दे सकता, इसलिए आप यहाँ इस टीम के आइटम इस्तेमाल कर सकते हैं, पर बदल नहीं सकते। Windows या Android पर Passyble ऐप इस्तेमाल करें, या अपनी टीम के एडमिन से पूछें।"
+  },
+  "teamsRuleOneTitle": {
+    "message": "आपकी टीम एक ही पासवर्ड इस्तेमाल करती है"
+  },
+  "teamsRuleOneBrowser": {
+    "message": "$VAULT$ का अब भी अपना पासवर्ड है, और यह ब्राउज़र इसे आपके Passyble पासवर्ड पर नहीं बदल सकता। Windows या Android पर Passyble ऐप इस्तेमाल करें, या अपनी टीम के एडमिन से पूछें।",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Personal"
+      }
+    }
+  },
+  "teamsConfirm": {
+    "message": "पुष्टि करें"
+  },
+  "teamsConfirmHint": {
+    "message": "उनसे अपने Passyble ऐप से फ़िंगरप्रिंट पढ़ने को कहें, फिर उसे यहाँ लिखें।"
+  },
+  "teamsConfirmPlaceholder": {
+    "message": "पढ़ा गया फ़िंगरप्रिंट"
+  },
+  "teamsConfirmTyped": {
+    "message": "$PERSON$ का फ़िंगरप्रिंट",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsConfirmed": {
+    "message": "$PERSON$ की पुष्टि हो गई",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsConfirmList": {
+    "message": "पुष्टि के लिए लोग"
+  },
+  "teamsKeysChanged": {
+    "message": "$PERSON$ की कुंजियाँ बदल गई हैं। पहुँच देने से पहले नया फ़िंगरप्रिंट $PERSON$ से मिलाएँ।",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsLeftOut": {
+    "message": "पहुँच देने के लिए फ़िंगरप्रिंट $PERSON$ से मिलाएँ।",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsFingerprintMismatch": {
+    "message": "यह फ़िंगरप्रिंट मेल नहीं खाता। उस व्यक्ति से फिर से मिलाएँ।"
+  },
+  "teamsKeysWrong": {
+    "message": "सेवा ने जो कुंजियाँ भेजीं, वे इस फ़िंगरप्रिंट से मेल नहीं खातीं। कुछ नहीं बदला गया।"
+  },
+  "teamsSignerList": {
+    "message": "जाँचने के लिए साझा वॉल्ट"
+  },
+  "teamsSignerUnverified": {
+    "message": "$VAULT$ की अभी जाँच नहीं हुई है",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsSignerHint": {
+    "message": "जिसने इसे साझा किया, उनसे अपने Passyble ऐप से फ़िंगरप्रिंट पढ़ने को कहें। केवल तभी पुष्टि करें जब वह यही हो:"
+  },
+  "teamsSignerChanged": {
+    "message": "$VAULT$: प्रबंधक की कुंजियाँ बदल गई हैं",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsSignerChangedHint": {
+    "message": "ये वे कुंजियाँ नहीं हैं जिनकी आपने जाँच की थी। नया फ़िंगरप्रिंट प्रबंधक से मिलाने तक इस वॉल्ट पर भरोसा न करें:"
+  },
+  "teamsSignerVerify": {
+    "message": "मेल खाता है"
+  },
+  "teamsSignerVerified": {
+    "message": "$VAULT$ की जाँच हो गई",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsLineHeld_one": {
+    "message": "$COUNT$ रोका गया",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineHeld_other": {
+    "message": "$COUNT$ रोके गए",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineDeviceWaiting": {
+    "message": "यह ब्राउज़र किसी दूसरे डिवाइस पर मंज़ूरी का इंतज़ार कर रहा है"
+  },
+  "optionsHelpSupport": {
+    "message": "सहायता और सपोर्ट"
+  },
+  "popupHelpSupport": {
+    "message": "सहायता और सपोर्ट"
+  },
+  "qaGroupLabel": {
+    "message": "त्वरित कार्य"
+  },
+  "qaScanQr": {
+    "message": "QR स्कैन करें"
+  },
+  "qaScanQrTitle": {
+    "message": "इस पेज पर दिख रहा 2FA QR कोड जोड़ें"
+  },
+  "qaNewNote": {
+    "message": "नया नोट"
+  },
+  "qaNewNoteTitle": {
+    "message": "एक सुरक्षित नोट जोड़ें, जैसे रिकवरी कोड"
+  },
+  "qaGenerate": {
+    "message": "बनाएं"
+  },
+  "qaGenerateTitle": {
+    "message": "एक मज़बूत पासवर्ड बनाएं"
+  },
+  "qaNoQr": {
+    "message": "इस पेज पर कोई QR कोड नहीं दिख रहा। स्क्रॉल करके उसे सामने लाएं और फिर से कोशिश करें।"
+  },
+  "qaNotAuthenticator": {
+    "message": "यह QR कोड किसी ऑथेंटिकेटर ऐप के लिए नहीं है।"
+  },
+  "qaMigration": {
+    "message": "यह QR कोड Google Authenticator का एक्सपोर्ट है। इसे Passyble ऐप में इंपोर्ट करें।"
+  },
+  "qaHotp": {
+    "message": "यह QR कोड काउंटर-आधारित कोड (HOTP) के लिए है, जिन्हें Passyble सपोर्ट नहीं करता।"
+  },
+  "qaInvalidQr": {
+    "message": "यह 2FA QR कोड पढ़ा नहीं जा सका। इसकी जगह सीक्रेट की से कोड जोड़ें।"
+  },
+  "qaAddTotpHeading": {
+    "message": "2FA कोड जोड़ें"
+  },
+  "qaUnnamedCode": {
+    "message": "2FA कोड"
+  },
+  "qaAddTo": {
+    "message": "इसमें जोड़ें"
+  },
+  "qaHasTotp": {
+    "message": "2FA है"
+  },
+  "qaNewLoginFor": {
+    "message": "$SITE$ के लिए नया लॉगिन",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "qaThisSite": {
+    "message": "इस साइट"
+  },
+  "qaPickHint": {
+    "message": "वह लॉगिन चुनें जिसमें इसे जोड़ना है।"
+  },
+  "qaReplacesTotp": {
+    "message": "इसका मौजूदा 2FA कोड बदल दिया जाएगा।"
+  },
+  "qaAddTotp": {
+    "message": "2FA जोड़ें"
+  },
+  "qaTotpAdded": {
+    "message": "2FA कोड $TITLE$ में जोड़ दिया गया",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "qaTotpSavedNew": {
+    "message": "नए लॉगिन के रूप में सेव किया गया: $TITLE$",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "qaNoteHeading": {
+    "message": "नया नोट"
+  },
+  "qaNoteTitle": {
+    "message": "शीर्षक"
+  },
+  "qaNoteText": {
+    "message": "नोट"
+  },
+  "qaNoteTextPlaceholder": {
+    "message": "रिकवरी कोड पेस्ट करें या नोट लिखें"
+  },
+  "qaNoteRecovery": {
+    "message": "रिकवरी कोड"
+  },
+  "qaNoteRecoveryFor": {
+    "message": "$SITE$ के रिकवरी कोड",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "qaNoteUntitled": {
+    "message": "सुरक्षित नोट"
+  },
+  "qaNoteHint": {
+    "message": "आपके वॉल्ट में सुरक्षित नोट के रूप में सेव होगा।"
+  },
+  "qaNoteSaved": {
+    "message": "नोट सेव हो गया"
+  },
+  "qaNoteNeedsUpdate": {
+    "message": "यहां नोट जोड़ने के लिए Passyble अपडेट करें।"
+  },
+  "qaGenerateHeading": {
+    "message": "पासवर्ड बनाएं"
+  },
+  "qaGeneratedLabel": {
+    "message": "बनाया गया पासवर्ड"
+  },
+  "qaRegenerate": {
+    "message": "नया पासवर्ड"
+  },
+  "qaCopy": {
+    "message": "कॉपी करें"
+  },
+  "qaGenerateHint": {
+    "message": "कॉपी किया गया पासवर्ड 45 सेकंड बाद क्लिपबोर्ड से साफ़ हो जाता है।"
+  },
+  "vaultAppInstalledHere": {
+    "message": "Passyble ऐप इस कंप्यूटर पर इंस्टॉल है, इसलिए Passyble यहाँ उसी का इस्तेमाल करता है।"
+  },
+  "optionsAppGone": {
+    "message": "Passyble ऐप अब इस कंप्यूटर पर नहीं है। आप इसके बजाय इस ब्राउज़र में वॉल्ट रख सकते हैं।"
+  },
+  "moveOffer_one": {
+    "message": "इस ब्राउज़र से $COUNT$ आइटम Passyble ऐप में ले जाएं",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "23"
+      }
+    }
+  },
+  "moveOffer_other": {
+    "message": "इस ब्राउज़र से $COUNT$ आइटम Passyble ऐप में ले जाएं",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "23"
+      }
+    }
+  },
+  "moveOfferAny": {
+    "message": "इस ब्राउज़र के आइटम Passyble ऐप में ले जाएं"
+  },
+  "moveText": {
+    "message": "जब तक आप यहाँ वॉल्ट नहीं हटाते, वे इस ब्राउज़र में भी रहते हैं।"
+  },
+  "moveStart": {
+    "message": "आइटम ले जाएं"
+  },
+  "moveConfirm": {
+    "message": "ले जाएं"
+  },
+  "moveInto": {
+    "message": "इस वॉल्ट में"
+  },
+  "moveMoving": {
+    "message": "ले जा रहे हैं…"
+  },
+  "moveDoneTitle": {
+    "message": "Passyble ऐप में ले जाए गए"
+  },
+  "moveDoneText": {
+    "message": "जोड़े गए: $ADDED$। ऐप में पहले से: $SKIPPED$। इस ब्राउज़र का वॉल्ट तब तक रहता है जब तक आप उसे नहीं हटाते।",
+    "placeholders": {
+      "added": {
+        "content": "$1",
+        "example": "20"
+      },
+      "skipped": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "movePartialTitle": {
+    "message": "कुछ आइटम नहीं ले जाए जा सके"
+  },
+  "movePartialText": {
+    "message": "जोड़े गए: $ADDED$। ऐप में पहले से: $SKIPPED$। नहीं ले जाए जा सके: $FAILED$। वे अभी भी इस ब्राउज़र में हैं।",
+    "placeholders": {
+      "added": {
+        "content": "$1",
+        "example": "18"
+      },
+      "skipped": {
+        "content": "$2",
+        "example": "3"
+      },
+      "failed": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "moveDeleteVault": {
+    "message": "इस ब्राउज़र का वॉल्ट हटाएं"
+  },
+  "moveDeleteWarn": {
+    "message": "इस ब्राउज़र का वॉल्ट हमेशा के लिए हटा देता है। उसके आइटम अब Passyble ऐप में हैं।"
+  },
+  "cardBannerSave": {
+    "message": "कार्ड Passyble में सेव करें?"
+  },
+  "cardBannerUpdate": {
+    "message": "कार्ड की समाप्ति तिथि अपडेट करें?"
+  },
+  "cardBannerSaved": {
+    "message": "कार्ड Passyble में सेव किया गया।"
+  },
+  "cardBannerUpdated": {
+    "message": "कार्ड की समाप्ति तिथि अपडेट की गई।"
+  },
+  "cardBannerNoCode": {
+    "message": "सुरक्षा कोड सेव नहीं होता। आप इसे Passyble में कार्ड में जोड़ सकते हैं।"
+  },
+  "cardBannerNeverDone": {
+    "message": "इस साइट पर कार्ड सेव करने का सुझाव दोबारा नहीं देगा।"
+  },
+  "cardBannerEditFrameTitle": {
+    "message": "Passyble कार्ड विवरण"
+  },
+  "cardEditHolder": {
+    "message": "कार्ड पर नाम"
+  },
+  "cardEditExpiry": {
+    "message": "समाप्ति तिथि"
+  },
+  "cardEditExpiryPlaceholder": {
+    "message": "MM/YY"
+  },
+  "cardEditExpiryHint": {
+    "message": "MM/YY इस्तेमाल करें, जैसे 04/29।"
+  },
+  "cardEditTitle": {
+    "message": "शीर्षक"
+  },
+  "settingCardSave": {
+    "message": "कार्ड सेव करने का सुझाव दें"
+  },
+  "settingCardSaveDetails": {
+    "message": "नए कार्ड से भुगतान करने के बाद उसे सेव करने को पूछता है।"
+  },
+  "optionsNeverSaveCards": {
+    "message": "कार्ड"
+  },
+  "popupPassyblePassword": {
+    "message": "Passyble पासवर्ड"
+  },
+  "popupUnlockEmptyAccount": {
+    "message": "अपना Passyble पासवर्ड दर्ज करें।"
+  },
+  "accountEmailAddress": {
+    "message": "ईमेल पता"
+  },
+  "accountSecretKey": {
+    "message": "गुप्त कुंजी"
+  },
+  "accountSecretKeyPlaceholder": {
+    "message": "गुप्त कुंजी (P1-...)"
+  },
+  "accountSecretKeyHint": {
+    "message": "इस ब्राउज़र में सिर्फ़ एक बार। यह आपकी आपातकालीन किट में है।"
+  },
+  "accountSharedComputer": {
+    "message": "यह साझा कंप्यूटर है: मेरी गुप्त कुंजी न रखें"
+  },
+  "accountApproveFromDevice": {
+    "message": "दूसरे डिवाइस से मंज़ूर करें"
+  },
+  "accountPageTitle": {
+    "message": "आपका Passyble पासवर्ड"
+  },
+  "accountPageLead": {
+    "message": "आपके Passyble खाते और उससे लिंक किए गए वॉल्ट के लिए एक पासवर्ड। यह कभी इस ब्राउज़र से बाहर नहीं जाता।"
+  },
+  "accountKeysInApp": {
+    "message": "इस कंप्यूटर पर Passyble ऐप आपके Passyble पासवर्ड से आपके वॉल्ट खोलता है। वहां साइन इन करें।"
+  },
+  "accountPasswordSignIn": {
+    "message": "अपने Passyble पासवर्ड से साइन इन करें"
+  },
+  "accountSigningIn": {
+    "message": "साइन इन हो रहा है…"
+  },
+  "accountSignedInUnlocked": {
+    "message": "$EMAIL$ के रूप में साइन इन है। इस ब्राउज़र में आपका वॉल्ट अनलॉक है।",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "ada@example.com"
+      }
+    }
+  },
+  "accountApproveLead": {
+    "message": "ऐसा फ़ोन या कंप्यूटर इस्तेमाल करें जिस पर आप Passyble में साइन इन हैं। आपके ईमेल पते के अलावा कुछ टाइप नहीं करना।"
+  },
+  "accountApproveAsk": {
+    "message": "मंज़ूरी मांगें"
+  },
+  "accountApproveQrLabel": {
+    "message": "आपके दूसरे डिवाइस के लिए QR कोड"
+  },
+  "accountApproveQrHint": {
+    "message": "अपने दूसरे डिवाइस पर Passyble खोलें और डिवाइस जोड़ें, फिर यह कोड स्कैन करें। कैमरा नहीं है? वहां इस ब्राउज़र को मंज़ूर करें और यहां दिखाया गया कोड लिखें।"
+  },
+  "accountApproveCodeHint": {
+    "message": "यह कोड अपने दूसरे डिवाइस पर लिखें।"
+  },
+  "accountApproveCheckHint": {
+    "message": "जांचें कि आपका दूसरा डिवाइस सेटिंग्स, Passyble पासवर्ड में यही फ़िंगरप्रिंट दिखा रहा है।"
+  },
+  "accountApproveFingerprintLabel": {
+    "message": "खाता कुंजी का फ़िंगरप्रिंट"
+  },
+  "accountApproveMatches": {
+    "message": "मेल खाता है"
+  },
+  "accountApproveNoMatch": {
+    "message": "मेल नहीं खाता"
+  },
+  "accountApproveNotKept": {
+    "message": "कुंजियाँ नहीं रखी गईं। मेल न खाने वाले फ़िंगरप्रिंट का मतलब है कि ये शायद आपके खाते की कुंजियाँ नहीं हैं। अपने दूसरे डिवाइस से फिर से मांगें, और अगर फिर से ऐसा हो तो सहायता से संपर्क करें।"
+  },
+  "accountApproveCancelledNotKept": {
+    "message": "रद्द किया गया। आई हुई कुंजियाँ नहीं रखी गईं।"
+  },
+  "accountApproveWaiting": {
+    "message": "आपके दूसरे डिवाइस का इंतज़ार है…"
+  },
+  "accountApproveDone": {
+    "message": "यह ब्राउज़र मंज़ूर हो गया। आपका Passyble पासवर्ड यहां आपके लिंक किए गए वॉल्ट खोलता है।"
+  },
+  "accountApproveDoneUnlocked": {
+    "message": "यह ब्राउज़र मंज़ूर हो गया, और इस ब्राउज़र में आपका वॉल्ट अनलॉक है।"
+  },
+  "accountApproveDenied": {
+    "message": "आपके दूसरे डिवाइस ने मना कर दिया। अगर यह गलती थी, तो फिर से शुरू करें।"
+  },
+  "accountApproveExpired": {
+    "message": "अनुरोध खत्म हो गया। इस ब्राउज़र को मंज़ूर करने के लिए फिर से मांगें।"
+  },
+  "accountKeysAppOnly": {
+    "message": "अपना Passyble पासवर्ड, अपनी गुप्त कुंजी या अपना रिकवरी कोड Passyble ऐप में बदलें।"
+  },
+  "accountPasswordButton": {
+    "message": "Passyble पासवर्ड"
+  },
+  "welcomeChoicePassword": {
+    "message": "अपना Passyble पासवर्ड इस्तेमाल करें"
+  },
+  "welcomeChoicePasswordText": {
+    "message": "यहां साइन इन करें, या इस ब्राउज़र को दूसरे डिवाइस से मंज़ूर करें।"
+  },
+  "errWrongAccountPassword": {
+    "message": "Passyble पासवर्ड या गुप्त कुंजी गलत है। क्या Caps Lock चालू है?"
+  },
+  "errPasswordLimited": {
+    "message": "बहुत सारे गलत पासवर्ड। कुछ देर रुकें, फिर दोबारा कोशिश करें।"
+  },
+  "errAccountKeysOff": {
+    "message": "Passyble पासवर्ड अभी उपलब्ध नहीं है।"
+  },
+  "errNoAccountPassword": {
+    "message": "इस खाते में अभी कोई Passyble पासवर्ड नहीं है। Passyble ऐप में एक सेट करें।"
+  },
+  "errAccountService": {
+    "message": "Passyble खाता सेवा ने उम्मीद के मुताबिक जवाब नहीं दिया। बाद में दोबारा कोशिश करें।"
+  },
+  "errAccountOffline": {
+    "message": "आपके Passyble खाते तक नहीं पहुंचा जा सका। अपना इंटरनेट कनेक्शन जांचें और दोबारा कोशिश करें।"
+  },
+  "errAccountSignedOut": {
+    "message": "पहले अपने Passyble खाते में साइन इन करें।"
+  },
+  "errBadSecretKey": {
+    "message": "यह गुप्त कुंजी नहीं है। इसे अपनी आपातकालीन किट से कॉपी करें: यह P1 से शुरू होती है।"
+  },
+  "errSecretKeyNeeded": {
+    "message": "इस ब्राउज़र में एक बार अपनी गुप्त कुंजी दर्ज करें। यह आपकी आपातकालीन किट में है।"
+  },
+  "errEmailNeeded": {
+    "message": "अपने खाते का ईमेल पता दर्ज करें।"
+  },
+  "errOtherAccount": {
+    "message": "यह पासवर्ड इस वॉल्ट वाले खाते का नहीं, किसी दूसरे Passyble खाते का है।"
+  },
+  "errOtherAccountKey": {
+    "message": "यह वॉल्ट आपके खाते की किसी पुरानी कुंजी से लिंक है। इसे एक बार Passyble ऐप में खोलें।"
+  },
+  "errApprovalMismatch": {
+    "message": "मंज़ूरी मेल नहीं खाई। दोनों डिवाइस पर फिर से शुरू करें।"
+  },
+  "accountSecretKeyExample": {
+    "message": "P1-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX"
+  },
+  "menuSimilarSites": {
+    "message": "संबंधित साइटें"
+  },
+  "menuSearchPassyble": {
+    "message": "Passyble में खोजें…"
+  },
+  "menuSearchUseToolbar": {
+    "message": "अपने वॉल्ट में खोजने के लिए, ब्राउज़र टूलबार में Passyble पर क्लिक करें।"
+  },
+  "commonNoLoginsFor": {
+    "message": "$SITE$ के लिए कोई लॉगिन नहीं",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossTitle": {
+    "message": "क्या यह लॉगिन $SITE$ पर भी इस्तेमाल करें?",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossSavedFor": {
+    "message": "$SITE$ के लिए सेव किया गया",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.com"
+      }
+    }
+  },
+  "crossAdd": {
+    "message": "$SITE$ को इस लॉगिन में जोड़ें",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossCopy": {
+    "message": "$SITE$ के लिए एक कॉपी सेव करें",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossHint": {
+    "message": "जोड़ने पर अगली बार यह लॉगिन यहाँ बिना पूछे भर जाएगा। कॉपी दोनों को अलग रखती है।"
+  },
+  "crossAdded": {
+    "message": "$SITE$ को $TITLE$ में जोड़ दिया गया।",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      },
+      "title": {
+        "content": "$2",
+        "example": "Amazon"
+      }
+    }
+  },
+  "crossCopied": {
+    "message": "कॉपी Passyble में सेव हो गई।"
+  },
+  "crossLookalike": {
+    "message": "$HOST$, $SITE$ नहीं है, हालाँकि इसका पता उसी जैसा दिखता है। तभी जोड़ें जब आपको इस साइट पर भरोसा हो।",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "changedTitle": {
+    "message": "यह लॉगिन अपडेट करें?"
+  },
+  "changedUsername": {
+    "message": "उपयोगकर्ता नाम बदलकर $USERNAME$ किया गया",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "bob@example.com"
+      }
+    }
+  },
+  "changedPassword": {
+    "message": "पासवर्ड बदला गया"
+  },
+  "changedFromSite": {
+    "message": "$SITE$ के लिए सेव है। अपडेट करने पर $HOST$ भी इस लॉगिन में जुड़ जाएगा।",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.com"
+      },
+      "host": {
+        "content": "$2",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "changedReadOnly": {
+    "message": "यह लॉगिन एक साझा वॉल्ट में है जिसे आप बदल नहीं सकते। इसकी जगह आप नया लॉगिन सेव कर सकते हैं।"
+  },
+  "changedLookalike": {
+    "message": "$HOST$, $SITE$ नहीं है, पर इसका पता उससे मिलता-जुलता है। तभी अपडेट या सेव करें जब आपको इस साइट पर भरोसा हो।",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "changedUpdate": {
+    "message": "लॉगिन अपडेट करें"
+  },
+  "changedSaveNew": {
+    "message": "नए लॉगिन के रूप में सेव करें"
+  },
+  "changedUpdated": {
+    "message": "Passyble में लॉगिन अपडेट हो गया।"
+  },
+  "changedSavedNew": {
+    "message": "नए लॉगिन के रूप में सेव हो गया।"
+  },
+  "popupTypeFilter": {
+    "message": "प्रकार से फ़िल्टर करें",
+    "description": "Popup, Filter menu: what a screen reader hears for its Show section, which narrows the list to one kind of item."
+  },
+  "popupTypeAll": {
+    "message": "सभी",
+    "description": "Popup, type filter chip: every kind of item."
+  },
+  "popupTypeLogins": {
+    "message": "लॉगिन",
+    "description": "Popup, type filter chip: only logins (not cards or addresses)."
+  },
+  "popupTypeCards": {
+    "message": "कार्ड",
+    "description": "Popup, type filter chip: only payment cards."
+  },
+  "popupTypeAddresses": {
+    "message": "पते",
+    "description": "Popup, type filter chip: only addresses (identities)."
+  },
+  "popupTypeFavorites": {
+    "message": "पसंदीदा",
+    "description": "Popup, type filter chip: only items marked as favorites (logins, cards, addresses, notes)."
+  },
+  "popupTypeNotes": {
+    "message": "नोट",
+    "description": "Popup, type filter chip: only secure notes."
+  },
+  "popupSecureNotes": {
+    "message": "सुरक्षित नोट",
+    "description": "Popup: heading of the list of secure notes (the Notes and Favorites filters)."
+  },
+  "popupSecureNote": {
+    "message": "सुरक्षित नोट",
+    "description": "Popup: the line under a secure note's title in the list."
+  },
+  "popupShowNote": {
+    "message": "नोट दिखाएं",
+    "description": "Popup: tooltip of a secure note's row (opens the note and shows its text)."
+  },
+  "popupShowNoteOf": {
+    "message": "$NAME$ नोट दिखाएं",
+    "description": "Popup: accessible name of a secure note's row (opens the note).",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Recovery codes"
+      }
+    }
+  },
+  "popupCopyNote": {
+    "message": "नोट कॉपी करें",
+    "description": "Popup: button that copies the text of a secure note."
+  },
+  "popupCopyNoteOf": {
+    "message": "$NAME$ नोट कॉपी करें",
+    "description": "Popup: accessible name of the copy button of a secure note's row.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Recovery codes"
+      }
+    }
+  },
+  "popupCopiedNote": {
+    "message": "नोट कॉपी हो गया",
+    "description": "Notice after copying a secure note's text."
+  },
+  "popupCopiedNoteClears": {
+    "message": "नोट कॉपी हो गया (45 सेकंड में साफ़ हो जाएगा)",
+    "description": "Notice after copying a secure note's text; the clipboard is cleared after 45 seconds."
+  },
+  "popupNoteEmpty": {
+    "message": "यह नोट खाली है।",
+    "description": "Popup: a secure note without text (in its viewer, or after Copy)."
+  },
+  "popupNoteText": {
+    "message": "नोट का टेक्स्ट",
+    "description": "Popup: accessible name of a secure note's text in its viewer."
+  },
+  "popupNoFilterMatches": {
+    "message": "इस प्रकार का कुछ भी यहाँ नहीं है।",
+    "description": "Popup: empty state when the type filter chosen leaves nothing to show."
+  },
+  "ctxSaveSelection": {
+    "message": "चुना हुआ टेक्स्ट Passyble नोट में सेव करें"
+  },
+  "clipHeading": {
+    "message": "नोट में सेव करें"
+  },
+  "clipSelection": {
+    "message": "चुना हुआ टेक्स्ट"
+  },
+  "clipAddAddress": {
+    "message": "पेज का पता जोड़ें"
+  },
+  "clipSearch": {
+    "message": "नोट खोजें"
+  },
+  "clipNewNote": {
+    "message": "नया नोट"
+  },
+  "clipNotes": {
+    "message": "नोट"
+  },
+  "clipSaveNew": {
+    "message": "नए नोट के रूप में सेव करें"
+  },
+  "clipAdded": {
+    "message": "$NOTE$ में जोड़ दिया गया",
+    "placeholders": {
+      "note": {
+        "content": "$1",
+        "example": "Reading list"
+      }
+    }
+  },
+  "clipSavedNew": {
+    "message": "नए नोट के रूप में सेव हो गया"
+  },
+  "clipNoNotes": {
+    "message": "अभी कोई नोट नहीं है। इसे नए नोट के रूप में सेव करें।"
+  },
+  "clipNoMatch": {
+    "message": "कोई नोट मेल नहीं खाता।"
+  },
+  "clipViewOnly": {
+    "message": "आप इस नोट को बदल नहीं सकते"
+  },
+  "clipLockedText": {
+    "message": "चुना हुआ टेक्स्ट नोट में जोड़ने के लिए अनलॉक करें।"
+  },
+  "clipAppendNeedsUpdate": {
+    "message": "नोट में जोड़ने के लिए Passyble ऐप अपडेट करें।"
+  },
+  "clipNeedsUpdate": {
+    "message": "ब्राउज़र से नोट सेव करने के लिए Passyble ऐप अपडेट करें।"
+  },
+  "clipGone": {
+    "message": "यह चुना हुआ टेक्स्ट अब उपलब्ध नहीं है। टेक्स्ट फिर से चुनें और उस पर राइट-क्लिक करें।"
+  },
+  "clipTooLong": {
+    "message": "चुना हुआ टेक्स्ट नोट के लिए बहुत लंबा है।"
+  },
+  "clipNoteFull": {
+    "message": "वह नोट भर गया है। चुने हुए टेक्स्ट को नए नोट के रूप में सेव करें।"
+  }
+}

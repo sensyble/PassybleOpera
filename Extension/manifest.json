@@ -1,0 +1,111 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "short_name": "Passyble",
+  "version": "0.1.3",
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
+  "minimum_chrome_version": "111",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvO3tGREI2c7UZFpMkl2eGuAN0XaUIA15Ciyvhh0fKe+n7D6IslCGgAhHu6GZpfQdYj8FJnQEixCl4Elx69CVIudHpc5pM4LuTOpnv1XCxsMEtROtGus9lbDFkiydtwFimIaeoC9+cKyP7yoUThY/esdwmhRQHBQ8+sMgS6UDxNoqr3VWGxA8LxuFdeE5+sGaxi88tQYGD64lk9aEJasYtRsI4SXGBP0tG0jMrDq/5fr8zAbaar2RT/qnKWRZYbOl8m+CSfLL73/2+NZv01/sPLDnjHnY7Y/iMHbanlNpBCEBr8WAZ7VwgDRCcwU2n9AtaaTDhlI58gqyUgbw0xrDpwIDAQAB",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_title": "__MSG_actionTitle__",
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
+  },
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "options_ui": {
+    "page": "src/options/options.html",
+    "open_in_tab": true
+  },
+  "permissions": [
+    "nativeMessaging",
+    "activeTab",
+    "storage",
+    "privacy",
+    "scripting",
+    "contextMenus",
+    "clipboardWrite",
+    "alarms",
+    "offscreen",
+    "idle",
+    "identity",
+    "unlimitedStorage"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/bridge.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/webauthn-main.js"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "world": "MAIN"
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/loader.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["src/content/*.js", "src/shared/*.js"],
+      "matches": ["<all_urls>"]
+    },
+    {
+      "resources": ["src/unlock/frame.html", "src/save/edit.html", "src/save/card-edit.html"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": { "default": "Alt+Shift+P", "mac": "MacCtrl+Shift+P" },
+      "description": "__MSG_cmdOpenPopup__"
+    },
+    "fill-login": {
+      "suggested_key": { "default": "Ctrl+Shift+L", "mac": "Command+Shift+L" },
+      "description": "__MSG_cmdFillLogin__"
+    },
+    "fill-otp": {
+      "suggested_key": { "default": "Alt+Shift+K", "mac": "Command+Shift+K" },
+      "description": "__MSG_cmdFillOtp__"
+    },
+    "scan-qr": {
+      "suggested_key": { "default": "Alt+Shift+Q", "mac": "MacCtrl+Shift+Q" },
+      "description": "__MSG_cmdScanQr__"
+    },
+    "generate-password": {
+      "description": "__MSG_cmdGenerate__"
+    },
+    "new-note": {
+      "description": "__MSG_cmdNewNote__"
+    },
+    "lock": {
+      "description": "__MSG_cmdLock__"
+    },
+    "sync-now": {
+      "description": "__MSG_cmdSync__"
+    }
+  }
+}

@@ -1,0 +1,252 @@
+/* Passyble design tokens, mirrored in the in-page shadow CSS (src/content/ui-common.js BASE_CSS).
+   Text colours meet WCAG AA (4.5:1) on --bg, --surface and --surface-2; non-text marks 3:1.
+   Font: Space Grotesk (SIL OFL 1.1, ./fonts/). */
+@font-face {
+  font-family: "Space Grotesk"; font-style: normal; font-weight: 300 700; font-display: swap;
+  src: url("fonts/space-grotesk-vietnamese-wght-normal.woff2") format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Space Grotesk"; font-style: normal; font-weight: 300 700; font-display: swap;
+  src: url("fonts/space-grotesk-latin-ext-wght-normal.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Space Grotesk"; font-style: normal; font-weight: 300 700; font-display: swap;
+  src: url("fonts/space-grotesk-latin-wght-normal.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+:root {
+  color-scheme: light dark;
+  --bg: #f6f6f6;
+  --surface: #ffffff;
+  --surface-2: #f0f0f0;
+  --surface-3: #e6e6e6;
+  --surface-raised: #ffffff;
+  --fill-hover: rgba(17, 17, 17, .05);
+  --fill-selected: rgba(17, 17, 17, .10);
+  --border: #e4e4e4;
+  --border-strong: #cfcfcf;
+  --text: #111111;
+  --text-2: #555555;
+  --text-3: #6b6b6b;
+  --accent: #111111;
+  --accent-hover: #2a2a2a;
+  --accent-text: #ffffff;
+  --accent-soft: #ececec;
+  --tile: #f0f0f0;
+  --lime: #c6f432;
+  --lime-mark: #6e9a00;
+  --lime-ink: #4f6b00;
+  --lime-soft: #f1f9d9;
+  --focus-ring: #111111;
+  --ring: transparent;
+  --focus: 0 0 0 0 transparent;
+  /* Text fields on focus: an ink edge and a soft neutral ring, never the lime halo, so an autofocused field doesn't shout. */
+  --field-focus: #111111;
+  --field-ring: rgba(17, 17, 17, .13);
+  --focus-field: 0 0 0 1px var(--field-focus), 0 0 0 4px var(--field-ring);
+  --danger-ring: rgba(180, 35, 24, .14);
+  --inset: #f0f0f0;
+  --input-bg: #f0f0f0;
+  --disabled-bg: #e6e6e6;
+  --disabled-text: #6b6b6b;
+  --chip: #f0f0f0;
+  --chip-text: #555555;
+  --danger: #b42318;
+  --danger-soft: #fdecea;
+  --ok: #4f6b00;
+  --ok-soft: #f1f9d9;
+  --warn: #555555;
+  --warn-soft: #f0f0f0;
+  --shadow: 0 8px 24px rgba(0, 0, 0, .10), 0 1px 2px rgba(0, 0, 0, .06);
+
+  --gutter: 12px;
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --r-sm: 6px;
+  --r: 10px;
+  --r-lg: 14px;
+  --fs-xs: 11px;
+  --fs-sm: 12px;
+  --fs-body: 13px;
+  --fs-md: 14px;
+  --fs-lg: 16px;
+  --row-h: 48px;
+  --font: "Space Grotesk", "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Nirmala UI", "Noto Sans Devanagari", "Microsoft YaHei UI", "PingFang SC", "Hiragino Sans", "Yu Gothic UI", "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans CJK SC", sans-serif;
+  --mono: "Cascadia Mono", ui-monospace, Consolas, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f0f10;
+    --surface: #18181a;
+    --surface-2: #212124;
+    --surface-3: #2a2a2e;
+    --surface-raised: #222225;
+    --fill-hover: rgba(237, 237, 237, .06);
+    --fill-selected: rgba(237, 237, 237, .10);
+    --border: #2a2a2d;
+    --border-strong: #3a3a3e;
+    --text: #ededed;
+    --text-2: #b4b4b8;
+    --text-3: #8e8e93;
+    --accent: #ededed;
+    --accent-hover: #ffffff;
+    --accent-text: #111111;
+    --accent-soft: #2a2a2e;
+    --tile: #212124;
+    --lime: #c6f432;
+    --lime-mark: #c6f432;
+    --lime-ink: #c6f432;
+    --lime-soft: rgba(198, 244, 50, .12);
+    --focus-ring: #ededed;
+    --ring: transparent;
+    --danger: #ff8a80;
+    --danger-soft: #3a1d1b;
+    --ok: #c6f432;
+    --ok-soft: rgba(198, 244, 50, .12);
+    --warn: #b4b4b8;
+    --warn-soft: #2a2a2e;
+    --field-focus: #ededed;
+    --field-ring: rgba(237, 237, 237, .14);
+    --danger-ring: rgba(255, 138, 128, .18);
+    --inset: #2a2a2e;
+    --input-bg: #212124;
+    --disabled-bg: #2a2a2e;
+    --disabled-text: #8e8e93;
+    --chip: #2a2a2e;
+    --chip-text: #b4b4b8;
+    --shadow: 0 0 0 1px #3a3a3e, 0 12px 32px rgba(0, 0, 0, .55);
+  }
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+/* Spinners keep turning (they say "working"). */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after { transition-duration: 0s !important; transition-delay: 0s !important; scroll-behavior: auto !important; }
+}
+/* CJK fonts in the order that picks the right glyph shapes (Han characters differ between Chinese, Japanese and Korean). */
+:root:lang(ja) { --font: "Space Grotesk", "Segoe UI Variable Text", "Segoe UI", "Yu Gothic UI", "Meiryo UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", "Noto Sans JP", system-ui, sans-serif; }
+:root:lang(ko) { --font: "Space Grotesk", "Segoe UI Variable Text", "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", system-ui, sans-serif; }
+:root:lang(zh) { --font: "Space Grotesk", "Segoe UI Variable Text", "Segoe UI", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", "Noto Sans SC", system-ui, sans-serif; }
+:root:lang(zh-TW), :root:lang(zh-HK) { --font: "Space Grotesk", "Segoe UI Variable Text", "Segoe UI", "Microsoft JhengHei UI", "Microsoft JhengHei", "PingFang TC", "Noto Sans CJK TC", "Noto Sans TC", system-ui, sans-serif; }
+:root:lang(hi) { --font: "Space Grotesk", "Segoe UI Variable Text", "Segoe UI", "Nirmala UI", "Kohinoor Devanagari", "Noto Sans Devanagari", system-ui, sans-serif; }
+:root:lang(hi) body { line-height: 1.6; }
+button { font: inherit; color: inherit; cursor: pointer; }
+a { color: var(--accent); text-underline-offset: 4px; text-decoration-thickness: 1.5px; }
+.text-link { display: inline; padding: 0; border: 0; background: none; color: var(--accent); font: inherit; font-weight: 600;
+  text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1.5px; cursor: pointer; }
+.text-link:hover { text-decoration-thickness: 2px; }
+.text-link:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; border-radius: 2px; }
+svg.pass-icon { display: block; flex: none; }
+h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; }
+.switch { flex: none; display: inline-flex; cursor: pointer; position: relative; }
+.switch input { position: absolute; opacity: 0; pointer-events: none; }
+.switch i { width: 40px; height: 24px; border-radius: 999px; background: var(--border-strong); position: relative; transition: background .15s; }
+.switch i::after { content: ""; position: absolute; top: 3px; left: 3px; width: 18px; height: 18px; border-radius: 50%; background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .25); transition: transform .15s; }
+.switch input:checked + i { background: var(--accent); }
+.switch input:checked + i::after { transform: translateX(16px); background: var(--accent-text); }
+.switch input:focus-visible + i { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.switch input:disabled + i { opacity: .5; cursor: default; }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  min-height: 36px; padding: 4px 16px; border: 1px solid var(--border-strong); border-radius: 999px;
+  background: transparent; color: var(--text); font-weight: 600; font-size: var(--fs-body);
+  line-height: 1.25; text-align: center; overflow-wrap: anywhere;
+  transition: background-color .12s, border-color .12s, color .12s;
+}
+.btn:hover { background: var(--fill-hover); }
+.btn:active { background: var(--fill-selected); }
+.btn:disabled { opacity: .45; cursor: not-allowed; }
+.btn:disabled:hover { background: transparent; }
+.btn.primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+.btn.primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+.btn.primary:disabled, .btn.primary:disabled:hover { opacity: 1; background: var(--disabled-bg); border-color: transparent; color: var(--disabled-text); }
+/* Dark ink on the light primary reads thinner than light text on dark: a touch more weight evens them out. */
+@media (prefers-color-scheme: dark) { .btn.primary { font-weight: 650; } }
+.btn.tonal { background: var(--surface-2); border-color: transparent; }
+.btn.tonal:hover { background: var(--surface-3); }
+.btn.ghost { border-color: transparent; background: transparent; color: var(--accent); }
+.btn.ghost:hover { background: var(--fill-hover); }
+.btn.danger { color: var(--danger); }
+.btn.danger:hover { background: var(--danger-soft); }
+.icon-btn {
+  display: inline-grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 0;
+  border-radius: 999px; background: none; color: var(--text-2); flex: none;
+  transition: background-color .12s, color .12s;
+}
+.icon-btn:hover { background: var(--fill-selected); color: var(--text); }
+.icon-btn:disabled { opacity: .4; cursor: default; background: none; }
+.icon-btn.danger:hover { color: var(--danger); }
+/* The transparent outline keeps a visible ring in forced-colors mode, where box-shadow is not drawn. */
+:is(.btn, .icon-btn, .menu-item, .item-main, .otp):focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+
+.input {
+  width: 100%; min-width: 0; height: 40px; padding: 0 12px; border: 1px solid var(--border-strong);
+  border-radius: 12px; background: var(--input-bg); color: var(--text); font: inherit; outline: 0;
+  transition: border-color .12s;
+}
+.input::placeholder { color: var(--text-3); }
+.input:focus { border-color: var(--field-focus); box-shadow: var(--focus-field); }
+.input[aria-invalid="true"], .input[aria-invalid="true"]:hover { border-color: var(--danger); }
+.input[aria-invalid="true"]:focus { border-color: var(--danger); box-shadow: 0 0 0 1px var(--danger); outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.notice, .warn-box { display: flex; gap: 8px; align-items: flex-start; margin: 0; padding: 10px 14px; border-radius: 12px; background: var(--inset);
+  color: var(--text-2); font-size: var(--fs-body); }
+.notice::before, .warn-box::before { content: ""; flex: none; width: 15px; height: 15px; margin-top: 2px; background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M12 16v-4M12 8h.01'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M12 16v-4M12 8h.01'/%3E%3C/svg%3E") center / contain no-repeat; }
+
+.wordmark { display: inline-flex; align-items: center; font-weight: 700; letter-spacing: -0.02em; line-height: 1; color: var(--text); white-space: nowrap; }
+.wordmark .pass-note { width: .9em; height: 1.08em; margin: .27em -.04em 0; color: var(--lime-mark); flex: none; }
+
+.chip { display: inline-flex; align-items: center; gap: 4px; height: 20px; padding: 0 8px; border-radius: 999px;
+  font-size: var(--fs-xs); font-weight: 600; background: var(--chip); color: var(--chip-text); white-space: nowrap; }
+.chip.ok { background: var(--chip); color: var(--text); }
+.chip.ok::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--lime-mark); flex: none; }
+.chip.locked, .chip.warn { background: var(--warn-soft); color: var(--warn); }
+
+.popover {
+  position: fixed; z-index: 50; min-width: 200px; max-width: min(320px, calc(100vw - 8px)); padding: 6px; border: 0;
+  border-radius: 16px; background: var(--surface-raised); box-shadow: var(--shadow);
+}
+.menu-item {
+  display: flex; align-items: center; gap: 10px; width: 100%; min-height: 38px; padding: 4px 10px; border: 0;
+  border-radius: var(--r); background: none; color: var(--text); text-align: start; line-height: 1.25; font-weight: 500;
+}
+.menu-item svg { color: var(--text-2); }
+.menu-item:hover, .menu-item:focus-visible { background: var(--fill-hover); outline-offset: -2px; }
+.menu-item.danger, .menu-item.danger svg { color: var(--danger); }
+.menu-item.muted, .menu-item.muted svg { color: var(--text-3); font-size: var(--fs-sm); }
+.menu-item.check[aria-checked="false"] svg { visibility: hidden; }
+.menu-item.check[aria-checked="true"] svg { color: var(--accent); }
+.menu-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; padding: 4px 0; }
+.menu-name { display: flex; align-items: center; gap: 6px; }
+.menu-tag { padding: 1px 7px; border-radius: 999px; background: var(--chip); color: var(--chip-text); font-size: var(--fs-xs); font-weight: 600; }
+.menu-detail { color: var(--text-2); font-size: var(--fs-xs); font-weight: 400; line-height: 1.3; }
+.menu-sep { height: 1px; margin: var(--sp-1) 10px; background: var(--border); }
+.popover { max-height: calc(100vh - 8px); overflow-y: auto; overscroll-behavior: contain; }
+.popover.compact .menu-item { min-height: 32px; padding-top: 2px; padding-bottom: 2px; }
+.menu-heading { padding: 8px 10px 4px; color: var(--text-3); font-size: var(--fs-xs); font-weight: 600; letter-spacing: .02em; }
+.menu-row { display: flex; align-items: center; gap: 2px; }
+.menu-row > .menu-item { flex: 1; min-width: 0; }
+.menu-pin { flex: none; display: grid; place-items: center; width: 30px; height: 30px; padding: 0; border: 0; border-radius: var(--r);
+  background: none; color: var(--text-3); opacity: 0; cursor: pointer; }
+.menu-row:hover > .menu-pin, .menu-pin:focus-visible, .menu-row.pinned > .menu-pin { opacity: 1; }
+.menu-row.pinned > .menu-pin { color: var(--text); }
+.menu-pin:hover { background: var(--fill-hover); color: var(--text); }
+.menu-pin:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: -2px; }
+/* Explanation tooltips (src/ui/tooltip.js). */
+.tooltip {
+  position: fixed; z-index: 60; box-sizing: border-box; width: max-content; max-width: min(280px, calc(100vw - 16px)); max-height: calc(100vh - 16px); overflow-y: auto;
+  padding: 8px 12px; border-radius: 10px; background: var(--surface-raised); color: var(--text); box-shadow: var(--shadow);
+  font-size: var(--fs-sm); font-weight: 400; line-height: 1.45; text-align: start; white-space: pre-line; overflow-wrap: anywhere;
+}
+.tooltip[hidden] { display: none; }
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }

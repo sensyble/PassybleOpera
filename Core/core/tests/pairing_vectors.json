@@ -1,0 +1,119 @@
+{
+  "comment": "pass+server:// link vectors, checked by pass_core::parse_pairing_link / parse_server_link and by the server's own parsers. `expect`: the pairing link (null = parse_pairing_link rejects it). `signin`: a token-less sign-in link (with `code` [kind, code] for one-time invite and reset links); parse_server_link accepts a link if either is non-null, so both null = rejected everywhere.",
+  "vectors": [
+    {
+      "link": "pass+server://pass.example.com:8443/dav/alice/personal.vault?v=1&user=alice&token=pst_kr3RuvCRcaQ29nq0oGvtM8RWx1_YAaPvx1qy-J047Hw&name=Pixel%209&pin=sha256:novcWsacBi2IRLwBIN7QCQVpLOAGPBXRFHKFijjSE-g",
+      "expect": {
+        "url": "https://pass.example.com:8443/dav/alice/personal.vault",
+        "host": "pass.example.com:8443",
+        "username": "alice",
+        "token": "pst_kr3RuvCRcaQ29nq0oGvtM8RWx1_YAaPvx1qy-J047Hw",
+        "device_name": "Pixel 9",
+        "pins": ["sha256:novcWsacBi2IRLwBIN7QCQVpLOAGPBXRFHKFijjSE-g"],
+        "https": true
+      }
+    },
+    {
+      "link": "pass+server://pass.example.com/dav/alice/personal.vault?v=1&user=alice&token=pst_t",
+      "expect": {
+        "url": "https://pass.example.com/dav/alice/personal.vault",
+        "host": "pass.example.com",
+        "username": "alice",
+        "token": "pst_t",
+        "device_name": null,
+        "pins": [],
+        "https": true
+      }
+    },
+    {
+      "link": "pass+server://pass.example.com:8443/dav/alice/personal.vault?v=1&user=alice&token=pst_AbC-_x&name=Pixel%209%20%26%20Co&pin=sha256:q83vEjRWeJA",
+      "expect": {
+        "url": "https://pass.example.com:8443/dav/alice/personal.vault",
+        "host": "pass.example.com:8443",
+        "username": "alice",
+        "token": "pst_AbC-_x",
+        "device_name": "Pixel 9 & Co",
+        "pins": ["sha256:q83vEjRWeJA"],
+        "https": true
+      }
+    },
+    {
+      "link": "pass+server://[::1]:8080/pass/dav/bob/work.vault?v=1&user=bob&token=pst_t&scheme=http",
+      "expect": {
+        "url": "http://[::1]:8080/pass/dav/bob/work.vault",
+        "host": "[::1]:8080",
+        "username": "bob",
+        "token": "pst_t",
+        "device_name": null,
+        "pins": [],
+        "https": false
+      }
+    },
+    {
+      "link": "pass+server://203.0.113.7:8443/dav/alice/family.vault?user=alice&v=1&token=pst_x&pin=sha256:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pin=sha256:BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB&scheme=https&future=1#ignored",
+      "expect": {
+        "url": "https://203.0.113.7:8443/dav/alice/family.vault",
+        "host": "203.0.113.7:8443",
+        "username": "alice",
+        "token": "pst_x",
+        "device_name": null,
+        "pins": [
+          "sha256:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "sha256:BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+        ],
+        "https": true
+      }
+    },
+    {
+      "link": "pass+server://h/dav/a%20b/c.vault?v=1&user=J%C3%BCrgen&token=pst_t&name=B%C3%BCro%20PC&name=Laptop",
+      "expect": {
+        "url": "https://h/dav/a%20b/c.vault",
+        "host": "h",
+        "username": "Jürgen",
+        "token": "pst_t",
+        "device_name": "Laptop",
+        "pins": [],
+        "https": true
+      }
+    },
+    { "link": "https://x/y?v=1&user=a&token=b", "expect": null },
+    { "link": "PASS+SERVER://x/y?v=1&user=a&token=b", "expect": null },
+    { "link": "pass+server://x/y?user=a&token=b", "expect": null },
+    { "link": "pass+server://x/y?v=2&user=a&token=b", "expect": null },
+    { "link": "pass+server://x/y?v=1&token=b", "expect": null },
+    { "link": "pass+server://x/y?v=1&user=&token=b", "expect": null },
+    { "link": "pass+server://x/y?v=1&user=a", "expect": null,
+      "signin": { "server_url": "https://x/y", "host": "x", "username": "a", "pins": [], "https": true, "code": null } },
+    { "link": "pass+server://pass.example.com:8443/?v=1&user=alice&pin=sha256:novcWsacBi2IRLwBIN7QCQVpLOAGPBXRFHKFijjSE-g", "expect": null,
+      "signin": { "server_url": "https://pass.example.com:8443", "host": "pass.example.com:8443", "username": "alice", "pins": ["sha256:novcWsacBi2IRLwBIN7QCQVpLOAGPBXRFHKFijjSE-g"], "https": true, "code": null } },
+    { "link": "pass+server://[::1]:8080/pass/?v=1&user=J%C3%BCrgen&scheme=http&future=1#x", "expect": null,
+      "signin": { "server_url": "http://[::1]:8080/pass", "host": "[::1]:8080", "username": "Jürgen", "pins": [], "https": false, "code": null } },
+    { "link": "pass+server://h?v=1&user=bob", "expect": null,
+      "signin": { "server_url": "https://h", "host": "h", "username": "bob", "pins": [], "https": true, "code": null } },
+    { "link": "pass+server://h/?v=1&user=bob&invite=psc_AbC", "expect": null,
+      "signin": { "server_url": "https://h", "host": "h", "username": "bob", "pins": [], "https": true, "code": ["invite", "psc_AbC"] } },
+    { "link": "pass+server://h/?v=1&user=bob&reset=psc_x%2Dy", "expect": null,
+      "signin": { "server_url": "https://h", "host": "h", "username": "bob", "pins": [], "https": true, "code": ["reset", "psc_x-y"] } },
+    { "link": "pass+server://pass.example.com:8443/?v=1&user=alice&invite=psc_3q2-7wQx_VJmL0n1o2p3qA&pin=sha256:novcWsacBi2IRLwBIN7QCQVpLOAGPBXRFHKFijjSE-g", "expect": null,
+      "signin": { "server_url": "https://pass.example.com:8443", "host": "pass.example.com:8443", "username": "alice", "pins": ["sha256:novcWsacBi2IRLwBIN7QCQVpLOAGPBXRFHKFijjSE-g"], "https": true, "code": ["invite", "psc_3q2-7wQx_VJmL0n1o2p3qA"] } },
+    { "link": "pass+server://pass.example.com/pass/?v=1&user=alice&reset=psc_3q2-7wQx_VJmL0n1o2p3qA&future=1#mail", "expect": null,
+      "signin": { "server_url": "https://pass.example.com/pass", "host": "pass.example.com", "username": "alice", "pins": [], "https": true, "code": ["reset", "psc_3q2-7wQx_VJmL0n1o2p3qA"] } },
+    { "link": "pass+server://h/?v=1&user=a&reset=", "expect": null },
+    { "link": "pass+server://h/?v=1&user=a&reset=x&reset=y", "expect": null },
+    { "link": "pass+server://h/?v=1", "expect": null },
+    { "link": "pass+server://h/?v=1&user=", "expect": null },
+    { "link": "pass+server://h/?v=2&user=a", "expect": null },
+    { "link": "pass+server://h/?v=1&user=a&token=", "expect": null },
+    { "link": "pass+server://h/?v=1&user=a&invite=", "expect": null },
+    { "link": "pass+server://h/?v=1&user=a&invite=x&reset=y", "expect": null },
+    { "link": "pass+server://h/dav/a/p.vault?v=1&user=a&token=t&invite=x", "expect": null },
+    { "link": "pass+server://h/?v=1&user=a&pin=md5:x", "expect": null },
+    { "link": "pass+server://x?v=1&user=a&token=b", "expect": null },
+    { "link": "pass+server://x/?v=1&user=a&token=b", "expect": null },
+    { "link": "pass+server:///y?v=1&user=a&token=b", "expect": null },
+    { "link": "pass+server://me@x/y?v=1&user=a&token=b", "expect": null },
+    { "link": "pass+server://x/y?v=1&user=a&token=b&pin=md5:x", "expect": null },
+    { "link": "pass+server://x/y?v=1&user=a&token=b&scheme=ftp", "expect": null },
+    { "link": "pass+server://x/y?v=1&user=a&token=%FF", "expect": null }
+  ]
+}

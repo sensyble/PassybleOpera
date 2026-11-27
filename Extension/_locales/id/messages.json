@@ -1,0 +1,3548 @@
+{
+  "catalogLocale": {
+    "message": "id"
+  },
+  "extName": {
+    "message": "Passyble"
+  },
+  "extDescription": {
+    "message": "Kata sandi, kode 2FA, dan kunci sandi dari aplikasi desktop Passyble, diisi otomatis di browser."
+  },
+  "actionTitle": {
+    "message": "Passyble"
+  },
+  "cmdOpenPopup": {
+    "message": "Buka Passyble dan cari di brankas Anda"
+  },
+  "cmdFillLogin": {
+    "message": "Isi info masuk untuk situs ini"
+  },
+  "cmdFillOtp": {
+    "message": "Isi atau tampilkan kode 2FA untuk situs ini"
+  },
+  "cmdScanQr": {
+    "message": "Pindai kode QR 2FA di halaman ini"
+  },
+  "cmdGenerate": {
+    "message": "Buat kata sandi (mengisi kolom yang aktif, atau menyalinnya)"
+  },
+  "cmdNewNote": {
+    "message": "Catatan aman baru"
+  },
+  "cmdLock": {
+    "message": "Kunci Passyble"
+  },
+  "cmdSync": {
+    "message": "Sinkronkan brankas Anda sekarang"
+  },
+  "cmdUseToolbar": {
+    "message": "Untuk melanjutkan, klik Passyble di bilah alat browser."
+  },
+  "cmdGeneratedCopied": {
+    "message": "Kata sandi kuat disalin (dihapus dalam 45 dtk)"
+  },
+  "cmdGeneratedCopiedByApp": {
+    "message": "Kata sandi kuat disalin oleh Passyble (dihapus dalam 45 dtk)"
+  },
+  "cmdGenerateCopyFailed": {
+    "message": "Tidak dapat menyalin kata sandi. Coba lagi."
+  },
+  "cmdLocked": {
+    "message": "Passyble terkunci."
+  },
+  "syncNow": {
+    "message": "Sinkronkan sekarang"
+  },
+  "syncSyncing": {
+    "message": "Menyinkronkan…"
+  },
+  "syncDone": {
+    "message": "Baru saja disinkronkan"
+  },
+  "syncFailed": {
+    "message": "$VAULT$ tidak tersinkron: $REASON$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$2",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedNoName": {
+    "message": "Tidak dapat menyinkronkan: $REASON$",
+    "placeholders": {
+      "reason": {
+        "content": "$1",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedMany_other": {
+    "message": "$COUNT$ brankas tidak tersinkron. $VAULT$: $REASON$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$3",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncVaultUnnamed": {
+    "message": "Brankas"
+  },
+  "syncNeedsUpdate": {
+    "message": "Perbarui aplikasi Passyble untuk menyinkronkan dari sini"
+  },
+  "syncNoneApp": {
+    "message": "Belum ada brankas yang disinkronkan. Siapkan di aplikasi Passyble."
+  },
+  "syncNoneBrowser": {
+    "message": "Belum ada brankas yang disinkronkan: brankas ini hanya ada di browser ini."
+  },
+  "commonCancel": {
+    "message": "Batal"
+  },
+  "commonSave": {
+    "message": "Simpan"
+  },
+  "commonUndo": {
+    "message": "Urungkan"
+  },
+  "commonDismiss": {
+    "message": "Tutup"
+  },
+  "commonClose": {
+    "message": "Tutup"
+  },
+  "commonMore": {
+    "message": "Lainnya"
+  },
+  "commonUsername": {
+    "message": "Nama pengguna"
+  },
+  "commonPassword": {
+    "message": "Kata sandi"
+  },
+  "commonNoUsername": {
+    "message": "(tanpa nama pengguna)"
+  },
+  "commonPasskey": {
+    "message": "Kunci sandi"
+  },
+  "commonBadge2fa": {
+    "message": "2FA"
+  },
+  "commonShowPassword": {
+    "message": "Tampilkan kata sandi"
+  },
+  "commonHidePassword": {
+    "message": "Sembunyikan kata sandi"
+  },
+  "commonOpenPassyble": {
+    "message": "Buka Passyble"
+  },
+  "commonOpenInPassyble": {
+    "message": "Buka di Passyble"
+  },
+  "commonOpenedInPassyble": {
+    "message": "Dibuka di Passyble"
+  },
+  "commonUnlockInApp": {
+    "message": "Buka kunci di aplikasi Passyble"
+  },
+  "commonConfirmHello": {
+    "message": "Konfirmasi dengan Windows Hello…"
+  },
+  "commonNoLoginForm": {
+    "message": "Formulir masuk tidak ditemukan di halaman ini."
+  },
+  "commonIdentity": {
+    "message": "Identitas"
+  },
+  "commonNameAndAddress": {
+    "message": "Nama dan alamat"
+  },
+  "creditSensyble": {
+    "message": "Dibuat oleh Sensyble"
+  },
+  "errAgentUnavailable": {
+    "message": "Passyble tidak berjalan."
+  },
+  "errTimeout": {
+    "message": "Passyble tidak menjawab. Periksa jendela Passyble yang terbuka."
+  },
+  "errExtensionReloaded": {
+    "message": "Passyble telah diperbarui. Muat ulang halaman ini untuk menggunakannya."
+  },
+  "errHostMissing": {
+    "message": "Tidak dapat terhubung ke Passyble. Periksa Passyble → Pengaturan → Isi otomatis."
+  },
+  "errLocked": {
+    "message": "Passyble terkunci. Buka kunci untuk melanjutkan."
+  },
+  "errUrlMismatch": {
+    "message": "Info masuk itu disimpan untuk situs yang berbeda."
+  },
+  "errCancelled": {
+    "message": "Dibatalkan."
+  },
+  "errNotFound": {
+    "message": "Belum ada yang tersimpan untuk situs ini."
+  },
+  "errNotSupported": {
+    "message": "Ini memerlukan aplikasi Passyble yang lebih baru. Perbarui Passyble, lalu coba lagi."
+  },
+  "errBadServerInput": {
+    "message": "Itu bukan alamat server atau tautan pass+server://."
+  },
+  "errAddressNeedsUpdate": {
+    "message": "Perbarui aplikasi desktop Passyble untuk menambahkan server dengan alamat, atau tempel tautan pass+server:// sebagai gantinya."
+  },
+  "errStartFailed": {
+    "message": "Buka Passyble dari menu Start."
+  },
+  "errEditNeedsUpdate": {
+    "message": "Perbarui Passyble untuk mengedit info masuk di sini."
+  },
+  "errRateLimited": {
+    "message": "Terlalu banyak perubahan. Tunggu sebentar."
+  },
+  "errWrongPassword": {
+    "message": "Kata sandi utama salah. Periksa Caps Lock lalu coba lagi."
+  },
+  "errTooManyAttempts": {
+    "message": "Terlalu banyak percobaan. Tunggu semenit, lalu coba lagi."
+  },
+  "errUnlockNeedsUpdate": {
+    "message": "Perbarui aplikasi desktop Passyble untuk membuka kunci di sini, atau buka kunci di Passyble."
+  },
+  "errUnlockFailed": {
+    "message": "Passyble tidak dapat membuka kunci. Coba lagi, atau buka kunci di aplikasi Passyble."
+  },
+  "errAliasNotSupported": {
+    "message": "Aplikasi Passyble ini tidak dapat membuat alias email. Pilih opsi lain."
+  },
+  "errFormsOff": {
+    "message": "Aktifkan “Tawarkan kartu dan alamat” di Pengaturan."
+  },
+  "errWebPagesOnly": {
+    "message": "Passyble hanya berfungsi di halaman web biasa."
+  },
+  "errPickInPopup": {
+    "message": "Pilih info masuk di popup Passyble terlebih dahulu."
+  },
+  "errNothingToSave": {
+    "message": "Permintaan simpan ini sudah kedaluwarsa. Masuk lagi untuk menyimpan info masuk."
+  },
+  "errNothingToUndo": {
+    "message": "Tidak ada lagi yang bisa diurungkan."
+  },
+  "errGenerateNotSetUp": {
+    "message": "Siapkan ini dulu di aplikasi desktop Passyble: buka Passyble → Pengaturan."
+  },
+  "errAliasRateLimited": {
+    "message": "Terlalu banyak alias baru. Tunggu sebentar."
+  },
+  "errGeneric": {
+    "message": "Terjadi kesalahan. Coba lagi."
+  },
+  "ctxFill": {
+    "message": "Isi dengan Passyble"
+  },
+  "ctxGenerate": {
+    "message": "Buat kata sandi"
+  },
+  "ctxGenerateNoSymbols": {
+    "message": "Buat kata sandi (hanya huruf dan angka)"
+  },
+  "ctxGenerateUsername": {
+    "message": "Buat nama pengguna"
+  },
+  "ctxGenerateAlias": {
+    "message": "Buat alias email"
+  },
+  "commonCreatingAlias": {
+    "message": "Membuat alias email…"
+  },
+  "badgeLogins_other": {
+    "message": "Passyble: $COUNT$ info masuk untuk situs ini",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "badgeLoginsLocked_other": {
+    "message": "Passyble (terkunci): $COUNT$ info masuk untuk situs ini",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "badgeLocked": {
+    "message": "Passyble terkunci"
+  },
+  "badgeNotRunning": {
+    "message": "Aplikasi desktop Passyble tidak berjalan"
+  },
+  "bgNewPasswordTitle": {
+    "message": "$SITE$ (kata sandi baru)",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "bgFormsNeedHttps": {
+    "message": "Passyble hanya mengisi kartu dan alamat di halaman aman (https)"
+  },
+  "bgCannotRunHere": {
+    "message": "Passyble tidak dapat berjalan di halaman ini"
+  },
+  "bgPageTooLarge": {
+    "message": "Halaman terlalu besar untuk dipindai"
+  },
+  "popupLock": {
+    "message": "Kunci Passyble"
+  },
+  "popupMoreOptions": {
+    "message": "Opsi lainnya"
+  },
+  "popupLoading": {
+    "message": "Memuat"
+  },
+  "popupStatusLocked": {
+    "message": "Terkunci. Klik untuk membuka kunci"
+  },
+  "popupLockedTitle": {
+    "message": "Passyble terkunci"
+  },
+  "popupMasterPassword": {
+    "message": "Kata sandi utama"
+  },
+  "popupUnlock": {
+    "message": "Buka kunci"
+  },
+  "popupUseHello": {
+    "message": "Gunakan Windows Hello"
+  },
+  "popupHelloOrPassword": {
+    "message": "Konfirmasi dengan Windows Hello, atau ketik kata sandi utama Anda."
+  },
+  "popupUnlockEmpty": {
+    "message": "Masukkan kata sandi utama Anda."
+  },
+  "popupUnlocking": {
+    "message": "Membuka kunci…"
+  },
+  "popupWaitingWindow": {
+    "message": "Menunggu jendela Passyble…"
+  },
+  "popupOfflineTitle": {
+    "message": "Passyble tidak berjalan"
+  },
+  "popupHostTitle": {
+    "message": "Passyble tidak dapat dijangkau"
+  },
+  "popupStart": {
+    "message": "Jalankan Passyble"
+  },
+  "popupStarting": {
+    "message": "Menjalankan Passyble…"
+  },
+  "popupStartWait": {
+    "message": "Ini dapat memakan waktu beberapa detik."
+  },
+  "popupRetry": {
+    "message": "Coba lagi"
+  },
+  "popupSetupGuide": {
+    "message": "Panduan penyiapan"
+  },
+  "popupBack": {
+    "message": "Kembali"
+  },
+  "popupBackEsc": {
+    "message": "Kembali (Esc)"
+  },
+  "popupAddServer": {
+    "message": "Tambahkan Passyble Server"
+  },
+  "popupSettings": {
+    "message": "Pengaturan"
+  },
+  "popupQuickSettings": {
+    "message": "Pengaturan cepat"
+  },
+  "popupMoreSettings": {
+    "message": "Pengaturan lainnya"
+  },
+  "settingInlineMenu": {
+    "message": "Menu sebaris"
+  },
+  "settingInlineMenuDetails": {
+    "message": "Menampilkan ikon dan menu Passyble di kolom info masuk."
+  },
+  "settingAutoSuggest": {
+    "message": "Buka saran secara otomatis"
+  },
+  "settingAutoSuggestDetails": {
+    "message": "Nonaktif: tekan ↓ atau klik ikonnya."
+  },
+  "settingAutoGenerate": {
+    "message": "Sarankan kata sandi yang kuat"
+  },
+  "settingAutoGenerateDetails": {
+    "message": "Nonaktif: tetap ada di menu."
+  },
+  "settingAutoFillOtp": {
+    "message": "Isi otomatis kode 2FA"
+  },
+  "settingAutoFillOtpDetails": {
+    "message": "Mengisi kode di langkah berikutnya, tidak pernah mengirim."
+  },
+  "settingSaveBanner": {
+    "message": "Tawarkan untuk menyimpan info masuk"
+  },
+  "settingFormFill": {
+    "message": "Tawarkan kartu dan alamat"
+  },
+  "settingFormFillDetails": {
+    "message": "Hanya di halaman aman (https)."
+  },
+  "revealCaption": {
+    "message": "Kata sandi yang dibuat"
+  },
+  "settingPasskeys": {
+    "message": "Gunakan Passyble untuk kunci sandi"
+  },
+  "settingPasskeysDetails": {
+    "message": "Nonaktif: dialog bawaan browser."
+  },
+  "settingAutoPasskey": {
+    "message": "Tawarkan masuk dengan kunci sandi"
+  },
+  "popupSearch": {
+    "message": "Cari"
+  },
+  "popupSearchLabel": {
+    "message": "Cari info masuk"
+  },
+  "popupSearchVault": {
+    "message": "Cari di brankas"
+  },
+  "popupSiteLogins": {
+    "message": "Info masuk untuk situs ini"
+  },
+  "popupAddLogin": {
+    "message": "Tambahkan info masuk"
+  },
+  "popupInVault": {
+    "message": "Di brankas Anda"
+  },
+  "popupVaultLogins": {
+    "message": "Info masuk di brankas Anda"
+  },
+  "popupCardsAndAddresses": {
+    "message": "Kartu dan alamat"
+  },
+  "popupNothingHere": {
+    "message": "Tidak ada yang dapat diisi di sini"
+  },
+  "popupNoSiteMatches": {
+    "message": "Tidak ada yang cocok di situs ini."
+  },
+  "popupNoSiteLogins": {
+    "message": "Belum ada info masuk untuk situs ini."
+  },
+  "popupNoOtherMatches": {
+    "message": "Tidak ada info masuk lain yang cocok."
+  },
+  "popupSearchNeedsUpdate": {
+    "message": "Perbarui aplikasi desktop Passyble untuk mencari di seluruh brankas Anda."
+  },
+  "popupLookUp": {
+    "message": "Cari $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "popupLoginsFor": {
+    "message": "Info masuk untuk $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "popupLookingUp": {
+    "message": "Mencari…"
+  },
+  "popupNothingForSite": {
+    "message": "Tidak ada yang tersimpan untuk situs itu."
+  },
+  "popupSearchKeywordsCard": {
+    "message": "kartu"
+  },
+  "popupSearchKeywordsIdentity": {
+    "message": "alamat identitas"
+  },
+  "popupUntitled": {
+    "message": "(tanpa judul)"
+  },
+  "popupUntitledLogin": {
+    "message": "info masuk"
+  },
+  "popupMoreFor": {
+    "message": "Lainnya untuk $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupEdit": {
+    "message": "Edit"
+  },
+  "popupCopyUsername": {
+    "message": "Salin nama pengguna"
+  },
+  "popupCopyPassword": {
+    "message": "Salin kata sandi"
+  },
+  "popupCopyPasswordOf": {
+    "message": "Salin kata sandi $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupCopyOtp": {
+    "message": "Salin kode 2FA"
+  },
+  "popupFillHere": {
+    "message": "Isi di halaman ini"
+  },
+  "popupFillItem": {
+    "message": "Isi $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupFillHereConfirm": {
+    "message": "Isi di halaman ini (Passyble bertanya dulu)"
+  },
+  "popupFillItemHere": {
+    "message": "Isi $NAME$ di halaman ini",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupConfirmFill": {
+    "message": "Konfirmasi di aplikasi Passyble untuk mengisi."
+  },
+  "popupOtpCode": {
+    "message": "Kode 2FA"
+  },
+  "popupNextStepOtp": {
+    "message": "Langkah berikutnya: kode 2FA"
+  },
+  "popupOtpStep": {
+    "message": "Langkah 2FA"
+  },
+  "popupOtpPillLabel": {
+    "message": "Kode 2FA, klik untuk menyalin"
+  },
+  "popupOtpLockedTitle": {
+    "message": "Buka kunci untuk menyalin kode 2FA"
+  },
+  "popupOtpLockedLabel": {
+    "message": "Kode 2FA, terkunci. Klik untuk membuka kunci dan menyalin"
+  },
+  "popupCopyFailed": {
+    "message": "Tidak dapat menyalin"
+  },
+  "popupCopiedUsername": {
+    "message": "Nama pengguna disalin"
+  },
+  "popupCopiedPassword": {
+    "message": "Kata sandi disalin"
+  },
+  "popupCopiedPasswordClears": {
+    "message": "Kata sandi disalin (dihapus dalam 45 dtk)"
+  },
+  "popupCopiedOtp": {
+    "message": "Kode 2FA disalin"
+  },
+  "popupCopiedOtpClears": {
+    "message": "Kode 2FA disalin (dihapus dalam 45 dtk)"
+  },
+  "popupCopiedExpiry": {
+    "message": "Tanggal kedaluwarsa disalin"
+  },
+  "popupCopiedExpiryClears": {
+    "message": "Tanggal kedaluwarsa disalin (dihapus dalam 45 dtk)"
+  },
+  "popupCopiedCardNumber": {
+    "message": "Nomor kartu disalin"
+  },
+  "popupCopiedCardNumberClears": {
+    "message": "Nomor kartu disalin (dihapus dalam 45 dtk)"
+  },
+  "popupCopiedSecurityCode": {
+    "message": "Kode keamanan disalin"
+  },
+  "popupCopiedSecurityCodeClears": {
+    "message": "Kode keamanan disalin (dihapus dalam 45 dtk)"
+  },
+  "popupCopiedName": {
+    "message": "Nama disalin"
+  },
+  "popupCopiedEmail": {
+    "message": "Email disalin"
+  },
+  "popupCopiedPhone": {
+    "message": "Telepon disalin"
+  },
+  "popupCopiedAddress": {
+    "message": "Alamat disalin"
+  },
+  "popupCopiedByAppPassword": {
+    "message": "Kata sandi disalin oleh Passyble (dihapus dalam 45 dtk)"
+  },
+  "popupCopiedByAppOtp": {
+    "message": "Kode 2FA disalin oleh Passyble (dihapus dalam 45 dtk)"
+  },
+  "popupNotCopiedUsername": {
+    "message": "Nama pengguna tidak disalin"
+  },
+  "popupNotCopiedPassword": {
+    "message": "Kata sandi tidak disalin"
+  },
+  "popupNotCopiedOtp": {
+    "message": "Kode 2FA tidak disalin"
+  },
+  "popupNotCopiedCardNumber": {
+    "message": "Nomor kartu tidak disalin"
+  },
+  "popupNotCopiedSecurityCode": {
+    "message": "Kode keamanan tidak disalin"
+  },
+  "popupCopyNeedsUpdate": {
+    "message": "Perbarui aplikasi desktop Passyble untuk menyalin dari hasil pencarian."
+  },
+  "popupCopyCardNumber": {
+    "message": "Salin nomor kartu"
+  },
+  "popupCopyNumberOf": {
+    "message": "Salin nomor $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Visa •••• 4242"
+      }
+    }
+  },
+  "popupCopyExpiry": {
+    "message": "Salin tanggal kedaluwarsa"
+  },
+  "popupCopySecurityCode": {
+    "message": "Salin kode keamanan"
+  },
+  "popupCardNoNumber": {
+    "message": "Kartu ini tidak memiliki nomor kartu."
+  },
+  "popupCardNoSecurityCode": {
+    "message": "Kartu ini tidak memiliki kode keamanan."
+  },
+  "popupCardsNeedUpdate": {
+    "message": "Perbarui aplikasi desktop Passyble untuk menyalin detail kartu."
+  },
+  "popupCopyName": {
+    "message": "Salin nama"
+  },
+  "popupCopyEmail": {
+    "message": "Salin email"
+  },
+  "popupCopyPhone": {
+    "message": "Salin telepon"
+  },
+  "popupCopyAddress": {
+    "message": "Salin alamat"
+  },
+  "popupCopyEmailOf": {
+    "message": "Salin email $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Ada Lovelace"
+      }
+    }
+  },
+  "popupCopyNameOf": {
+    "message": "Salin nama $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Ada Lovelace"
+      }
+    }
+  },
+  "popupNoNameSaved": {
+    "message": "Tidak ada nama tersimpan."
+  },
+  "popupNoEmailSaved": {
+    "message": "Tidak ada email tersimpan."
+  },
+  "popupNoPhoneSaved": {
+    "message": "Tidak ada telepon tersimpan."
+  },
+  "popupNoAddressSaved": {
+    "message": "Tidak ada alamat tersimpan."
+  },
+  "popupDeleted": {
+    "message": "$NAME$ dihapus",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupRestored": {
+    "message": "Dipulihkan"
+  },
+  "editorAddLogin": {
+    "message": "Tambahkan info masuk"
+  },
+  "editorEditLogin": {
+    "message": "Edit info masuk"
+  },
+  "editorTitle": {
+    "message": "Judul"
+  },
+  "editorTotp": {
+    "message": "2FA"
+  },
+  "editorWebsites": {
+    "message": "Situs web"
+  },
+  "editorWebsite": {
+    "message": "Situs web"
+  },
+  "editorMoreDetails": {
+    "message": "Detail lainnya",
+    "description": "Popup editor: the button that shows or hides a login's other websites, 2FA, notes and vault (closed for a new login)."
+  },
+  "editorAddWebsite": {
+    "message": "Tambahkan situs web"
+  },
+  "editorRemoveWebsite": {
+    "message": "Hapus situs web"
+  },
+  "editorNotes": {
+    "message": "Catatan"
+  },
+  "editorNotesCount": {
+    "message": "$COUNT$ dari $MAX$ karakter",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "18,500"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20,000"
+      }
+    }
+  },
+  "editorGenerate": {
+    "message": "Buat kata sandi"
+  },
+  "editorGenerateUsername": {
+    "message": "Buat nama pengguna"
+  },
+  "editorGenRandomUsername": {
+    "message": "Nama pengguna acak"
+  },
+  "editorGenPlus": {
+    "message": "Alamat plus"
+  },
+  "editorGenCatchAll": {
+    "message": "Alamat catch-all"
+  },
+  "editorGenAlias": {
+    "message": "Alias email ($SERVICE$)",
+    "placeholders": {
+      "service": {
+        "content": "$1",
+        "example": "SimpleLogin"
+      }
+    }
+  },
+  "editorGenMentionWebsite": {
+    "message": "Sebutkan situs web ini"
+  },
+  "editorMoreActions": {
+    "message": "Tindakan lainnya"
+  },
+  "editorLoginActions": {
+    "message": "Tindakan info masuk"
+  },
+  "editorDelete": {
+    "message": "Hapus info masuk"
+  },
+  "editorSaved": {
+    "message": "Tersimpan"
+  },
+  "editorLoginFallback": {
+    "message": "Info masuk"
+  },
+  "editorShowCode": {
+    "message": "Tampilkan kode saat ini"
+  },
+  "editorSecondsLeft": {
+    "message": "$SECONDS$ dtk",
+    "placeholders": {
+      "seconds": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "editorTotpOn": {
+    "message": "2FA aktif"
+  },
+  "editorTotpNew": {
+    "message": "Baru · disimpan saat Simpan"
+  },
+  "editorTotpNewNamed": {
+    "message": "Baru: $NAME$ · disimpan saat Simpan",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub · octocat"
+      }
+    }
+  },
+  "editorRemoveTotp": {
+    "message": "Hapus 2FA"
+  },
+  "editorAddTotp": {
+    "message": "Tambahkan 2FA"
+  },
+  "editorTotpRemoved": {
+    "message": "2FA dihapus saat Simpan"
+  },
+  "editorSecretPlaceholder": {
+    "message": "Kunci rahasia atau tautan otpauth://"
+  },
+  "editorSecretLabel": {
+    "message": "Kunci rahasia 2FA atau tautan otpauth"
+  },
+  "editorScanQr": {
+    "message": "Pindai QR di halaman ini"
+  },
+  "editorAdd": {
+    "message": "Tambahkan"
+  },
+  "editorNoQr": {
+    "message": "Tidak ada kode QR 2FA di halaman ini."
+  },
+  "editorCantReadPage": {
+    "message": "Passyble tidak dapat membaca halaman ini."
+  },
+  "editorOpenQrPageFirst": {
+    "message": "Buka dulu halaman yang berisi kode QR."
+  },
+  "editorTotpInvalid": {
+    "message": "Kunci rahasia 2FA itu tidak valid. Periksa lalu coba lagi."
+  },
+  "editorRuleMenu": {
+    "message": "Isi otomatis di situs ini"
+  },
+  "editorRuleSubdomains": {
+    "message": "Subdomain"
+  },
+  "editorRuleSubdomainsDetail": {
+    "message": "Situs ini dan semua subdomainnya. Bawaan."
+  },
+  "editorRuleHost": {
+    "message": "Hanya host yang sama"
+  },
+  "editorRuleHostDetail": {
+    "message": "Hanya alamat persis ini, bukan subdomain lainnya."
+  },
+  "editorRuleNever": {
+    "message": "Jangan tampilkan"
+  },
+  "editorRuleNeverDetail": {
+    "message": "Tidak pernah disarankan atau diisi sendiri. Tetap ada di pencarian."
+  },
+  "editorRuleSuggested": {
+    "message": "Disarankan"
+  },
+  "editorRuleBadgeHost": {
+    "message": "Host sama"
+  },
+  "editorRuleBadgeNever": {
+    "message": "Tersembunyi"
+  },
+  "editorPopularSites": {
+    "message": "Situs populer"
+  },
+  "serverKindPairing": {
+    "message": "Tautan pemasangan perangkat"
+  },
+  "serverKindInvite": {
+    "message": "Tautan masuk: Anda akan masuk di aplikasi Passyble"
+  },
+  "serverKindAddress": {
+    "message": "Alamat server: Anda akan masuk di aplikasi Passyble"
+  },
+  "serverHint": {
+    "message": "Alamat server atau tautan pass+server://."
+  },
+  "serverSignInOpened": {
+    "message": "Passyble membuka jendela masuk. Selesaikan di sana."
+  },
+  "serverInputLabel": {
+    "message": "Alamat atau tautan Passyble Server"
+  },
+  "serverContinue": {
+    "message": "Lanjutkan"
+  },
+  "serverContinueTitle": {
+    "message": "Lanjutkan di Passyble (Enter)"
+  },
+  "serverRowServer": {
+    "message": "Server"
+  },
+  "serverRowAddress": {
+    "message": "Alamat"
+  },
+  "serverRowNext": {
+    "message": "Berikutnya"
+  },
+  "serverNextSignIn": {
+    "message": "Masuk di aplikasi Passyble"
+  },
+  "serverRowLink": {
+    "message": "Tautan"
+  },
+  "serverRowAccount": {
+    "message": "Akun"
+  },
+  "serverRowDevice": {
+    "message": "Perangkat"
+  },
+  "serverDeviceUnnamed": {
+    "message": "(tanpa nama)"
+  },
+  "serverRowCertificate": {
+    "message": "Sertifikat"
+  },
+  "serverCertLinked": {
+    "message": "Ditandatangani sendiri, diverifikasi oleh tautan ini"
+  },
+  "serverCertPublic": {
+    "message": "Sertifikat tepercaya secara publik"
+  },
+  "serverCertNone": {
+    "message": "Tidak ada (tidak terenkripsi)"
+  },
+  "serverRowPassword": {
+    "message": "Kata sandi"
+  },
+  "serverPasswordAsked": {
+    "message": "Diminta di aplikasi Passyble"
+  },
+  "serverRowToken": {
+    "message": "Kunci masuk"
+  },
+  "serverTokenIncluded": {
+    "message": "Disertakan (tersembunyi)"
+  },
+  "serverHttpWarning": {
+    "message": "Koneksi ini tidak terenkripsi. Gunakan hanya untuk server di komputer ini, jaringan rumah Anda, atau VPN."
+  },
+  "serverOpening": {
+    "message": "Membuka Passyble…"
+  },
+  "serverCheckWindow": {
+    "message": "Periksa jendela Passyble untuk menyelesaikan koneksi ke $HOST$ sebagai $USER$.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "pass.example.com"
+      },
+      "user": {
+        "content": "$2",
+        "example": "ada"
+      }
+    }
+  },
+  "pairBadPercent": {
+    "message": "Tautan ini rusak. Salin lagi seluruh tautan dan tempel di sini."
+  },
+  "pairAddressEmpty": {
+    "message": "Masukkan alamat Passyble Server Anda, seperti pass.example.com."
+  },
+  "pairAddressTooLong": {
+    "message": "Itu terlalu panjang untuk menjadi alamat server."
+  },
+  "pairAddressSpaces": {
+    "message": "Alamat server tidak mengandung spasi. Tempel alamatnya saja, seperti pass.example.com."
+  },
+  "pairAddressScheme": {
+    "message": "Alamat server diawali dengan https:// (atau tanpa awalan), seperti https://pass.example.com."
+  },
+  "pairAddressCredentials": {
+    "message": "Alamat server tidak boleh berisi nama pengguna atau kata sandi."
+  },
+  "pairAddressEmail": {
+    "message": "Itu terlihat seperti alamat email. Tempel alamat server (seperti pass.example.com) sebagai gantinya."
+  },
+  "pairAddressQuery": {
+    "message": "Tempel alamat servernya saja, misalnya pass.example.com, tanpa bagian lain dari alamat web."
+  },
+  "pairAddressInvalid": {
+    "message": "Itu bukan alamat server yang valid. Gunakan yang seperti pass.example.com atau https://pass.example.com:8443."
+  },
+  "pairInputEmpty": {
+    "message": "Tempel alamat Passyble Server Anda atau tautan pass+server://."
+  },
+  "pairLinkEmpty": {
+    "message": "Tempel tautan pemasangan terlebih dahulu."
+  },
+  "pairLinkTooLong": {
+    "message": "Ini terlalu panjang untuk tautan Passyble Server. Salin tautannya saja, lalu coba lagi."
+  },
+  "pairLinkPrefix": {
+    "message": "Ini bukan tautan Passyble Server. Tempel tautan yang diawali dengan pass+server://"
+  },
+  "pairLinkAddress": {
+    "message": "Tautan ini tidak memiliki alamat server yang valid. Buat tautan baru di server, lalu coba lagi."
+  },
+  "pairLinkScheme": {
+    "message": "Tautan ini rusak. Buat tautan baru di server, lalu coba lagi."
+  },
+  "pairLinkNoVersion": {
+    "message": "Tautan ini tidak lengkap. Buat tautan baru di server, lalu coba lagi."
+  },
+  "pairLinkVersion": {
+    "message": "Tautan ini berasal dari Passyble Server yang lebih baru. Perbarui Passyble, lalu coba lagi."
+  },
+  "pairLinkPin": {
+    "message": "Tautan ini rusak atau memerlukan Passyble yang lebih baru. Perbarui Passyble, atau buat tautan baru di server."
+  },
+  "pairLinkNoUser": {
+    "message": "Tautan ini tidak menyebutkan akun yang digunakan. Buat tautan baru di server, lalu coba lagi."
+  },
+  "pairLinkEmptyToken": {
+    "message": "Tautan pemasangan ini tidak lengkap. Buat tautan baru di server, lalu coba lagi."
+  },
+  "pairLinkTokenAndCode": {
+    "message": "Tautan ini rusak. Buat tautan baru di server, lalu coba lagi."
+  },
+  "pairLinkNoPath": {
+    "message": "Tautan pemasangan ini tidak lengkap. Buat tautan baru di server, lalu coba lagi."
+  },
+  "pairLinkCodes": {
+    "message": "Tautan masuk ini rusak. Buat tautan baru di server, lalu coba lagi."
+  },
+  "optionsPageTitle": {
+    "message": "Pengaturan Passyble"
+  },
+  "optionsTitle": {
+    "message": "Pengaturan"
+  },
+  "optionsAutofill": {
+    "message": "Isi otomatis"
+  },
+  "optionsNeverSaveTitle": {
+    "message": "Situs tanpa permintaan simpan"
+  },
+  "optionsNeverSaveEmpty": {
+    "message": "Belum ada"
+  },
+  "optionsRemove": {
+    "message": "Hapus"
+  },
+  "optionsRemoveSite": {
+    "message": "Hapus $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "optionsRemoveSiteTitle": {
+    "message": "Tanyakan lagi untuk menyimpan info masuk di $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "optionsRemoved": {
+    "message": "Dihapus"
+  },
+  "optionsRemoveFailed": {
+    "message": "Tidak dapat menghapusnya"
+  },
+  "optionsSaved": {
+    "message": "Tersimpan"
+  },
+  "optionsPasskeys": {
+    "message": "Kunci sandi"
+  },
+  "optionsShortcuts": {
+    "message": "Pintasan keyboard"
+  },
+  "optionsServerHeading": {
+    "message": "Passyble Server"
+  },
+  "optionsShortcutFillLogin": {
+    "message": "Isi info masuk"
+  },
+  "optionsShortcutFillOtp": {
+    "message": "Isi atau tampilkan kode 2FA"
+  },
+  "optionsShortcutOpenPopup": {
+    "message": "Buka Passyble dan cari"
+  },
+  "optionsShortcutNotSet": {
+    "message": "belum diatur"
+  },
+  "optionsShortcutHelpFirefox": {
+    "message": "Ubah di about:addons → menu roda gigi → Kelola Pintasan Ekstensi."
+  },
+  "optionsShortcutScanQr": {
+    "message": "Pindai kode QR"
+  },
+  "optionsShortcutGenerate": {
+    "message": "Buat kata sandi"
+  },
+  "optionsShortcutNewNote": {
+    "message": "Catatan aman baru"
+  },
+  "optionsShortcutLock": {
+    "message": "Kunci"
+  },
+  "optionsShortcutSync": {
+    "message": "Sinkronkan sekarang"
+  },
+  "optionsShortcutRecord": {
+    "message": "Ubah"
+  },
+  "optionsShortcutRecordLabel": {
+    "message": "Ubah pintasan untuk $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Scan QR code"
+      }
+    }
+  },
+  "optionsShortcutReset": {
+    "message": "Atur ulang"
+  },
+  "optionsShortcutResetLabel": {
+    "message": "Atur ulang pintasan untuk $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Scan QR code"
+      }
+    }
+  },
+  "optionsShortcutRecording": {
+    "message": "Tekan tombol baru"
+  },
+  "optionsShortcutHelpFirefoxRecord": {
+    "message": "Klik Ubah, lalu tekan tombol baru. Esc membatalkan, Backspace menghapus pintasan."
+  },
+  "optionsShortcutNeedsModifier": {
+    "message": "Tahan Ctrl atau Alt (di Mac: Command, Option, atau Control) lalu tekan huruf, angka, atau tombol fungsi."
+  },
+  "optionsShortcutBadKey": {
+    "message": "Tombol itu tidak dapat dipakai untuk pintasan. Gunakan huruf, angka, atau tombol fungsi."
+  },
+  "optionsShortcutRefused": {
+    "message": "Firefox tidak menerima pintasan itu. Mungkin sudah dipakai."
+  },
+  "optionsAbout": {
+    "message": "Tentang"
+  },
+  "optionsDesktopApp": {
+    "message": "Aplikasi desktop Passyble"
+  },
+  "optionsNotChecked": {
+    "message": "Belum diperiksa"
+  },
+  "optionsChecking": {
+    "message": "Memeriksa…"
+  },
+  "optionsConnected": {
+    "message": "Terhubung · $APP$ · $STATE$",
+    "placeholders": {
+      "app": {
+        "content": "$1",
+        "example": "Passyble 1.4.0"
+      },
+      "state": {
+        "content": "$2",
+        "example": "unlocked"
+      }
+    }
+  },
+  "optionsStateLocked": {
+    "message": "terkunci"
+  },
+  "optionsStateUnlocked": {
+    "message": "terbuka"
+  },
+  "optionsStart": {
+    "message": "Jalankan"
+  },
+  "optionsStarting": {
+    "message": "Menjalankan Passyble… Ini dapat memakan waktu beberapa detik."
+  },
+  "optionsCheck": {
+    "message": "Periksa"
+  },
+  "optionsOpenGuide": {
+    "message": "Buka"
+  },
+  "optionsVersion": {
+    "message": "Versi"
+  },
+  "welcomePageTitle": {
+    "message": "Selamat datang di Passyble"
+  },
+  "welcomeTitle": {
+    "message": "Siapkan Passyble"
+  },
+  "welcomeSetupHeading": {
+    "message": "Mulai"
+  },
+  "welcomeAllSetTitle": {
+    "message": "Semua sudah siap"
+  },
+  "welcomeStepDone": {
+    "message": "Selesai"
+  },
+  "welcomeInstallTitle": {
+    "message": "Pasang Passyble untuk Windows"
+  },
+  "welcomeDownload": {
+    "message": "Unduh"
+  },
+  "welcomeInstallRetryHint": {
+    "message": "Sudah terpasang? Buka, lalu coba lagi."
+  },
+  "welcomeStartTitle": {
+    "message": "Jalankan Passyble"
+  },
+  "welcomeStartNoVault": {
+    "message": "Terhubung setelah ada brankas."
+  },
+  "welcomeVaultTitle": {
+    "message": "Buat atau buka kunci brankas Anda"
+  },
+  "welcomeAccessTitle": {
+    "message": "Izinkan Passyble di situs web"
+  },
+  "welcomeAccessButton": {
+    "message": "Izinkan akses"
+  },
+  "welcomeAccessDeniedChromium": {
+    "message": "Tidak diizinkan. Aktifkan di $PAGE$ → Passyble → Akses situs.",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "chrome://extensions"
+      }
+    }
+  },
+  "welcomeAccessDeniedFirefox": {
+    "message": "Tidak diizinkan. Aktifkan di about:addons → Passyble → Izin."
+  },
+  "welcomePinTitle": {
+    "message": "Sematkan Passyble ke bilah alat"
+  },
+  "welcomePinChrome": {
+    "message": "Kepingan puzzle → pin di samping Passyble."
+  },
+  "welcomePinEdge": {
+    "message": "Kepingan puzzle → ikon mata di samping Passyble."
+  },
+  "welcomePinOpera": {
+    "message": "Ikon kubus → pin di samping Passyble."
+  },
+  "welcomePinFirefox": {
+    "message": "Kepingan puzzle → roda gigi di samping Passyble → Sematkan ke Bilah Alat."
+  },
+  "welcomePinMark": {
+    "message": "Sudah saya sematkan"
+  },
+  "welcomeTipsTitle": {
+    "message": "Cara menggunakan Passyble"
+  },
+  "welcomeOpenSettings": {
+    "message": "Buka pengaturan"
+  },
+  "menuLoading": {
+    "message": "Memuat…"
+  },
+  "menuNoLogins": {
+    "message": "Tidak ada info masuk untuk situs ini."
+  },
+  "menuNoMatches": {
+    "message": "Tidak ada info masuk yang cocok."
+  },
+  "menuLocked": {
+    "message": "Passyble terkunci."
+  },
+  "menuUnlock": {
+    "message": "Buka kunci Passyble"
+  },
+  "menuUnlockHello": {
+    "message": "Buka kunci dengan Windows Hello"
+  },
+  "menuUnlockPassword": {
+    "message": "Masukkan kata sandi utama"
+  },
+  "menuUnlockToFill": {
+    "message": "Buka kunci Passyble untuk mengisi $NAME$.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "menuUnlockToFillOtp": {
+    "message": "Buka kunci Passyble untuk mengisi kode 2FA $NAME$.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "menuUnlockToSee": {
+    "message": "Buka kunci Passyble untuk melihat info masuk Anda."
+  },
+  "menuUnlockingInApp": {
+    "message": "Buka kunci di aplikasi Passyble…"
+  },
+  "menuHelloCancelled": {
+    "message": "Windows Hello dibatalkan."
+  },
+  "menuUsePassword": {
+    "message": "Gunakan kata sandi utama saja"
+  },
+  "menuHelloCancelledPassword": {
+    "message": "Windows Hello dibatalkan. Masukkan kata sandi utama Anda."
+  },
+  "unlockFrameTitle": {
+    "message": "Kata sandi utama Passyble"
+  },
+  "unlockFrameNote": {
+    "message": "Situs web ini tidak bisa melihat apa yang Anda ketik."
+  },
+  "menuHeadingLocked": {
+    "message": "Passyble · terkunci"
+  },
+  "menuHeadingOtp": {
+    "message": "Passyble · 2FA"
+  },
+  "menuHeadingOtpLocked": {
+    "message": "Passyble · 2FA · terkunci"
+  },
+  "menuHeadingCards": {
+    "message": "Passyble · Kartu"
+  },
+  "menuHeadingCardsLocked": {
+    "message": "Passyble · Kartu · terkunci"
+  },
+  "menuHeadingAddresses": {
+    "message": "Passyble · Alamat"
+  },
+  "menuHeadingAddressesLocked": {
+    "message": "Passyble · Alamat · terkunci"
+  },
+  "menuNoCards": {
+    "message": "Tidak ada kartu di Passyble."
+  },
+  "menuNoAddresses": {
+    "message": "Tidak ada alamat di Passyble."
+  },
+  "menuNoOtp": {
+    "message": "Tidak ada kode 2FA untuk situs ini."
+  },
+  "menuFillOtp": {
+    "message": "Isi kode 2FA"
+  },
+  "menuOtpCodeFor": {
+    "message": "Kode 2FA · $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      }
+    }
+  },
+  "menuPasskeyFor": {
+    "message": "Masuk dengan kunci sandi · $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      }
+    }
+  },
+  "passkeyPromptTitle": {
+    "message": "Masuk dengan kunci sandi Anda?"
+  },
+  "passkeyPromptChoose": {
+    "message": "Pilih kunci sandi untuk masuk"
+  },
+  "passkeyPromptSignIn": {
+    "message": "Masuk"
+  },
+  "passkeyPromptUnlockSignIn": {
+    "message": "Buka kunci dan masuk"
+  },
+  "passkeyPromptSignInAs": {
+    "message": "Masuk sebagai $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "passkeyPromptSigningIn": {
+    "message": "Sedang masuk…"
+  },
+  "passkeyPromptUnlocking": {
+    "message": "Membuka kunci Passyble…"
+  },
+  "passkeyPromptTitleLocked": {
+    "message": "Masuk dengan kunci sandi Passyble?"
+  },
+  "passkeyPromptLockedFull": {
+    "message": "Passyble terkunci. Buka kuncinya untuk menggunakan kunci sandi Anda untuk situs ini."
+  },
+  "passkeyElsewhere": {
+    "message": "Gunakan perangkat lain"
+  },
+  "passkeySaveTitle": {
+    "message": "Simpan kunci sandi untuk $SITE$ di Passyble?",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "passkeySaveKeepWith": {
+    "message": "Simpan bersama"
+  },
+  "passkeySaveNewLogin": {
+    "message": "Info masuk baru"
+  },
+  "passkeySaveLoginUser": {
+    "message": "$TITLE$ · $USERNAME$",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "Example"
+      },
+      "username": {
+        "content": "$2",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "passkeySaveVault": {
+    "message": "Brankas: $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Personal"
+      }
+    }
+  },
+  "passkeySaveButton": {
+    "message": "Simpan kunci sandi"
+  },
+  "passkeySaveUnlock": {
+    "message": "Buka kunci dan simpan"
+  },
+  "passkeySaveSaving": {
+    "message": "Menyimpan kunci sandi…"
+  },
+  "passkeyUnlock": {
+    "message": "Buka kunci"
+  },
+  "passkeyNoneTitle": {
+    "message": "Tidak ada kunci sandi Passyble untuk situs ini"
+  },
+  "passkeyNoneNotice": {
+    "message": "Tidak ada kunci sandi untuk $SITE$ di Passyble",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "passkeyNotRunningTitle": {
+    "message": "Passyble tidak berjalan"
+  },
+  "passkeyOpening": {
+    "message": "Membuka Passyble…"
+  },
+  "passkeyErrorTitle": {
+    "message": "Passyble tidak dapat menjawab saat ini"
+  },
+  "passkeyTryAgain": {
+    "message": "Coba lagi"
+  },
+  "passkeyFrameTitle": {
+    "message": "Passyble tidak dapat menjawab di sini"
+  },
+  "passkeyNeedsVerification": {
+    "message": "Situs ini memerlukan Windows Hello, yang tidak dapat digunakan Passyble saat ini."
+  },
+  "menuUnlockToSignIn": {
+    "message": "Buka kunci Passyble untuk masuk sebagai $ACCOUNT$.",
+    "placeholders": {
+      "account": {
+        "content": "$1",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "menuGenerateEntry": {
+    "message": "Buat kata sandi yang kuat"
+  },
+  "menuGenerateNoSymbolsSub": {
+    "message": "Tanpa karakter khusus, untuk situs yang menolaknya"
+  },
+  "menuGenerateSymbolsSub": {
+    "message": "Dengan karakter khusus"
+  },
+  "menuGenerateTitle": {
+    "message": "Buat kata sandi yang kuat dan simpan ke Passyble"
+  },
+  "menuGenerateLabel": {
+    "message": "Buat dan simpan kata sandi yang kuat"
+  },
+  "menuGenerated": {
+    "message": "Kata sandi yang dibuat"
+  },
+  "menuGeneratedHidden": {
+    "message": "Kata sandi yang dibuat (tersembunyi)"
+  },
+  "genOptionsButton": {
+    "message": "Opsi kata sandi"
+  },
+  "genOptionsTitle": {
+    "message": "Pembuat kata sandi"
+  },
+  "genOptionsEntry": {
+    "message": "Opsi kata sandi"
+  },
+  "genOptionsEntrySub": {
+    "message": "Panjang, jenis karakter, frasa sandi"
+  },
+  "genPassphraseEntry": {
+    "message": "Buat frasa sandi"
+  },
+  "genModeLabel": {
+    "message": "Yang dibuat"
+  },
+  "genModePassword": {
+    "message": "Kata sandi"
+  },
+  "genModePassphrase": {
+    "message": "Frasa sandi"
+  },
+  "genLength": {
+    "message": "Panjang"
+  },
+  "genWords": {
+    "message": "Kata"
+  },
+  "genTypes": {
+    "message": "Jenis karakter"
+  },
+  "genUppercase": {
+    "message": "Huruf besar (A-Z)"
+  },
+  "genLowercase": {
+    "message": "Huruf kecil (a-z)"
+  },
+  "genDigits": {
+    "message": "Angka (0-9)"
+  },
+  "genSymbols": {
+    "message": "Karakter khusus (!@#)"
+  },
+  "genHyphensChip": {
+    "message": "Tanda hubung"
+  },
+  "genHyphens": {
+    "message": "Tanda hubung di antara kata"
+  },
+  "genRegenerate": {
+    "message": "Buat ulang"
+  },
+  "genDone": {
+    "message": "Selesai"
+  },
+  "genNoteNoSymbols": {
+    "message": "Situs ini tidak menerima karakter khusus."
+  },
+  "genNoteMaxLength_other": {
+    "message": "Situs ini menerima paling banyak $COUNT$ karakter.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "16"
+      }
+    }
+  },
+  "genNoteMinLength_other": {
+    "message": "Situs ini membutuhkan minimal $COUNT$ karakter.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "24"
+      }
+    }
+  },
+  "genNotePassphraseTooLong": {
+    "message": "Frasa sandi tidak muat dalam batas panjang situs ini, jadi yang dibuat adalah kata sandi."
+  },
+  "genNoteLettersDigits": {
+    "message": "Tanpa jenis karakter yang aktif, huruf dan angka akan digunakan."
+  },
+  "menuPasswordStrength_other": {
+    "message": "$STRENGTH$ · $COUNT$ karakter",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "20"
+      },
+      "strength": {
+        "content": "$2",
+        "example": "Strong"
+      }
+    }
+  },
+  "menuNotRunningGenerate": {
+    "message": "Jalankan Passyble sebelum mengirim agar tersimpan."
+  },
+  "menuFormsNeedUpdate": {
+    "message": "Perbarui Passyble untuk mengisi kartu dan alamat."
+  },
+  "menuFormChanged": {
+    "message": "Formulir berubah. Pilih lagi."
+  },
+  "strengthVeryStrong": {
+    "message": "Sangat kuat"
+  },
+  "strengthStrong": {
+    "message": "Kuat"
+  },
+  "strengthFair": {
+    "message": "Cukup"
+  },
+  "strengthWeak": {
+    "message": "Lemah"
+  },
+  "noticeNoOtp": {
+    "message": "Tidak ada kode 2FA yang tersimpan untuk situs ini."
+  },
+  "toastOtpTitle": {
+    "message": "Kode 2FA · $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "toastCopy": {
+    "message": "Salin"
+  },
+  "toastCopyTitle": {
+    "message": "Salin kode 2FA"
+  },
+  "toastCopied": {
+    "message": "Disalin"
+  },
+  "toastCopyFailed": {
+    "message": "Gagal menyalin"
+  },
+  "toastShowDesktop": {
+    "message": "Tampilkan di desktop"
+  },
+  "toastShowDesktopTitle": {
+    "message": "Tampilkan di desktop (di aplikasi Passyble)"
+  },
+  "toastShownDesktop": {
+    "message": "Ditampilkan di aplikasi desktop Passyble."
+  },
+  "toastSecondsLeft_other": {
+    "message": "Sisa $COUNT$ dtk",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "toastRefreshFailed": {
+    "message": "Tidak dapat memperbarui kode. $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "toastFilledSaveLater": {
+    "message": "Kata sandi terisi. Passyble menawarkan untuk menyimpannya saat dikirim."
+  },
+  "toastFilledNotSaved": {
+    "message": "Kata sandi terisi, belum disimpan. $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "toastDraftSaved": {
+    "message": "Disimpan di Passyble"
+  },
+  "toastDraftUpdated": {
+    "message": "Diperbarui di Passyble"
+  },
+  "toastDraftChangeDetail": {
+    "message": "Disimpan sebagai info masuk terpisah sampai Anda mengirim perubahan."
+  },
+  "toastDraftRemoved": {
+    "message": "Dihapus dari Passyble."
+  },
+  "toastAutoUpdated": {
+    "message": "Kata sandi diperbarui di Passyble"
+  },
+  "toastAutoRestored": {
+    "message": "Kata sandi sebelumnya dipulihkan."
+  },
+  "bannerSave": {
+    "message": "Simpan info masuk ke Passyble?"
+  },
+  "bannerUpdatePassword": {
+    "message": "Perbarui kata sandi di Passyble?"
+  },
+  "bannerUpdateUsername": {
+    "message": "Perbarui nama pengguna di Passyble?"
+  },
+  "bannerUserOnSite": {
+    "message": "$USERNAME$ di $SITE$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      },
+      "site": {
+        "content": "$2",
+        "example": "github.com"
+      }
+    }
+  },
+  "bannerUpdate": {
+    "message": "Perbarui"
+  },
+  "bannerNotNow": {
+    "message": "Nanti saja"
+  },
+  "bannerEdit": {
+    "message": "Edit"
+  },
+  "bannerKeepPassword": {
+    "message": "Pertahankan kata sandi yang Anda ketik"
+  },
+  "bannerEditFrameTitle": {
+    "message": "Nama pengguna dan kata sandi Passyble"
+  },
+  "bannerNever": {
+    "message": "Jangan untuk situs ini"
+  },
+  "bannerSaving": {
+    "message": "Menyimpan…"
+  },
+  "bannerSaved": {
+    "message": "Disimpan di Passyble."
+  },
+  "bannerPasswordUpdated": {
+    "message": "Kata sandi diperbarui."
+  },
+  "bannerUsernameUpdated": {
+    "message": "Nama pengguna diperbarui."
+  },
+  "bannerAlreadySaved": {
+    "message": "Sudah disimpan."
+  },
+  "bannerSaveFailed": {
+    "message": "Tidak dapat menyimpan. $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "bannerNeverDone": {
+    "message": "Tidak akan bertanya lagi di situs ini."
+  },
+  "bannerNeverFailed": {
+    "message": "Tidak dapat menyimpan itu. $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Something went wrong. Try again."
+      }
+    }
+  },
+  "cardsCard": {
+    "message": "Kartu"
+  },
+  "cardsBadge": {
+    "message": "KARTU"
+  },
+  "browserAutofillOff": {
+    "message": "Isi otomatis browser dimatikan."
+  },
+  "browserAutofillBack": {
+    "message": "Isi otomatis browser aktif kembali."
+  },
+  "issueListLabel": {
+    "message": "Pemeriksaan kata sandi"
+  },
+  "issueCommon": {
+    "message": "Ini salah satu kata sandi yang paling umum."
+  },
+  "issueWeak": {
+    "message": "Kata sandi ini mudah ditebak."
+  },
+  "issueReused_other": {
+    "message": "Anda memakai kata sandi ini untuk $COUNT$ info masuk lain.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "issueUsedBefore": {
+    "message": "Anda pernah memakai kata sandi ini untuk info masuk ini."
+  },
+  "issueContainsUsername": {
+    "message": "Kata sandi ini berisi nama pengguna Anda."
+  },
+  "issueContainsSite": {
+    "message": "Kata sandi ini berisi nama situs."
+  },
+  "issueShort": {
+    "message": "Pendek: gunakan minimal $MIN$ karakter.",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "issueUseStrong": {
+    "message": "Ganti dengan kata sandi yang kuat"
+  },
+  "issueStrong": {
+    "message": "Kuat"
+  },
+  "errNoVault": {
+    "message": "Belum ada brankas di browser ini."
+  },
+  "errVerificationRequired": {
+    "message": "Konfirmasi bahwa ini Anda dengan kata sandi utama, lalu coba lagi."
+  },
+  "errPasskeysNeedApp": {
+    "message": "Untuk saat ini, kunci sandi memerlukan aplikasi Passyble."
+  },
+  "errBackupFirst": {
+    "message": "Unduh salinan terlebih dahulu."
+  },
+  "popupUseBrowserVault": {
+    "message": "Simpan brankas di browser ini"
+  },
+  "popupNoVaultTitle": {
+    "message": "Belum ada brankas"
+  },
+  "vaultCreate": {
+    "message": "Buat brankas"
+  },
+  "popupAskConfirm": {
+    "message": "Konfirmasi"
+  },
+  "popupAskFillButton": {
+    "message": "Isi"
+  },
+  "popupDismiss": {
+    "message": "Tutup"
+  },
+  "popupStatusLockedBrowser": {
+    "message": "Terkunci (brankas di browser ini). Klik untuk membuka kunci"
+  },
+  "popupVerifyTitle": {
+    "message": "Konfirmasi bahwa ini Anda"
+  },
+  "popupCardConfirmTitle": {
+    "message": "Isi kartu ini?"
+  },
+  "popupCardConfirmText": {
+    "message": "Isi $CARD$ di $SITE$?",
+    "placeholders": {
+      "card": {
+        "content": "$1",
+        "example": "Visa •••• 4242"
+      },
+      "site": {
+        "content": "$2",
+        "example": "shop.example.com"
+      }
+    }
+  },
+  "popupThisCard": {
+    "message": "kartu ini"
+  },
+  "popupCrossConfirmTitle": {
+    "message": "Isi info masuk situs lain?"
+  },
+  "popupCrossConfirmText": {
+    "message": "Isi $LOGIN$ hanya jika Anda memercayai $SITE$.",
+    "placeholders": {
+      "login": {
+        "content": "$1",
+        "example": "GitHub"
+      },
+      "site": {
+        "content": "$2",
+        "example": "github.example.net"
+      }
+    }
+  },
+  "popupLookalikeTag": {
+    "message": "Situs mirip"
+  },
+  "popupLookalikeHint": {
+    "message": "$HOST$ terlihat seperti $SITE$, tetapi merupakan situs lain.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeTitle": {
+    "message": "Ini mungkin situs palsu"
+  },
+  "popupLookalikeFillText": {
+    "message": "$HOST$ bukan $SITE$, meskipun alamatnya terlihat mirip. Situs phishing melakukan ini untuk mencuri info masuk. Isi info masuk Anda hanya jika Anda yakin ini situs yang benar.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeCopyText": {
+    "message": "$HOST$ bukan $SITE$, meskipun alamatnya terlihat mirip. Situs phishing melakukan ini untuk mencuri info masuk. Salin info masuk Anda hanya jika Anda yakin ini situs yang benar.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeFillButton": {
+    "message": "Tetap isi"
+  },
+  "popupLookalikeCopyButton": {
+    "message": "Tetap salin"
+  },
+  "popupIntlHost": {
+    "message": "Alamat internasional: $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "xn--bcher-kva.example"
+      }
+    }
+  },
+  "bannerLookalike": {
+    "message": "$HOST$ bukan $SITE$, meskipun alamatnya terlihat mirip. Simpan hanya jika Anda memercayai situs ini.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "commonIntlAddress": {
+    "message": "Alamat internasional"
+  },
+  "passkeyBrowserVaultTitle": {
+    "message": "Untuk saat ini kunci sandi memerlukan aplikasi Passyble"
+  },
+  "welcomeVaultHeading": {
+    "message": "Brankas Anda"
+  },
+  "welcomeChoiceExisting": {
+    "message": "Gunakan brankas di browser ini"
+  },
+  "welcomeRepeatPassword": {
+    "message": "Ulangi kata sandi utama"
+  },
+  "welcomeCreateWarning": {
+    "message": "Passyble tidak bisa mengatur ulang kata sandi utama Anda. Catatlah."
+  },
+  "welcomeCreateButton": {
+    "message": "Buat brankas"
+  },
+  "welcomeVaultFile": {
+    "message": "File brankas (.vault)"
+  },
+  "welcomeOpenButton": {
+    "message": "Buka brankas"
+  },
+  "welcomeVaultReadyTitle": {
+    "message": "Brankas Anda siap"
+  },
+  "welcomeUseBrowserInstead": {
+    "message": "Simpan brankas di browser ini saja"
+  },
+  "vaultMasterTooShort": {
+    "message": "Gunakan minimal $MIN$ karakter.",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "vaultMasterCommon": {
+    "message": "Ini salah satu kata sandi yang paling umum. Pilih yang lain."
+  },
+  "vaultMasterContainsName": {
+    "message": "Jangan sertakan alamat email, nama pengguna, dan nama brankas Anda."
+  },
+  "vaultMasterPattern": {
+    "message": "Hindari karakter berulang, urutan seperti abcd atau 1234, dan baris keyboard seperti qwerty."
+  },
+  "vaultMasterGuessable": {
+    "message": "Terlalu mudah ditebak. Tambahkan lebih banyak kata atau karakter acak: empat kata atau lebih yang tidak saling berhubungan sudah bagus."
+  },
+  "vaultMasterStrongEnough": {
+    "message": "$STRENGTH$: cukup kuat untuk kata sandi utama.",
+    "placeholders": {
+      "strength": {
+        "content": "$1",
+        "example": "Baik"
+      }
+    }
+  },
+  "vaultStrengthOk": {
+    "message": "Baik"
+  },
+  "vaultStrengthStrong": {
+    "message": "Kuat"
+  },
+  "welcomePasswordsDiffer": {
+    "message": "Kata sandi tidak cocok. Ketik ulang."
+  },
+  "welcomeCreating": {
+    "message": "Membuat brankas Anda…"
+  },
+  "welcomeVaultExists": {
+    "message": "Sudah ada brankas di browser ini. Gunakan, atau hapus dulu di Pengaturan."
+  },
+  "welcomePickFile": {
+    "message": "Pilih file brankas terlebih dahulu."
+  },
+  "welcomeNotVaultFile": {
+    "message": "Ini bukan file brankas Passyble."
+  },
+  "optionsVaultModeHeading": {
+    "message": "Brankas"
+  },
+  "optionsVaultHeading": {
+    "message": "Brankas di browser ini"
+  },
+  "optionsAutoLock": {
+    "message": "Kunci setelah"
+  },
+  "optionsAutoLockDetails": {
+    "message": "Selalu terkunci saat browser ditutup."
+  },
+  "optionsAutoLockMinutes": {
+    "message": "$COUNT$ menit",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "optionsAutoLockBrowserClose": {
+    "message": "Hanya saat browser ditutup"
+  },
+  "optionsLockOnIdle": {
+    "message": "Kunci saat komputer terkunci"
+  },
+  "optionsVerifyEachFill": {
+    "message": "Konfirmasi setiap pengisian"
+  },
+  "optionsVerifyEachFillDetails": {
+    "message": "Meminta kata sandi utama Anda setiap kali."
+  },
+  "optionsDeleteVault": {
+    "message": "Hapus brankas"
+  },
+  "optionsDelete": {
+    "message": "Hapus"
+  },
+  "optionsDeleteWarn": {
+    "message": "Menghapus brankas di browser ini secara permanen."
+  },
+  "optionsMasterTipBody": {
+    "message": "Kata sandi utama Anda lebih mudah ditebak daripada yang sekarang diizinkan Passyble untuk kata sandi utama baru. Kata sandi ini tetap berfungsi."
+  },
+  "optionsDeleteForGood": {
+    "message": "Hapus permanen"
+  },
+  "optionsDeleted": {
+    "message": "Brankas dihapus dari browser ini"
+  },
+  "optionsModeBrowser": {
+    "message": "Di browser ini"
+  },
+  "optionsModeApp": {
+    "message": "Di aplikasi Passyble"
+  },
+  "optionsModeBrowserLocked": {
+    "message": "Terkunci"
+  },
+  "optionsModeBrowserUnlocked": {
+    "message": "Tidak terkunci"
+  },
+  "optionsModeBrowserNone": {
+    "message": "Belum ada brankas"
+  },
+  "optionsUseApp": {
+    "message": "Gunakan aplikasi"
+  },
+  "optionsUseBrowserVault": {
+    "message": "Gunakan brankas di browser ini"
+  },
+  "welcomeGetApp": {
+    "message": "Dapatkan aplikasi Windows"
+  },
+  "optionsShortcutChange": {
+    "message": "Ubah"
+  },
+  "accountSignIn": {
+    "message": "Masuk"
+  },
+  "accountSignOut": {
+    "message": "Keluar"
+  },
+  "accountTitle": {
+    "message": "Akun"
+  },
+  "accountSignedInAs": {
+    "message": "Masuk sebagai $EMAIL$",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "ada@example.com"
+      }
+    }
+  },
+  "accountSignInFailed": {
+    "message": "Gagal masuk. Coba lagi."
+  },
+  "accountCloudSoon": {
+    "message": "Penyimpanan Passyble Cloud segera hadir."
+  },
+  "accountUseDrive": {
+    "message": "Gunakan Google Drive"
+  },
+  "accountViaApp": {
+    "message": "Masuk melalui aplikasi Passyble di komputer ini"
+  },
+  "accountSignOutAppToo": {
+    "message": "Keluar juga dari aplikasi Passyble di komputer ini"
+  },
+  "accountOtherInBrowser": {
+    "message": "Aplikasi Passyble masuk sebagai $APP$; browser ini sebagai $BROWSER$.",
+    "placeholders": {
+      "app": {
+        "content": "$1",
+        "example": "ada@example.com"
+      },
+      "browser": {
+        "content": "$2",
+        "example": "grace@example.com"
+      }
+    }
+  },
+  "accountUseAppAccount": {
+    "message": "Gunakan akun aplikasi"
+  },
+  "optionsDownloadCopy": {
+    "message": "Unduh salinan"
+  },
+  "vaultCopySaved": {
+    "message": "Salinan disimpan."
+  },
+  "popupLockedText": {
+    "message": "Buka kunci untuk mengisi info masuk Anda di situs ini."
+  },
+  "popupOfflineText": {
+    "message": "Jalankan aplikasi Passyble di komputer ini untuk mengisi info masuk Anda di sini."
+  },
+  "popupNoVaultText": {
+    "message": "Buat brankas di browser ini, atau gunakan aplikasi Passyble untuk sinkronisasi Google Drive."
+  },
+  "optionsLead": {
+    "message": "Cara Passyble mengisi, menyimpan, dan masuk di browser ini."
+  },
+  "optionsVaultModeLead": {
+    "message": "Tempat brankas yang dipakai browser ini untuk mengisi disimpan."
+  },
+  "optionsAutofillLead": {
+    "message": "Yang ditawarkan Passyble di kolom info masuk situs web."
+  },
+  "optionsNeverSaveLead": {
+    "message": "Passyble tidak akan menawarkan untuk menyimpan info masuk atau kartu di situs berikut."
+  },
+  "optionsPasskeysLead": {
+    "message": "Masuk ke situs web dengan kunci sandi di brankas Anda."
+  },
+  "optionsShortcutsLead": {
+    "message": "Tombol yang berfungsi di halaman mana pun di browser ini."
+  },
+  "optionsServerLead": {
+    "message": "Server yang dijalankan tim atau keluarga Anda. Aplikasi Passyble masuk ke server tersebut."
+  },
+  "optionsAboutLead": {
+    "message": "Ekstensi ini dan aplikasi Passyble yang bekerja dengannya."
+  },
+  "welcomeLead": {
+    "message": "Beberapa langkah, lalu Passyble mengisi info masuk Anda di browser ini."
+  },
+  "popupHostText": {
+    "message": "Periksa Passyble → Pengaturan → Isi otomatis, lalu coba lagi."
+  },
+  "popupOnThisSite": {
+    "message": "Di situs ini"
+  },
+  "settingSaveBannerDetails": {
+    "message": "Menawarkan untuk menyimpan info masuk setelah Anda masuk."
+  },
+  "settingAutoPasskeyDetails": {
+    "message": "Menampilkan panel saat situs meminta kunci sandi."
+  },
+  "welcomeChoiceDriveText": {
+    "message": "Memerlukan aplikasi Passyble di komputer ini."
+  },
+  "welcomeChoiceSignInText": {
+    "message": "Akun Passyble Anda, untuk Passyble Cloud, Family, dan Team."
+  },
+  "welcomeChoiceExistingText": {
+    "message": "Brankas yang sudah ada di browser ini."
+  },
+  "welcomeChoiceAppText": {
+    "message": "Brankas Anda tetap di aplikasi Passyble di PC ini."
+  },
+  "welcomeAllSetLead": {
+    "message": "Passyble mengisi info masuk Anda di browser ini. Klik ikonnya di bilah alat kapan saja."
+  },
+  "welcomeDone": {
+    "message": "Selesai"
+  },
+  "popupNoSiteLoginsText": {
+    "message": "Tambahkan sekarang, atau Passyble akan menawarkan untuk menyimpannya saat Anda masuk."
+  },
+  "popupNothingHereText": {
+    "message": "Cari di brankas Anda untuk menyalin info masuk."
+  },
+  "optionsAppRowTitle": {
+    "message": "Aplikasi Passyble"
+  },
+  "optionsAppRowText": {
+    "message": "Simpan brankas di aplikasi Passyble di komputer ini."
+  },
+  "commonOr": {
+    "message": "atau"
+  },
+  "commonNoSymbols": {
+    "message": "Hanya huruf dan angka"
+  },
+  "welcomeRecommended": {
+    "message": "Disarankan"
+  },
+  "passkeySaveShort": {
+    "message": "Simpan kunci sandi?"
+  },
+  "serverAddressLabel": {
+    "message": "Alamat server"
+  },
+  "welcomeStepOf": {
+    "message": "Langkah $CURRENT$ dari $TOTAL$",
+    "placeholders": {
+      "current": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "4"
+      }
+    }
+  },
+  "optionsStorage": {
+    "message": "Penyimpanan"
+  },
+  "optionsLocking": {
+    "message": "Penguncian"
+  },
+  "optionsDownloadCopyText": {
+    "message": "File brankas terenkripsi (.vault). Hanya bisa dibuka dengan kata sandi utama Anda."
+  },
+  "optionsSaveFile": {
+    "message": "Simpan file"
+  },
+  "passkeySaveVaultNamed": {
+    "message": "Di $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Work vault"
+      }
+    }
+  },
+  "updateRequiredTitle": {
+    "message": "Pembaruan diperlukan"
+  },
+  "updateRequiredText": {
+    "message": "Versi Passyble ini tidak lagi didukung. Perbarui agar tetap bisa mengisi dan menyimpan kata sandi."
+  },
+  "updateNow": {
+    "message": "Perbarui"
+  },
+  "updateViewPasswords": {
+    "message": "Lihat kata sandi saya"
+  },
+  "updateReadOnlyTitle": {
+    "message": "Kata sandi Anda"
+  },
+  "updateReadOnlyNote": {
+    "message": "Ekstensi Passyble dalam mode hanya baca sampai Anda memperbaruinya. Anda tetap bisa melihat dan menyalin kata sandi Anda."
+  },
+  "updateAvailable": {
+    "message": "Versi baru Passyble tersedia."
+  },
+  "updateChecking": {
+    "message": "Memeriksa pembaruan…"
+  },
+  "updateInstalling": {
+    "message": "Memasang pembaruan…"
+  },
+  "updateSearchHint": {
+    "message": "Ketik minimal 2 karakter untuk menemukan info masuk."
+  },
+  "errAppUpdateRequired": {
+    "message": "Perbarui aplikasi Passyble agar tetap bisa mengisi."
+  },
+  "errExtensionUpdateRequired": {
+    "message": "Perbarui ekstensi Passyble agar tetap bisa mengisi."
+  },
+  "driveSyncTitle": {
+    "message": "Sinkronisasi Google Drive"
+  },
+  "driveNeedsAppTitle": {
+    "message": "Sinkronisasi Google Drive memerlukan aplikasi Passyble di komputer ini"
+  },
+  "driveNeedsAppText": {
+    "message": "Aplikasi Passyble masuk ke Google dan menjaga brankas Anda tetap tersinkron. Pasang aplikasinya, aktifkan Google Drive di aplikasi, lalu Passyble di browser ini akan mengisi dari brankas aplikasi."
+  },
+  "driveNeedsAppMove": {
+    "message": "Untuk membawa brankas dari browser ini, unduh salinan di Pengaturan lalu buka di aplikasi Passyble."
+  },
+  "driveNeedsAppShort": {
+    "message": "Sinkronisasi Google Drive perlu aplikasi"
+  },
+  "driveRecordText": {
+    "message": "Brankas ini disinkronkan dengan Google Drive di versi lama. Brankas ini tetap berfungsi di browser ini; untuk menyinkronkannya lagi, gunakan aplikasi Passyble."
+  },
+  "driveDownloadApp": {
+    "message": "Unduh aplikasi Passyble"
+  },
+  "driveCheckAgain": {
+    "message": "Periksa lagi"
+  },
+  "driveAppFound": {
+    "message": "Aplikasi Passyble ada di komputer ini. Gunakan aplikasinya, lalu aktifkan Google Drive di aplikasi."
+  },
+  "driveAppMissing": {
+    "message": "Aplikasi Passyble belum ada di komputer ini."
+  },
+  "driveTurnOnInApp": {
+    "message": "Untuk sinkronisasi Google Drive, buka Pengaturan di aplikasi Passyble, lalu Sinkronisasi, dan aktifkan Google Drive."
+  },
+  "welcomeChoiceCreate": {
+    "message": "Buat brankas di browser ini"
+  },
+  "welcomeChoiceCreateText": {
+    "message": "Hanya disimpan di perangkat ini. Tanpa aplikasi."
+  },
+  "welcomeChoiceOpen": {
+    "message": "Buka file brankas"
+  },
+  "welcomeChoiceOpenText": {
+    "message": "Salinan dari perangkat lain, atau cadangan."
+  },
+  "localOnlyTitle": {
+    "message": "Brankas ini hanya ada di perangkat ini"
+  },
+  "localOnlyBody": {
+    "message": "Jika perangkat ini hilang, dicuri, rusak, atau direset, kata sandi di brankas ini akan hilang selamanya. Aktifkan sinkronisasi atau pencadangan (Google Drive gratis), atau ekspor salinan cadangan secara rutin."
+  },
+  "localOnlyCreateNotice": {
+    "message": "Hanya di perangkat ini. Jika perangkat ini hilang, kata sandi ini juga hilang. Anda bisa mengaktifkan pencadangan Google Drive sekarang atau nanti."
+  },
+  "localOnlySetUpSync": {
+    "message": "Siapkan sinkronisasi"
+  },
+  "localOnlyNotNow": {
+    "message": "Nanti saja"
+  },
+  "localOnlyDetails": {
+    "message": "Apa artinya ini"
+  },
+  "errReadOnly": {
+    "message": "Anda dapat memakai login di brankas ini, tetapi tidak dapat mengubahnya."
+  },
+  "errFillOnly": {
+    "message": "Login ini dapat diisi, tetapi tidak dapat ditampilkan atau disalin."
+  },
+  "bannerSaveIn": {
+    "message": "Simpan di"
+  },
+  "bannerMyVault": {
+    "message": "Pribadi"
+  },
+  "bannerInVault": {
+    "message": "Di $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupAllVaults": {
+    "message": "Semua brankas"
+  },
+  "popupPinVault": {
+    "message": "Sematkan brankas",
+    "description": "Popup: a vault row's context menu in the Filter menu or the vault switcher: pin that vault, so it comes right after the current vault in every vault list."
+  },
+  "popupUnpinVault": {
+    "message": "Lepas sematan brankas",
+    "description": "Popup: a pinned vault row's context menu in the Filter menu or the vault switcher: take its pin off."
+  },
+  "popupFilter": {
+    "message": "Filter",
+    "description": "Popup: the Filter button next to the search box while the list shows everything, and the name of its menu (vaults and kinds of item)."
+  },
+  "popupFilterShowing": {
+    "message": "Filter: $FILTER$",
+    "description": "Popup: tooltip and screen reader name of the Filter button while the list is narrowed. $FILTER$ is what it shows, e.g. \"Engineering · 2FA\".",
+    "placeholders": {
+      "filter": {
+        "content": "$1",
+        "example": "Engineering · 2FA"
+      }
+    }
+  },
+  "popupFilterVaults": {
+    "message": "Brankas",
+    "description": "Popup, Filter menu: heading of the section that picks the vault shown."
+  },
+  "popupFilterShow": {
+    "message": "Tampilkan",
+    "description": "Popup, Filter menu: heading of the section that picks the kind of item shown (All, Logins, 2FA, ...)."
+  },
+  "popupFilterClear": {
+    "message": "Hapus filter",
+    "description": "Popup: the x beside the Filter button and the last entry of its menu: show every vault and every kind again."
+  },
+  "popupPinNamed": {
+    "message": "Sematkan $VAULT$",
+    "description": "Popup, a vault's row in the Filter menu or the vault switcher: its pin button. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupUnpinNamed": {
+    "message": "Lepas sematan $VAULT$",
+    "description": "Popup, a pinned vault's row in the Filter menu or the vault switcher: its pin button takes the pin off. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupVaultPinned": {
+    "message": "Disematkan",
+    "description": "Popup: what a screen reader hears after a pinned vault's name in a vault list."
+  },
+  "popupPinLimit": {
+    "message": "Anda dapat menyematkan hingga $COUNT$ brankas. Lepas sematan salah satunya dulu.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "popupNoLoginsInVault": {
+    "message": "Tidak ada info masuk untuk situs ini di $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupSwitchVault": {
+    "message": "Ganti brankas"
+  },
+  "popupSwitchUnlockInApp": {
+    "message": "Buka kunci $VAULT$ di aplikasi Passyble",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Work"
+      }
+    }
+  },
+  "popupMovedTo": {
+    "message": "Dipindahkan ke $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "editorVault": {
+    "message": "Brankas"
+  },
+  "editorMove": {
+    "message": "Pindahkan"
+  },
+  "editorMoveConfirm": {
+    "message": "Pindahkan $TITLE$ ke $VAULT$? Semua orang yang punya akses ke $VAULT$ akan melihatnya.",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Engineering"
+      }
+    }
+  },
+  "teamsFillOnly": {
+    "message": "Hanya isi"
+  },
+  "teamsOpenInPassyble": {
+    "message": "Buka di Passyble"
+  },
+  "teamsNeedsUpdate": {
+    "message": "Perbarui aplikasi Passyble untuk membuka Tim dan Keluarga dari sini."
+  },
+  "teamsLineErrors_other": {
+    "message": "$COUNT$ tidak dapat dibuka",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineConfirm_other": {
+    "message": "$COUNT$ orang perlu dikonfirmasi",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineInvites_other": {
+    "message": "$COUNT$ undangan",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsRoleManage": {
+    "message": "Dapat mengelola"
+  },
+  "teamsRoleEdit": {
+    "message": "Dapat mengedit"
+  },
+  "teamsRoleView": {
+    "message": "Dapat melihat"
+  },
+  "teamsRoleFill": {
+    "message": "Dapat mengisi"
+  },
+  "teamsErrNoKeyset": {
+    "message": "Siapkan berbagi di aplikasi Passyble terlebih dahulu"
+  },
+  "teamsErrNotMember": {
+    "message": "Anda tidak lagi memiliki akses"
+  },
+  "teamsErrKeysMismatch": {
+    "message": "Dibagikan dengan kunci lain dari akun Anda"
+  },
+  "teamsErrUntrusted": {
+    "message": "Bandingkan sidik jari pengelola di aplikasi Passyble"
+  },
+  "teamsErrRollback": {
+    "message": "Salinan yang lebih lama dari yang dimiliki perangkat ini"
+  },
+  "teamsErrReadOnlyMember": {
+    "message": "Peran Anda tidak mengizinkan perubahan"
+  },
+  "teamsErrSubscriptionInactive": {
+    "message": "Hanya baca: paket tidak aktif"
+  },
+  "teamsErrAccountSuspended": {
+    "message": "Akun Anda ditangguhkan"
+  },
+  "teamsErrNetwork": {
+    "message": "Tidak dapat menjangkau server"
+  },
+  "teamsErrInternal": {
+    "message": "Brankas ini tidak dapat dibuka"
+  },
+  "teamsErrVaultLimit": {
+    "message": "Paket Anda tidak menampung lebih banyak brankas di Passyble Cloud. Gunakan Google Drive, WebDAV, atau folder untuk menambah, atau ganti paket."
+  },
+  "teamsOpenConsole": {
+    "message": "Kelola di situs web"
+  },
+  "teamsRuleSecondTitle": {
+    "message": "Tim Anda mewajibkan kata sandi kedua"
+  },
+  "teamsRuleSecondBrowser": {
+    "message": "Browser ini tidak dapat memberi brankasnya kata sandi kedua, jadi di sini Anda dapat memakai item tim ini, tetapi tidak dapat mengubahnya. Gunakan aplikasi Passyble di Windows atau Android, atau tanyakan admin tim Anda."
+  },
+  "teamsRuleOneTitle": {
+    "message": "Tim Anda memakai satu kata sandi"
+  },
+  "teamsRuleOneBrowser": {
+    "message": "$VAULT$ masih memiliki kata sandinya sendiri, dan browser ini tidak dapat menggantinya dengan kata sandi Passyble Anda. Gunakan aplikasi Passyble di Windows atau Android, atau tanyakan admin tim Anda.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Personal"
+      }
+    }
+  },
+  "teamsConfirm": {
+    "message": "Konfirmasi"
+  },
+  "teamsConfirmHint": {
+    "message": "Minta mereka membacakan sidik jari dari aplikasi Passyble mereka, lalu ketik di sini."
+  },
+  "teamsConfirmPlaceholder": {
+    "message": "Sidik jari yang dibacakan"
+  },
+  "teamsConfirmTyped": {
+    "message": "Sidik jari $PERSON$",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsConfirmed": {
+    "message": "$PERSON$ sudah dikonfirmasi",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsConfirmList": {
+    "message": "Orang yang perlu dikonfirmasi"
+  },
+  "teamsKeysChanged": {
+    "message": "Kunci $PERSON$ berubah. Bandingkan sidik jari baru dengan $PERSON$ sebelum memberi akses.",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsLeftOut": {
+    "message": "Bandingkan sidik jari dengan $PERSON$ untuk memberi akses.",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsFingerprintMismatch": {
+    "message": "Sidik jari itu tidak cocok. Bandingkan lagi dengan orangnya."
+  },
+  "teamsKeysWrong": {
+    "message": "Kunci yang dikirim layanan tidak cocok dengan sidik jari ini. Tidak ada yang diubah."
+  },
+  "teamsSignerList": {
+    "message": "Brankas bersama yang perlu diverifikasi"
+  },
+  "teamsSignerUnverified": {
+    "message": "$VAULT$ belum diverifikasi",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsSignerHint": {
+    "message": "Minta pengelola yang membagikannya membacakan sidik jari dari aplikasi Passyble mereka. Verifikasi hanya jika sama dengan ini:"
+  },
+  "teamsSignerChanged": {
+    "message": "$VAULT$: kunci pengelola berubah",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsSignerChangedHint": {
+    "message": "Ini bukan kunci yang Anda verifikasi. Jangan andalkan brankas ini sampai Anda membandingkan sidik jari baru dengan pengelolanya:"
+  },
+  "teamsSignerVerify": {
+    "message": "Cocok"
+  },
+  "teamsSignerVerified": {
+    "message": "$VAULT$ sudah diverifikasi",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsLineHeld_other": {
+    "message": "$COUNT$ ditahan",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineDeviceWaiting": {
+    "message": "browser ini menunggu persetujuan di perangkat lain"
+  },
+  "optionsHelpSupport": {
+    "message": "Bantuan dan dukungan"
+  },
+  "popupHelpSupport": {
+    "message": "Bantuan dan dukungan"
+  },
+  "qaGroupLabel": {
+    "message": "Tindakan cepat"
+  },
+  "qaScanQr": {
+    "message": "Pindai QR"
+  },
+  "qaScanQrTitle": {
+    "message": "Tambahkan kode QR 2FA yang tampil di halaman ini"
+  },
+  "qaNewNote": {
+    "message": "Catatan baru"
+  },
+  "qaNewNoteTitle": {
+    "message": "Tambahkan catatan aman, misalnya kode pemulihan"
+  },
+  "qaGenerate": {
+    "message": "Buat"
+  },
+  "qaGenerateTitle": {
+    "message": "Buat kata sandi yang kuat"
+  },
+  "qaNoQr": {
+    "message": "Tidak ada kode QR yang terlihat di halaman ini. Gulir hingga kodenya terlihat, lalu coba lagi."
+  },
+  "qaNotAuthenticator": {
+    "message": "Kode QR ini bukan untuk aplikasi autentikator."
+  },
+  "qaMigration": {
+    "message": "Kode QR ini adalah ekspor Google Authenticator. Impor di aplikasi Passyble."
+  },
+  "qaHotp": {
+    "message": "Kode QR ini untuk kode berbasis penghitung (HOTP), yang tidak didukung Passyble."
+  },
+  "qaInvalidQr": {
+    "message": "Kode QR 2FA ini tidak dapat dibaca. Tambahkan kodenya dengan kunci rahasia saja."
+  },
+  "qaAddTotpHeading": {
+    "message": "Tambahkan kode 2FA"
+  },
+  "qaUnnamedCode": {
+    "message": "Kode 2FA"
+  },
+  "qaAddTo": {
+    "message": "Tambahkan ke"
+  },
+  "qaHasTotp": {
+    "message": "Ada 2FA"
+  },
+  "qaNewLoginFor": {
+    "message": "Info masuk baru untuk $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "qaThisSite": {
+    "message": "situs ini"
+  },
+  "qaPickHint": {
+    "message": "Pilih info masuk untuk menambahkannya."
+  },
+  "qaReplacesTotp": {
+    "message": "Kode 2FA yang ada sekarang akan diganti."
+  },
+  "qaAddTotp": {
+    "message": "Tambahkan 2FA"
+  },
+  "qaTotpAdded": {
+    "message": "Kode 2FA ditambahkan ke $TITLE$",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "qaTotpSavedNew": {
+    "message": "Disimpan sebagai info masuk baru: $TITLE$",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "qaNoteHeading": {
+    "message": "Catatan baru"
+  },
+  "qaNoteTitle": {
+    "message": "Judul"
+  },
+  "qaNoteText": {
+    "message": "Catatan"
+  },
+  "qaNoteTextPlaceholder": {
+    "message": "Tempel kode pemulihan atau tulis catatan"
+  },
+  "qaNoteRecovery": {
+    "message": "Kode pemulihan"
+  },
+  "qaNoteRecoveryFor": {
+    "message": "Kode pemulihan untuk $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "qaNoteUntitled": {
+    "message": "Catatan aman"
+  },
+  "qaNoteHint": {
+    "message": "Disimpan sebagai catatan aman di brankas Anda."
+  },
+  "qaNoteSaved": {
+    "message": "Catatan disimpan"
+  },
+  "qaNoteNeedsUpdate": {
+    "message": "Perbarui Passyble untuk menambahkan catatan di sini."
+  },
+  "qaGenerateHeading": {
+    "message": "Buat kata sandi"
+  },
+  "qaGeneratedLabel": {
+    "message": "Kata sandi yang dibuat"
+  },
+  "qaRegenerate": {
+    "message": "Kata sandi baru"
+  },
+  "qaCopy": {
+    "message": "Salin"
+  },
+  "qaGenerateHint": {
+    "message": "Kata sandi yang disalin dihapus dari papan klip setelah 45 detik."
+  },
+  "vaultAppInstalledHere": {
+    "message": "Aplikasi Passyble terpasang di komputer ini, jadi Passyble memakainya di sini."
+  },
+  "optionsAppGone": {
+    "message": "Aplikasi Passyble sudah tidak ada di komputer ini. Anda bisa memakai brankas di browser ini sebagai gantinya."
+  },
+  "moveOffer_other": {
+    "message": "Pindahkan $COUNT$ item dari browser ini ke aplikasi Passyble",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "23"
+      }
+    }
+  },
+  "moveOfferAny": {
+    "message": "Pindahkan item di browser ini ke aplikasi Passyble"
+  },
+  "moveText": {
+    "message": "Item tetap ada juga di browser ini sampai Anda menghapus brankasnya di sini."
+  },
+  "moveStart": {
+    "message": "Pindahkan item"
+  },
+  "moveConfirm": {
+    "message": "Pindahkan"
+  },
+  "moveInto": {
+    "message": "Ke brankas ini"
+  },
+  "moveMoving": {
+    "message": "Memindahkan…"
+  },
+  "moveDoneTitle": {
+    "message": "Dipindahkan ke aplikasi Passyble"
+  },
+  "moveDoneText": {
+    "message": "Ditambahkan: $ADDED$. Sudah ada di aplikasi: $SKIPPED$. Brankas di browser ini disimpan sampai Anda menghapusnya.",
+    "placeholders": {
+      "added": {
+        "content": "$1",
+        "example": "20"
+      },
+      "skipped": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "movePartialTitle": {
+    "message": "Beberapa item tidak bisa dipindahkan"
+  },
+  "movePartialText": {
+    "message": "Ditambahkan: $ADDED$. Sudah ada di aplikasi: $SKIPPED$. Tidak bisa dipindahkan: $FAILED$. Item itu masih ada di browser ini.",
+    "placeholders": {
+      "added": {
+        "content": "$1",
+        "example": "18"
+      },
+      "skipped": {
+        "content": "$2",
+        "example": "3"
+      },
+      "failed": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "moveDeleteVault": {
+    "message": "Hapus brankas di browser ini"
+  },
+  "moveDeleteWarn": {
+    "message": "Menghapus brankas di browser ini secara permanen. Itemnya sekarang ada di aplikasi Passyble."
+  },
+  "cardBannerSave": {
+    "message": "Simpan kartu ke Passyble?"
+  },
+  "cardBannerUpdate": {
+    "message": "Perbarui masa berlaku kartu?"
+  },
+  "cardBannerSaved": {
+    "message": "Kartu disimpan di Passyble."
+  },
+  "cardBannerUpdated": {
+    "message": "Masa berlaku kartu diperbarui."
+  },
+  "cardBannerNoCode": {
+    "message": "Kode keamanan tidak disimpan. Anda bisa menambahkannya ke kartu di Passyble."
+  },
+  "cardBannerNeverDone": {
+    "message": "Tidak akan menawarkan untuk menyimpan kartu lagi di situs ini."
+  },
+  "cardBannerEditFrameTitle": {
+    "message": "Detail kartu Passyble"
+  },
+  "cardEditHolder": {
+    "message": "Nama di kartu"
+  },
+  "cardEditExpiry": {
+    "message": "Masa berlaku"
+  },
+  "cardEditExpiryPlaceholder": {
+    "message": "BB/TT"
+  },
+  "cardEditExpiryHint": {
+    "message": "Gunakan BB/TT, misalnya 04/29."
+  },
+  "cardEditTitle": {
+    "message": "Judul"
+  },
+  "settingCardSave": {
+    "message": "Tawarkan untuk menyimpan kartu"
+  },
+  "settingCardSaveDetails": {
+    "message": "Menawarkan untuk menyimpan kartu baru setelah Anda membayar dengannya."
+  },
+  "optionsNeverSaveCards": {
+    "message": "Kartu"
+  },
+  "popupPassyblePassword": {
+    "message": "Kata sandi Passyble"
+  },
+  "popupUnlockEmptyAccount": {
+    "message": "Masukkan kata sandi Passyble Anda."
+  },
+  "accountEmailAddress": {
+    "message": "Alamat email"
+  },
+  "accountSecretKey": {
+    "message": "Kunci Rahasia"
+  },
+  "accountSecretKeyPlaceholder": {
+    "message": "Kunci Rahasia (P1-...)"
+  },
+  "accountSecretKeyHint": {
+    "message": "Hanya sekali di browser ini. Ada di Kit Darurat Anda."
+  },
+  "accountSharedComputer": {
+    "message": "Ini komputer bersama: jangan simpan Kunci Rahasia saya"
+  },
+  "accountApproveFromDevice": {
+    "message": "Setujui dari perangkat lain"
+  },
+  "accountPageTitle": {
+    "message": "Kata sandi Passyble Anda"
+  },
+  "accountPageLead": {
+    "message": "Satu kata sandi untuk akun Passyble Anda dan brankas yang ditautkan dengannya. Kata sandi ini tidak pernah keluar dari browser ini."
+  },
+  "accountKeysInApp": {
+    "message": "Aplikasi Passyble di komputer ini membuka brankas Anda dengan kata sandi Passyble Anda. Masuklah di sana."
+  },
+  "accountPasswordSignIn": {
+    "message": "Masuk dengan kata sandi Passyble Anda"
+  },
+  "accountSigningIn": {
+    "message": "Sedang masuk…"
+  },
+  "accountSignedInUnlocked": {
+    "message": "Masuk sebagai $EMAIL$. Brankas Anda di browser ini sudah dibuka kuncinya.",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "ada@example.com"
+      }
+    }
+  },
+  "accountApproveLead": {
+    "message": "Gunakan ponsel atau komputer tempat Anda sudah masuk ke Passyble. Tidak ada yang perlu diketik selain alamat email Anda."
+  },
+  "accountApproveAsk": {
+    "message": "Minta persetujuan"
+  },
+  "accountApproveQrLabel": {
+    "message": "Kode QR untuk perangkat Anda yang lain"
+  },
+  "accountApproveQrHint": {
+    "message": "Di perangkat Anda yang lain, buka Passyble dan tambahkan perangkat, lalu pindai kode ini. Tidak ada kamera? Setujui browser ini di sana dan ketik kode yang ditampilkan di sini."
+  },
+  "accountApproveCodeHint": {
+    "message": "Ketik kode ini di perangkat Anda yang lain."
+  },
+  "accountApproveCheckHint": {
+    "message": "Pastikan perangkat Anda yang lain menampilkan sidik jari ini di Setelan, Kata sandi Passyble."
+  },
+  "accountApproveFingerprintLabel": {
+    "message": "Sidik jari kunci akun"
+  },
+  "accountApproveMatches": {
+    "message": "Cocok"
+  },
+  "accountApproveNoMatch": {
+    "message": "Tidak cocok"
+  },
+  "accountApproveNotKept": {
+    "message": "Kunci tidak disimpan. Sidik jari yang tidak cocok berarti itu mungkin bukan kunci akun Anda. Minta lagi dari perangkat Anda yang lain, dan hubungi dukungan jika terjadi lagi."
+  },
+  "accountApproveCancelledNotKept": {
+    "message": "Dibatalkan. Kunci yang diterima tidak disimpan."
+  },
+  "accountApproveWaiting": {
+    "message": "Menunggu perangkat Anda yang lain…"
+  },
+  "accountApproveDone": {
+    "message": "Browser ini sudah disetujui. Kata sandi Passyble Anda membuka brankas tertaut Anda di sini."
+  },
+  "accountApproveDoneUnlocked": {
+    "message": "Browser ini sudah disetujui, dan brankas Anda di browser ini sudah dibuka kuncinya."
+  },
+  "accountApproveDenied": {
+    "message": "Perangkat Anda yang lain menolak. Mulai lagi jika itu sebuah kesalahan."
+  },
+  "accountApproveExpired": {
+    "message": "Permintaan telah berakhir. Minta lagi untuk menyetujui browser ini."
+  },
+  "accountKeysAppOnly": {
+    "message": "Ubah kata sandi Passyble, Kunci Rahasia, atau kode pemulihan Anda di aplikasi Passyble."
+  },
+  "accountPasswordButton": {
+    "message": "Kata sandi Passyble"
+  },
+  "welcomeChoicePassword": {
+    "message": "Gunakan kata sandi Passyble Anda"
+  },
+  "welcomeChoicePasswordText": {
+    "message": "Masuk di sini, atau setujui browser ini dari perangkat lain."
+  },
+  "errWrongAccountPassword": {
+    "message": "Kata sandi Passyble atau Kunci Rahasia salah. Apakah Caps Lock aktif?"
+  },
+  "errPasswordLimited": {
+    "message": "Terlalu banyak kata sandi yang salah. Tunggu sebentar, lalu coba lagi."
+  },
+  "errAccountKeysOff": {
+    "message": "Kata sandi Passyble belum tersedia."
+  },
+  "errNoAccountPassword": {
+    "message": "Akun ini belum memiliki kata sandi Passyble. Tetapkan di aplikasi Passyble."
+  },
+  "errAccountService": {
+    "message": "Layanan akun Passyble tidak menjawab seperti yang diharapkan. Coba lagi nanti."
+  },
+  "errAccountOffline": {
+    "message": "Tidak dapat menjangkau akun Passyble Anda. Periksa koneksi internet Anda lalu coba lagi."
+  },
+  "errAccountSignedOut": {
+    "message": "Masuk ke akun Passyble Anda terlebih dahulu."
+  },
+  "errBadSecretKey": {
+    "message": "Itu bukan Kunci Rahasia. Salin dari Kit Darurat Anda: Kunci Rahasia diawali P1."
+  },
+  "errSecretKeyNeeded": {
+    "message": "Masukkan Kunci Rahasia Anda sekali di browser ini. Ada di Kit Darurat Anda."
+  },
+  "errEmailNeeded": {
+    "message": "Masukkan alamat email akun Anda."
+  },
+  "errOtherAccount": {
+    "message": "Kata sandi ini untuk akun Passyble yang berbeda dari akun brankas ini."
+  },
+  "errOtherAccountKey": {
+    "message": "Brankas ini ditautkan dengan kunci lama akun Anda. Buka sekali di aplikasi Passyble."
+  },
+  "errApprovalMismatch": {
+    "message": "Persetujuan tidak cocok. Mulai lagi di kedua perangkat."
+  },
+  "accountSecretKeyExample": {
+    "message": "P1-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX"
+  },
+  "menuSimilarSites": {
+    "message": "Situs terkait"
+  },
+  "menuSearchPassyble": {
+    "message": "Cari di Passyble…"
+  },
+  "menuSearchUseToolbar": {
+    "message": "Untuk mencari di brankas Anda, klik Passyble di bilah alat browser."
+  },
+  "commonNoLoginsFor": {
+    "message": "Tidak ada info masuk untuk $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossTitle": {
+    "message": "Gunakan info masuk ini juga di $SITE$?",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossSavedFor": {
+    "message": "disimpan untuk $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.com"
+      }
+    }
+  },
+  "crossAdd": {
+    "message": "Tambahkan $SITE$ ke info masuk ini",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossCopy": {
+    "message": "Simpan salinan untuk $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossHint": {
+    "message": "Jika ditambahkan, info masuk ini akan diisi di sini tanpa bertanya lain kali. Salinan membuat keduanya tetap terpisah."
+  },
+  "crossAdded": {
+    "message": "$SITE$ ditambahkan ke $TITLE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      },
+      "title": {
+        "content": "$2",
+        "example": "Amazon"
+      }
+    }
+  },
+  "crossCopied": {
+    "message": "Salinan disimpan di Passyble."
+  },
+  "crossLookalike": {
+    "message": "$HOST$ bukan $SITE$, meskipun alamatnya terlihat mirip. Tambahkan hanya jika Anda memercayai situs ini.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "changedTitle": {
+    "message": "Perbarui info masuk ini?"
+  },
+  "changedUsername": {
+    "message": "Nama pengguna diubah menjadi $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "bob@example.com"
+      }
+    }
+  },
+  "changedPassword": {
+    "message": "Kata sandi diubah"
+  },
+  "changedFromSite": {
+    "message": "Disimpan untuk $SITE$. Memperbaruinya juga menambahkan $HOST$ ke info masuk ini.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.com"
+      },
+      "host": {
+        "content": "$2",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "changedReadOnly": {
+    "message": "Info masuk ini ada di brankas bersama yang tidak dapat Anda ubah. Anda dapat menyimpan info masuk baru sebagai gantinya."
+  },
+  "changedLookalike": {
+    "message": "$HOST$ bukan $SITE$, tetapi alamatnya mirip. Perbarui atau simpan hanya jika Anda memercayai situs ini.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "changedUpdate": {
+    "message": "Perbarui info masuk"
+  },
+  "changedSaveNew": {
+    "message": "Simpan sebagai info masuk baru"
+  },
+  "changedUpdated": {
+    "message": "Info masuk diperbarui di Passyble."
+  },
+  "changedSavedNew": {
+    "message": "Disimpan sebagai info masuk baru."
+  },
+  "popupTypeFilter": {
+    "message": "Saring menurut jenis",
+    "description": "Popup, Filter menu: what a screen reader hears for its Show section, which narrows the list to one kind of item."
+  },
+  "popupTypeAll": {
+    "message": "Semua",
+    "description": "Popup, type filter chip: every kind of item."
+  },
+  "popupTypeLogins": {
+    "message": "Login",
+    "description": "Popup, type filter chip: only logins (not cards or addresses)."
+  },
+  "popupTypeCards": {
+    "message": "Kartu",
+    "description": "Popup, type filter chip: only payment cards."
+  },
+  "popupTypeAddresses": {
+    "message": "Alamat",
+    "description": "Popup, type filter chip: only addresses (identities)."
+  },
+  "popupTypeFavorites": {
+    "message": "Favorit",
+    "description": "Popup, type filter chip: only items marked as favorites (logins, cards, addresses, notes)."
+  },
+  "popupTypeNotes": {
+    "message": "Catatan",
+    "description": "Popup, type filter chip: only secure notes."
+  },
+  "popupSecureNotes": {
+    "message": "Catatan aman",
+    "description": "Popup: heading of the list of secure notes (the Notes and Favorites filters)."
+  },
+  "popupSecureNote": {
+    "message": "Catatan aman",
+    "description": "Popup: the line under a secure note's title in the list."
+  },
+  "popupShowNote": {
+    "message": "Tampilkan catatan",
+    "description": "Popup: tooltip of a secure note's row (opens the note and shows its text)."
+  },
+  "popupShowNoteOf": {
+    "message": "Tampilkan catatan $NAME$",
+    "description": "Popup: accessible name of a secure note's row (opens the note).",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Recovery codes"
+      }
+    }
+  },
+  "popupCopyNote": {
+    "message": "Salin catatan",
+    "description": "Popup: button that copies the text of a secure note."
+  },
+  "popupCopyNoteOf": {
+    "message": "Salin catatan $NAME$",
+    "description": "Popup: accessible name of the copy button of a secure note's row.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Recovery codes"
+      }
+    }
+  },
+  "popupCopiedNote": {
+    "message": "Catatan disalin",
+    "description": "Notice after copying a secure note's text."
+  },
+  "popupCopiedNoteClears": {
+    "message": "Catatan disalin (dihapus dalam 45 dtk)",
+    "description": "Notice after copying a secure note's text; the clipboard is cleared after 45 seconds."
+  },
+  "popupNoteEmpty": {
+    "message": "Catatan ini kosong.",
+    "description": "Popup: a secure note without text (in its viewer, or after Copy)."
+  },
+  "popupNoteText": {
+    "message": "Teks catatan",
+    "description": "Popup: accessible name of a secure note's text in its viewer."
+  },
+  "popupNoFilterMatches": {
+    "message": "Tidak ada yang sejenis di sini.",
+    "description": "Popup: empty state when the type filter chosen leaves nothing to show."
+  },
+  "ctxSaveSelection": {
+    "message": "Simpan pilihan ke catatan Passyble"
+  },
+  "clipHeading": {
+    "message": "Simpan ke catatan"
+  },
+  "clipSelection": {
+    "message": "Pilihan"
+  },
+  "clipAddAddress": {
+    "message": "Tambahkan alamat halaman"
+  },
+  "clipSearch": {
+    "message": "Cari catatan"
+  },
+  "clipNewNote": {
+    "message": "Catatan baru"
+  },
+  "clipNotes": {
+    "message": "Catatan"
+  },
+  "clipSaveNew": {
+    "message": "Simpan sebagai catatan baru"
+  },
+  "clipAdded": {
+    "message": "Ditambahkan ke $NOTE$",
+    "placeholders": {
+      "note": {
+        "content": "$1",
+        "example": "Reading list"
+      }
+    }
+  },
+  "clipSavedNew": {
+    "message": "Disimpan sebagai catatan baru"
+  },
+  "clipNoNotes": {
+    "message": "Belum ada catatan. Simpan sebagai catatan baru."
+  },
+  "clipNoMatch": {
+    "message": "Tidak ada catatan yang cocok."
+  },
+  "clipViewOnly": {
+    "message": "Anda tidak dapat mengubah catatan ini"
+  },
+  "clipLockedText": {
+    "message": "Buka kunci untuk menambahkan pilihan ke catatan."
+  },
+  "clipAppendNeedsUpdate": {
+    "message": "Perbarui aplikasi Passyble untuk menambahkan ke catatan."
+  },
+  "clipNeedsUpdate": {
+    "message": "Perbarui aplikasi Passyble untuk menyimpan catatan dari browser."
+  },
+  "clipGone": {
+    "message": "Pilihan ini sudah tidak ada. Pilih teksnya lagi lalu klik kanan."
+  },
+  "clipTooLong": {
+    "message": "Pilihan terlalu panjang untuk catatan."
+  },
+  "clipNoteFull": {
+    "message": "Catatan itu sudah penuh. Simpan pilihan sebagai catatan baru."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "remove_keys": ["minimum_chrome_version", "key"],
+  "remove_permissions": ["offscreen"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "pass@sensyble.com",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": ["none"],
+        "optional": ["authenticationInfo", "personallyIdentifyingInfo", "financialAndPaymentInfo"]
+      }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
+    }
+  }
+}

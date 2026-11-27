@@ -1,0 +1,144 @@
+{
+  "account": "acc_7Qh2xY",
+  "ak": "ERERERERERERERERERERERERERERERERERERERERERE",
+  "ak_id": "xcd53RybGOk7rV36k4B4ug",
+  "ak_sign_pub": "BJZh_-3-dVymc1Ulaa63N6zM3wC6wF6mcQwBzfxuCv4",
+  "comment": "Passyble password, Secret Key and account key. base64url without padding throughout; wraps are XChaCha20-Poly1305 with the given nonce; signatures Ed25519. Checked by the pass-core tests and the account service.",
+  "device_approval": {
+    "code": "301205",
+    "commitment": "E6JswfWOMthDt_9oGngmBdKx-ftRqV10rALaWxEn89I",
+    "enc_pub": "IZ5NgA2paNKl_LAJx4T0dGxxOO257khEtznoMLBc9CQ",
+    "qr": "passyble:approve/v1?id=req_1&k=IZ5NgA2paNKl_LAJx4T0dGxxOO257khEtznoMLBc9CQ&r=d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3c",
+    "r_a": "iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIg",
+    "r_n": "d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3c",
+    "request_id": "req_1",
+    "seal_info": "pass/approve-ak/v1:[\"req_1\",\"acc_7Qh2xY\",\"IZ5NgA2paNKl_LAJx4T0dGxxOO257khEtznoMLBc9CQ\",\"d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3c\",\"iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIg\"]"
+  },
+  "email": "ana@example.com",
+  "emergency_kit_qr": "passyble:kit/v1?e=ana%40example%2Ecom&a=acc%5F7Qh2xY&k=P1-K6CSK-6CSK6-CSK6C-SK6CS-K6CSK-7VBVW",
+  "invitation": {
+    "enc_pub": "IZ5NgA2paNKl_LAJx4T0dGxxOO257khEtznoMLBc9CQ",
+    "invitation_id": "inv_1",
+    "mac": "FrK4sfYrQf2qgwEXYRiMvkUwJEv6wjFVjhSjXUTCzMw",
+    "mac_key": "q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6s",
+    "seal_info": "pass/add-ak/v1:[\"inv_1\",\"acc_7Qh2xY\",\"IZ5NgA2paNKl_LAJx4T0dGxxOO257khEtznoMLBc9CQ\"]"
+  },
+  "password_wrap": {
+    "aad": "pass/ak-pw/v1:[\"acc_7Qh2xY\",\"xcd53RybGOk7rV36k4B4ug\",\"AAECAwQFBgcICQoLDA0ODw\",{\"alg\":\"argon2id\",\"m_kib\":65536,\"t\":3,\"p\":1}]",
+    "ct": "YOfOYo-7fcKF8xMu3DGa6MiziW-OEXZXWbekn8QStMkgu49V1zRDZTH2pV_uHxH2",
+    "nonce": "IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi"
+  },
+  "passwords": [
+    {
+      "auth_pub": "WNbHVgWuvvWvBZDLmCxIqx3UUPOPzxbC0Tsar32-djA",
+      "kdf": {
+        "alg": "argon2id",
+        "m_kib": 65536,
+        "p": 1,
+        "t": 3
+      },
+      "password": "correct horse battery staple",
+      "password_utf8_hex": "636f727265637420686f727365206261747465727920737461706c65",
+      "salt": "AAECAwQFBgcICQoLDA0ODw",
+      "wrap_key": "1zgI6efoVrawmoE1ln5sybH6yKwn-o7vgg2pnG8XhJs"
+    },
+    {
+      "auth_pub": "-TKLQGNyTJ2RvxdFy9bulIx9i7lezbWaxfLgzGgX3Jc",
+      "kdf": {
+        "alg": "argon2id",
+        "m_kib": 65536,
+        "p": 1,
+        "t": 3
+      },
+      "password": "café crème brûlée 2026",
+      "password_utf8_hex": "636166c3a9206372c3a86d65206272c3bb6cc3a9652032303236",
+      "salt": "_____________________w",
+      "wrap_key": "ufgCd9zohjFoV59_vXlb4N8AE132CJQHYJrV9D_4WuE"
+    },
+    {
+      "auth_pub": "-TKLQGNyTJ2RvxdFy9bulIx9i7lezbWaxfLgzGgX3Jc",
+      "kdf": {
+        "alg": "argon2id",
+        "m_kib": 65536,
+        "p": 1,
+        "t": 3
+      },
+      "password": "café crème brûlée 2026",
+      "password_utf8_hex": "63616665cc8120637265cc806d6520627275cc826c65cc81652032303236",
+      "salt": "_____________________w",
+      "wrap_key": "ufgCd9zohjFoV59_vXlb4N8AE132CJQHYJrV9D_4WuE"
+    },
+    {
+      "auth_pub": "rILta4Hkd13Wc4UciOgxHlwz5HYjW1P5_CB1kFHtE_4",
+      "kdf": {
+        "alg": "argon2id",
+        "m_kib": 65536,
+        "p": 1,
+        "t": 3
+      },
+      "password": "пароль ✓ Passyble",
+      "password_utf8_hex": "d0bfd0b0d180d0bed0bbd18c20e29c93205061737379626c65",
+      "salt": "AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE",
+      "wrap_key": "6Dag0nvGDKyjOY9DVd0JFwEDrZYKEkvpgX2cRRhkW-0"
+    }
+  ],
+  "prf": {
+    "credential_id": "Y3JlZC0x",
+    "key": "i3hNJqmRQgDZMG8KdQw3p6bImDLe2y4vZSknaRII-1o",
+    "prf_output": "MzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM",
+    "wrap": {
+      "aad": "pass/ak-prf/v1:[\"acc_7Qh2xY\",\"xcd53RybGOk7rV36k4B4ug\",\"Y3JlZC0x\"]",
+      "ct": "oztCG71H8b8F1-Nvsr_gcBNO5x4BdwPNJ9jCt2nIHv0atWfHunQJXJHIGmMw4ylz",
+      "nonce": "IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi"
+    }
+  },
+  "recovery": {
+    "challenge": "c2lnbi1tZS1wbGVhc2U",
+    "code": "8H248-H248H-248H2-48H24-8H248-G5TRP",
+    "key": "80D5YGulbWEsutAUYBtZvrb2JewpoLCMvuCZm1-fc1s",
+    "message": "pass/recovery-challenge/v1:[\"acc_7Qh2xY\",\"0f5b8f8e-8e43-4b8f-9a39-6a3c2b7d9e10\",\"c2lnbi1tZS1wbGVhc2U\"]",
+    "rec_id": "0f5b8f8e-8e43-4b8f-9a39-6a3c2b7d9e10",
+    "secret": "RERERERERERERERERERERA",
+    "sig": "iGU90cBAkYcm4zWK-mtaXpSoxzvu4Pa1yPAFGyPkIuwR_pPMXb4t6HiWWoUwTFSMF9DaEMzGFyMhjQIgiq8cCQ",
+    "verify_pub": "tv7phH45hOvkAJ6gyrZnMLxs4sctd1XEc7gh62pyqgk",
+    "wrap": {
+      "aad": "pass/ak-recovery/v1:[\"acc_7Qh2xY\",\"xcd53RybGOk7rV36k4B4ug\",\"0f5b8f8e-8e43-4b8f-9a39-6a3c2b7d9e10\"]",
+      "ct": "KTtrmIWSgqfRE71FPhmhbJNYD1nNM4AuA-Kpk5Zn-l7a_n4U86bYNMqVmeFKkot4",
+      "nonce": "IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi"
+    }
+  },
+  "request_signature": {
+    "body": "{\"salt\":\"AAECAwQFBgcICQoLDA0ODw\"}",
+    "message": "pass/ak-sign/v1:[\"acc_7Qh2xY\",\"a2V5LWNoYW5nZS1ub25jZQ\",\"PUT\",\"/v1/account-key/password\",\"CPXlcUcrzlthIXwlpQXq4cfYgE6i2oewatPIGXKjv2M\"]",
+    "method": "PUT",
+    "nonce": "a2V5LWNoYW5nZS1ub25jZQ",
+    "path": "/v1/account-key/password",
+    "sig": "d7GxRYc0bpmL99josW9yhT__H4H-KCvxgyKbtB2Trpj17-7wzlSmjEpP1amoLUVsnVazbKiV1HHvm2SOWYkrBg"
+  },
+  "secret_key": {
+    "bytes": "mZmZmZmZmZmZmZmZmZmZmQ",
+    "text": "P1-K6CSK-6CSK6-CSK6C-SK6CS-K6CSK-7VBVW"
+  },
+  "sign_in": {
+    "auth_pub": "WNbHVgWuvvWvBZDLmCxIqx3UUPOPzxbC0Tsar32-djA",
+    "device_name": "Laptop",
+    "message": "pass/sign-in/v1:[\"ana@example.com\",\"bm9uY2UtZm9yLXNpZ24taW4\",\"Laptop\",\"windows\"]",
+    "nonce": "bm9uY2UtZm9yLXNpZ24taW4",
+    "platform": "windows",
+    "sig": "vD2bpJX9k9rFrJhwUUFd_0YlPc_1tav7zkjYSK8wTKowHwgA_mTwUdAd9e7T6yZ17MHfwTSU-bOC-7oM_T7lBg"
+  },
+  "sk_wrap": {
+    "aad": "pass/sk-wrap/v1:[\"acc_7Qh2xY\",\"xcd53RybGOk7rV36k4B4ug\"]",
+    "ct": "CzQ26iq57tugrLKWomy0eAE92W21_doH0DjkEM-5Mxc",
+    "nonce": "IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi"
+  },
+  "vault_slot": {
+    "vault_id": "6c1d8a52-7d6f-4c0e-8f53-1b9e2a4d7c31",
+    "vk": "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVU",
+    "wrap": {
+      "aad": "pass/account-vk/v1:[\"6c1d8a52-7d6f-4c0e-8f53-1b9e2a4d7c31\",\"acc_7Qh2xY\",\"xcd53RybGOk7rV36k4B4ug\"]",
+      "ct": "1jKyWQnsscGwGEGe6Cz0t2fCloFAy6-xNR4jsiS1DHB4FXghFyKJvroImsEqNMoD",
+      "nonce": "IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi"
+    }
+  }
+}

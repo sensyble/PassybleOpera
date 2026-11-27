@@ -1,0 +1,14 @@
+**/node_modules/
+.DS_Store
+*.iml
+.idea/
+
+node_modules/
+dist/
+manifest.firefox.json
+*.pem
+# Built by scripts/build-wasm.mjs
+src/wasm/
+# Old local Google OAuth files
+google-oauth.env
+src/google-client.json

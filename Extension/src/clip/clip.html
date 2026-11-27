@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="clipHeading">Save to a note</title>
+  <link rel="stylesheet" href="../ui/tokens.css">
+  <link rel="stylesheet" href="clip.css">
+  <script type="module" src="clip.js"></script>
+</head>
+<body>
+  <!-- The window opened by "Save selection to Passyble note". The selection stays in this page's memory and goes to the agent only. -->
+  <header class="top">
+    <span class="logo" id="logo"></span>
+    <h1 data-i18n="clipHeading">Save to a note</h1>
+  </header>
+
+  <main id="main">
+    <section class="view" id="view-loading"><div class="spinner" aria-label="Loading" data-i18n-aria-label="popupLoading"></div></section>
+
+    <section class="view state" id="view-error" hidden>
+      <div class="state-icon" aria-hidden="true" data-icon="alert" data-icon-size="24"></div>
+      <p class="state-lead" id="error-text" role="alert"></p>
+      <button class="btn" id="error-close" type="button" data-i18n="commonClose">Close</button>
+    </section>
+
+    <section class="view state" id="view-locked" hidden>
+      <div class="state-icon" aria-hidden="true" data-icon="lock" data-icon-size="24"></div>
+      <h2 data-i18n="popupLockedTitle">Passyble is locked</h2>
+      <p class="state-lead" data-i18n="clipLockedText">Unlock to add the selection to a note.</p>
+      <button class="btn primary" id="unlock" type="button" data-i18n="popupUnlock">Unlock</button>
+      <p class="clip-msg" id="unlock-msg" role="status"></p>
+    </section>
+
+    <section class="view" id="view-pick" hidden>
+      <blockquote class="clip-preview" id="preview" aria-label="Selection" data-i18n-aria-label="clipSelection"></blockquote>
+      <label class="clip-check" id="url-row" hidden>
+        <input type="checkbox" id="with-url">
+        <span data-i18n="clipAddAddress">Add the page address</span>
+      </label>
+      <p class="notice clip-update" id="update-note" hidden></p>
+
+      <div id="pick-list" hidden>
+        <input class="input" id="search" type="search" autocomplete="off" spellcheck="false" maxlength="128"
+          placeholder="Search notes" aria-label="Search notes" data-i18n-placeholder="clipSearch" data-i18n-aria-label="clipSearch">
+        <button class="clip-row clip-new" id="new-note" type="button">
+          <span class="clip-row-icon" aria-hidden="true" data-icon="plus" data-icon-size="16"></span>
+          <span class="clip-row-title" data-i18n="clipNewNote">New note</span>
+        </button>
+        <ul class="clip-list" id="notes" aria-label="Notes" data-i18n-aria-label="clipNotes"></ul>
+        <p class="muted clip-empty" id="empty" hidden></p>
+      </div>
+
+      <form class="clip-form" id="new-form" hidden novalidate>
+        <label class="clip-label" for="new-title" data-i18n="qaNoteTitle">Title</label>
+        <input class="input" id="new-title" type="text" autocomplete="off" spellcheck="false" maxlength="256">
+        <div class="clip-actions">
+          <button class="btn" id="new-cancel" type="button" data-i18n="commonCancel">Cancel</button>
+          <button class="btn primary" id="new-save" type="submit" data-i18n="clipSaveNew">Save as a new note</button>
+        </div>
+      </form>
+
+      <p class="clip-msg" id="msg" role="status"></p>
+    </section>
+
+    <section class="view state" id="view-done" hidden>
+      <div class="state-icon done" aria-hidden="true" data-icon="check" data-icon-size="24"></div>
+      <p class="state-lead" id="done-text" role="status"></p>
+      <button class="btn" id="done-close" type="button" data-i18n="commonClose">Close</button>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "comment": "Pass Server account password derivation: auth_key = HKDF-SHA256(Argon2id(password, salt, m_kib, t, p), salt = none, info = \"pass-server-auth\"), base64url without padding; verifier = hex SHA-256(auth_key bytes). Checked by pass_core::server_auth_key and by the server.",
+  "vectors": [
+    {
+      "password": "correct horse battery staple",
+      "salt": "AAECAwQFBgcICQoLDA0ODw",
+      "kdf": { "alg": "argon2id", "m_kib": 65536, "t": 3, "p": 1 },
+      "auth_key": "ZjnfkEvqQzMqAqbT704uGM84hWQxYciuuIuzInrp3l0",
+      "verifier": "3d91dd5a1a4f7e4817ed51135c06cacf4d8efb9b3daa9e25f08fd8ca86b27d25"
+    },
+    {
+      "password": "pässwörd ✓",
+      "salt": "_____________________w",
+      "kdf": { "alg": "argon2id", "m_kib": 19456, "t": 2, "p": 1 },
+      "auth_key": "K5C0k4FmZbf1L-GGDBrh_71DxUktvrlbLH4TZYw_7oI",
+      "verifier": "4ecc52fe5ea5370cd5d7b37eb29e9c205e8adecb3c113bd92c32fe564d1bc7d9"
+    },
+    {
+      "password": "12345678",
+      "salt": "AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE",
+      "kdf": { "alg": "argon2id", "m_kib": 32768, "t": 3, "p": 2 },
+      "auth_key": "OttUfXCdlYTqWYj3BHl9HXVT93Y4qcoxyRDNGy0mVIM",
+      "verifier": "5f1a9c9af835e846c370b6dba302a0279ddb63d36dc0a194c79376e487b11a5d"
+    }
+  ]
+}

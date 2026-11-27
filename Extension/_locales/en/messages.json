@@ -1,0 +1,4590 @@
+{
+  "catalogLocale": {
+    "message": "en",
+    "description": "Not shown. The language code of this translation: the _locales folder name with \"-\" instead of \"_\" (en, es, fr, de, zh-CN, ja, ko, hi, id). Used for plural rules and the pages' lang attribute."
+  },
+  "extName": {
+    "message": "Passyble",
+    "description": "Extension name in the browser and the store listing (at most 75 characters). Passyble and Passyble Server are product names: keep them in English."
+  },
+  "extDescription": {
+    "message": "Passwords, 2FA codes and passkeys from the Passyble desktop app, filled in the browser.",
+    "description": "Extension description in the browser and the store listing (at most 132 characters). \"2FA\" means two-factor authentication (a one-time code); keep it short."
+  },
+  "actionTitle": {
+    "message": "Passyble",
+    "description": "Tooltip of the toolbar button when there is nothing more to say. Passyble and Passyble Server are product names: keep them in English."
+  },
+  "cmdOpenPopup": {
+    "message": "Open Passyble and search your vault",
+    "description": "Keyboard shortcut description (browser shortcut settings): opens the toolbar popup, with the search field ready. Passyble is the product name: keep it in English."
+  },
+  "cmdFillLogin": {
+    "message": "Fill the login for this site",
+    "description": "Keyboard shortcut description (browser shortcut settings)."
+  },
+  "cmdFillOtp": {
+    "message": "Fill or show the 2FA code for this site",
+    "description": "Keyboard shortcut description (browser shortcut settings). \"2FA\" means two-factor authentication (a one-time code); keep it short."
+  },
+  "cmdScanQr": {
+    "message": "Scan a 2FA QR code on this page",
+    "description": "Keyboard shortcut description (browser shortcut settings): reads a two-factor authentication (2FA) QR code on the visible page and adds it to a login."
+  },
+  "cmdGenerate": {
+    "message": "Generate a password (fills the focused field, else copies it)",
+    "description": "Keyboard shortcut description (browser shortcut settings): generates a strong password into the focused password field, or copies it when no password field has the focus."
+  },
+  "cmdNewNote": {
+    "message": "New secure note",
+    "description": "Keyboard shortcut description (browser shortcut settings): opens the popup's editor for a new secure note."
+  },
+  "cmdLock": {
+    "message": "Lock Passyble",
+    "description": "Keyboard shortcut description (browser shortcut settings): locks the vault. Passyble is the product name: keep it in English."
+  },
+  "cmdSync": {
+    "message": "Sync your vaults now",
+    "description": "Keyboard shortcut description (browser shortcut settings): syncs every vault that syncs (Google Drive, Passyble Server, WebDAV, shared vaults) now."
+  },
+  "cmdUseToolbar": {
+    "message": "To go on, click Passyble in the browser toolbar.",
+    "description": "Short notice in the page after a keyboard shortcut, when the browser does not let Passyble open its popup by itself."
+  },
+  "cmdGeneratedCopied": {
+    "message": "Strong password copied (clears in 45 s)",
+    "description": "Short notice in the page after the Generate password shortcut, when no password field had the focus: a strong password was copied; the clipboard is cleared after 45 seconds."
+  },
+  "cmdGeneratedCopiedByApp": {
+    "message": "Strong password copied by Passyble (clears in 45 s)",
+    "description": "Short notice in the page after the Generate password shortcut: the desktop app copied the new password itself; the clipboard is cleared after 45 seconds."
+  },
+  "cmdGenerateCopyFailed": {
+    "message": "Couldn't copy the password. Try again.",
+    "description": "Short notice in the page: the Generate password shortcut could not copy the new password."
+  },
+  "cmdLocked": {
+    "message": "Passyble is locked.",
+    "description": "Short notice in the page after the Lock shortcut: the vault is now locked. Passyble is the product name: keep it in English."
+  },
+  "syncNow": {
+    "message": "Sync now",
+    "description": "Tooltip and accessible name of the popup header's sync button: sync every vault now."
+  },
+  "syncSyncing": {
+    "message": "Syncing…",
+    "description": "Tooltip and accessible name of the popup header's sync button while a sync runs."
+  },
+  "syncDone": {
+    "message": "Synced just now",
+    "description": "Short notice after Sync now: every vault that syncs is up to date."
+  },
+  "syncFailed": {
+    "message": "$VAULT$ didn't sync: $REASON$",
+    "description": "Short notice after Sync now: one vault (its name) didn't sync, and why (a short sentence from the app or the server).",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$2",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedNoName": {
+    "message": "Couldn't sync: $REASON$",
+    "description": "Short notice after Sync now: the sync failed, and why (a short sentence).",
+    "placeholders": {
+      "reason": {
+        "content": "$1",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedMany_one": {
+    "message": "$COUNT$ vault didn't sync. $VAULT$: $REASON$",
+    "description": "Short notice after Sync now: several vaults didn't sync; the first one's name and why.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$3",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedMany_other": {
+    "message": "$COUNT$ vaults didn't sync. $VAULT$: $REASON$",
+    "description": "Short notice after Sync now: several vaults didn't sync; the first one's name and why.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$3",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncVaultUnnamed": {
+    "message": "Vault",
+    "description": "Stands in for a vault's name in a sync notice when it has none (keep it short)."
+  },
+  "syncNeedsUpdate": {
+    "message": "Update the Passyble app to sync from here",
+    "description": "Short notice after Sync now: the Passyble desktop app on this computer is too old to sync from the browser. Passyble is the product name: keep it in English."
+  },
+  "syncNoneApp": {
+    "message": "No vault syncs yet. Set it up in the Passyble app.",
+    "description": "Short notice after Sync now: none of the user's vaults has sync set up; the Passyble desktop app sets it up. Passyble is the product name: keep it in English."
+  },
+  "syncNoneBrowser": {
+    "message": "No vault syncs yet: this vault is only in this browser.",
+    "description": "Short notice after Sync now with the vault kept in this browser: nothing syncs; a Set up sync button follows."
+  },
+  "commonCancel": {
+    "message": "Cancel",
+    "description": "Button: cancel the current action."
+  },
+  "commonSave": {
+    "message": "Save",
+    "description": "Button: save (login editor, save prompt)."
+  },
+  "commonUndo": {
+    "message": "Undo",
+    "description": "Button in a short notice: undo what just happened (a deletion, a save)."
+  },
+  "commonDismiss": {
+    "message": "Dismiss",
+    "description": "Tooltip / accessible name of the X button that closes an in-page notice."
+  },
+  "commonClose": {
+    "message": "Close",
+    "description": "Accessible name of the X button that closes the save prompt."
+  },
+  "commonMore": {
+    "message": "More",
+    "description": "Tooltip of a ⋯ button that opens a menu with more actions."
+  },
+  "commonUsername": {
+    "message": "Username",
+    "description": "Field label: the login's username (or e-mail)."
+  },
+  "commonPassword": {
+    "message": "Password",
+    "description": "Field label: the login's password."
+  },
+  "commonNoUsername": {
+    "message": "(no username)",
+    "description": "Shown instead of a username when a login has none."
+  },
+  "commonPasskey": {
+    "message": "Passkey",
+    "description": "Small tag on a login that has a passkey."
+  },
+  "commonBadge2fa": {
+    "message": "2FA",
+    "description": "Small tag on a login that has a 2FA code. \"2FA\" means two-factor authentication (a one-time code); keep it short."
+  },
+  "commonShowPassword": {
+    "message": "Show password",
+    "description": "Tooltip of the eye button that reveals a password."
+  },
+  "commonHidePassword": {
+    "message": "Hide password",
+    "description": "Tooltip of the eye button that hides a revealed password."
+  },
+  "commonOpenPassyble": {
+    "message": "Open Passyble",
+    "description": "Button / menu entry: bring up the Passyble desktop app (to unlock there). Passyble and Passyble Server are product names: keep them in English."
+  },
+  "commonOpenInPassyble": {
+    "message": "Open in Passyble",
+    "description": "Menu entry: show this login in the Passyble desktop app."
+  },
+  "commonOpenedInPassyble": {
+    "message": "Opened in Passyble",
+    "description": "Short notice after the login was shown in the Passyble desktop app."
+  },
+  "commonUnlockInApp": {
+    "message": "Unlock in the Passyble app",
+    "description": "Tooltip / second line: unlock with the desktop app's own prompt."
+  },
+  "commonConfirmHello": {
+    "message": "Confirm with Windows Hello…",
+    "description": "Status while Windows Hello asks for a face, fingerprint or PIN. \"Windows Hello\" is a Microsoft product name."
+  },
+  "commonNoLoginForm": {
+    "message": "No login form found on this page.",
+    "description": "Notice: there is no sign-in form on the page to fill."
+  },
+  "commonIdentity": {
+    "message": "Identity",
+    "description": "Fallback name of a saved identity (name, address, e-mail) without a title."
+  },
+  "commonNameAndAddress": {
+    "message": "Name and address",
+    "description": "Second line of a saved identity without name or e-mail."
+  },
+  "creditSensyble": {
+    "message": "Made by Sensyble",
+    "description": "Small footer credit on the settings and setup pages and the last item of the popup's menu; links to sensyble.net. Sensyble is the company name: keep it in English."
+  },
+  "errAgentUnavailable": {
+    "message": "Passyble isn't running.",
+    "description": "Error: the Passyble desktop app is not running (a Start button is usually next to it)."
+  },
+  "errTimeout": {
+    "message": "Passyble didn't answer. Check for an open Passyble window.",
+    "description": "Error: the Passyble desktop app is running but did not answer in time, for example while a Windows Hello or confirmation window waits for the user."
+  },
+  "errExtensionReloaded": {
+    "message": "Passyble was updated. Reload this page to use it.",
+    "description": "Error in a web page: the extension was updated or reloaded, so the page must be reloaded before Passyble works on it again."
+  },
+  "errHostMissing": {
+    "message": "Can't connect to Passyble. Check Passyble → Settings → Autofill.",
+    "description": "Error: the browser has no native messaging connection to the Passyble desktop app (not installed, or set up for another browser). The connection is set up in the app under Settings → Autofill."
+  },
+  "errLocked": {
+    "message": "Passyble is locked. Unlock it to continue.",
+    "description": "Error: the vault is locked."
+  },
+  "errUrlMismatch": {
+    "message": "That login is saved for a different site.",
+    "description": "Error: the login does not belong to this website."
+  },
+  "errCancelled": {
+    "message": "Cancelled.",
+    "description": "Status: the user cancelled (in the desktop app or here)."
+  },
+  "errNotFound": {
+    "message": "Nothing saved for this site yet.",
+    "description": "Error / notice: no login is saved for this website."
+  },
+  "errNotSupported": {
+    "message": "This needs a newer Passyble app. Update Passyble, then try again.",
+    "description": "Error: the desktop app is too old for this action."
+  },
+  "errBadServerInput": {
+    "message": "That isn't a server address or pass+server:// link.",
+    "description": "Error: what was pasted into the Passyble Server field is neither a server address nor a pairing link. Keep \"pass+server://\" as is."
+  },
+  "errAddressNeedsUpdate": {
+    "message": "Update the Passyble desktop app to add a server by address, or paste the pass+server:// link instead.",
+    "description": "Error in \"Add Passyble Server\" with an older desktop app. Keep pass+server:// as it is."
+  },
+  "errStartFailed": {
+    "message": "Open Passyble from the Start menu.",
+    "description": "Error: \"Start Passyble\" did not start the Windows app."
+  },
+  "errEditNeedsUpdate": {
+    "message": "Update Passyble to edit logins here.",
+    "description": "Error: the desktop app is too old for the popup's login editor."
+  },
+  "errRateLimited": {
+    "message": "Too many changes. Wait a minute.",
+    "description": "Error: too many edits in a short time."
+  },
+  "errWrongPassword": {
+    "message": "Wrong master password. Is Caps Lock on?",
+    "description": "Error on the unlock form."
+  },
+  "errTooManyAttempts": {
+    "message": "Too many attempts. Wait a minute, then try again.",
+    "description": "Error on the unlock form after several wrong passwords."
+  },
+  "errUnlockNeedsUpdate": {
+    "message": "Update the Passyble desktop app to unlock here, or unlock in Passyble.",
+    "description": "Error: the desktop app is too old for the popup's unlock form."
+  },
+  "errUnlockFailed": {
+    "message": "Passyble couldn't unlock. Try again, or unlock in the Passyble app.",
+    "description": "Unlock form: the desktop app could not unlock (Windows Hello failed, or another error)."
+  },
+  "errAliasNotSupported": {
+    "message": "This Passyble app can't create e-mail aliases. Pick another option.",
+    "description": "Generating an e-mail alias: this build of the desktop app has no e-mail alias services."
+  },
+  "errFormsOff": {
+    "message": "Turn on \"Offer cards and addresses\" in Settings.",
+    "description": "Error: cards and addresses are turned off in the extension's settings. Use the same wording as settingFormFill."
+  },
+  "errWebPagesOnly": {
+    "message": "Passyble works on normal web pages only.",
+    "description": "The page is not an ordinary website (a browser page, a local file, ...), so Passyble cannot work there."
+  },
+  "errPickInPopup": {
+    "message": "Pick the login in the Passyble popup first.",
+    "description": "\"Fill on this page\" with a login of another site: the pick in the Passyble popup is too old; pick the login there again."
+  },
+  "errNothingToSave": {
+    "message": "This save prompt has expired. Sign in again to save the login.",
+    "description": "Save prompt on a page: the sign-in it offered to save is gone (the prompt was left open too long). Shown after \"Couldn't save.\""
+  },
+  "errNothingToUndo": {
+    "message": "There's nothing to undo anymore.",
+    "description": "Undo on the \"Saved to Passyble\" notice: the login to remove is already gone or was replaced."
+  },
+  "errGenerateNotSetUp": {
+    "message": "Set this up in the Passyble desktop app first: open Passyble → Settings.",
+    "description": "Error: the e-mail address generator (plus address, catch-all domain or e-mail alias service) is not set up in the desktop app. Passyble → Settings names a menu of the desktop app; use the name the translated desktop app shows."
+  },
+  "errAliasRateLimited": {
+    "message": "Too many new aliases. Wait a minute.",
+    "description": "Error: more than 10 new e-mail aliases were created within a minute."
+  },
+  "errGeneric": {
+    "message": "Something went wrong. Try again.",
+    "description": "Error text for anything without its own message. The details go only to the browser console, never into this text."
+  },
+  "ctxFill": {
+    "message": "Fill with Passyble",
+    "description": "Right-click menu entry on input fields."
+  },
+  "ctxGenerate": {
+    "message": "Generate password",
+    "description": "Right-click menu entry on password fields: fill a new strong password."
+  },
+  "ctxGenerateNoSymbols": {
+    "message": "Generate password (letters and numbers only)",
+    "description": "Right-click menu entry on password fields, under \"Generate password\": fill a new strong password without special characters, for sites that reject them."
+  },
+  "ctxGenerateUsername": {
+    "message": "Generate username",
+    "description": "Right-click menu entry on username and e-mail fields: fill a new random username."
+  },
+  "ctxGenerateAlias": {
+    "message": "Generate e-mail alias",
+    "description": "Right-click menu entry on username and e-mail fields: create a new e-mail alias at the user's alias service (SimpleLogin, Fastmail, ...) and fill it."
+  },
+  "commonCreatingAlias": {
+    "message": "Creating the e-mail alias…",
+    "description": "Shown while the desktop app asks the user's e-mail alias service for a new alias (can take a few seconds)."
+  },
+  "badgeLogins_one": {
+    "message": "Passyble: $COUNT$ login for this site",
+    "description": "Toolbar button tooltip (singular form).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "badgeLogins_other": {
+    "message": "Passyble: $COUNT$ logins for this site",
+    "description": "Toolbar button tooltip (plural form).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "badgeLoginsLocked_one": {
+    "message": "Passyble (locked): $COUNT$ login for this site",
+    "description": "Toolbar button tooltip while the vault is locked (singular form).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "badgeLoginsLocked_other": {
+    "message": "Passyble (locked): $COUNT$ logins for this site",
+    "description": "Toolbar button tooltip while the vault is locked (plural form).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "badgeLocked": {
+    "message": "Passyble is locked",
+    "description": "Toolbar button tooltip: the vault is locked."
+  },
+  "badgeNotRunning": {
+    "message": "Passyble desktop app is not running",
+    "description": "Toolbar button tooltip: the desktop app is not running."
+  },
+  "bgNewPasswordTitle": {
+    "message": "$SITE$ (new password)",
+    "description": "Title of a login saved right after a password was generated on a change-password form (kept until the change is submitted).",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "bgFormsNeedHttps": {
+    "message": "Passyble fills cards and addresses only on secure (https) pages",
+    "description": "Error: card and address filling needs an https page."
+  },
+  "bgCannotRunHere": {
+    "message": "Passyble cannot run on this page",
+    "description": "Error: the browser does not let the extension work on this page."
+  },
+  "bgPageTooLarge": {
+    "message": "The page is too large to scan",
+    "description": "Error when scanning a QR code on the page."
+  },
+  "popupLock": {
+    "message": "Lock Passyble",
+    "description": "Popup header button: lock the vault."
+  },
+  "popupMoreOptions": {
+    "message": "More options",
+    "description": "Accessible name of the popup header's ⋯ menu button."
+  },
+  "popupLoading": {
+    "message": "Loading",
+    "description": "Accessible name of the loading spinner."
+  },
+  "popupStatusLocked": {
+    "message": "Locked. Click to unlock",
+    "description": "Popup header icon: the vault is locked; clicking it unlocks."
+  },
+  "popupLockedTitle": {
+    "message": "Passyble is locked",
+    "description": "Heading of the popup's locked view."
+  },
+  "popupMasterPassword": {
+    "message": "Master password",
+    "description": "Placeholder and label of the master password field."
+  },
+  "popupUnlock": {
+    "message": "Unlock",
+    "description": "Button: unlock the vault."
+  },
+  "popupUseHello": {
+    "message": "Use Windows Hello",
+    "description": "Button: unlock with Windows Hello (face, fingerprint or PIN). \"Windows Hello\" is a Microsoft product name."
+  },
+  "popupHelloOrPassword": {
+    "message": "Confirm with Windows Hello, or type your master password.",
+    "description": "Popup unlock form while Windows Hello is open on its own; the master password field is right there as the other way. \"Windows Hello\" is a Microsoft product name."
+  },
+  "popupUnlockEmpty": {
+    "message": "Enter your master password.",
+    "description": "Error: Unlock was pressed with an empty password field."
+  },
+  "popupUnlocking": {
+    "message": "Unlocking…",
+    "description": "Status while the vault unlocks."
+  },
+  "popupWaitingWindow": {
+    "message": "Waiting for the Passyble window…",
+    "description": "Status while the desktop app's unlock window is open."
+  },
+  "popupOfflineTitle": {
+    "message": "Passyble isn't running",
+    "description": "Heading when the desktop app is not running."
+  },
+  "popupHostTitle": {
+    "message": "Passyble can't be reached",
+    "description": "Heading when the browser has no connection set up to the desktop app."
+  },
+  "popupStart": {
+    "message": "Start Passyble",
+    "description": "Button: start the Passyble desktop app."
+  },
+  "popupStarting": {
+    "message": "Starting Passyble…",
+    "description": "Button text while the desktop app starts."
+  },
+  "popupStartWait": {
+    "message": "This can take a few seconds.",
+    "description": "Shown while the desktop app starts."
+  },
+  "popupRetry": {
+    "message": "Try again",
+    "description": "Button: try to reach the desktop app again."
+  },
+  "popupSetupGuide": {
+    "message": "Setup guide",
+    "description": "Popup, when Passyble can't be reached (not installed, not running, or no vault yet): button that opens the setup guide page."
+  },
+  "popupBack": {
+    "message": "Back",
+    "description": "Accessible name of the back arrow button."
+  },
+  "popupBackEsc": {
+    "message": "Back (Esc)",
+    "description": "Tooltip of the back arrow button; Esc is the keyboard key."
+  },
+  "popupAddServer": {
+    "message": "Add Passyble Server",
+    "description": "Menu entry and heading: connect the desktop app to a Passyble Server. Passyble and Passyble Server are product names: keep them in English."
+  },
+  "popupSettings": {
+    "message": "Settings",
+    "description": "Popup menu entry: opens the quick settings."
+  },
+  "popupQuickSettings": {
+    "message": "Quick settings",
+    "description": "Heading of the popup's settings view."
+  },
+  "popupMoreSettings": {
+    "message": "More settings",
+    "description": "Button: open the full settings page."
+  },
+  "settingInlineMenu": {
+    "message": "Inline menu",
+    "description": "Setting name: the Passyble icon and menu inside login fields on web pages."
+  },
+  "settingInlineMenuDetails": {
+    "message": "Shows the Passyble icon and menu in login fields.",
+    "description": "Details of the \"Inline menu\" setting."
+  },
+  "settingAutoSuggest": {
+    "message": "Open suggestions automatically",
+    "description": "Setting name: open the menu with saved logins on its own."
+  },
+  "settingAutoSuggestDetails": {
+    "message": "Opens your logins when you click a login field.",
+    "description": "Tooltip of \"Open suggestions automatically\": when it is off, the menu opens with the down arrow key or a click on the Passyble icon."
+  },
+  "settingAutoGenerate": {
+    "message": "Suggest strong passwords",
+    "description": "Setting name: offer a generated password in new-password fields."
+  },
+  "settingAutoGenerateDetails": {
+    "message": "Offers a strong password in new‑password fields.",
+    "description": "Tooltip of \"Suggest strong passwords\": when it is off, \"Generate strong password\" is still in the Passyble menu."
+  },
+  "settingAutoFillOtp": {
+    "message": "Autofill 2FA codes",
+    "description": "Setting name. \"2FA\" means two-factor authentication (a one-time code); keep it short."
+  },
+  "settingAutoFillOtpDetails": {
+    "message": "Fills the 2FA code on the next step, never submits.",
+    "description": "Tooltip of \"Autofill 2FA codes\": after a login fill, the 2FA code is entered on the next step; the form is never submitted."
+  },
+  "settingSaveBanner": {
+    "message": "Offer to save logins",
+    "description": "Setting name: ask to save a login after signing in."
+  },
+  "settingFormFill": {
+    "message": "Offer cards and addresses",
+    "description": "Setting name: show saved payment cards and addresses in web forms."
+  },
+  "settingFormFillDetails": {
+    "message": "Fills cards and addresses on secure (https) pages.",
+    "description": "Tooltip of \"Offer cards and addresses\"."
+  },
+  "revealCaption": {
+    "message": "Generated password",
+    "description": "Caption of the small callout under a password field that shows, once, the password Passyble just generated and filled in."
+  },
+  "settingPasskeys": {
+    "message": "Use Passyble for passkeys",
+    "description": "Settings toggle (in this browser): websites' passkey requests get Passyble's card first."
+  },
+  "settingPasskeysDetails": {
+    "message": "Sites ask Passyble for passkeys, not the browser.",
+    "description": "Tooltip of \"Use Passyble for passkeys in this browser\": when it is off, the browser's own passkey dialog handles passkey requests."
+  },
+  "settingAutoPasskey": {
+    "message": "Offer passkey sign-in",
+    "description": "Setting name: Passyble offers its passkey on its own when a site asks for passkey sign-in."
+  },
+  "popupSearch": {
+    "message": "Search",
+    "description": "Placeholder of the popup's search field."
+  },
+  "popupSearchLabel": {
+    "message": "Search logins",
+    "description": "Accessible name of the popup's search field."
+  },
+  "popupSearchVault": {
+    "message": "Search vault",
+    "description": "Button: search the whole vault."
+  },
+  "popupSiteLogins": {
+    "message": "Logins for this site",
+    "description": "Accessible name of the list of this site's logins."
+  },
+  "popupAddLogin": {
+    "message": "Add login",
+    "description": "Button: add a new login for this site."
+  },
+  "popupInVault": {
+    "message": "In your vault",
+    "description": "Heading of the vault search results."
+  },
+  "popupVaultLogins": {
+    "message": "Logins in your vault",
+    "description": "Accessible name of the vault search results list."
+  },
+  "popupCardsAndAddresses": {
+    "message": "Cards and addresses",
+    "description": "Heading of the saved payment cards and addresses found by the search."
+  },
+  "popupNothingHere": {
+    "message": "No login form on this page",
+    "description": "Shown on pages Passyble cannot fill (browser pages, files)."
+  },
+  "popupNoSiteMatches": {
+    "message": "No matches on this site.",
+    "description": "The search found none of this site's logins."
+  },
+  "popupNoSiteLogins": {
+    "message": "No logins here yet",
+    "description": "This site has no saved logins."
+  },
+  "popupNoOtherMatches": {
+    "message": "No other logins match.",
+    "description": "The vault search found nothing else."
+  },
+  "popupSearchNeedsUpdate": {
+    "message": "Update the Passyble desktop app to search your whole vault.",
+    "description": "The desktop app is too old for the vault search."
+  },
+  "popupLookUp": {
+    "message": "Look up $SITE$",
+    "description": "Button: show the logins of the typed site.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "popupLoginsFor": {
+    "message": "Logins for $SITE$",
+    "description": "Heading of a looked-up site's logins.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "popupLookingUp": {
+    "message": "Looking up…",
+    "description": "Shown while a site's logins are looked up."
+  },
+  "popupNothingForSite": {
+    "message": "Nothing saved for that site.",
+    "description": "The looked-up site has no saved logins."
+  },
+  "popupSearchKeywordsCard": {
+    "message": "card",
+    "description": "Not shown: lowercase words, separated by spaces, that find saved payment cards when typed into the search. Keep \"card\" and add your language's word."
+  },
+  "popupSearchKeywordsIdentity": {
+    "message": "address identity",
+    "description": "Not shown: lowercase words, separated by spaces, that find saved identities (name and address) when typed into the search. Keep the English words and add yours."
+  },
+  "popupUntitled": {
+    "message": "(untitled)",
+    "description": "Shown instead of a login title when it has none."
+  },
+  "popupUntitledLogin": {
+    "message": "login",
+    "description": "Name used for a login without a title inside other texts, e.g. \"Fill login\"."
+  },
+  "popupMoreFor": {
+    "message": "More for $NAME$",
+    "description": "Accessible name of the ⋯ button of a login, card or identity row.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupEdit": {
+    "message": "Edit",
+    "description": "Menu entry: edit this login."
+  },
+  "popupCopyUsername": {
+    "message": "Copy username",
+    "description": "Button tooltip."
+  },
+  "popupCopyPassword": {
+    "message": "Copy password",
+    "description": "Button tooltip."
+  },
+  "popupCopyPasswordOf": {
+    "message": "Copy password of $NAME$",
+    "description": "Accessible name of a row that copies the password.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupCopyOtp": {
+    "message": "Copy 2FA code",
+    "description": "Button tooltip / menu entry. \"2FA\" means two-factor authentication (a one-time code); keep it short."
+  },
+  "popupFillHere": {
+    "message": "Fill on this page",
+    "description": "Tooltip of a login row: fill it into the page."
+  },
+  "popupFillItem": {
+    "message": "Fill $NAME$",
+    "description": "Accessible name of a login row that fills it.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupFillHereConfirm": {
+    "message": "Fill on this page (Passyble asks first)",
+    "description": "Tooltip of a vault search result: the desktop app asks before filling another site's login."
+  },
+  "popupFillItemHere": {
+    "message": "Fill $NAME$ on this page",
+    "description": "Accessible name of a vault search result row.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupConfirmFill": {
+    "message": "Confirm in the Passyble app to fill.",
+    "description": "Notice: the desktop app asks before filling another site's login."
+  },
+  "popupOtpCode": {
+    "message": "2FA code",
+    "description": "Fallback title of a pending 2FA code. \"2FA\" means two-factor authentication (a one-time code); keep it short."
+  },
+  "popupNextStepOtp": {
+    "message": "Next step: 2FA code",
+    "description": "Second line of the pending 2FA code row (the site asks for it next)."
+  },
+  "popupOtpStep": {
+    "message": "2FA step",
+    "description": "Tag on the 2FA code button when the site is on its 2FA step."
+  },
+  "popupOtpPillLabel": {
+    "message": "2FA code, click to copy",
+    "description": "Accessible name of the 2FA code button."
+  },
+  "popupOtpLockedTitle": {
+    "message": "Unlock to copy the 2FA code",
+    "description": "Tooltip of the 2FA code button while the vault is locked."
+  },
+  "popupOtpLockedLabel": {
+    "message": "2FA code, locked. Click to unlock and copy",
+    "description": "Accessible name of the 2FA code button while the vault is locked."
+  },
+  "popupCopyFailed": {
+    "message": "Could not copy",
+    "description": "Notice: copying to the clipboard failed."
+  },
+  "popupCopiedUsername": {
+    "message": "Username copied",
+    "description": "Notice after copying."
+  },
+  "popupCopiedPassword": {
+    "message": "Password copied",
+    "description": "Notice after copying."
+  },
+  "popupCopiedPasswordClears": {
+    "message": "Password copied (clears in 45 s)",
+    "description": "Notice after copying; the clipboard is cleared after 45 seconds (\"s\" = seconds)."
+  },
+  "popupCopiedOtp": {
+    "message": "2FA code copied",
+    "description": "Notice after copying."
+  },
+  "popupCopiedOtpClears": {
+    "message": "2FA code copied (clears in 45 s)",
+    "description": "Notice after copying; the clipboard is cleared after 45 seconds."
+  },
+  "popupCopiedExpiry": {
+    "message": "Expiry date copied",
+    "description": "Notice after copying a card's expiry date."
+  },
+  "popupCopiedExpiryClears": {
+    "message": "Expiry date copied (clears in 45 s)",
+    "description": "Notice after copying a card's expiry date; the clipboard is cleared after 45 seconds."
+  },
+  "popupCopiedCardNumber": {
+    "message": "Card number copied",
+    "description": "Notice after copying."
+  },
+  "popupCopiedCardNumberClears": {
+    "message": "Card number copied (clears in 45 s)",
+    "description": "Notice after copying; the clipboard is cleared after 45 seconds."
+  },
+  "popupCopiedSecurityCode": {
+    "message": "Security code copied",
+    "description": "Notice after copying a card's security code (CVC)."
+  },
+  "popupCopiedSecurityCodeClears": {
+    "message": "Security code copied (clears in 45 s)",
+    "description": "Notice after copying; the clipboard is cleared after 45 seconds."
+  },
+  "popupCopiedName": {
+    "message": "Name copied",
+    "description": "Notice after copying an identity's name."
+  },
+  "popupCopiedEmail": {
+    "message": "E-mail copied",
+    "description": "Notice after copying an identity's e-mail address."
+  },
+  "popupCopiedPhone": {
+    "message": "Phone copied",
+    "description": "Notice after copying an identity's phone number."
+  },
+  "popupCopiedAddress": {
+    "message": "Address copied",
+    "description": "Notice after copying an identity's postal address."
+  },
+  "popupCopiedByAppPassword": {
+    "message": "Password copied by Passyble (clears in 45 s)",
+    "description": "Notice: the desktop app copied the password; the clipboard is cleared after 45 seconds."
+  },
+  "popupCopiedByAppOtp": {
+    "message": "2FA code copied by Passyble (clears in 45 s)",
+    "description": "Notice: the desktop app copied the code; the clipboard is cleared after 45 seconds."
+  },
+  "popupNotCopiedUsername": {
+    "message": "Username not copied",
+    "description": "Notice: the copy did not happen (cancelled in Windows Hello or the desktop app, or the popup closed first)."
+  },
+  "popupNotCopiedPassword": {
+    "message": "Password not copied",
+    "description": "Notice: the copy did not happen (cancelled in Windows Hello or the desktop app, or the popup closed first)."
+  },
+  "popupNotCopiedOtp": {
+    "message": "2FA code not copied",
+    "description": "Notice: the copy did not happen (cancelled in Windows Hello or the desktop app, or the popup closed first)."
+  },
+  "popupNotCopiedCardNumber": {
+    "message": "Card number not copied",
+    "description": "Notice: the copy did not happen (cancelled in Windows Hello or the desktop app, or the popup closed first)."
+  },
+  "popupNotCopiedSecurityCode": {
+    "message": "Security code not copied",
+    "description": "Notice: the copy did not happen (cancelled in Windows Hello or the desktop app, or the popup closed first)."
+  },
+  "popupCopyNeedsUpdate": {
+    "message": "Update the Passyble desktop app to copy from search.",
+    "description": "The desktop app is too old to copy from the vault search."
+  },
+  "popupCopyCardNumber": {
+    "message": "Copy card number",
+    "description": "Button tooltip on a saved payment card."
+  },
+  "popupCopyNumberOf": {
+    "message": "Copy the number of $NAME$",
+    "description": "Accessible name of a card row (copies the card number).",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Visa •••• 4242"
+      }
+    }
+  },
+  "popupCopyExpiry": {
+    "message": "Copy expiry date",
+    "description": "Button tooltip on a saved payment card."
+  },
+  "popupCopySecurityCode": {
+    "message": "Copy security code",
+    "description": "Button tooltip on a saved payment card (CVC)."
+  },
+  "popupCardNoNumber": {
+    "message": "This card has no card number.",
+    "description": "Notice: the saved card has no number."
+  },
+  "popupCardNoSecurityCode": {
+    "message": "This card has no security code.",
+    "description": "Notice: the saved card has no security code."
+  },
+  "popupCardsNeedUpdate": {
+    "message": "Update the Passyble desktop app to copy card details.",
+    "description": "The desktop app is too old to copy card details."
+  },
+  "popupCopyName": {
+    "message": "Copy name",
+    "description": "Button tooltip on a saved identity."
+  },
+  "popupCopyEmail": {
+    "message": "Copy e-mail",
+    "description": "Button tooltip on a saved identity."
+  },
+  "popupCopyPhone": {
+    "message": "Copy phone",
+    "description": "Menu entry on a saved identity."
+  },
+  "popupCopyAddress": {
+    "message": "Copy address",
+    "description": "Menu entry on a saved identity (postal address)."
+  },
+  "popupCopyEmailOf": {
+    "message": "Copy the e-mail of $NAME$",
+    "description": "Accessible name of an identity row.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Ada Lovelace"
+      }
+    }
+  },
+  "popupCopyNameOf": {
+    "message": "Copy the name of $NAME$",
+    "description": "Accessible name of an identity row.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Ada Lovelace"
+      }
+    }
+  },
+  "popupNoNameSaved": {
+    "message": "No name saved.",
+    "description": "Notice: the identity has no name."
+  },
+  "popupNoEmailSaved": {
+    "message": "No e-mail saved.",
+    "description": "Notice: the identity has no e-mail address."
+  },
+  "popupNoPhoneSaved": {
+    "message": "No phone saved.",
+    "description": "Notice: the identity has no phone number."
+  },
+  "popupNoAddressSaved": {
+    "message": "No address saved.",
+    "description": "Notice: the identity has no postal address."
+  },
+  "popupDeleted": {
+    "message": "Deleted $NAME$",
+    "description": "Notice after deleting a login (with an Undo button).",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupRestored": {
+    "message": "Restored",
+    "description": "Notice after Undo brought a deleted login back."
+  },
+  "editorAddLogin": {
+    "message": "Add login",
+    "description": "Heading of the editor for a new login."
+  },
+  "editorEditLogin": {
+    "message": "Edit login",
+    "description": "Heading of the login editor."
+  },
+  "editorTitle": {
+    "message": "Title",
+    "description": "Field label: the login's name."
+  },
+  "editorTotp": {
+    "message": "2FA",
+    "description": "Field label: the login's 2FA (one-time code) setup. \"2FA\" means two-factor authentication (a one-time code); keep it short."
+  },
+  "editorWebsites": {
+    "message": "Websites",
+    "description": "Field label: the websites the login belongs to."
+  },
+  "editorWebsite": {
+    "message": "Website",
+    "description": "Accessible name of one website field."
+  },
+  "editorMoreDetails": {
+    "message": "More details",
+    "description": "Popup editor: the button that shows or hides a login's other websites, 2FA, notes and vault (closed for a new login)."
+  },
+  "editorAddWebsite": {
+    "message": "Add website",
+    "description": "Button: add another website field."
+  },
+  "editorRemoveWebsite": {
+    "message": "Remove website",
+    "description": "Button tooltip: remove this website field."
+  },
+  "editorNotes": {
+    "message": "Notes",
+    "description": "Field label: free-text notes."
+  },
+  "editorNotesCount": {
+    "message": "$COUNT$ of $MAX$ characters",
+    "description": "Under the notes box once notes near their limit: characters typed and the most a note can hold (numbers formatted for the language).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "18,500"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20,000"
+      }
+    }
+  },
+  "editorGenerate": {
+    "message": "Generate password",
+    "description": "Button tooltip: fill a new strong password."
+  },
+  "editorGenerateUsername": {
+    "message": "Generate username",
+    "description": "Button tooltip in the login editor's username field: opens a menu of ways to generate a username or e-mail address."
+  },
+  "editorGenRandomUsername": {
+    "message": "Random username",
+    "description": "Menu entry: fill a random username made of words (like Swift-Otter)."
+  },
+  "editorGenPlus": {
+    "message": "Plus address",
+    "description": "Menu entry: fill the user's e-mail address with a +tag (like name+shop@example.com)."
+  },
+  "editorGenCatchAll": {
+    "message": "Catch-all address",
+    "description": "Menu entry: fill a new address at the user's catch-all domain (like shop@example.com)."
+  },
+  "editorGenAlias": {
+    "message": "E-mail alias ($SERVICE$)",
+    "description": "Menu entry: create a new e-mail alias at this alias service and fill it.",
+    "placeholders": {
+      "service": {
+        "content": "$1",
+        "example": "SimpleLogin"
+      }
+    }
+  },
+  "editorGenMentionWebsite": {
+    "message": "Mention this website",
+    "description": "Checkbox in the username generator menu: the generated address names this website (the +tag, or a note on the alias at the alias service). Off by default."
+  },
+  "editorMoreActions": {
+    "message": "Login options",
+    "description": "Accessible name of the editor's ⋯ button."
+  },
+  "editorLoginActions": {
+    "message": "Login actions",
+    "description": "Accessible name of the editor's ⋯ menu."
+  },
+  "editorDelete": {
+    "message": "Delete login",
+    "description": "Menu entry: delete this login."
+  },
+  "editorSaved": {
+    "message": "Saved",
+    "description": "Notice after saving the login."
+  },
+  "editorLoginFallback": {
+    "message": "Login",
+    "description": "Name of a deleted login without a title, in \"Deleted …\"."
+  },
+  "editorShowCode": {
+    "message": "Show the current code",
+    "description": "Button tooltip: show the 2FA code again after it expired."
+  },
+  "editorSecondsLeft": {
+    "message": "$SECONDS$s",
+    "description": "Seconds until the 2FA code changes, next to the code (\"s\" = seconds; keep it very short).",
+    "placeholders": {
+      "seconds": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "editorTotpOn": {
+    "message": "2FA on",
+    "description": "The login has 2FA (no issuer or account name known)."
+  },
+  "editorTotpNew": {
+    "message": "New · saved on Save",
+    "description": "A newly added 2FA secret; it is stored when the user presses Save."
+  },
+  "editorTotpNewNamed": {
+    "message": "New: $NAME$ · saved on Save",
+    "description": "A newly added 2FA secret with its issuer / account; stored when the user presses Save.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub · octocat"
+      }
+    }
+  },
+  "editorRemoveTotp": {
+    "message": "Remove 2FA",
+    "description": "Button tooltip: remove the login's 2FA secret."
+  },
+  "editorAddTotp": {
+    "message": "Add 2FA",
+    "description": "Button: add a 2FA secret to the login."
+  },
+  "editorTotpRemoved": {
+    "message": "2FA removed on Save",
+    "description": "The 2FA secret will be removed when the user presses Save."
+  },
+  "editorSecretPlaceholder": {
+    "message": "Secret or otpauth:// link",
+    "description": "Placeholder of the 2FA secret field. Keep \"otpauth://\"."
+  },
+  "editorSecretLabel": {
+    "message": "2FA secret or otpauth link",
+    "description": "Accessible name of the 2FA secret field."
+  },
+  "editorScanQr": {
+    "message": "Scan QR on this page",
+    "description": "Button: read a 2FA QR code shown on the web page."
+  },
+  "editorAdd": {
+    "message": "Add",
+    "description": "Button tooltip: add the typed 2FA secret."
+  },
+  "editorNoQr": {
+    "message": "No 2FA QR code on this page.",
+    "description": "Notice: no 2FA QR code was found on the page."
+  },
+  "editorCantReadPage": {
+    "message": "Passyble can't read this page.",
+    "description": "Notice in the login editor: the browser would not give a screenshot of the page when scanning for a 2FA QR code."
+  },
+  "editorOpenQrPageFirst": {
+    "message": "Open the page with the QR code first.",
+    "description": "Notice in the login editor: the 2FA QR code scan works only on the tab that is visible; the person must switch to the page with the QR code first."
+  },
+  "editorTotpInvalid": {
+    "message": "That 2FA secret isn't valid. Check it and try again.",
+    "description": "Notice in the login editor: the pasted 2FA secret or otpauth link was refused as not valid."
+  },
+  "editorRuleMenu": {
+    "message": "Autofill on this website",
+    "description": "Popup login editor: tooltip and accessible name of a website's gear button, and the name of its menu, which chooses when the login is suggested and filled on that website."
+  },
+  "editorRuleSubdomains": {
+    "message": "Subdomains",
+    "description": "Popup login editor, a website's menu: the default rule, the login is suggested on the site and all its subdomains."
+  },
+  "editorRuleSubdomainsDetail": {
+    "message": "This site and all its subdomains. The default.",
+    "description": "Popup login editor, a website's menu: the line under \"Subdomains\"."
+  },
+  "editorRuleHost": {
+    "message": "Same host only",
+    "description": "Popup login editor, a website's menu: the login is suggested only on that exact host."
+  },
+  "editorRuleHostDetail": {
+    "message": "Only this exact address, not its other subdomains.",
+    "description": "Popup login editor, a website's menu: the line under \"Same host only\"."
+  },
+  "editorRuleNever": {
+    "message": "Never show",
+    "description": "Popup login editor, a website's menu: the login is never suggested or filled on its own on that website."
+  },
+  "editorRuleNeverDetail": {
+    "message": "Never suggested or filled on its own. Still in search.",
+    "description": "Popup login editor, a website's menu: the line under \"Never show\"."
+  },
+  "editorRuleSuggested": {
+    "message": "Suggested",
+    "description": "Popup login editor, a website's menu: small tag on \"Same host only\" for a site on a shared hosting platform (alice.github.io)."
+  },
+  "editorRuleBadgeHost": {
+    "message": "Same host",
+    "description": "Popup login editor: short badge on a website whose rule is \"Same host only\"."
+  },
+  "editorRuleBadgeNever": {
+    "message": "Hidden",
+    "description": "Popup login editor: short badge on a website whose rule is \"Never show\"."
+  },
+  "editorPopularSites": {
+    "message": "Popular sites",
+    "description": "Popup login editor, a new login: accessible name of the list of popular sites suggested under the Name or a website while typing."
+  },
+  "serverKindPairing": {
+    "message": "Device pairing link",
+    "description": "Kind of a pass+server:// link that registers this device."
+  },
+  "serverKindInvite": {
+    "message": "Sign-in link: you'll sign in in the Passyble app",
+    "description": "Kind of a pass+server:// link without a token: the user signs in in the desktop app."
+  },
+  "serverKindAddress": {
+    "message": "Server address: you'll sign in in the Passyble app",
+    "description": "Kind of input: a plain server address; the user signs in in the desktop app."
+  },
+  "serverHint": {
+    "message": "Paste your server address or invite link.",
+    "description": "Hint under the Passyble Server field. Keep \"pass+server://\" as is."
+  },
+  "serverSignInOpened": {
+    "message": "Passyble opened the sign-in window. Finish there.",
+    "description": "Result: the desktop app shows its sign-in window."
+  },
+  "serverInputLabel": {
+    "message": "Passyble Server address or link",
+    "description": "Accessible name of the server field."
+  },
+  "serverContinue": {
+    "message": "Continue",
+    "description": "Button: hand the address or link to the desktop app."
+  },
+  "serverContinueTitle": {
+    "message": "Continue in Passyble (Enter)",
+    "description": "Tooltip of the Continue button; Enter is the keyboard key."
+  },
+  "serverRowServer": {
+    "message": "Server",
+    "description": "Preview label: the server host."
+  },
+  "serverRowAddress": {
+    "message": "Address",
+    "description": "Preview label: the full server address."
+  },
+  "serverRowNext": {
+    "message": "Next",
+    "description": "Preview label: what happens next."
+  },
+  "serverNextSignIn": {
+    "message": "Sign in in the Passyble app",
+    "description": "Preview value for \"Next\"."
+  },
+  "serverRowLink": {
+    "message": "Link",
+    "description": "Preview label: the kind of link."
+  },
+  "serverRowAccount": {
+    "message": "Account",
+    "description": "Preview label: the account (user name) in the link."
+  },
+  "serverRowDevice": {
+    "message": "Device",
+    "description": "Preview label: the device name in the link."
+  },
+  "serverDeviceUnnamed": {
+    "message": "(not named)",
+    "description": "Preview value: the link has no device name."
+  },
+  "serverRowCertificate": {
+    "message": "Certificate",
+    "description": "Preview label: the server's TLS certificate."
+  },
+  "serverCertLinked": {
+    "message": "Self-signed, verified by this link",
+    "description": "Preview value for Certificate: the server uses its own (self-signed) certificate, and the link carries what Passyble checks it against."
+  },
+  "serverCertPublic": {
+    "message": "Publicly trusted certificate",
+    "description": "Preview value: a normal https certificate."
+  },
+  "serverCertNone": {
+    "message": "None (not encrypted)",
+    "description": "Preview value for Certificate: the server address uses http, without encryption."
+  },
+  "serverRowPassword": {
+    "message": "Password",
+    "description": "Preview label: how the password is given."
+  },
+  "serverPasswordAsked": {
+    "message": "Asked in the Passyble app",
+    "description": "Preview value for \"Password\"."
+  },
+  "serverRowToken": {
+    "message": "Sign-in key",
+    "description": "Preview label: the secret in a device pairing link that lets this device sign in (its value is never shown)."
+  },
+  "serverTokenIncluded": {
+    "message": "Included (hidden)",
+    "description": "Preview value for \"Sign-in key\" (serverRowToken): it is there but not shown."
+  },
+  "serverHttpWarning": {
+    "message": "This connection isn't encrypted. Use it only for a server on this computer, your home network or a VPN.",
+    "description": "Warning for http:// servers."
+  },
+  "serverOpening": {
+    "message": "Opening Passyble…",
+    "description": "Status while the desktop app opens."
+  },
+  "serverCheckWindow": {
+    "message": "Check the Passyble window to finish connecting to $HOST$ as $USER$.",
+    "description": "Result: the desktop app shows its \"Connect to Passyble Server\" dialog.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "pass.example.com"
+      },
+      "user": {
+        "content": "$2",
+        "example": "ada"
+      }
+    }
+  },
+  "pairBadPercent": {
+    "message": "This link is damaged. Copy the whole link again and paste it here.",
+    "description": "Error: the pasted link is damaged (it was cut or changed while copying)."
+  },
+  "pairAddressEmpty": {
+    "message": "Enter the address of your Passyble Server, like pass.example.com.",
+    "description": "Error: empty server address. Keep pass.example.com."
+  },
+  "pairAddressTooLong": {
+    "message": "That is too long to be a server address.",
+    "description": "Error: the pasted text is too long."
+  },
+  "pairAddressSpaces": {
+    "message": "A server address has no spaces. Paste just the address, like pass.example.com.",
+    "description": "Error: the server address contains spaces."
+  },
+  "pairAddressScheme": {
+    "message": "A server address starts with https:// (or nothing), like https://pass.example.com.",
+    "description": "Error: the address starts with another scheme (ftp://, …)."
+  },
+  "pairAddressCredentials": {
+    "message": "A server address can't contain a user name or password.",
+    "description": "Error: the address contains user@."
+  },
+  "pairAddressEmail": {
+    "message": "That looks like an e-mail address. Paste the server address (like pass.example.com) instead.",
+    "description": "Error: an e-mail address was pasted."
+  },
+  "pairAddressQuery": {
+    "message": "Paste just the server address, like pass.example.com, without the rest of the web address.",
+    "description": "Error: the pasted server address has more after it (like a web page address with a ? or #)."
+  },
+  "pairAddressInvalid": {
+    "message": "That isn't a valid server address. Use one like pass.example.com or https://pass.example.com:8443.",
+    "description": "Error: not a valid server address."
+  },
+  "pairInputEmpty": {
+    "message": "Paste the address of your Passyble Server or the pass+server:// link.",
+    "description": "Error: nothing was pasted."
+  },
+  "pairLinkEmpty": {
+    "message": "Paste a pairing link first.",
+    "description": "Error: empty pairing link."
+  },
+  "pairLinkTooLong": {
+    "message": "This is too long to be a Passyble Server link. Copy just the link and try again.",
+    "description": "Error: the pasted link is too long."
+  },
+  "pairLinkPrefix": {
+    "message": "This isn't a Passyble Server link. Paste the link that starts with pass+server://",
+    "description": "Error: wrong link type. Keep pass+server://."
+  },
+  "pairLinkAddress": {
+    "message": "This link has no valid server address. Create a new link on the server and try again.",
+    "description": "Error: the pasted Passyble Server link has no usable server address."
+  },
+  "pairLinkScheme": {
+    "message": "This link is damaged. Create a new one on the server and try again.",
+    "description": "Error: the pasted Passyble Server link is damaged."
+  },
+  "pairLinkNoVersion": {
+    "message": "This link is incomplete. Create a new one on the server and try again.",
+    "description": "Error: the pasted Passyble Server link is missing a part."
+  },
+  "pairLinkVersion": {
+    "message": "This link is from a newer Passyble Server. Update Passyble, then try again.",
+    "description": "Error: the link was made by a newer Passyble Server than this Passyble understands."
+  },
+  "pairLinkPin": {
+    "message": "This link is damaged or needs a newer Passyble. Update Passyble, or create a new link on the server.",
+    "description": "Error: the link carries a certificate check this Passyble does not know (damaged, or from a newer server)."
+  },
+  "pairLinkNoUser": {
+    "message": "This link doesn't say which account to use. Create a new one on the server and try again.",
+    "description": "Error: the pasted Passyble Server link has no account name."
+  },
+  "pairLinkEmptyToken": {
+    "message": "This pairing link is incomplete. Create a new one on the server and try again.",
+    "description": "Error: the pasted device pairing link is missing a part."
+  },
+  "pairLinkTokenAndCode": {
+    "message": "This link is damaged. Create a new one on the server and try again.",
+    "description": "Error: the pasted Passyble Server link is damaged."
+  },
+  "pairLinkNoPath": {
+    "message": "This pairing link is incomplete. Create a new one on the server and try again.",
+    "description": "Error: the pasted device pairing link is missing a part."
+  },
+  "pairLinkCodes": {
+    "message": "This sign-in link is damaged. Create a new one on the server and try again.",
+    "description": "Error: the pasted sign-in link is damaged."
+  },
+  "optionsPageTitle": {
+    "message": "Passyble settings",
+    "description": "Browser tab title of the settings page."
+  },
+  "optionsTitle": {
+    "message": "Settings",
+    "description": "Heading of the settings page."
+  },
+  "optionsAutofill": {
+    "message": "Autofill",
+    "description": "Settings section heading."
+  },
+  "optionsNeverSaveTitle": {
+    "message": "Never save",
+    "description": "Settings section heading: sites where Passyble never asks to save logins."
+  },
+  "optionsNeverSaveEmpty": {
+    "message": "No sites yet. Choose \"Never for this site\" when Passyble offers to save a login.",
+    "description": "Settings, \"Sites without save prompts\": the list is empty."
+  },
+  "optionsRemove": {
+    "message": "Remove",
+    "description": "Button: remove the site from the list."
+  },
+  "optionsRemoveSite": {
+    "message": "Remove $SITE$",
+    "description": "Accessible name of the Remove button.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "optionsRemoveSiteTitle": {
+    "message": "Ask to save logins on $SITE$ again",
+    "description": "Tooltip of the Remove button.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "optionsRemoved": {
+    "message": "Removed",
+    "description": "Short notice after removing a site."
+  },
+  "optionsRemoveFailed": {
+    "message": "Couldn't remove it",
+    "description": "Short notice when removing a site failed."
+  },
+  "optionsSaved": {
+    "message": "Saved",
+    "description": "Short notice after a setting changed."
+  },
+  "optionsPasskeys": {
+    "message": "Passkeys",
+    "description": "Settings section heading."
+  },
+  "optionsShortcuts": {
+    "message": "Keyboard shortcuts",
+    "description": "Settings section heading: keyboard shortcuts."
+  },
+  "optionsServerHeading": {
+    "message": "Passyble Server",
+    "description": "Heading of the options page section that adds a Passyble Server. A brand name: it may stay as is in your language."
+  },
+  "optionsShortcutFillLogin": {
+    "message": "Fill login",
+    "description": "Keyboard shortcut name."
+  },
+  "optionsShortcutFillOtp": {
+    "message": "Fill or show 2FA code",
+    "description": "Keyboard shortcut name. \"2FA\" means two-factor authentication (a one-time code); keep it short."
+  },
+  "optionsShortcutOpenPopup": {
+    "message": "Open Passyble and search",
+    "description": "Keyboard shortcut name in Settings: opens the popup with the search field ready (keep it short)."
+  },
+  "optionsShortcutNotSet": {
+    "message": "Not set",
+    "description": "Shown instead of a key combination when a shortcut has none."
+  },
+  "optionsShortcutHelpFirefox": {
+    "message": "Change them in about:addons → gear menu → Manage Extension Shortcuts.",
+    "description": "Firefox: where to change shortcuts. Use the names Firefox shows in your language; keep about:addons."
+  },
+  "optionsShortcutScanQr": {
+    "message": "Scan QR code",
+    "description": "Keyboard shortcut name in Settings: scan a 2FA QR code on the page (keep it short)."
+  },
+  "optionsShortcutGenerate": {
+    "message": "Generate password",
+    "description": "Keyboard shortcut name in Settings: generate a password (keep it short)."
+  },
+  "optionsShortcutNewNote": {
+    "message": "New secure note",
+    "description": "Keyboard shortcut name in Settings: a new secure note (keep it short)."
+  },
+  "optionsShortcutLock": {
+    "message": "Lock",
+    "description": "Keyboard shortcut name in Settings: lock the vault (keep it short)."
+  },
+  "optionsShortcutSync": {
+    "message": "Sync now",
+    "description": "Keyboard shortcut name in Settings: sync the vaults now (keep it short)."
+  },
+  "optionsShortcutRecord": {
+    "message": "Change",
+    "description": "Firefox Settings, keyboard shortcuts: button on each shortcut's row; after it, the user presses the new key combination."
+  },
+  "optionsShortcutRecordLabel": {
+    "message": "Change the shortcut for $NAME$",
+    "description": "Screen reader label of the Change button on a shortcut's row (Firefox). $NAME$ is the shortcut's name.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Scan QR code"
+      }
+    }
+  },
+  "optionsShortcutReset": {
+    "message": "Reset",
+    "description": "Firefox Settings, keyboard shortcuts: button on each row that puts back the shortcut Passyble comes with."
+  },
+  "optionsShortcutResetLabel": {
+    "message": "Reset the shortcut for $NAME$",
+    "description": "Screen reader label of the Reset button on a shortcut's row (Firefox). $NAME$ is the shortcut's name.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Scan QR code"
+      }
+    }
+  },
+  "optionsShortcutRecording": {
+    "message": "Press the new keys",
+    "description": "Firefox Settings: shown in place of the key combination while Passyble waits for the user to press the new keys."
+  },
+  "optionsShortcutHelpFirefoxRecord": {
+    "message": "Click Change, then press the new keys. Esc cancels, Backspace removes the shortcut.",
+    "description": "Firefox Settings, under the keyboard shortcuts: how to change one here. Esc and Backspace are the keyboard keys."
+  },
+  "optionsShortcutNeedsModifier": {
+    "message": "Hold Ctrl or Alt (on a Mac: Command, Option or Control) and press a letter, a digit or a function key.",
+    "description": "Firefox Settings: the keys pressed for a shortcut had no modifier key. Mac key names: Command, Option, Control."
+  },
+  "optionsShortcutBadKey": {
+    "message": "That key can't be used in a shortcut. Use a letter, a digit or a function key.",
+    "description": "Firefox Settings: the key pressed can't be part of a shortcut."
+  },
+  "optionsShortcutRefused": {
+    "message": "Firefox didn't accept that shortcut. It may already be in use.",
+    "description": "Firefox Settings: Firefox did not accept the new shortcut (often because another one uses it)."
+  },
+  "optionsAbout": {
+    "message": "About",
+    "description": "Settings section heading: version and connection."
+  },
+  "optionsDesktopApp": {
+    "message": "Passyble desktop app",
+    "description": "Row name: the connection to the desktop app."
+  },
+  "optionsNotChecked": {
+    "message": "Not checked yet",
+    "description": "Connection status before checking."
+  },
+  "optionsChecking": {
+    "message": "Checking…",
+    "description": "Connection status while checking."
+  },
+  "optionsConnected": {
+    "message": "Connected · $APP$ · $STATE$",
+    "description": "Connection status.",
+    "placeholders": {
+      "app": {
+        "content": "$1",
+        "example": "Passyble 1.4.0"
+      },
+      "state": {
+        "content": "$2",
+        "example": "unlocked"
+      }
+    }
+  },
+  "optionsStateLocked": {
+    "message": "locked",
+    "description": "Vault state in the connection status (\"Connected · Passyble 1.4.0 · locked\")."
+  },
+  "optionsStateUnlocked": {
+    "message": "unlocked",
+    "description": "Vault state in the connection status (\"Connected · Passyble 1.4.0 · unlocked\")."
+  },
+  "optionsStart": {
+    "message": "Start",
+    "description": "Button: start the desktop app."
+  },
+  "optionsStarting": {
+    "message": "Starting Passyble… This can take a few seconds.",
+    "description": "Connection status while the desktop app starts."
+  },
+  "optionsCheck": {
+    "message": "Check",
+    "description": "Button: check the connection to the desktop app."
+  },
+  "optionsOpenGuide": {
+    "message": "Open",
+    "description": "Options page, About: button of the \"Setup guide and tips\" row; opens the guide in a new tab."
+  },
+  "optionsVersion": {
+    "message": "Version",
+    "description": "Settings, About: the extension's version number."
+  },
+  "welcomePageTitle": {
+    "message": "Welcome to Passyble",
+    "description": "Browser tab title of the setup guide page, opened once after installing the extension."
+  },
+  "welcomeTitle": {
+    "message": "Set up Passyble",
+    "description": "Setup guide: page heading."
+  },
+  "welcomeSetupHeading": {
+    "message": "Get started",
+    "description": "Setup guide: heading of the setup checklist."
+  },
+  "welcomeAllSetTitle": {
+    "message": "You're all set",
+    "description": "Setup guide: shown above the checklist once every step is done."
+  },
+  "welcomeStepDone": {
+    "message": "Done",
+    "description": "Setup guide: read by screen readers after the title of a finished step (a check mark shows it on screen)."
+  },
+  "welcomeInstallTitle": {
+    "message": "Install Passyble for Windows",
+    "description": "Setup guide, step 1: title."
+  },
+  "welcomeDownload": {
+    "message": "Download",
+    "description": "Button: download (the Windows app in the setup checklist; a backup file in Settings, next to \"Backup\")."
+  },
+  "welcomeInstallRetryHint": {
+    "message": "Installed? Open it, then try again.",
+    "description": "Setup checklist, under \"Download\" and \"Try again\": the Passyble app may be installed already."
+  },
+  "welcomeStartTitle": {
+    "message": "Start Passyble",
+    "description": "Setup guide, step 2: title."
+  },
+  "welcomeStartNoVault": {
+    "message": "It connects once it has a vault.",
+    "description": "Setup checklist, under \"Start Passyble\": the Passyble app connects to the browser only once it has a vault."
+  },
+  "welcomeVaultTitle": {
+    "message": "Create or unlock your vault",
+    "description": "Setup guide, step 3: title."
+  },
+  "welcomeAccessTitle": {
+    "message": "Allow Passyble on websites",
+    "description": "Setup guide, Firefox only: step shown while the browser has not granted access to websites (host permissions)."
+  },
+  "welcomeAccessButton": {
+    "message": "Allow access",
+    "description": "Setup guide, website access step: button; the browser then asks for the permission."
+  },
+  "welcomeAccessDeniedChromium": {
+    "message": "Not allowed. Turn it on in $PAGE$ → Passyble → Site access.",
+    "description": "Setup guide, website access step in Chrome, Edge or Brave: after the browser's request was declined. $PAGE$ is the browser's extensions page (chrome://extensions, edge://extensions or brave://extensions). The names after it are the browser's own menus: use the wording of the translated Chrome.",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "chrome://extensions"
+      }
+    }
+  },
+  "welcomeAccessDeniedFirefox": {
+    "message": "Not allowed. Turn it on in about:addons → Passyble → Permissions.",
+    "description": "Setup guide, website access step in Firefox: after the browser's request was declined. The quoted text is Firefox's own name of the permission; use the wording of the translated Firefox."
+  },
+  "welcomePinTitle": {
+    "message": "Pin Passyble to the toolbar",
+    "description": "Setup guide, last step: title."
+  },
+  "welcomePinChrome": {
+    "message": "Click the puzzle piece in the toolbar, then the pin next to Passyble.",
+    "description": "How to pin the extension in Chrome: the Extensions button (a puzzle piece) next to the address bar, then the pin icon next to Passyble."
+  },
+  "welcomePinEdge": {
+    "message": "Click the puzzle piece in the toolbar, then the eye next to Passyble.",
+    "description": "How to pin the extension in Edge: the Extensions button (a puzzle piece), then the eye icon (Show in toolbar) next to Passyble."
+  },
+  "welcomePinOpera": {
+    "message": "Click the cube in the toolbar, then the pin next to Passyble.",
+    "description": "How to pin the extension in Opera and Opera GX: the Extensions button (a cube) next to the address bar, then the pin icon next to Passyble."
+  },
+  "welcomePinFirefox": {
+    "message": "Click the puzzle piece in the toolbar, then the gear next to Passyble → Pin to Toolbar.",
+    "description": "How to pin the extension in Firefox: the Extensions button (a puzzle piece), the gear next to Passyble, then \"Pin to Toolbar\" (use Firefox's own wording)."
+  },
+  "welcomePinMark": {
+    "message": "I pinned it",
+    "description": "Setup guide, pin step: checkbox the user ticks (not every browser can tell the extension)."
+  },
+  "welcomeTipsTitle": {
+    "message": "How to use Passyble",
+    "description": "Setup guide: heading of the how-to cards under the checklist."
+  },
+  "welcomeOpenSettings": {
+    "message": "Open settings",
+    "description": "Setup guide: link at the bottom that opens the extension's options page."
+  },
+  "menuLoading": {
+    "message": "Loading…",
+    "description": "In-page menu: loading the logins."
+  },
+  "menuNoLogins": {
+    "message": "No logins for this site.",
+    "description": "In-page menu: nothing saved for this site."
+  },
+  "menuNoMatches": {
+    "message": "No logins match.",
+    "description": "In-page menu: no login matches what was typed."
+  },
+  "menuLocked": {
+    "message": "Passyble is locked.",
+    "description": "In-page menu: the vault is locked."
+  },
+  "menuUnlock": {
+    "message": "Unlock Passyble",
+    "description": "In-page menu entry."
+  },
+  "menuUnlockHello": {
+    "message": "Unlock with Windows Hello",
+    "description": "In-page menu entry."
+  },
+  "menuUnlockPassword": {
+    "message": "Enter master password",
+    "description": "In-page menu entry: opens a Passyble window to type the master password."
+  },
+  "menuUnlockToFill": {
+    "message": "Unlock to fill $NAME$.",
+    "description": "In-page menu text.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "menuUnlockToFillOtp": {
+    "message": "Unlock to fill the 2FA code of $NAME$.",
+    "description": "In-page menu text.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "menuUnlockToSee": {
+    "message": "Unlock to see your logins.",
+    "description": "In-page menu text."
+  },
+  "menuUnlockingInApp": {
+    "message": "Unlock in the Passyble app…",
+    "description": "In-page menu status while the desktop app's unlock prompt is open."
+  },
+  "menuHelloCancelled": {
+    "message": "Windows Hello was cancelled.",
+    "description": "In-page menu text."
+  },
+  "menuUsePassword": {
+    "message": "Use master password instead",
+    "description": "In-page menu entry while Windows Hello is open: switch to typing the master password."
+  },
+  "menuHelloCancelledPassword": {
+    "message": "Windows Hello was cancelled. Enter your master password.",
+    "description": "In-page menu text after Windows Hello was cancelled; the master password field is right below."
+  },
+  "unlockFrameTitle": {
+    "message": "Passyble master password",
+    "description": "Accessible name of the master password box inside the in-page menu."
+  },
+  "unlockFrameNote": {
+    "message": "This website can't see what you type.",
+    "description": "Under the master password field shown inside a web page (an extension frame): the page cannot read what is typed there."
+  },
+  "menuHeadingLocked": {
+    "message": "Passyble · locked",
+    "description": "In-page menu heading while the vault is locked."
+  },
+  "menuHeadingOtp": {
+    "message": "Passyble · 2FA",
+    "description": "In-page menu heading on 2FA code fields."
+  },
+  "menuHeadingOtpLocked": {
+    "message": "Passyble · 2FA · locked",
+    "description": "In-page menu heading on 2FA code fields while locked."
+  },
+  "menuHeadingCards": {
+    "message": "Passyble · Cards",
+    "description": "In-page menu heading on payment card fields."
+  },
+  "menuHeadingCardsLocked": {
+    "message": "Passyble · Cards · locked",
+    "description": "In-page menu heading on payment card fields while locked."
+  },
+  "menuHeadingAddresses": {
+    "message": "Passyble · Addresses",
+    "description": "In-page menu heading on address fields."
+  },
+  "menuHeadingAddressesLocked": {
+    "message": "Passyble · Addresses · locked",
+    "description": "In-page menu heading on address fields while locked."
+  },
+  "menuNoCards": {
+    "message": "No cards in Passyble.",
+    "description": "In-page menu: no saved payment cards."
+  },
+  "menuNoAddresses": {
+    "message": "No addresses in Passyble.",
+    "description": "In-page menu: no saved addresses."
+  },
+  "menuNoOtp": {
+    "message": "No 2FA codes for this site.",
+    "description": "In-page menu on a 2FA code field."
+  },
+  "menuFillOtp": {
+    "message": "Fill 2FA code",
+    "description": "Second line of the pending 2FA code entry."
+  },
+  "menuOtpCodeFor": {
+    "message": "2FA code · $USERNAME$",
+    "description": "Second line of a login's 2FA code entry.",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      }
+    }
+  },
+  "menuPasskeyFor": {
+    "message": "Sign in with passkey · $USERNAME$",
+    "description": "Second line of a passkey entry.",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      }
+    }
+  },
+  "passkeyPromptTitle": {
+    "message": "Sign in with your passkey?",
+    "description": "Heading of the card Passyble shows on its own when a site asks for passkey sign-in and Passyble has one passkey for it."
+  },
+  "passkeyPromptChoose": {
+    "message": "Choose a passkey to sign in",
+    "description": "Heading of the same card when Passyble has several passkeys for the site; a list of accounts follows."
+  },
+  "passkeyPromptSignIn": {
+    "message": "Sign in",
+    "description": "Button of the passkey card: sign in with the passkey shown."
+  },
+  "passkeyPromptUnlockSignIn": {
+    "message": "Unlock and sign in",
+    "description": "Button of the passkey card while Passyble is locked: unlock Passyble, then sign in with the passkey."
+  },
+  "passkeyPromptSignInAs": {
+    "message": "Sign in as $ACCOUNT$",
+    "description": "Accessible name of one account in the passkey card (several passkeys).",
+    "placeholders": {
+      "account": {
+        "content": "$1",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "passkeyPromptSigningIn": {
+    "message": "Signing in…",
+    "description": "Status line of the passkey card while the sign-in runs."
+  },
+  "passkeyPromptUnlocking": {
+    "message": "Unlocking Passyble…",
+    "description": "Status line of the passkey card while Passyble unlocks for the sign-in."
+  },
+  "passkeyPromptTitleLocked": {
+    "message": "Sign in with a Passyble passkey?",
+    "description": "Heading of the passkey card when a site asks for passkey sign-in and Passyble is locked, so it cannot tell yet which passkeys it has for the site."
+  },
+  "passkeyPromptLockedFull": {
+    "message": "Passyble is locked. Unlock it to use your passkeys for this site.",
+    "description": "Note in the passkey card while Passyble is fully locked: nothing of the vault is shown before it is unlocked."
+  },
+  "passkeyElsewhere": {
+    "message": "Use another device",
+    "description": "Link button in the passkey cards: hand the request to the browser's own passkey dialog (a phone, a security key, the browser's passkeys) instead of Passyble."
+  },
+  "passkeySaveTitle": {
+    "message": "Save a passkey for $SITE$ in Passyble?",
+    "description": "Heading of the card Passyble shows when a site wants to create a passkey. $SITE$ is the site's domain.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "passkeySaveKeepWith": {
+    "message": "Save with",
+    "description": "Label of the list in the \"Save a passkey?\" card: which saved login the new passkey is kept with."
+  },
+  "passkeySaveNewLogin": {
+    "message": "New login",
+    "description": "Last entry of that list: keep the passkey in a new login."
+  },
+  "passkeySaveLoginUser": {
+    "message": "$TITLE$ · $USERNAME$",
+    "description": "An entry of that list: a saved login, its title and its username.",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "Example"
+      },
+      "username": {
+        "content": "$2",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "passkeySaveVault": {
+    "message": "In your $VAULT$ vault",
+    "description": "Line in the \"Save a passkey?\" card when the user has several vaults: the vault the passkey is saved in.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Personal"
+      }
+    }
+  },
+  "passkeySaveButton": {
+    "message": "Save passkey",
+    "description": "Primary button of the \"Save a passkey?\" card."
+  },
+  "passkeySaveUnlock": {
+    "message": "Unlock and save",
+    "description": "Primary button of the \"Save a passkey?\" card while Passyble is locked."
+  },
+  "passkeySaveSaving": {
+    "message": "Saving the passkey…",
+    "description": "Status line of the \"Save a passkey?\" card while the passkey is being saved."
+  },
+  "passkeyUnlock": {
+    "message": "Unlock",
+    "description": "Button of the passkey card while Passyble is fully locked: unlock Passyble; then the card shows its passkeys for the site."
+  },
+  "passkeyNoneTitle": {
+    "message": "No Passyble passkey for this site",
+    "description": "Status line of the passkey card when Passyble has no passkey for a site's sign-in, for example when the passkey picked was deleted meanwhile."
+  },
+  "passkeyNoneNotice": {
+    "message": "No passkey for $SITE$ in Passyble",
+    "description": "Short notice at the top right of the page when a site asks for a passkey and Passyble, unlocked, has none for it: Passyble steps aside at once and the browser's own passkey sign-in takes over. Closes by itself. $SITE$ is the site's domain.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "passkeyNotRunningTitle": {
+    "message": "Passyble isn't running",
+    "description": "Heading of the passkey card when a site asks for a passkey and the Passyble desktop app isn't running. Passyble is a product name: keep it in English."
+  },
+  "passkeyOpening": {
+    "message": "Opening Passyble…",
+    "description": "Status line of the passkey card while \"Open Passyble\" starts the desktop app."
+  },
+  "passkeyErrorTitle": {
+    "message": "Passyble can't answer right now",
+    "description": "Heading of the passkey card when Passyble couldn't check its passkeys for a site's request; what happened, \"Try again\" and \"Use another device\" follow."
+  },
+  "passkeyTryAgain": {
+    "message": "Try again",
+    "description": "Button of the passkey card after an error: ask Passyble again."
+  },
+  "passkeyFrameTitle": {
+    "message": "Passyble can't answer here",
+    "description": "Heading of the passkey card for a passkey request Passyble can't answer, such as one from another site embedded in the page."
+  },
+  "passkeyNeedsVerification": {
+    "message": "This site requires Windows Hello, which Passyble can't use right now.",
+    "description": "Status line of the passkey card: the site requires user verification and Windows Hello can't verify the user now."
+  },
+  "menuUnlockToSignIn": {
+    "message": "Unlock Passyble to sign in as $ACCOUNT$.",
+    "description": "In-page menu text: a passkey was picked while Passyble is locked.",
+    "placeholders": {
+      "account": {
+        "content": "$1",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "menuGenerateEntry": {
+    "message": "Generate strong password",
+    "description": "In-page menu entry in new-password fields."
+  },
+  "menuGenerateNoSymbolsSub": {
+    "message": "No special characters, for sites that reject them",
+    "description": "In-page menu in new-password fields: the line under \"Letters and numbers only\" when it is the second choice."
+  },
+  "menuGenerateSymbolsSub": {
+    "message": "With special characters",
+    "description": "In-page menu in new-password fields: the line under \"Generate strong password\" when it is the second choice (the site last got a password without special characters)."
+  },
+  "menuGenerateTitle": {
+    "message": "Generate a strong password and save it to Passyble",
+    "description": "Tooltip of the dice button in new-password fields."
+  },
+  "menuGenerateLabel": {
+    "message": "Generate and save a strong password",
+    "description": "Accessible name of the dice button in new-password fields."
+  },
+  "menuGenerated": {
+    "message": "Generated password",
+    "description": "Accessible name of the shown generated password."
+  },
+  "menuGeneratedHidden": {
+    "message": "Generated password (hidden)",
+    "description": "Accessible name of the masked generated password."
+  },
+  "genOptionsButton": {
+    "message": "Password options",
+    "description": "Tooltip and accessible name of the small chevron beside the dice button in new-password fields: opens the generator's options."
+  },
+  "genOptionsTitle": {
+    "message": "Password generator",
+    "description": "Heading of the small card with the generator's options under a new-password field."
+  },
+  "genOptionsEntry": {
+    "message": "Password options",
+    "description": "In-page menu entry in new-password fields: opens the generator's options card."
+  },
+  "genOptionsEntrySub": {
+    "message": "Length, character types, passphrase",
+    "description": "The line under \"Password options\" in the in-page menu."
+  },
+  "genPassphraseEntry": {
+    "message": "Generate passphrase",
+    "description": "In-page menu entry in new-password fields when the user chose passphrases in the generator's options."
+  },
+  "genModeLabel": {
+    "message": "What to generate",
+    "description": "Accessible name of the Password / Passphrase switch in the generator's options card."
+  },
+  "genModePassword": {
+    "message": "Password",
+    "description": "Generator's options card: make a random password."
+  },
+  "genModePassphrase": {
+    "message": "Passphrase",
+    "description": "Generator's options card: make a passphrase of random words."
+  },
+  "genLength": {
+    "message": "Length",
+    "description": "Generator's options card: label of the slider for the password's number of characters."
+  },
+  "genWords": {
+    "message": "Words",
+    "description": "Generator's options card: label of the slider for the passphrase's number of words."
+  },
+  "genTypes": {
+    "message": "Character types",
+    "description": "Generator's options card: accessible name of the group of character type switches."
+  },
+  "genUppercase": {
+    "message": "Upper case letters (A-Z)",
+    "description": "Generator's options card: switch for upper case letters (the chip shows A-Z)."
+  },
+  "genLowercase": {
+    "message": "Lower case letters (a-z)",
+    "description": "Generator's options card: switch for lower case letters (the chip shows a-z)."
+  },
+  "genDigits": {
+    "message": "Digits (0-9)",
+    "description": "Generator's options card: switch for digits (the chip shows 0-9)."
+  },
+  "genSymbols": {
+    "message": "Special characters (!@#)",
+    "description": "Generator's options card: switch for special characters (the chip shows !@#)."
+  },
+  "genHyphensChip": {
+    "message": "Hyphens",
+    "description": "Generator's options card, passphrase: short text of the switch for hyphens between the words."
+  },
+  "genHyphens": {
+    "message": "Hyphens between the words",
+    "description": "Generator's options card, passphrase: accessible name of the switch; off, the words are joined in CamelCase."
+  },
+  "genRegenerate": {
+    "message": "Regenerate",
+    "description": "Generator's options card: button that makes a new password with the same options."
+  },
+  "genDone": {
+    "message": "Done",
+    "description": "Generator's options card: button that closes it, keeping the filled password."
+  },
+  "genNoteNoSymbols": {
+    "message": "This site doesn't take special characters.",
+    "description": "Generator's options card: note when the page's field forbids special characters."
+  },
+  "genNoteMaxLength_one": {
+    "message": "This site takes at most $COUNT$ character.",
+    "description": "Generator's options card: note when the page's field has a maximum length (singular form).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "genNoteMaxLength_other": {
+    "message": "This site takes at most $COUNT$ characters.",
+    "description": "Generator's options card: note when the page's field has a maximum length (plural form).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "16"
+      }
+    }
+  },
+  "genNoteMinLength_one": {
+    "message": "This site needs at least $COUNT$ character.",
+    "description": "Generator's options card: note when the page's field has a minimum length (singular form).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "genNoteMinLength_other": {
+    "message": "This site needs at least $COUNT$ characters.",
+    "description": "Generator's options card: note when the page's field has a minimum length (plural form).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "24"
+      }
+    }
+  },
+  "genNotePassphraseTooLong": {
+    "message": "A passphrase doesn't fit this site's length limit, so this is a password.",
+    "description": "Generator's options card: note when a passphrase was asked for but the field takes too few characters."
+  },
+  "genNoteLettersDigits": {
+    "message": "With no character type on, letters and digits are used.",
+    "description": "Generator's options card: note when every character type is off (special characters forbidden by the site)."
+  },
+  "menuPasswordStrength_one": {
+    "message": "$STRENGTH$ · $COUNT$ character",
+    "description": "Under a generated password: its strength and length (singular form).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      },
+      "strength": {
+        "content": "$2",
+        "example": "Strong"
+      }
+    }
+  },
+  "menuPasswordStrength_other": {
+    "message": "$STRENGTH$ · $COUNT$ characters",
+    "description": "Under a generated password: its strength and length (plural form).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "20"
+      },
+      "strength": {
+        "content": "$2",
+        "example": "Strong"
+      }
+    }
+  },
+  "menuNotRunningGenerate": {
+    "message": "Start Passyble before you submit to save it.",
+    "description": "In-page menu, Passyble app not running, next to \"Generate strong password\": start the app before submitting so it can save the generated password."
+  },
+  "menuFormsNeedUpdate": {
+    "message": "Update Passyble to fill cards and addresses.",
+    "description": "In-page notice. \"Offer cards and addresses\" must match settingFormFill."
+  },
+  "menuFormChanged": {
+    "message": "The form changed. Pick it again.",
+    "description": "In-page notice: the page changed the form before filling."
+  },
+  "strengthVeryStrong": {
+    "message": "Very strong",
+    "description": "Password strength."
+  },
+  "strengthStrong": {
+    "message": "Strong",
+    "description": "Password strength."
+  },
+  "strengthFair": {
+    "message": "Fair",
+    "description": "Password strength (medium)."
+  },
+  "strengthWeak": {
+    "message": "Weak",
+    "description": "Password strength."
+  },
+  "noticeNoOtp": {
+    "message": "No 2FA code saved for this site.",
+    "description": "In-page notice after the 2FA shortcut."
+  },
+  "toastOtpTitle": {
+    "message": "2FA code · $NAME$",
+    "description": "Title of the in-page 2FA code notice.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "toastCopy": {
+    "message": "Copy",
+    "description": "Button: copy the 2FA code."
+  },
+  "toastCopyTitle": {
+    "message": "Copy the 2FA code",
+    "description": "Tooltip of the Copy button."
+  },
+  "toastCopied": {
+    "message": "Copied",
+    "description": "Copy button text right after copying."
+  },
+  "toastCopyFailed": {
+    "message": "Copy failed",
+    "description": "Copy button text when copying failed."
+  },
+  "toastShowDesktop": {
+    "message": "Open in Passyble",
+    "description": "Accessible name of the button that shows the code in the desktop app."
+  },
+  "toastShowDesktopTitle": {
+    "message": "Open in Passyble",
+    "description": "Tooltip of the button that shows the code in the desktop app."
+  },
+  "toastShownDesktop": {
+    "message": "Shown in the Passyble desktop app.",
+    "description": "Note after the code was shown in the desktop app."
+  },
+  "toastSecondsLeft_one": {
+    "message": "$COUNT$ s left",
+    "description": "Tooltip of the countdown ring (singular form; \"s\" = seconds).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "toastSecondsLeft_other": {
+    "message": "$COUNT$ s left",
+    "description": "Tooltip of the countdown ring (plural form; \"s\" = seconds).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "toastRefreshFailed": {
+    "message": "Couldn't refresh the code. $ERROR$",
+    "description": "Note when the next 2FA code could not be loaded; $ERROR$ is an error text like \"Passyble is locked. Unlock it to continue.\"",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "toastFilledSaveLater": {
+    "message": "Password filled. Passyble offers to save it on submit.",
+    "description": "In-page notice after filling a generated password while the desktop app could not save it."
+  },
+  "toastFilledNotSaved": {
+    "message": "Password filled, not saved yet. $ERROR$",
+    "description": "In-page notice; $ERROR$ is an error text.",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "toastDraftSaved": {
+    "message": "Saved to Passyble",
+    "description": "In-page notice after a generated password was saved as a new login (with Undo)."
+  },
+  "toastDraftUpdated": {
+    "message": "Updated in Passyble",
+    "description": "In-page notice after a generated password updated the login saved moments ago (with Undo)."
+  },
+  "toastDraftChangeDetail": {
+    "message": "Kept as a separate login until you submit the change.",
+    "description": "Tooltip of the notice on a change-password form."
+  },
+  "toastDraftRemoved": {
+    "message": "Removed from Passyble.",
+    "description": "In-page notice after Undo."
+  },
+  "toastAutoUpdated": {
+    "message": "Password updated in Passyble",
+    "description": "In-page notice after the submit of a password Passyble generated updated the saved login (with Undo)."
+  },
+  "toastAutoRestored": {
+    "message": "Previous password restored.",
+    "description": "In-page notice after Undo on \"Password updated in Passyble\"."
+  },
+  "bannerSave": {
+    "message": "Save login to Passyble?",
+    "description": "Save prompt heading after signing in."
+  },
+  "bannerUpdatePassword": {
+    "message": "Update password?",
+    "description": "Save prompt heading after a password change."
+  },
+  "bannerUpdateUsername": {
+    "message": "Update username?",
+    "description": "Save prompt heading when the saved login gets a new username."
+  },
+  "bannerUserOnSite": {
+    "message": "$USERNAME$ on $SITE$",
+    "description": "Second line of the save prompt.",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      },
+      "site": {
+        "content": "$2",
+        "example": "github.com"
+      }
+    }
+  },
+  "bannerUpdate": {
+    "message": "Update",
+    "description": "Save prompt button: update the saved login."
+  },
+  "bannerNotNow": {
+    "message": "Not now",
+    "description": "Save prompt button: dismiss it this time."
+  },
+  "bannerEdit": {
+    "message": "Edit",
+    "description": "Save prompt button: show the username and password fields."
+  },
+  "bannerKeepPassword": {
+    "message": "Keep the password you typed",
+    "description": "Placeholder of the empty password field: leaving it empty keeps the typed password."
+  },
+  "bannerEditFrameTitle": {
+    "message": "Passyble username and password",
+    "description": "Accessible name of the username and password box behind \"Edit\" in the save prompt (an extension frame the website can't read)."
+  },
+  "bannerNever": {
+    "message": "Never for this site",
+    "description": "Save prompt link: never ask again on this site."
+  },
+  "bannerSaving": {
+    "message": "Saving…",
+    "description": "Save prompt status."
+  },
+  "bannerSaved": {
+    "message": "Saved to Passyble.",
+    "description": "Save prompt status after saving a new login."
+  },
+  "bannerPasswordUpdated": {
+    "message": "Password updated.",
+    "description": "Save prompt status."
+  },
+  "bannerUsernameUpdated": {
+    "message": "Username updated.",
+    "description": "Save prompt status."
+  },
+  "bannerAlreadySaved": {
+    "message": "Already saved.",
+    "description": "Save prompt status: nothing changed."
+  },
+  "bannerSaveFailed": {
+    "message": "Couldn't save. $ERROR$",
+    "description": "Save prompt status; $ERROR$ is an error text.",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "bannerNeverDone": {
+    "message": "Won't ask again on this site.",
+    "description": "Save banner, after \"Never for this site\": Passyble won't ask to save logins for this site (the list is in Settings)."
+  },
+  "bannerNeverFailed": {
+    "message": "Couldn't save that. $ERROR$",
+    "description": "Save prompt status when \"Never for this site\" failed; $ERROR$ is an error text.",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Something went wrong. Try again."
+      }
+    }
+  },
+  "cardsCard": {
+    "message": "Card",
+    "description": "Name of a saved payment card of unknown brand."
+  },
+  "cardsBadge": {
+    "message": "CARD",
+    "description": "Tiny avatar text of a payment card of unknown brand (at most 4 letters, like VISA)."
+  },
+  "browserAutofillOff": {
+    "message": "Browser autofill turned off.",
+    "description": "Notice in the popup (with Undo): the browser's own password saving and autofill were turned off so only Passyble offers to fill and save."
+  },
+  "browserAutofillBack": {
+    "message": "Browser autofill is back on.",
+    "description": "Notice after Undo: the browser's own password saving and autofill are on again."
+  },
+  "issueListLabel": {
+    "message": "Password check",
+    "description": "Not shown: accessible name of the list of problems found in a password (save banner, login editor)."
+  },
+  "issueCommon": {
+    "message": "This is one of the most common passwords.",
+    "description": "Password check: the password is on the list of the most common passwords."
+  },
+  "issueWeak": {
+    "message": "This password is easy to guess.",
+    "description": "Password check: the password is weak (easy to guess)."
+  },
+  "issueReused_one": {
+    "message": "You use this password for $COUNT$ other login.",
+    "description": "Password check (singular form): the same password is saved for other logins.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "issueReused_other": {
+    "message": "You use this password for $COUNT$ other logins.",
+    "description": "Password check (plural form): the same password is saved for other logins.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "issueUsedBefore": {
+    "message": "You used this password before for this login.",
+    "description": "Password check: the login had this password earlier (its password history)."
+  },
+  "issueContainsUsername": {
+    "message": "This password contains your username.",
+    "description": "Password check: the password contains the username or part of the e-mail address."
+  },
+  "issueContainsSite": {
+    "message": "This password contains the site's name.",
+    "description": "Password check: the password contains the website's name (for example \"github\")."
+  },
+  "issueShort": {
+    "message": "Short: use at least $MIN$ characters.",
+    "description": "Password check: the password is shorter than recommended.",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "issueUseStrong": {
+    "message": "Use a strong password instead",
+    "description": "Button in the login editor under the password check: replaces the password with a generated strong one."
+  },
+  "issueStrong": {
+    "message": "Strong",
+    "description": "Login editor, under the password: the password check found nothing wrong."
+  },
+  "errNoVault": {
+    "message": "No vault in this browser yet.",
+    "description": "Error: the vault is kept in this browser (browser mode), but none was created or opened yet."
+  },
+  "errVerificationRequired": {
+    "message": "Confirm it's you with your master password, then try again.",
+    "description": "Error: \"Confirm each fill\" is on and the fill needs the master password first."
+  },
+  "errPasskeysNeedApp": {
+    "message": "Passkeys need the Passyble app for now.",
+    "description": "Error: passkeys are not available with the vault in the browser yet."
+  },
+  "errBackupFirst": {
+    "message": "Download a copy first.",
+    "description": "Options: deleting a vault kept only in this browser needs a copy downloaded first (the Download button above)."
+  },
+  "popupUseBrowserVault": {
+    "message": "Use a browser vault instead",
+    "description": "Popup button when the Passyble app isn't set up for this browser: set up a vault kept in the browser instead."
+  },
+  "popupNoVaultTitle": {
+    "message": "No vault yet",
+    "description": "Popup, browser mode: there is no vault yet (the buttons below set one up)."
+  },
+  "vaultCreate": {
+    "message": "Create a vault",
+    "description": "Button: create a new vault in this browser."
+  },
+  "popupAskConfirm": {
+    "message": "Confirm",
+    "description": "Button under the master password field when Passyble asks to confirm it's you before a fill."
+  },
+  "popupAskFillButton": {
+    "message": "Fill",
+    "description": "Button: yes, fill the card or login on this page."
+  },
+  "popupDismiss": {
+    "message": "Dismiss",
+    "description": "Accessible name of the close button of a popup tip."
+  },
+  "popupStatusLockedBrowser": {
+    "message": "Locked (vault in this browser). Click to unlock",
+    "description": "Tooltip of the lock icon in the popup header: the vault kept in this browser is locked."
+  },
+  "popupVerifyTitle": {
+    "message": "Confirm it's you",
+    "description": "Popup heading: \"Confirm each fill\" is on; the master password is asked again before a fill."
+  },
+  "popupCardConfirmTitle": {
+    "message": "Fill this card?",
+    "description": "Popup heading: a card is about to be filled on a page; the user confirms each card fill."
+  },
+  "popupCardConfirmText": {
+    "message": "Fill $CARD$ on $SITE$?",
+    "description": "Popup question before a card fill. $CARD$ is the card (its name and last four digits), $SITE$ the website.",
+    "placeholders": {
+      "card": {
+        "content": "$1",
+        "example": "Visa •••• 4242"
+      },
+      "site": {
+        "content": "$2",
+        "example": "shop.example.com"
+      }
+    }
+  },
+  "popupThisCard": {
+    "message": "this card",
+    "description": "Stands for a card whose name is unknown, inside \"Fill $CARD$ on $SITE$?\"."
+  },
+  "popupCrossConfirmTitle": {
+    "message": "Fill a login of another site?",
+    "description": "Popup heading: the user picked a login saved for another website to fill on this page."
+  },
+  "popupCrossConfirmText": {
+    "message": "Fill $LOGIN$ only if you trust $SITE$.",
+    "description": "Confirmation under \"Fill a login of another site?\": $LOGIN$ is saved for another site; fill it on the page's site only if the user trusts it.",
+    "placeholders": {
+      "login": {
+        "content": "$1",
+        "example": "GitHub"
+      },
+      "site": {
+        "content": "$2",
+        "example": "github.example.net"
+      }
+    }
+  },
+  "popupLookalikeTag": {
+    "message": "Lookalike site",
+    "description": "Popup, small red tag on a search result (a login of another site) when the open page's address looks like that login's site but is a different site (a possible phishing copy)."
+  },
+  "popupLookalikeHint": {
+    "message": "$HOST$ looks like $SITE$ but is a different site.",
+    "description": "Tooltip of the \"Lookalike site\" tag: $HOST$ is the open page, $SITE$ the user's site it looks like.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeTitle": {
+    "message": "This may be a fake site",
+    "description": "Popup heading before a login is filled or copied on a page whose address looks like the login's site but is a different site."
+  },
+  "popupLookalikeFillText": {
+    "message": "$HOST$ is not $SITE$, but its address looks like it. Phishing sites do this to steal logins. Fill your login only if you are sure this is the right site.",
+    "description": "Under \"This may be a fake site\" before filling: $HOST$ is the open page, $SITE$ the user's site it looks like.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeCopyText": {
+    "message": "$HOST$ is not $SITE$, but its address looks like it. Phishing sites do this to steal logins. Copy your login only if you are sure this is the right site.",
+    "description": "Under \"This may be a fake site\" before copying a password or 2FA code: $HOST$ is the open page, $SITE$ the user's site it looks like.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeFillButton": {
+    "message": "Fill anyway",
+    "description": "Button under \"This may be a fake site\": fill the login on this page all the same."
+  },
+  "popupLookalikeCopyButton": {
+    "message": "Copy anyway",
+    "description": "Button under \"This may be a fake site\": copy the password or 2FA code all the same."
+  },
+  "popupIntlHost": {
+    "message": "International address: $HOST$",
+    "description": "Popup, quiet note over the list when the open page's address has international letters (shown in its xn-- form, $HOST$). Not a warning: most such sites are real.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "xn--bcher-kva.example"
+      }
+    }
+  },
+  "bannerLookalike": {
+    "message": "$HOST$ is not $SITE$, but its address looks like it. Save only if you trust this site.",
+    "description": "Save banner, red note when the page's address looks like a site the user has a login for but is a different site: $HOST$ is the page, $SITE$ the user's site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "commonIntlAddress": {
+    "message": "International address",
+    "description": "Save banner, quiet note under the site when its address has international letters (xn--). Not a warning: most such sites are real."
+  },
+  "passkeyBrowserVaultTitle": {
+    "message": "Passkeys need the Passyble app for now",
+    "description": "Heading of the passkey card when the vault is kept in this browser (passkeys come later there)."
+  },
+  "welcomeVaultHeading": {
+    "message": "Your vault",
+    "description": "Setup guide: heading of the part where the user chooses where the vault is and sets it up."
+  },
+  "welcomeChoiceExisting": {
+    "message": "Use the vault in this browser",
+    "description": "Setup guide choice: a vault created or opened in this browser earlier is still here."
+  },
+  "welcomeRepeatPassword": {
+    "message": "Repeat the master password",
+    "description": "Setup guide: label of the second master password field."
+  },
+  "welcomeCreateWarning": {
+    "message": "Passyble can't reset your master password. Write it down.",
+    "description": "Warning box when creating a vault in the browser: a forgotten master password cannot be recovered. Keep it this short."
+  },
+  "welcomeCreateButton": {
+    "message": "Create vault",
+    "description": "Setup guide: button that creates the vault in this browser."
+  },
+  "welcomeVaultFile": {
+    "message": "Vault file (.vault)",
+    "description": "Setup guide: label of the file picker for a vault file."
+  },
+  "welcomeOpenButton": {
+    "message": "Open vault",
+    "description": "Setup guide: button that opens the chosen vault file with its master password."
+  },
+  "welcomeVaultReadyTitle": {
+    "message": "Your vault is ready",
+    "description": "Setup guide: the vault in this browser is set up."
+  },
+  "welcomeUseBrowserInstead": {
+    "message": "Keep a vault in this browser instead",
+    "description": "Setup guide, link under the app checklist: keep a vault in this browser instead of using the Passyble app."
+  },
+  "vaultMasterTooShort": {
+    "message": "Use at least $MIN$ characters.",
+    "description": "New master password (Create a vault in this browser), refused: shorter than the minimum. $MIN$ is a number (12).",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "vaultMasterCommon": {
+    "message": "This is one of the most common passwords. Choose something else.",
+    "description": "New master password, refused: it is on the list of the most common passwords (also with capitals, digits or symbols added)."
+  },
+  "vaultMasterContainsName": {
+    "message": "Leave out your e-mail address, username and the vault's name.",
+    "description": "New master password, refused: it is built from the user's e-mail address, username or the vault's name."
+  },
+  "vaultMasterPattern": {
+    "message": "Avoid repeated characters, sequences like abcd or 1234 and keyboard rows like qwerty.",
+    "description": "New master password, refused: it has repeated characters, sequences or keyboard rows. Keep the examples abcd, 1234 and qwerty (or the local keyboard's first letters)."
+  },
+  "vaultMasterGuessable": {
+    "message": "Too easy to guess. Add more words or random characters: four or more unrelated words work well.",
+    "description": "New master password, refused: not strong enough for a master password, with how to fix it."
+  },
+  "vaultMasterStrongEnough": {
+    "message": "$STRENGTH$: strong enough for a master password.",
+    "description": "New master password, accepted. $STRENGTH$ is the strength word (vaultStrengthOk or vaultStrengthStrong).",
+    "placeholders": {
+      "strength": {
+        "content": "$1",
+        "example": "Good"
+      }
+    }
+  },
+  "vaultStrengthOk": {
+    "message": "Good",
+    "description": "Master password strength word: good (the start of vaultMasterStrongEnough)."
+  },
+  "vaultStrengthStrong": {
+    "message": "Strong",
+    "description": "Master password strength word: strong (the start of vaultMasterStrongEnough)."
+  },
+  "welcomePasswordsDiffer": {
+    "message": "The passwords don't match. Type them again.",
+    "description": "Setup guide error: the two master password fields differ."
+  },
+  "welcomeCreating": {
+    "message": "Creating your vault…",
+    "description": "Setup guide status while the vault is created."
+  },
+  "welcomeVaultExists": {
+    "message": "There is a vault in this browser already. Use it, or delete it in Settings first.",
+    "description": "Setup guide error: a vault is kept in this browser already."
+  },
+  "welcomePickFile": {
+    "message": "Choose a vault file first.",
+    "description": "Setup guide error: \"Open vault\" without a file chosen."
+  },
+  "welcomeNotVaultFile": {
+    "message": "This isn't a Passyble vault file.",
+    "description": "Setup guide error: the chosen file is not a vault file."
+  },
+  "optionsVaultModeHeading": {
+    "message": "Vault",
+    "description": "Settings heading: where the vault is (this browser or the Passyble app), with the vault in this browser's settings under it."
+  },
+  "optionsVaultHeading": {
+    "message": "Vault in this browser",
+    "description": "Options: heading of the settings of the vault kept in this browser."
+  },
+  "optionsAutoLock": {
+    "message": "Lock after",
+    "description": "Options row label (short): lock the vault after this much time without use."
+  },
+  "optionsAutoLockDetails": {
+    "message": "Always locks when the browser closes.",
+    "description": "Tooltip of \"Lock after\" (the vault in the browser)."
+  },
+  "optionsAutoLockMinutes": {
+    "message": "$COUNT$ min",
+    "description": "Options: a choice of \"Lock after\", in minutes (abbreviated). $COUNT$ is a number.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "optionsAutoLockBrowserClose": {
+    "message": "Only when the browser closes",
+    "description": "Options: a choice of \"Lock after\": no timer, it locks when the browser closes."
+  },
+  "optionsLockOnIdle": {
+    "message": "Lock when the computer locks",
+    "description": "Options row label (short): lock the vault when the computer is locked."
+  },
+  "optionsVerifyEachFill": {
+    "message": "Confirm each fill",
+    "description": "Options row label (short): ask for the master password before each fill."
+  },
+  "optionsVerifyEachFillDetails": {
+    "message": "Asks for your master password each time.",
+    "description": "Tooltip of \"Confirm each fill\": each fill or copy of a password needs the master password."
+  },
+  "optionsDeleteVault": {
+    "message": "Delete vault",
+    "description": "Settings row (the vault in this browser): delete it, after a backup and the master password."
+  },
+  "optionsDelete": {
+    "message": "Delete",
+    "description": "Options button: starts deleting the vault in this browser (asks first)."
+  },
+  "optionsDeleteWarn": {
+    "message": "Deletes the vault in this browser for good.",
+    "description": "Warning above the master password field when deleting the vault in the browser."
+  },
+  "optionsMasterTipBody": {
+    "message": "Your master password is easier to guess than Passyble now allows for new ones. It still works.",
+    "description": "Calm tip in Settings (vault in this browser) when the master password used to unlock was set before the current master password rule. Not an error; the user can dismiss it."
+  },
+  "optionsDeleteForGood": {
+    "message": "Delete for good",
+    "description": "Options button: deletes the vault in this browser permanently."
+  },
+  "optionsDeleted": {
+    "message": "Vault deleted from this browser",
+    "description": "Options notice after the vault in this browser was deleted."
+  },
+  "optionsModeBrowser": {
+    "message": "In this browser",
+    "description": "Options: the vault is kept in this browser."
+  },
+  "optionsModeApp": {
+    "message": "In the Passyble app",
+    "description": "Settings, \"Where your vault is\": the extension fills from the Passyble app on this computer."
+  },
+  "optionsModeBrowserLocked": {
+    "message": "Locked",
+    "description": "Settings, \"Where your vault is\": the vault in this browser is locked."
+  },
+  "optionsModeBrowserUnlocked": {
+    "message": "Unlocked",
+    "description": "Settings, \"Where your vault is\": the vault in this browser is unlocked."
+  },
+  "optionsModeBrowserNone": {
+    "message": "No vault yet",
+    "description": "Settings, \"Where your vault is\": browser mode, but no vault was created or opened yet."
+  },
+  "optionsUseApp": {
+    "message": "Use the app",
+    "description": "Button, Settings \"Where your vault is\": switch to the Passyble app (the vault in this browser stays, locked)."
+  },
+  "optionsUseBrowserVault": {
+    "message": "Use a vault in this browser",
+    "description": "Button, Settings \"Where your vault is\": switch to a vault kept in this browser (or create one in the setup guide)."
+  },
+  "welcomeGetApp": {
+    "message": "Get the Windows app",
+    "description": "Setup page choice (on Windows): download the Passyble app for Windows instead of keeping the vault in the browser."
+  },
+  "optionsShortcutChange": {
+    "message": "Change shortcuts",
+    "description": "Settings, Shortcuts card: opens the browser's keyboard shortcuts page for extensions."
+  },
+  "accountSignIn": {
+    "message": "Sign in",
+    "description": "Button (setup page, Settings): sign in to an existing Passyble account on the Passyble website. Low-key; nothing about plans or prices."
+  },
+  "accountSignOut": {
+    "message": "Sign out",
+    "description": "Button in Settings: sign this browser out of the Passyble account."
+  },
+  "accountTitle": {
+    "message": "Account",
+    "description": "Settings row (About): the optional Passyble account, next to a \"Sign in\" button."
+  },
+  "accountSignedInAs": {
+    "message": "Signed in as $EMAIL$",
+    "description": "The Passyble account this browser is signed in to (setup page, Settings).",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "ada@example.com"
+      }
+    }
+  },
+  "accountSignInFailed": {
+    "message": "Couldn't sign in. Try again.",
+    "description": "Error after \"Sign in\": the website sign-in or the token exchange failed (closing the sign-in window is no error)."
+  },
+  "accountCloudSoon": {
+    "message": "Passyble Cloud storage is coming soon.",
+    "description": "Setup: one line shown after signing in to the Passyble account. Storage of the vault in Passyble Cloud (the company's own cloud) is not available yet. \"Passyble Cloud\" is a product name."
+  },
+  "accountUseDrive": {
+    "message": "Use Google Drive",
+    "description": "Setup: button under the \"coming soon\" line: use Google Drive for the vault instead."
+  },
+  "accountViaApp": {
+    "message": "Signed in through the Passyble app on this computer",
+    "description": "Settings and setup page, under the account's e-mail address: the Passyble desktop app on this computer signed this browser extension in to the same Passyble account (no separate sign-in in the browser)."
+  },
+  "accountSignOutAppToo": {
+    "message": "Also sign out of the Passyble app on this computer",
+    "description": "Checkbox in the confirmation after \"Sign out\" (Settings), ticked by default: the Passyble desktop app on this computer, signed in to the same account, signs out too. Unticked: only the browser extension signs out."
+  },
+  "accountOtherInBrowser": {
+    "message": "The Passyble app is signed in as $APP$; this browser as $BROWSER$.",
+    "description": "Settings, under the account row: the Passyble desktop app on this computer is signed in to one Passyble account and this browser extension still holds a sign-in of its own to another (made while the app could not be reached). APP and BROWSER are e-mail addresses.",
+    "placeholders": {
+      "app": {
+        "content": "$1",
+        "example": "ada@example.com"
+      },
+      "browser": {
+        "content": "$2",
+        "example": "grace@example.com"
+      }
+    }
+  },
+  "accountUseAppAccount": {
+    "message": "Use the app's account",
+    "description": "Settings, button under the note that the Passyble app and this browser are signed in to different accounts: this browser forgets its own sign-in and uses the app's account."
+  },
+  "optionsDownloadCopy": {
+    "message": "Download a copy",
+    "description": "Options row: download a copy of the encrypted vault file."
+  },
+  "vaultCopySaved": {
+    "message": "Copy saved.",
+    "description": "Options: short confirmation after the vault file was downloaded."
+  },
+  "popupLockedText": {
+    "message": "Unlock to fill your logins on this site.",
+    "description": "Popup, locked view: the line under the heading."
+  },
+  "popupOfflineText": {
+    "message": "Start the Passyble app on this computer to fill your logins here.",
+    "description": "Popup: the line under \"Passyble isn't running\"."
+  },
+  "popupNoVaultText": {
+    "message": "Create a vault in this browser, or use the Passyble app for Google Drive sync.",
+    "description": "Popup, browser mode with no vault yet: what the user can do."
+  },
+  "optionsLead": {
+    "message": "How Passyble fills, saves and signs in on this browser.",
+    "description": "Settings page: the line under the page title."
+  },
+  "optionsVaultModeLead": {
+    "message": "Where the vault this browser fills from is kept.",
+    "description": "Settings page: the line under the Vault heading."
+  },
+  "optionsAutofillLead": {
+    "message": "What Passyble offers in the login fields of websites.",
+    "description": "Settings page: the line under the Autofill heading."
+  },
+  "optionsNeverSaveLead": {
+    "message": "Passyble won't offer to save logins or cards on these sites.",
+    "description": "Settings page: the line under the \"Sites without save prompts\" heading."
+  },
+  "optionsPasskeysLead": {
+    "message": "Sign in to websites with the passkeys in your vault.",
+    "description": "Settings page: the line under the Passkeys heading."
+  },
+  "optionsShortcutsLead": {
+    "message": "Keys that work on any page in this browser.",
+    "description": "Settings page: the line under the Shortcuts heading (keyboard shortcuts)."
+  },
+  "optionsServerLead": {
+    "message": "A server your team or family runs. The Passyble app signs in to it.",
+    "description": "Settings page: the line under the Passyble Server heading. Keep \"pass+server://\" as is."
+  },
+  "optionsAboutLead": {
+    "message": "This extension and the Passyble app it works with.",
+    "description": "Settings page: the line under the About heading."
+  },
+  "welcomeLead": {
+    "message": "A few steps, then Passyble fills your logins in this browser.",
+    "description": "Setup guide: the line under the page title."
+  },
+  "popupHostText": {
+    "message": "Check Passyble → Settings → Autofill, then try again.",
+    "description": "Popup, when the browser can't reach the Passyble app: the line under the heading (what to do)."
+  },
+  "popupOnThisSite": {
+    "message": "On this site",
+    "description": "Popup search: the label above the matching logins of this site (the vault's results follow under \"In your vault\")."
+  },
+  "settingSaveBannerDetails": {
+    "message": "Asks to save a login after you sign in.",
+    "description": "Caption of the \"Offer to save logins\" setting."
+  },
+  "settingAutoPasskeyDetails": {
+    "message": "Shows a card when a site asks for a passkey.",
+    "description": "Caption of the \"Offer passkey sign-in\" setting."
+  },
+  "welcomeChoiceDriveText": {
+    "message": "Needs the Passyble app on this computer.",
+    "description": "Setup guide, under \"Google Drive sync\": Google Drive sync goes through the Passyble desktop app, which must be installed on this computer."
+  },
+  "welcomeChoiceSignInText": {
+    "message": "Your Passyble account, for Passyble Cloud, Family and Team.",
+    "description": "Setup guide: the caption under \"Sign in\" (the optional Passyble account)."
+  },
+  "welcomeChoiceExistingText": {
+    "message": "The vault this browser already keeps.",
+    "description": "Setup guide: the caption under \"Use the vault in this browser\"."
+  },
+  "welcomeChoiceAppText": {
+    "message": "Your vault stays in the Passyble app on this PC.",
+    "description": "Setup guide: the caption under \"Get the Windows app\"."
+  },
+  "welcomeAllSetLead": {
+    "message": "Passyble fills your logins in this browser. Click its icon in the toolbar any time.",
+    "description": "Setup guide, everything done: the line under \"You're all set\"."
+  },
+  "welcomeDone": {
+    "message": "Done",
+    "description": "Setup guide, everything done: the button that closes the tab."
+  },
+  "popupNoSiteLoginsText": {
+    "message": "Add one now, or Passyble offers to save it when you sign in.",
+    "description": "Popup, no logins for this site: the line under the heading."
+  },
+  "popupNothingHereText": {
+    "message": "Search your vault to copy a login from it.",
+    "description": "Popup, a page Passyble can't fill: the line under the heading (Search vault follows)."
+  },
+  "optionsAppRowTitle": {
+    "message": "Passyble app",
+    "description": "Settings, the vault in this browser: the row that switches back to the Passyble app."
+  },
+  "optionsAppRowText": {
+    "message": "Keep the vault in the Passyble app on this computer.",
+    "description": "Settings: the caption of the \"Passyble app\" row (its button: Use the app)."
+  },
+  "commonOr": {
+    "message": "or",
+    "description": "The small word between two ways of doing the same thing (Windows Hello, or the master password)."
+  },
+  "commonNoSymbols": {
+    "message": "Letters and numbers only",
+    "description": "A choice for generated passwords: no special characters (!@#...), only upper- and lowercase letters and digits, for sites that reject symbols. An in-page menu entry, and a checkbox in the popup's generator and the login editor."
+  },
+  "welcomeRecommended": {
+    "message": "Recommended",
+    "description": "Setup guide: the small chip on the recommended choice (Google Drive)."
+  },
+  "passkeySaveShort": {
+    "message": "Save passkey?",
+    "description": "Title of the in-page card that saves a new passkey (the site and account are on the line under it)."
+  },
+  "serverAddressLabel": {
+    "message": "Server address",
+    "description": "The label above the Passyble Server field (popup and Settings)."
+  },
+  "welcomeStepOf": {
+    "message": "Step $CURRENT$ of $TOTAL$",
+    "description": "Setup guide: the line over the checklist (which step the user is on).",
+    "placeholders": {
+      "current": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "4"
+      }
+    }
+  },
+  "optionsStorage": {
+    "message": "Storage",
+    "description": "Settings, the vault in this browser: the label over the card of where the vault is kept (Google Drive)."
+  },
+  "optionsLocking": {
+    "message": "Locking",
+    "description": "Settings, the vault in this browser: the label over the card of when the vault locks."
+  },
+  "optionsDownloadCopyText": {
+    "message": "The encrypted vault file (.vault). It opens only with your master password.",
+    "description": "Settings: the caption of \"Download a copy\" (what the file is)."
+  },
+  "optionsSaveFile": {
+    "message": "Save file",
+    "description": "Settings: the button of the \"Download a copy\" row (saves the encrypted vault file)."
+  },
+  "passkeySaveVaultNamed": {
+    "message": "In $VAULT$",
+    "description": "In-page passkey card: the vault it goes to, when its name already ends in \"vault\" (\"In Work vault\"). Otherwise passkeySaveVault.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Work vault"
+      }
+    }
+  },
+  "updateRequiredTitle": {
+    "message": "Update required",
+    "description": "Popup, forced update: heading of the screen shown while this extension is older than the minimum version the Passyble team requires."
+  },
+  "updateRequiredText": {
+    "message": "This version of Passyble is no longer supported. Update it to keep filling and saving passwords.",
+    "description": "Popup, forced update: under \"Update required\". Until it is updated the extension only shows and copies passwords."
+  },
+  "updateNow": {
+    "message": "Update",
+    "description": "Popup, forced update and \"new version\" banner: button that updates the extension (the browser's own update, else its store page)."
+  },
+  "updateViewPasswords": {
+    "message": "View my passwords",
+    "description": "Popup, forced update: button that opens the read-only vault (search and copy only)."
+  },
+  "updateReadOnlyTitle": {
+    "message": "Your passwords",
+    "description": "Popup, forced update: heading of the read-only vault."
+  },
+  "updateReadOnlyNote": {
+    "message": "The Passyble extension is read-only until you update it. You can still view and copy your passwords.",
+    "description": "Popup, forced update: line that stays at the top of the read-only vault."
+  },
+  "updateAvailable": {
+    "message": "A new version of Passyble is available.",
+    "description": "Popup: dismissible banner when a newer version of the extension is recommended."
+  },
+  "updateChecking": {
+    "message": "Checking for an update…",
+    "description": "Popup, forced update: shown after \"Update\" while the browser looks for the new version."
+  },
+  "updateInstalling": {
+    "message": "Installing the update…",
+    "description": "Popup, forced update: the browser found the new version; the extension restarts with it (the popup closes)."
+  },
+  "updateSearchHint": {
+    "message": "Type at least 2 characters to find a login.",
+    "description": "Popup, read-only vault: under the empty search field."
+  },
+  "errAppUpdateRequired": {
+    "message": "Update the Passyble app to keep filling.",
+    "description": "Error and notice: the Passyble desktop app is older than the minimum version and is read-only (no filling, saving or passkeys) until it is updated."
+  },
+  "errExtensionUpdateRequired": {
+    "message": "Update the Passyble extension to keep filling.",
+    "description": "Error: this browser extension is older than the minimum version and is read-only until it is updated."
+  },
+  "driveSyncTitle": {
+    "message": "Google Drive sync",
+    "description": "Title of the choice (setup guide), button (popup without a vault) and menu item (popup) that lead to Google Drive sync. \"Google Drive\" is a product name."
+  },
+  "driveNeedsAppTitle": {
+    "message": "Google Drive sync needs the Passyble app on this computer",
+    "description": "Heading and notice: the browser extension syncs with Google Drive only through the Passyble desktop app installed on the same computer."
+  },
+  "driveNeedsAppText": {
+    "message": "The Passyble app signs in to Google and keeps your vaults in sync. Install it, turn on Google Drive in the app, and Passyble in this browser fills from the app's vaults.",
+    "description": "Setup guide, under \"Google Drive sync needs the Passyble app on this computer\": how it works."
+  },
+  "driveNeedsAppMove": {
+    "message": "To take the vault of this browser along, download a copy in Settings and open it in the Passyble app.",
+    "description": "Setup guide, \"Google Drive sync needs the Passyble app\": shown when this browser already keeps a vault. \"Download a copy\" is a Settings row."
+  },
+  "driveNeedsAppShort": {
+    "message": "Google Drive sync needs the app",
+    "description": "Popup, a small chip under the list: this vault used to sync with Google Drive from the browser; Drive sync now needs the Passyble desktop app. Keep it short."
+  },
+  "driveRecordText": {
+    "message": "This vault synced with Google Drive in an older version. It keeps working in this browser; to sync it again, use the Passyble app.",
+    "description": "Setup guide and Settings: a vault that an older version of the extension synced with Google Drive itself. It still works locally."
+  },
+  "driveDownloadApp": {
+    "message": "Download the Passyble app",
+    "description": "Button (a link to passyble.com/download): get the Passyble desktop app."
+  },
+  "driveCheckAgain": {
+    "message": "Check again",
+    "description": "Button: look again whether the Passyble desktop app is installed on this computer."
+  },
+  "driveAppFound": {
+    "message": "The Passyble app is on this computer. Use it, then turn on Google Drive in the app.",
+    "description": "Setup guide, after \"Check again\": the Passyble desktop app was found."
+  },
+  "driveAppMissing": {
+    "message": "The Passyble app isn't on this computer yet.",
+    "description": "Setup guide, after \"Check again\": the Passyble desktop app was not found."
+  },
+  "driveTurnOnInApp": {
+    "message": "For Google Drive sync, open Settings in the Passyble app, then Sync, and turn on Google Drive.",
+    "description": "Setup guide, the app checklist: where Google Drive sync is turned on (in the desktop app; \"Settings\" and \"Sync\" are its menu names)."
+  },
+  "welcomeChoiceCreate": {
+    "message": "Create a vault in this browser",
+    "description": "Setup guide choice: make a new vault kept only in this browser."
+  },
+  "welcomeChoiceCreateText": {
+    "message": "Kept only on this device. No app needed.",
+    "description": "Setup guide, under \"Create a vault in this browser\"."
+  },
+  "welcomeChoiceOpen": {
+    "message": "Open a vault file",
+    "description": "Setup guide choice and heading: open a .vault file (a copy from another device, or a backup) in this browser."
+  },
+  "welcomeChoiceOpenText": {
+    "message": "A copy from another device, or a backup.",
+    "description": "Setup guide, under \"Open a vault file\"."
+  },
+  "localOnlyTitle": {
+    "message": "This vault is only on this device",
+    "description": "Reminder title: the vault has no sync and no backup, it exists only on this device."
+  },
+  "localOnlyBody": {
+    "message": "If this device is lost, stolen, broken or reset, the passwords in this vault are gone for good. Turn on sync or backup (Google Drive is free), or export a backup copy regularly.",
+    "description": "Reminder text under \"This vault is only on this device\". \"Google Drive\" is a product name."
+  },
+  "localOnlyCreateNotice": {
+    "message": "Only on this device. If you lose this device you lose these passwords. You can turn on Google Drive backup now or later.",
+    "description": "Setup guide, creating a vault in this browser: notice that it is kept only on this device."
+  },
+  "localOnlySetUpSync": {
+    "message": "Set up sync",
+    "description": "Button on the \"only on this device\" reminder: set up sync or backup for this vault."
+  },
+  "localOnlyNotNow": {
+    "message": "Not now",
+    "description": "Button on the \"only on this device\" reminder: hide it for 30 days."
+  },
+  "localOnlyDetails": {
+    "message": "What this means",
+    "description": "Popup, (i) button on the \"only on this device\" reminder: shows or hides its explanation. Tooltip and screen reader label."
+  },
+  "errReadOnly": {
+    "message": "You can use this vault's logins but not change them.",
+    "description": "Error: the login is in a shared vault where the user may use but not change logins (a view or fill member)."
+  },
+  "errFillOnly": {
+    "message": "This login can be filled but not shown or copied.",
+    "description": "Error: a fill-only member's login; its password is filled into pages but never shown or copied."
+  },
+  "bannerSaveIn": {
+    "message": "Save in",
+    "description": "Save banner and passkey card: label of the list of vaults a new login can go into (Teams and Family)."
+  },
+  "bannerMyVault": {
+    "message": "Personal",
+    "description": "The user's own vault (the home vault) in lists of vaults, when it has no name of its own."
+  },
+  "bannerInVault": {
+    "message": "In $VAULT$",
+    "description": "Save banner, updating a login of a shared vault: which vault it is in. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupAllVaults": {
+    "message": "All vaults",
+    "description": "Popup: the vault filter shows the logins of every vault (its button and the first entry of its menu)."
+  },
+  "popupPinVault": {
+    "message": "Pin vault",
+    "description": "Popup: a vault row's context menu in the Filter menu or the vault switcher: pin that vault, so it comes right after the current vault in every vault list."
+  },
+  "popupUnpinVault": {
+    "message": "Unpin vault",
+    "description": "Popup: a pinned vault row's context menu in the Filter menu or the vault switcher: take its pin off."
+  },
+  "popupFilter": {
+    "message": "Filter",
+    "description": "Popup: the Filter button next to the search box while the list shows everything, and the name of its menu (vaults and kinds of item)."
+  },
+  "popupFilterShowing": {
+    "message": "Filter: $FILTER$",
+    "description": "Popup: tooltip and screen reader name of the Filter button while the list is narrowed. $FILTER$ is what it shows, e.g. \"Engineering · 2FA\".",
+    "placeholders": {
+      "filter": {
+        "content": "$1",
+        "example": "Engineering · 2FA"
+      }
+    }
+  },
+  "popupFilterVaults": {
+    "message": "Vaults",
+    "description": "Popup, Filter menu: heading of the section that picks the vault shown."
+  },
+  "popupFilterShow": {
+    "message": "Show",
+    "description": "Popup, Filter menu: heading of the section that picks the kind of item shown (All, Logins, 2FA, ...)."
+  },
+  "popupFilterClear": {
+    "message": "Clear filter",
+    "description": "Popup: the x beside the Filter button and the last entry of its menu: show every vault and every kind again."
+  },
+  "popupPinNamed": {
+    "message": "Pin $VAULT$",
+    "description": "Popup, a vault's row in the Filter menu or the vault switcher: its pin button. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupUnpinNamed": {
+    "message": "Unpin $VAULT$",
+    "description": "Popup, a pinned vault's row in the Filter menu or the vault switcher: its pin button takes the pin off. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupVaultPinned": {
+    "message": "Pinned",
+    "description": "Popup: what a screen reader hears after a pinned vault's name in a vault list."
+  },
+  "popupPinLimit": {
+    "message": "You can pin up to $COUNT$ vaults. Unpin one first.",
+    "description": "Popup: the user tried to pin one vault more than allowed. $COUNT$ is the most vaults that can be pinned (5).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "popupNoLoginsInVault": {
+    "message": "No logins for this site in $VAULT$",
+    "description": "Popup, the vault filter shows one vault that has no login for this site. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupSwitchVault": {
+    "message": "Switch vault",
+    "description": "Popup header: tooltip of the vault switcher (the user's own vaults in the Passyble app), and the name of its menu."
+  },
+  "popupSwitchUnlockInApp": {
+    "message": "Unlock $VAULT$ in the Passyble app",
+    "description": "Popup, after switching vaults: the Passyble app now asks to unlock the vault chosen (Windows Hello or the master password there). $VAULT$ is its name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Work"
+      }
+    }
+  },
+  "popupMovedTo": {
+    "message": "Moved to $VAULT$",
+    "description": "Popup notice: the login was moved to another vault. $VAULT$ is that vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "editorVault": {
+    "message": "Vault",
+    "description": "Popup login editor: label of the list of vaults the login can be moved to."
+  },
+  "editorMove": {
+    "message": "Move",
+    "description": "Popup login editor: button that confirms moving the login into a shared vault."
+  },
+  "editorMoveConfirm": {
+    "message": "Move $TITLE$ to $VAULT$? Everyone with access to $VAULT$ will see it.",
+    "description": "Popup login editor, before a login moves into a shared vault. $TITLE$ is the login's title, $VAULT$ the vault's name.",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Engineering"
+      }
+    }
+  },
+  "teamsFillOnly": {
+    "message": "Fill only",
+    "description": "Tag on a login the user can fill but never see or copy (a fill-only member of a shared vault). Very short."
+  },
+  "teamsOpenInPassyble": {
+    "message": "Open in Passyble",
+    "description": "Popup button: opens the Teams and Family screen of the Passyble desktop app."
+  },
+  "teamsNeedsUpdate": {
+    "message": "Update the Passyble app to open Teams and Family from here.",
+    "description": "The desktop app is too old to open its Teams and Family screen from the browser."
+  },
+  "teamsLineErrors_one": {
+    "message": "$COUNT$ can't be opened",
+    "description": "Popup line: shared vaults that couldn't be opened. $COUNT$ is a number. Singular form.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineErrors_other": {
+    "message": "$COUNT$ can't be opened",
+    "description": "Popup line: shared vaults that couldn't be opened. $COUNT$ is a number. Plural form.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineConfirm_one": {
+    "message": "$COUNT$ person to confirm",
+    "description": "Popup line: people waiting for the user to confirm their keys (fingerprint). $COUNT$ is a number. Singular form.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineConfirm_other": {
+    "message": "$COUNT$ people to confirm",
+    "description": "Popup line: people waiting for the user to confirm their keys (fingerprint). $COUNT$ is a number. Plural form.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineInvites_one": {
+    "message": "$COUNT$ invitation",
+    "description": "Popup line: invitations to a Team or Family waiting for an answer. $COUNT$ is a number. Singular form.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineInvites_other": {
+    "message": "$COUNT$ invitations",
+    "description": "Popup line: invitations to a Team or Family waiting for an answer. $COUNT$ is a number. Plural form.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsRoleManage": {
+    "message": "Can manage",
+    "description": "Role in a shared vault: may edit and choose who has access."
+  },
+  "teamsRoleEdit": {
+    "message": "Can edit",
+    "description": "Role in a shared vault: may add, change and delete logins."
+  },
+  "teamsRoleView": {
+    "message": "Can view",
+    "description": "Role in a shared vault: may see logins but not change them."
+  },
+  "teamsRoleFill": {
+    "message": "Can fill",
+    "description": "Role in a shared vault: may fill logins without seeing their passwords."
+  },
+  "teamsErrNoKeyset": {
+    "message": "Set up sharing in the Passyble app first",
+    "description": "A shared vault can't be opened: sharing isn't set up on this device yet."
+  },
+  "teamsErrNotMember": {
+    "message": "You no longer have access",
+    "description": "A shared vault can't be opened: the user was removed from it."
+  },
+  "teamsErrKeysMismatch": {
+    "message": "Shared with other keys of your account",
+    "description": "A shared vault was shared with other keys of the user's account."
+  },
+  "teamsErrUntrusted": {
+    "message": "Compare the manager's fingerprint in the Passyble app",
+    "description": "A shared vault's members list can't be checked on this device: compare the manager's fingerprint in the app."
+  },
+  "teamsErrRollback": {
+    "message": "An older copy than this device had",
+    "description": "A shared vault's copy is older than one this device already had."
+  },
+  "teamsErrReadOnlyMember": {
+    "message": "Your role doesn't allow changes",
+    "description": "The user's role in a shared vault doesn't allow changes."
+  },
+  "teamsErrSubscriptionInactive": {
+    "message": "Read-only: the plan isn't active",
+    "description": "The organisation's plan isn't active, so its shared vaults are read-only."
+  },
+  "teamsErrAccountSuspended": {
+    "message": "Your account is suspended",
+    "description": "The user's account is suspended on the server."
+  },
+  "teamsErrVaultLimit": {
+    "message": "Your plan hosts no more vaults on Passyble Cloud. Use Google Drive, WebDAV or a folder for more, or change plan.",
+    "description": "Passyble Cloud refused to host another vault: the plan's vault limit is reached."
+  },
+  "teamsErrNetwork": {
+    "message": "Couldn't reach the server",
+    "description": "A shared vault couldn't be synced: the server couldn't be reached."
+  },
+  "teamsErrInternal": {
+    "message": "This vault couldn't be opened",
+    "description": "A shared vault couldn't be opened for another reason."
+  },
+  "teamsOpenConsole": {
+    "message": "Manage on the website",
+    "description": "Popup button (browser vault, admins): opens the Team's or Family's console on the Passyble website."
+  },
+  "teamsRuleSecondTitle": {
+    "message": "Your team requires a second password",
+    "description": "Popup notice title in the \"Shared with me\" area: the user's team requires a second password (the vault in this browser opening with its own password, separate from the Passyble password), and this browser doesn't meet it."
+  },
+  "teamsRuleSecondBrowser": {
+    "message": "This browser can't give its vault a second password, so you can use this team's items here but not change them. Use the Passyble app on Windows or Android, or ask your team admin.",
+    "description": "Popup notice under that title (browser mode): the team's shared vaults are read-only in this browser until the rule is met, which this browser can't do itself; where it can be done."
+  },
+  "teamsRuleOneTitle": {
+    "message": "Your team uses one password",
+    "description": "Popup notice title in the \"Shared with me\" area: the user's team allows only the Passyble password, but the vault in this browser still has its own password."
+  },
+  "teamsRuleOneBrowser": {
+    "message": "$VAULT$ still has its own password, and this browser can't switch it to your Passyble password. Use the Passyble app on Windows or Android, or ask your team admin.",
+    "description": "Popup notice under that title (browser mode). $VAULT$ is the name of the vault in this browser (\"Personal\").",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Personal"
+      }
+    }
+  },
+  "teamsConfirm": {
+    "message": "Confirm",
+    "description": "Button: confirm a person's sharing keys after comparing the fingerprint with them."
+  },
+  "teamsConfirmHint": {
+    "message": "Ask them to read the fingerprint from their Passyble app, then type it here.",
+    "description": "Under a person to confirm: how to compare their fingerprint."
+  },
+  "teamsConfirmPlaceholder": {
+    "message": "Fingerprint they read",
+    "description": "Placeholder of the fingerprint field."
+  },
+  "teamsConfirmTyped": {
+    "message": "Fingerprint of $PERSON$",
+    "description": "Accessible name of the fingerprint field. $PERSON$ is an e-mail address.",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsConfirmed": {
+    "message": "$PERSON$ is confirmed",
+    "description": "Notice after a confirmation. $PERSON$ is an e-mail address.",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsConfirmList": {
+    "message": "People to confirm",
+    "description": "Accessible name of the list of people waiting for confirmation."
+  },
+  "teamsKeysChanged": {
+    "message": "$PERSON$'s keys changed. Compare the new fingerprint with $PERSON$ before giving access.",
+    "description": "Loud warning: the keys the account service gives for a person are not the ones the user verified (or the person has new keys). $PERSON$ is an e-mail address.",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsLeftOut": {
+    "message": "Compare the fingerprint with $PERSON$ to give access.",
+    "description": "Notice: a person was left out of a shared vault because the user has not verified their keys on this device yet. $PERSON$ is an e-mail address.",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsFingerprintMismatch": {
+    "message": "That fingerprint doesn't match. Compare it again with the person.",
+    "description": "Error: the fingerprint the user typed or compared is not the one of these keys."
+  },
+  "teamsKeysWrong": {
+    "message": "The keys the service sent don't match this fingerprint. Nothing was changed.",
+    "description": "Error: the keys the account service sent for a person are not the keys of the fingerprint. Nothing changed."
+  },
+  "teamsSignerList": {
+    "message": "Shared vaults to verify",
+    "description": "Accessible name of the list of shared vaults whose manager the user has not verified yet."
+  },
+  "teamsSignerUnverified": {
+    "message": "$VAULT$ is not verified yet",
+    "description": "A shared vault whose manager's keys the user has not verified yet. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsSignerHint": {
+    "message": "Ask the manager who shared it to read their fingerprint from their Passyble app. Verify only if it is this one:",
+    "description": "Under a shared vault to verify, before the manager's fingerprint."
+  },
+  "teamsSignerChanged": {
+    "message": "$VAULT$: the manager's keys changed",
+    "description": "Loud warning: the keys of the manager who signed a shared vault's members list are not the ones the user verified. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsSignerChangedHint": {
+    "message": "These are not the keys you verified. Don't rely on this vault until you compare the new fingerprint with the manager:",
+    "description": "Under the warning that a shared vault's manager has other keys, before the new fingerprint."
+  },
+  "teamsSignerVerify": {
+    "message": "It matches",
+    "description": "Button: the fingerprint the manager read out is the one shown; verifies the manager's keys."
+  },
+  "teamsSignerVerified": {
+    "message": "$VAULT$ is verified",
+    "description": "Notice after the user verified the manager of a shared vault. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsLineHeld_one": {
+    "message": "$COUNT$ on hold",
+    "description": "Popup line: shared vaults held until this browser signs in as the organisation requires. $COUNT$ is a number. Singular form.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineHeld_other": {
+    "message": "$COUNT$ on hold",
+    "description": "Popup line: shared vaults held until this browser signs in as the organisation requires. $COUNT$ is a number. Plural form.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineDeviceWaiting": {
+    "message": "this browser waits for approval on another device",
+    "description": "Popup line: this browser's Passyble Cloud device waits until another device of the account approves it."
+  },
+  "optionsHelpSupport": {
+    "message": "Help and support",
+    "description": "Settings, About: the row that opens the Passyble support page (the desktop app's support screen, or the web form)."
+  },
+  "popupHelpSupport": {
+    "message": "Help and support",
+    "description": "Popup, More menu: opens the Passyble support page (the desktop app's support screen, or the web form)."
+  },
+  "popupPassyblePassword": {
+    "message": "Passyble password",
+    "description": "Placeholder and label of the password field for a vault linked to a Passyble account: the one password of the account, which opens its linked vaults."
+  },
+  "popupUnlockEmptyAccount": {
+    "message": "Enter your Passyble password.",
+    "description": "Error: Unlock or Sign in was pressed with an empty Passyble password field."
+  },
+  "accountEmailAddress": {
+    "message": "E-mail address",
+    "description": "Label and placeholder of the field for the Passyble account's e-mail address."
+  },
+  "accountSecretKey": {
+    "message": "Secret Key",
+    "description": "Label of the Secret Key field. The Secret Key is a code made on the device at sign-up, printed in the Emergency Kit, starting with P1. Keep the name as the Passyble apps translate it."
+  },
+  "accountSecretKeyPlaceholder": {
+    "message": "Secret Key (P1-...)",
+    "description": "Placeholder of the Secret Key field in the popup. Keep P1 as it is."
+  },
+  "accountSecretKeyHint": {
+    "message": "Only once in this browser. It's in your Emergency Kit.",
+    "description": "Under the Secret Key field: it is asked only the first time in this browser profile; the Emergency Kit is the page the Passyble app printed at sign-up."
+  },
+  "accountSharedComputer": {
+    "message": "This is a shared computer: don't keep my Secret Key",
+    "description": "Checkbox beside the Secret Key field: when ticked, this browser doesn't keep the Secret Key, so it is asked again next time."
+  },
+  "accountApproveFromDevice": {
+    "message": "Approve from another device",
+    "description": "Link and heading: sign this browser in with the help of a phone or computer already signed in to the Passyble account (it scans a QR code or compares a 6-digit code)."
+  },
+  "accountPageTitle": {
+    "message": "Your Passyble password",
+    "description": "Title of the page where the user signs in with the Passyble password or approves this browser from another device."
+  },
+  "accountPageLead": {
+    "message": "One password for your Passyble account and the vaults linked to it. It never leaves this browser.",
+    "description": "Lead under the Passyble password page title."
+  },
+  "accountKeysInApp": {
+    "message": "The Passyble app on this computer opens your vaults with your Passyble password. Sign in there.",
+    "description": "Passyble password page while the extension uses the Passyble app on this computer (app mode): nothing to do in the browser."
+  },
+  "accountPasswordSignIn": {
+    "message": "Sign in with your Passyble password",
+    "description": "Heading of the Passyble password sign-in form (e-mail address, password, the Secret Key the first time)."
+  },
+  "accountSigningIn": {
+    "message": "Signing in…",
+    "description": "Status while the Passyble password sign-in runs."
+  },
+  "accountSignedInUnlocked": {
+    "message": "Signed in as $EMAIL$. Your vault in this browser is unlocked.",
+    "description": "After a Passyble password sign-in or an approval that also opened the vault linked to the account.",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "ada@example.com"
+      }
+    }
+  },
+  "accountApproveLead": {
+    "message": "Use a phone or computer where you're signed in to Passyble. Nothing to type but your e-mail address.",
+    "description": "Under \"Approve from another device\"."
+  },
+  "accountApproveAsk": {
+    "message": "Ask for approval",
+    "description": "Button: this browser asks the account's other devices to approve it (then shows a QR code)."
+  },
+  "accountApproveQrLabel": {
+    "message": "QR code for your other device",
+    "description": "Screen reader label of the QR code the other device scans to approve this browser."
+  },
+  "accountApproveQrHint": {
+    "message": "On your other device, open Passyble and add a device, then scan this code. No camera? Approve this browser there and type the code shown here.",
+    "description": "Under the QR another device scans to approve this browser. Without a camera, the other device approves and the user types the code this browser shows."
+  },
+  "accountApproveCodeHint": {
+    "message": "Type this code on your other device.",
+    "description": "Above the 6-digit code this browser shows; the user types it on the other device to approve this browser."
+  },
+  "accountApproveCheckHint": {
+    "message": "Check that your other device shows this fingerprint in Settings, Passyble password.",
+    "description": "Above the account key fingerprint that arrived from the other device. \"Settings, Passyble password\" is where the other device's app shows its fingerprint."
+  },
+  "accountApproveFingerprintLabel": {
+    "message": "Account key fingerprint",
+    "description": "Accessible name of the account key fingerprint shown for the check."
+  },
+  "accountApproveMatches": {
+    "message": "It matches",
+    "description": "Button: the other device shows the same fingerprint; the keys are kept."
+  },
+  "accountApproveNoMatch": {
+    "message": "It doesn't match",
+    "description": "Button: the other device shows another fingerprint; the keys are dropped."
+  },
+  "accountApproveNotKept": {
+    "message": "The keys were not kept. A fingerprint that doesn't match means they may not be your account's keys. Ask again from your other device, and contact support if it happens again.",
+    "description": "Loud warning after \"It doesn't match\": the keys that arrived were dropped, they may not be the account's."
+  },
+  "accountApproveCancelledNotKept": {
+    "message": "Cancelled. The keys that arrived were not kept.",
+    "description": "Warning after Cancel while the arrived keys waited for the fingerprint check: they were dropped."
+  },
+  "accountApproveWaiting": {
+    "message": "Waiting for your other device…",
+    "description": "Status while this browser waits for the approval."
+  },
+  "accountApproveDone": {
+    "message": "This browser is approved. Your Passyble password opens your linked vaults here.",
+    "description": "After the other device approved this browser (the account key and the Secret Key arrived)."
+  },
+  "accountApproveDoneUnlocked": {
+    "message": "This browser is approved, and your vault in this browser is unlocked.",
+    "description": "After the approval also opened the vault in this browser that is linked to the account."
+  },
+  "accountApproveDenied": {
+    "message": "Your other device said no. Start again if that was a mistake.",
+    "description": "The other device denied the approval."
+  },
+  "accountApproveExpired": {
+    "message": "The request ended. Ask again to approve this browser.",
+    "description": "The approval request expired (10 minutes) or is gone."
+  },
+  "accountKeysAppOnly": {
+    "message": "Change your Passyble password, your Secret Key or your recovery code in the Passyble app.",
+    "description": "Note at the bottom of the Passyble password page: those changes are app-only."
+  },
+  "accountPasswordButton": {
+    "message": "Passyble password",
+    "description": "Settings, Account row: opens the page to sign in with the Passyble password or approve this browser from another device."
+  },
+  "welcomeChoicePassword": {
+    "message": "Use your Passyble password",
+    "description": "Setup guide choice: open the page to sign in with the Passyble password or approve this browser from another device."
+  },
+  "welcomeChoicePasswordText": {
+    "message": "Sign in here, or approve this browser from another device.",
+    "description": "Caption of \"Use your Passyble password\" in the setup guide."
+  },
+  "errWrongAccountPassword": {
+    "message": "Wrong Passyble password or Secret Key. Is Caps Lock on?",
+    "description": "Error: the Passyble password and the Secret Key don't open the account key."
+  },
+  "errPasswordLimited": {
+    "message": "Too many wrong passwords. Wait a while, then try again.",
+    "description": "Error: the account service refuses password tries for this address for a while."
+  },
+  "errAccountKeysOff": {
+    "message": "The Passyble password isn't available yet.",
+    "description": "Error: the account service doesn't take the Passyble password yet."
+  },
+  "errNoAccountPassword": {
+    "message": "This account has no Passyble password yet. Set one in the Passyble app.",
+    "description": "Error: the account has no Passyble password; it is set in an app."
+  },
+  "errAccountService": {
+    "message": "The Passyble account service didn't answer as expected. Try again later.",
+    "description": "Error: an unexpected answer of account.passyble.com."
+  },
+  "errAccountOffline": {
+    "message": "Can't reach your Passyble account. Check your internet connection and try again.",
+    "description": "Error: no answer from account.passyble.com."
+  },
+  "errAccountSignedOut": {
+    "message": "Sign in to your Passyble account first.",
+    "description": "Error: this step needs the browser signed in to the Passyble account."
+  },
+  "errBadSecretKey": {
+    "message": "That isn't a Secret Key. Copy it from your Emergency Kit: it starts with P1.",
+    "description": "Error: what was typed as the Secret Key isn't one (a recovery code is not a Secret Key)."
+  },
+  "errSecretKeyNeeded": {
+    "message": "Enter your Secret Key once in this browser. It's in your Emergency Kit.",
+    "description": "Error: this browser keeps no Secret Key for the account yet (the in-page menu says to use the popup)."
+  },
+  "errEmailNeeded": {
+    "message": "Enter your account's e-mail address.",
+    "description": "Error: the Passyble account's e-mail address is needed."
+  },
+  "errOtherAccount": {
+    "message": "This password is for another Passyble account than this vault.",
+    "description": "Error: the password signed in to a different account than the one the vault is linked to."
+  },
+  "errOtherAccountKey": {
+    "message": "This vault is linked to an older key of your account. Open it in the Passyble app once.",
+    "description": "Error: the vault was linked with an account key that was replaced since."
+  },
+  "errApprovalMismatch": {
+    "message": "The approval didn't match. Start again on both devices.",
+    "description": "Error: the keys the other device sent don't open here."
+  },
+  "accountSecretKeyExample": {
+    "message": "P1-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX",
+    "description": "Placeholder of the Secret Key field: the shape of a Secret Key. Keep P1 and the dashes; X may be any letter your language uses for an unknown character."
+  },
+  "qaGroupLabel": {
+    "message": "Quick actions",
+    "description": "Accessible name of the popup's row of quick action buttons (Scan QR, New note, Generate)."
+  },
+  "qaScanQr": {
+    "message": "Scan QR",
+    "description": "Quick action button in the popup (keep it short): finds an authenticator (2FA) QR code on the current page and adds it."
+  },
+  "qaScanQrTitle": {
+    "message": "Add the 2FA QR code shown on this page",
+    "description": "Tooltip of the Scan QR quick action."
+  },
+  "qaNewNote": {
+    "message": "New note",
+    "description": "Quick action button in the popup (keep it short): opens a small editor for a secure note."
+  },
+  "qaNewNoteTitle": {
+    "message": "Add a secure note, such as recovery codes",
+    "description": "Tooltip of the New note quick action."
+  },
+  "qaGenerate": {
+    "message": "Generate",
+    "description": "Quick action button in the popup (keep it short): generates a strong password to copy."
+  },
+  "qaGenerateTitle": {
+    "message": "Generate a strong password",
+    "description": "Tooltip of the Generate quick action."
+  },
+  "qaNoQr": {
+    "message": "No QR code visible on this page. Scroll it into view and try again.",
+    "description": "Notice after Scan QR: no QR code was in the visible part of the page."
+  },
+  "qaNotAuthenticator": {
+    "message": "This QR code isn't for an authenticator app.",
+    "description": "Notice after Scan QR: the page has a QR code, but not one for 2FA codes."
+  },
+  "qaMigration": {
+    "message": "This QR code is a Google Authenticator export. Import it in the Passyble app.",
+    "description": "Notice after Scan QR: the QR code moves several codes out of Google Authenticator; the extension can't take it, the desktop app's import can."
+  },
+  "qaHotp": {
+    "message": "This QR code is for counter-based codes (HOTP), which Passyble doesn't support.",
+    "description": "Notice after Scan QR: the QR code is for HOTP (counter-based) codes; only time-based codes are supported. Keep \"HOTP\"."
+  },
+  "qaInvalidQr": {
+    "message": "This 2FA QR code can't be read. Add the code with its secret key instead.",
+    "description": "Notice after Scan QR: the 2FA QR code is broken or incomplete; the user can paste the secret in the login editor instead."
+  },
+  "qaAddTotpHeading": {
+    "message": "Add 2FA code",
+    "description": "Heading of the view after Scan QR found a 2FA code: where to add it."
+  },
+  "qaUnnamedCode": {
+    "message": "2FA code",
+    "description": "Name shown for a scanned 2FA code whose QR code names no service or account."
+  },
+  "qaAddTo": {
+    "message": "Add it to",
+    "description": "Label over the choice of login (or a new login) the scanned 2FA code is added to."
+  },
+  "qaHasTotp": {
+    "message": "Has 2FA",
+    "description": "Small tag on a login that already has a 2FA code (adding the scanned one replaces it)."
+  },
+  "qaNewLoginFor": {
+    "message": "New login for $SITE$",
+    "description": "Choice after Scan QR: save the 2FA code as a new login for the current site.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "qaThisSite": {
+    "message": "this site",
+    "description": "Stands in for the site name in \"New login for this site\" when the page has no host name."
+  },
+  "qaPickHint": {
+    "message": "Choose the login to add it to.",
+    "description": "Hint after Scan QR when several logins of the site could take the code and none is chosen yet."
+  },
+  "qaReplacesTotp": {
+    "message": "Its current 2FA code will be replaced.",
+    "description": "Note under the choice after Scan QR: the chosen login already has a 2FA code."
+  },
+  "qaAddTotp": {
+    "message": "Add 2FA",
+    "description": "Button: add the scanned 2FA code to the chosen login."
+  },
+  "qaTotpAdded": {
+    "message": "2FA code added to $TITLE$",
+    "description": "Notice: the scanned 2FA code was added to that login.",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "qaTotpSavedNew": {
+    "message": "Saved as a new login: $TITLE$",
+    "description": "Notice: the scanned 2FA code was saved as a new login with that title.",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "qaNoteHeading": {
+    "message": "New note",
+    "description": "Heading of the popup's small secure note editor."
+  },
+  "qaNoteTitle": {
+    "message": "Title",
+    "description": "Label of the secure note's title field."
+  },
+  "qaNoteText": {
+    "message": "Note",
+    "description": "Label of the secure note's text field."
+  },
+  "qaNoteTextPlaceholder": {
+    "message": "Paste recovery codes or write a note",
+    "description": "Placeholder of the secure note's text field."
+  },
+  "qaNoteRecovery": {
+    "message": "Recovery codes",
+    "description": "Title suggestion (a small button) in the secure note editor, and the note's title when the page has no site name."
+  },
+  "qaNoteRecoveryFor": {
+    "message": "Recovery codes for $SITE$",
+    "description": "The title the \"Recovery codes\" suggestion fills in, with the current site.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "qaNoteUntitled": {
+    "message": "Secure note",
+    "description": "Placeholder of the note's title field, and the title of a note saved without one."
+  },
+  "qaNoteHint": {
+    "message": "Saved as a secure note in your vault.",
+    "description": "Note under the secure note editor: where the note is kept."
+  },
+  "qaNoteSaved": {
+    "message": "Note saved",
+    "description": "Notice after the secure note was saved."
+  },
+  "qaNoteNeedsUpdate": {
+    "message": "Update Passyble to add notes here.",
+    "description": "Notice: this Passyble app (or browser vault) is too old to save a note from the popup."
+  },
+  "qaGenerateHeading": {
+    "message": "Generate password",
+    "description": "Heading of the popup's password generator view."
+  },
+  "qaGeneratedLabel": {
+    "message": "Generated password",
+    "description": "Accessible name of the generated password shown in the generator view."
+  },
+  "qaRegenerate": {
+    "message": "New password",
+    "description": "Tooltip of the button that generates another password."
+  },
+  "qaCopy": {
+    "message": "Copy",
+    "description": "Button: copy the generated password."
+  },
+  "qaGenerateHint": {
+    "message": "A copied password is cleared from the clipboard after 45 seconds.",
+    "description": "Note under the generated password."
+  },
+  "vaultAppInstalledHere": {
+    "message": "The Passyble app is installed on this computer, so Passyble uses it here.",
+    "description": "Options and the setup guide, app mode: why the vault in this browser isn't offered while the desktop app is installed."
+  },
+  "optionsAppGone": {
+    "message": "The Passyble app is no longer on this computer. You can keep a vault in this browser instead.",
+    "description": "Options, app mode: the desktop app was uninstalled (found missing several times). The button next to it offers the vault in this browser."
+  },
+  "moveOffer_one": {
+    "message": "Move $COUNT$ item from this browser into the Passyble app",
+    "description": "Popup tip and Options card after the extension switched to the desktop app: offer to move the vault kept in this browser (singular form).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "23"
+      }
+    }
+  },
+  "moveOffer_other": {
+    "message": "Move $COUNT$ items from this browser into the Passyble app",
+    "description": "Popup tip and Options card after the extension switched to the desktop app: offer to move the vault kept in this browser (plural form).",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "23"
+      }
+    }
+  },
+  "moveOfferAny": {
+    "message": "Move the items in this browser into the Passyble app",
+    "description": "The same offer when the number of items isn't known (the vault in this browser was locked)."
+  },
+  "moveText": {
+    "message": "They stay in this browser too, until you delete the vault here.",
+    "description": "Options, under the move offer: moving copies the items; nothing is removed from the browser."
+  },
+  "moveStart": {
+    "message": "Move items",
+    "description": "Options button: opens the form to move the browser's items into the desktop app."
+  },
+  "moveConfirm": {
+    "message": "Move",
+    "description": "Button: move the items now (Options form, popup tip)."
+  },
+  "moveInto": {
+    "message": "Into this vault",
+    "description": "Options move form: label of the list of the desktop app's vaults the items can go into."
+  },
+  "moveMoving": {
+    "message": "Moving…",
+    "description": "Options move form: shown while the items are being moved."
+  },
+  "moveDoneTitle": {
+    "message": "Moved into the Passyble app",
+    "description": "Options: every item of the vault in this browser is in the desktop app now."
+  },
+  "moveDoneText": {
+    "message": "Added: $ADDED$. Already in the app: $SKIPPED$. The vault in this browser is kept until you delete it.",
+    "description": "Options, after the move: how many items were added and how many were there already (skipped as duplicates).",
+    "placeholders": {
+      "added": {
+        "content": "$1",
+        "example": "20"
+      },
+      "skipped": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "movePartialTitle": {
+    "message": "Some items could not move",
+    "description": "Options: the move added most items, but some failed."
+  },
+  "movePartialText": {
+    "message": "Added: $ADDED$. Already in the app: $SKIPPED$. Could not move: $FAILED$. Those are still in this browser.",
+    "description": "Options, after a move where some items failed; their titles are listed below it.",
+    "placeholders": {
+      "added": {
+        "content": "$1",
+        "example": "18"
+      },
+      "skipped": {
+        "content": "$2",
+        "example": "3"
+      },
+      "failed": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "moveDeleteVault": {
+    "message": "Delete the vault in this browser",
+    "description": "Options button after a complete move: removes the vault kept in this browser."
+  },
+  "moveDeleteWarn": {
+    "message": "Deletes the vault in this browser for good. Its items are in the Passyble app now.",
+    "description": "Options: the confirmation before the vault in this browser is deleted after a move."
+  },
+  "cardBannerSave": {
+    "message": "Save card to Passyble?",
+    "description": "Card save prompt heading after paying with a card that isn't in Passyble yet."
+  },
+  "cardBannerUpdate": {
+    "message": "Update card expiry?",
+    "description": "Card save prompt heading: the card is in Passyble with another expiry date."
+  },
+  "cardBannerSaved": {
+    "message": "Card saved to Passyble.",
+    "description": "Card save prompt status after saving a new card."
+  },
+  "cardBannerUpdated": {
+    "message": "Card expiry updated.",
+    "description": "Card save prompt status after the saved card got the new expiry date."
+  },
+  "cardBannerNoCode": {
+    "message": "The security code isn't saved. You can add it to the card in Passyble.",
+    "description": "Card save prompt, a quiet line: the card's security code (CVV) is never saved from the page; the user can type it into the card in the Passyble app."
+  },
+  "cardBannerNeverDone": {
+    "message": "Won't offer to save cards on this site.",
+    "description": "Card save prompt, after \"Never for this site\": Passyble won't offer to save cards on this site (the list is in Settings)."
+  },
+  "cardBannerEditFrameTitle": {
+    "message": "Passyble card details",
+    "description": "Accessible name of the card details box behind \"Edit\" in the card save prompt (an extension frame the website can't read)."
+  },
+  "cardEditHolder": {
+    "message": "Name on card",
+    "description": "Card save prompt, Edit: label of the cardholder name field."
+  },
+  "cardEditExpiry": {
+    "message": "Expiry",
+    "description": "Card save prompt, Edit: label of the expiry date field."
+  },
+  "cardEditExpiryPlaceholder": {
+    "message": "MM/YY",
+    "description": "Card save prompt, Edit: placeholder of the expiry date field (month / two-digit year, as printed on cards)."
+  },
+  "cardEditExpiryHint": {
+    "message": "Use MM/YY, for example 04/29.",
+    "description": "Card save prompt, Edit: the expiry date typed can't be read."
+  },
+  "cardEditTitle": {
+    "message": "Title",
+    "description": "Card save prompt, Edit: label of the field for the card's name in Passyble (empty: brand and last four digits)."
+  },
+  "settingCardSave": {
+    "message": "Offer to save cards",
+    "description": "Setting name: ask to save a payment card after paying with a new one."
+  },
+  "settingCardSaveDetails": {
+    "message": "Asks to save a new card after you pay with it.",
+    "description": "Caption of the \"Offer to save cards\" setting."
+  },
+  "optionsNeverSaveCards": {
+    "message": "Cards",
+    "description": "Settings, \"Never save\" list: caption under a site where only cards are never offered to be saved."
+  },
+  "menuSimilarSites": {
+    "message": "Similar sites",
+    "description": "In-page menu and popup, a site without logins: heading over logins of other sites that may be this one (same name under another ending such as amazon.de for amazon.com, or the name in the title)."
+  },
+  "menuSearchPassyble": {
+    "message": "Search Passyble…",
+    "description": "In-page menu, a site without logins: opens the Passyble popup to search the whole vault."
+  },
+  "menuSearchUseToolbar": {
+    "message": "To search your vault, click Passyble in the browser toolbar.",
+    "description": "Short notice when the browser does not let Passyble open its popup from the page."
+  },
+  "commonNoLoginsFor": {
+    "message": "No logins for $SITE$",
+    "description": "In-page menu and popup: nothing is saved for this site. $SITE$ is the site, e.g. amazon.co.uk.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossTitle": {
+    "message": "Use this login on $SITE$ too?",
+    "description": "Card after a login of another site was filled into this page: offer to use it for this site from now on. $SITE$ is this page's site.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossSavedFor": {
+    "message": "saved for $SITE$",
+    "description": "Card after a login of another site was filled: the line under the title reads \"<username> · saved for <site>\". $SITE$ is the site the login was saved for.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.com"
+      }
+    }
+  },
+  "crossAdd": {
+    "message": "Add $SITE$ to this login",
+    "description": "Button: adds this page's site to the login's websites, so it fills here without asking next time.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossCopy": {
+    "message": "Save a copy for $SITE$",
+    "description": "Button: saves a separate login for this page's site with the same username and password.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossHint": {
+    "message": "Adding it fills this login here without asking next time. A copy keeps the two separate.",
+    "description": "Small text under the buttons of that card: the difference between adding the site and saving a copy."
+  },
+  "crossAdded": {
+    "message": "$SITE$ added to $TITLE$.",
+    "description": "After \"Add <site> to this login\": done. $SITE$ is the page's site, $TITLE$ the login's title.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      },
+      "title": {
+        "content": "$2",
+        "example": "Amazon"
+      }
+    }
+  },
+  "crossCopied": {
+    "message": "Copy saved in Passyble.",
+    "description": "After \"Save a copy for <site>\": done."
+  },
+  "crossLookalike": {
+    "message": "$HOST$ is not $SITE$, but its address looks like it. Add it only if you trust this site.",
+    "description": "Red warning on that card when the page's address looks like the login's site without being it: $HOST$ is the page, $SITE$ the login's site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "changedTitle": {
+    "message": "Update this login?",
+    "description": "Title of the card after the user changed the username or password Passyble filled, then signed in: offer to update the saved login."
+  },
+  "changedUsername": {
+    "message": "Username changed to $USERNAME$",
+    "description": "A line on that card: the username was changed. $USERNAME$ is the new username or e-mail address.",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "bob@example.com"
+      }
+    }
+  },
+  "changedPassword": {
+    "message": "Password changed",
+    "description": "A line on that card: the password was changed (the password itself is never shown)."
+  },
+  "changedFromSite": {
+    "message": "Saved for $SITE$. Updating it also adds $HOST$ to this login.",
+    "description": "Note on that card when the login was saved for another site: updating it also adds this page's site to it. $SITE$ is the login's site, $HOST$ this page.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.com"
+      },
+      "host": {
+        "content": "$2",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "changedReadOnly": {
+    "message": "This login is in a shared vault you can't change. You can save a new login instead.",
+    "description": "Note on that card when the login is in a shared vault the user may not change: only a new login can be saved."
+  },
+  "changedLookalike": {
+    "message": "$HOST$ is not $SITE$, but its address looks like it. Update or save only if you trust this site.",
+    "description": "Red warning on that card when the page's address looks like the login's site without being it: $HOST$ is the page, $SITE$ the login's site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "changedUpdate": {
+    "message": "Update login",
+    "description": "Button on that card: save the changes to the login that was filled."
+  },
+  "changedSaveNew": {
+    "message": "Save as new login",
+    "description": "Button on that card: keep the filled login as it is and save what was typed as a separate login."
+  },
+  "changedUpdated": {
+    "message": "Login updated in Passyble.",
+    "description": "Status after \"Update login\": done."
+  },
+  "changedSavedNew": {
+    "message": "Saved as a new login.",
+    "description": "Status after \"Save as new login\": done."
+  },
+  "popupTypeFilter": {
+    "message": "Filter by type",
+    "description": "Popup, Filter menu: what a screen reader hears for its Show section, which narrows the list to one kind of item."
+  },
+  "popupTypeAll": {
+    "message": "All",
+    "description": "Popup, type filter chip: every kind of item."
+  },
+  "popupTypeLogins": {
+    "message": "Logins",
+    "description": "Popup, type filter chip: only logins (not cards or addresses)."
+  },
+  "popupTypeCards": {
+    "message": "Cards",
+    "description": "Popup, type filter chip: only payment cards."
+  },
+  "popupTypeAddresses": {
+    "message": "Addresses",
+    "description": "Popup, type filter chip: only addresses (identities)."
+  },
+  "popupTypeFavorites": {
+    "message": "Favorites",
+    "description": "Popup, type filter chip: only items marked as favorites (logins, cards, addresses, notes)."
+  },
+  "popupTypeNotes": {
+    "message": "Notes",
+    "description": "Popup, type filter chip: only secure notes."
+  },
+  "popupSecureNotes": {
+    "message": "Secure notes",
+    "description": "Popup: heading of the list of secure notes (the Notes and Favorites filters)."
+  },
+  "popupSecureNote": {
+    "message": "Secure note",
+    "description": "Popup: the line under a secure note's title in the list."
+  },
+  "popupShowNote": {
+    "message": "Show note",
+    "description": "Popup: tooltip of a secure note's row (opens the note and shows its text)."
+  },
+  "popupShowNoteOf": {
+    "message": "Show the note $NAME$",
+    "description": "Popup: accessible name of a secure note's row (opens the note).",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Recovery codes"
+      }
+    }
+  },
+  "popupCopyNote": {
+    "message": "Copy note",
+    "description": "Popup: button that copies the text of a secure note."
+  },
+  "popupCopyNoteOf": {
+    "message": "Copy the note $NAME$",
+    "description": "Popup: accessible name of the copy button of a secure note's row.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Recovery codes"
+      }
+    }
+  },
+  "popupCopiedNote": {
+    "message": "Note copied",
+    "description": "Notice after copying a secure note's text."
+  },
+  "popupCopiedNoteClears": {
+    "message": "Note copied (clears in 45 s)",
+    "description": "Notice after copying a secure note's text; the clipboard is cleared after 45 seconds."
+  },
+  "popupNoteEmpty": {
+    "message": "This note is empty.",
+    "description": "Popup: a secure note without text (in its viewer, or after Copy)."
+  },
+  "popupNoteText": {
+    "message": "Note text",
+    "description": "Popup: accessible name of a secure note's text in its viewer."
+  },
+  "popupNoFilterMatches": {
+    "message": "Nothing of this kind here.",
+    "description": "Popup: empty state when the type filter chosen leaves nothing to show."
+  },
+  "ctxSaveSelection": {
+    "message": "Save selection to Passyble note",
+    "description": "Right-click menu entry on selected text: add the selection to a secure note."
+  },
+  "clipHeading": {
+    "message": "Save to a note",
+    "description": "Title of the small window that adds the selected text to a secure note."
+  },
+  "clipSelection": {
+    "message": "Selection",
+    "description": "Accessible name of the preview of the selected text in the note chooser."
+  },
+  "clipAddAddress": {
+    "message": "Add the page address",
+    "description": "Checkbox in the note chooser: add the web page's address under the selected text."
+  },
+  "clipSearch": {
+    "message": "Search notes",
+    "description": "Placeholder and accessible name of the search box over the secure notes in the note chooser."
+  },
+  "clipNewNote": {
+    "message": "New note",
+    "description": "Row in the note chooser: save the selected text as a new secure note."
+  },
+  "clipNotes": {
+    "message": "Notes",
+    "description": "Accessible name of the list of secure notes in the note chooser."
+  },
+  "clipSaveNew": {
+    "message": "Save as a new note",
+    "description": "Button: save the selected text as a new secure note with the title above."
+  },
+  "clipAdded": {
+    "message": "Added to $NOTE$",
+    "description": "Notice: the selected text was added as a new line at the end of that secure note.",
+    "placeholders": {
+      "note": {
+        "content": "$1",
+        "example": "Reading list"
+      }
+    }
+  },
+  "clipSavedNew": {
+    "message": "Saved as a new note",
+    "description": "Notice: the selected text was saved as a new secure note."
+  },
+  "clipNoNotes": {
+    "message": "No notes yet. Save it as a new note.",
+    "description": "Note chooser without any secure notes."
+  },
+  "clipNoMatch": {
+    "message": "No notes match.",
+    "description": "Note chooser: no secure note title matches the search."
+  },
+  "clipViewOnly": {
+    "message": "You can't change this note",
+    "description": "Under a note of a shared vault the user may view but not change, in the note chooser."
+  },
+  "clipLockedText": {
+    "message": "Unlock to add the selection to a note.",
+    "description": "Locked view of the note chooser, under \"Passyble is locked\"."
+  },
+  "clipAppendNeedsUpdate": {
+    "message": "Update the Passyble app to add to a note.",
+    "description": "The desktop app is too old to add text to an existing note (a new note still works)."
+  },
+  "clipNeedsUpdate": {
+    "message": "Update the Passyble app to save notes from the browser.",
+    "description": "The desktop app is too old for both adding to a note and new notes."
+  },
+  "clipGone": {
+    "message": "This selection is gone. Select the text again and right-click it.",
+    "description": "The note chooser was opened again after its selection was used or expired."
+  },
+  "clipTooLong": {
+    "message": "The selection is too long for a note.",
+    "description": "Error: the selected text is over the size a note takes."
+  },
+  "clipNoteFull": {
+    "message": "That note is full. Save the selection as a new note.",
+    "description": "Error: the chosen secure note has reached its size limit."
+  }
+}

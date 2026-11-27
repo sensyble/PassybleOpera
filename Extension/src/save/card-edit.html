@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Passyble</title>
+  <link rel="stylesheet" href="../ui/tokens.css">
+  <link rel="stylesheet" href="edit.css">
+  <script type="module" src="card-edit.js"></script>
+</head>
+<body>
+  <!-- An extension page in an iframe of another origin: the page can't read what is typed. The card number and security code never come here. -->
+  <form class="edit" id="form" novalidate>
+    <label class="field">
+      <span data-i18n="cardEditHolder">Name on card</span>
+      <span class="input-row">
+        <input id="holder" type="text" autocomplete="off" spellcheck="false" maxlength="256" disabled
+          aria-label="Name on card" data-i18n-aria-label="cardEditHolder">
+      </span>
+    </label>
+    <label class="field">
+      <span data-i18n="cardEditExpiry">Expiry</span>
+      <span class="input-row">
+        <input id="expiry" type="text" inputmode="numeric" autocomplete="off" spellcheck="false" maxlength="9" disabled
+          placeholder="MM/YY" aria-label="Expiry" data-i18n-placeholder="cardEditExpiryPlaceholder"
+          data-i18n-aria-label="cardEditExpiry" aria-describedby="issues">
+      </span>
+    </label>
+    <label class="field" id="title-field">
+      <span data-i18n="cardEditTitle">Title</span>
+      <span class="input-row">
+        <input id="title" type="text" autocomplete="off" spellcheck="false" maxlength="256" disabled
+          aria-label="Title" data-i18n-aria-label="cardEditTitle">
+      </span>
+    </label>
+    <ul class="issues" id="issues" hidden aria-live="polite"></ul>
+  </form>
+</body>
+</html>

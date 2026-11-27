@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Passyble</title>
+  <link rel="stylesheet" href="../ui/tokens.css">
+  <link rel="stylesheet" href="edit.css">
+  <script type="module" src="edit.js"></script>
+</head>
+<body>
+  <!-- Extension page in an iframe of another origin, so the web page around it can't read what is typed here. -->
+  <form class="edit" id="form" novalidate>
+    <label class="field">
+      <span data-i18n="commonUsername">Username</span>
+      <span class="input-row">
+        <input id="username" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="512"
+          disabled placeholder="(no username)" aria-label="Username" data-i18n-placeholder="commonNoUsername"
+          data-i18n-aria-label="commonUsername">
+      </span>
+    </label>
+    <label class="field">
+      <span data-i18n="commonPassword">Password</span>
+      <span class="input-row">
+        <input class="pw" id="password" type="password" autocomplete="off" autocapitalize="off" spellcheck="false"
+          maxlength="1024" disabled aria-label="Password" data-i18n-aria-label="commonPassword" aria-describedby="issues">
+        <button class="icon-btn" id="reveal" type="button" aria-pressed="false" title="Show password" aria-label="Show password"
+          data-i18n-title="commonShowPassword" data-i18n-aria-label="commonShowPassword" data-icon="eye" data-icon-size="14"></button>
+      </span>
+    </label>
+    <ul class="issues" id="issues" hidden aria-label="Password check" data-i18n-aria-label="issueListLabel"></ul>
+  </form>
+</body>
+</html>

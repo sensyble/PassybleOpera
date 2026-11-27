@@ -1,0 +1,1607 @@
+# Popular websites and apps, for naming a new login and filling in its website (pass-core
+# src/popular_sites.rs). Most popular first: the order ranks suggestions that match equally well.
+# Written for Passyble from general knowledge of the services and their own official domains;
+# no third-party list. Only real, current, official domains; anything unsure is left out.
+#
+# One site per line, fields separated by "|":
+#   name|domains|android packages|other names
+# - domains: comma separated, the main one first. A registrable domain, or the service's own
+#   host on a domain shared with other services (drive.google.com).
+# - android packages: the service's own Android apps, comma separated.
+# - other names: former names and products people look for under another name (Twitter for X),
+#   comma separated.
+# The last two fields may be empty or left out. Lines starting with "#" are comments.
+Google|google.com||Gmail,Google Account
+YouTube|youtube.com|com.google.android.youtube
+Facebook|facebook.com|com.facebook.katana,com.facebook.lite
+Instagram|instagram.com|com.instagram.android
+WhatsApp|whatsapp.com|com.whatsapp,com.whatsapp.w4b
+X|x.com,twitter.com|com.twitter.android|Twitter
+Amazon|amazon.com,amazon.co.uk,amazon.de,amazon.fr,amazon.it,amazon.es,amazon.ca,amazon.co.jp,amazon.in,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.nl,amazon.se,amazon.pl,amazon.com.tr,amazon.ae,amazon.sa,amazon.sg,amazon.com.be,amazon.eg|com.amazon.mShop.android.shopping
+Wikipedia|wikipedia.org|org.wikipedia
+Microsoft|microsoft.com,live.com,microsoftonline.com||Microsoft account
+Outlook|outlook.com,outlook.live.com,hotmail.com|com.microsoft.office.outlook|Hotmail
+Microsoft 365|microsoft365.com,office.com||Office
+Apple|apple.com||Apple Account,Apple ID
+iCloud|icloud.com
+Netflix|netflix.com|com.netflix.mediaclient
+ChatGPT|chatgpt.com|com.openai.chatgpt
+OpenAI|openai.com
+TikTok|tiktok.com|com.zhiliaoapp.musically,com.ss.android.ugc.trill
+Reddit|reddit.com|com.reddit.frontpage
+LinkedIn|linkedin.com|com.linkedin.android
+Yahoo|yahoo.com|com.yahoo.mobile.client.android.mail|Yahoo Mail
+Bing|bing.com
+Pinterest|pinterest.com|com.pinterest
+Twitch|twitch.tv|tv.twitch.android.app
+Discord|discord.com|com.discord
+Spotify|spotify.com|com.spotify.music
+PayPal|paypal.com|com.paypal.android.p2pmobile
+eBay|ebay.com,ebay.co.uk,ebay.de,ebay.fr,ebay.it,ebay.es,ebay.ca,ebay.com.au|com.ebay.mobile
+Zoom|zoom.us,zoom.com|us.zoom.videomeetings
+Dropbox|dropbox.com|com.dropbox.android
+GitHub|github.com|com.github.android
+Adobe|adobe.com||Photoshop,Lightroom,Acrobat
+Canva|canva.com|com.canva.editor
+Snapchat|snapchat.com|com.snapchat.android
+Telegram|telegram.org|org.telegram.messenger
+Messenger|messenger.com|com.facebook.orca
+Quora|quora.com|com.quora.android
+Walmart|walmart.com|com.walmart.android
+Etsy|etsy.com|com.etsy.android
+AliExpress|aliexpress.com|com.alibaba.aliexpresshd
+Temu|temu.com|com.einnovation.temu
+SHEIN|shein.com|com.zzkko
+Booking.com|booking.com|com.booking
+Airbnb|airbnb.com|com.airbnb.android
+Uber|uber.com|com.ubercab
+Disney+|disneyplus.com|com.disney.disneyplus|Disney Plus
+Prime Video|primevideo.com|com.amazon.avod.thirdpartyclient|Amazon Prime Video
+Hulu|hulu.com|com.hulu.plus
+HBO Max|hbomax.com,max.com|com.wbd.stream|Max
+Roblox|roblox.com|com.roblox.client
+Steam|steampowered.com,steamcommunity.com|com.valvesoftware.android.steam.community|Valve
+Epic Games|epicgames.com||Fortnite
+PlayStation|playstation.com|com.scee.psxandroid|PSN,PlayStation Network,Sony
+Xbox|xbox.com|com.microsoft.xboxone.smartglass
+Nintendo|nintendo.com
+Microsoft Teams|teams.microsoft.com,teams.live.com|com.microsoft.teams
+Slack|slack.com|com.Slack
+Notion|notion.so,notion.com|notion.id
+Claude|claude.ai|com.anthropic.claude|Anthropic
+Google Gemini|gemini.google.com
+Perplexity|perplexity.ai|ai.perplexity.app.android
+Microsoft Copilot|copilot.microsoft.com
+Grok|grok.com
+DeepSeek|deepseek.com
+Threads|threads.com,threads.net|com.instagram.barcelona
+Bluesky|bsky.app|xyz.blueskyweb.app
+Meta|meta.com||Meta Quest,Oculus
+Signal|signal.org|org.thoughtcrime.securesms
+Viber|viber.com|com.viber.voip
+LINE|line.me|jp.naver.line.android
+WeChat|wechat.com|com.tencent.mm
+Tumblr|tumblr.com|com.tumblr
+Medium|medium.com|com.medium.reader
+Vimeo|vimeo.com|com.vimeo.android.videoapp
+SoundCloud|soundcloud.com|com.soundcloud.android
+Imgur|imgur.com|com.imgur.mobile
+Coinbase|coinbase.com|com.coinbase.android
+Binance|binance.com|com.binance.dev
+Robinhood|robinhood.com|com.robinhood.android
+Duolingo|duolingo.com|com.duolingo
+Shopify|shopify.com|com.shopify.mobile
+Stripe|stripe.com
+Google Drive|drive.google.com
+Google Play|play.google.com
+Google Cloud|cloud.google.com
+Firebase|firebase.google.com
+Google Photos|photos.google.com
+Google Classroom|classroom.google.com
+YouTube Music|music.youtube.com|com.google.android.apps.youtube.music
+YouTube TV|tv.youtube.com
+Google Fi|fi.google.com
+AWS|aws.amazon.com||Amazon Web Services
+Amazon Seller Central|sellercentral.amazon.com
+Amazon Music|music.amazon.com
+Audible|audible.com,audible.co.uk,audible.de|com.audible.application
+Apple Music|music.apple.com|com.apple.android.music
+Apple TV|tv.apple.com
+Microsoft Azure|azure.microsoft.com,azure.com||Azure
+OneDrive|onedrive.live.com|com.microsoft.skydrive
+Bitbucket|bitbucket.org
+GitLab|gitlab.com
+Stack Overflow|stackoverflow.com
+Stack Exchange|stackexchange.com
+Atlassian|atlassian.com,atlassian.net||Jira,Confluence
+Trello|trello.com|com.trello
+Asana|asana.com|com.asana.app
+Figma|figma.com|com.figma.mirror
+Miro|miro.com|com.realtimeboard
+Salesforce|salesforce.com
+HubSpot|hubspot.com
+Zendesk|zendesk.com
+Mailchimp|mailchimp.com
+Chase|chase.com|com.chase.sig.android|JPMorgan Chase
+Bank of America|bankofamerica.com|com.infonow.bofa|BofA
+Wells Fargo|wellsfargo.com|com.wf.wellsfargomobile
+Capital One|capitalone.com|com.konylabs.capitalone
+Citi|citi.com|com.citi.citimobile|Citibank
+American Express|americanexpress.com|com.americanexpress.android.acctsvcs.us|Amex
+Discover|discover.com|com.discoverfinancial.mobile
+Venmo|venmo.com|com.venmo
+Cash App|cash.app|com.squareup.cash
+Zelle|zellepay.com|com.zellepay.zelle
+Target|target.com|com.target.ui
+Costco|costco.com
+Best Buy|bestbuy.com|com.bestbuy.android
+The Home Depot|homedepot.com|com.thehomedepot|Home Depot
+Lowe's|lowes.com|com.lowes.android
+IKEA|ikea.com
+Nike|nike.com|com.nike.omega
+Samsung|samsung.com||Samsung account
+Dell|dell.com
+HP|hp.com
+Expedia|expedia.com|com.expedia.bookings
+Tripadvisor|tripadvisor.com|com.tripadvisor.tripadvisor
+Yelp|yelp.com|com.yelp.android
+DoorDash|doordash.com|com.dd.doordash
+Uber Eats|ubereats.com|com.ubercab.eats
+Instacart|instacart.com|com.instacart.client
+Lyft|lyft.com|me.lyft.android
+Starbucks|starbucks.com|com.starbucks.mobilecard
+McDonald's|mcdonalds.com|com.mcdonalds.app
+Indeed|indeed.com|com.indeed.android.jobsearch
+Zillow|zillow.com|com.zillow.android.zillowmap
+Verizon|verizon.com
+AT&T|att.com
+T-Mobile|t-mobile.com
+Xfinity|xfinity.com||Comcast
+USPS|usps.com
+UPS|ups.com
+FedEx|fedex.com
+DHL|dhl.com
+IRS|irs.gov
+New York Times|nytimes.com||NYT,The Athletic,Wordle
+CNN|cnn.com
+ESPN|espn.com
+BBC|bbc.co.uk,bbc.com||BBC iPlayer
+Paramount+|paramountplus.com|com.cbs.app|Paramount Plus
+Peacock|peacocktv.com|com.peacocktv.peacockandroid
+Crunchyroll|crunchyroll.com|com.crunchyroll.crunchyroid
+Tinder|tinder.com|com.tinder
+Coursera|coursera.org|org.coursera.android
+Udemy|udemy.com|com.udemy.android
+Khan Academy|khanacademy.org|org.khanacademy.android
+Quizlet|quizlet.com|com.quizlet.quizletandroid
+Chegg|chegg.com|com.chegg
+Flipkart|flipkart.com|com.flipkart.android
+Paytm|paytm.com|net.one97.paytm
+Mercado Libre|mercadolibre.com,mercadolibre.com.mx,mercadolibre.com.ar,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co|com.mercadolibre|Mercado Livre
+Shopee|shopee.com,shopee.sg,shopee.co.id,shopee.com.my,shopee.ph,shopee.vn,shopee.co.th,shopee.tw,shopee.com.br
+Lazada|lazada.com,lazada.sg,lazada.co.id,lazada.com.my,lazada.com.ph,lazada.vn,lazada.co.th|com.lazada.android
+Wise|wise.com|com.transferwise.android|TransferWise
+Revolut|revolut.com|com.revolut.revolut
+Klarna|klarna.com|com.myklarnamobile
+Kraken|kraken.com
+Crypto.com|crypto.com|co.mona.android
+Fidelity|fidelity.com|com.fidelity.android
+Charles Schwab|schwab.com|com.schwab.mobile|Schwab
+Vanguard|vanguard.com|com.vanguard
+Credit Karma|creditkarma.com|com.creditkarma.mobile
+Garmin|garmin.com|com.garmin.android.apps.connectmobile|Garmin Connect
+Fitbit|fitbit.com|com.fitbit.FitbitMobile
+Strava|strava.com|com.strava
+MyFitnessPal|myfitnesspal.com|com.myfitnesspal.android
+Delta Air Lines|delta.com|com.delta.mobile.android|Delta SkyMiles
+American Airlines|aa.com|com.aa.android|AAdvantage
+United Airlines|united.com|com.united.mobile.android|MileagePlus
+Southwest Airlines|southwest.com|com.southwestairlines.mobile|Rapid Rewards
+Marriott Bonvoy|marriott.com|com.marriott.mrt|Marriott
+Hilton|hilton.com|com.hilton.android.hhonors|Hilton Honors
+Ryanair|ryanair.com|com.ryanair.cheapflights
+Emirates|emirates.com|com.emirates.ek.android|Skywards
+Proton|proton.me,protonmail.com,protonvpn.com|ch.protonmail.android,ch.protonvpn.android|Proton Mail,Proton VPN,Proton Drive,Proton Pass
+Tuta|tuta.com,tutanota.com|de.tutao.tutanota|Tutanota
+Fastmail|fastmail.com
+Zoho|zoho.com||Zoho Mail
+GMX|gmx.com,gmx.net,gmx.de
+WEB.DE|web.de
+AOL|aol.com
+Mail.ru|mail.ru
+Yandex|yandex.com,yandex.ru
+Bitwarden|bitwarden.com|com.x8bit.bitwarden
+1Password|1password.com
+LastPass|lastpass.com
+Dashlane|dashlane.com
+Keeper|keepersecurity.com
+NordVPN|nordvpn.com|com.nordvpn.android|Nord Account
+ExpressVPN|expressvpn.com|com.expressvpn.vpn
+Surfshark|surfshark.com
+Mullvad VPN|mullvad.net
+Private Internet Access|privateinternetaccess.com|com.privateinternetaccess.android|PIA
+Norton|norton.com
+McAfee|mcafee.com
+Kaspersky|kaspersky.com
+Avast|avast.com
+AVG|avg.com
+Malwarebytes|malwarebytes.com
+Bitdefender|bitdefender.com
+ESET|eset.com
+Cloudflare|cloudflare.com
+DigitalOcean|digitalocean.com
+Vercel|vercel.com
+Netlify|netlify.com
+Heroku|heroku.com
+Render|render.com
+Railway|railway.com,railway.app
+Fly.io|fly.io
+Supabase|supabase.com
+MongoDB|mongodb.com
+Hetzner|hetzner.com
+OVHcloud|ovhcloud.com,ovh.com
+Scaleway|scaleway.com
+Linode|linode.com
+Vultr|vultr.com
+Contabo|contabo.com
+Backblaze|backblaze.com
+Wasabi|wasabi.com
+Alibaba Cloud|alibabacloud.com
+Tencent Cloud|tencentcloud.com
+Oracle|oracle.com||Oracle Cloud
+IBM|ibm.com||IBM Cloud
+SAP|sap.com
+ServiceNow|servicenow.com
+Okta|okta.com
+Auth0|auth0.com
+Docker|docker.com||Docker Hub
+npm|npmjs.com
+PyPI|pypi.org
+crates.io|crates.io
+RubyGems|rubygems.org
+NuGet|nuget.org
+Read the Docs|readthedocs.org
+CodePen|codepen.io
+CodeSandbox|codesandbox.io
+Replit|replit.com
+Cursor|cursor.com
+JetBrains|jetbrains.com
+Postman|postman.com
+Sentry|sentry.io
+Datadog|datadoghq.com
+New Relic|newrelic.com
+PagerDuty|pagerduty.com
+Grafana|grafana.com
+Elastic|elastic.co
+Twilio|twilio.com
+SendGrid|sendgrid.com
+Expo|expo.dev
+Apple Developer|developer.apple.com
+Unity|unity.com
+Unreal Engine|unrealengine.com
+Autodesk|autodesk.com
+Hugging Face|huggingface.co
+Kaggle|kaggle.com
+LeetCode|leetcode.com
+HackerRank|hackerrank.com
+Codeforces|codeforces.com
+SourceForge|sourceforge.net
+Codeberg|codeberg.org
+Launchpad|launchpad.net
+GitBook|gitbook.com
+Ubuntu|ubuntu.com||Ubuntu One
+Red Hat|redhat.com
+Mozilla|mozilla.org,firefox.com||Firefox,Mozilla account
+Opera|opera.com
+Brave|brave.com
+Vivaldi|vivaldi.com
+DuckDuckGo|duckduckgo.com
+Ecosia|ecosia.org
+Kagi|kagi.com
+Internet Archive|archive.org||Wayback Machine
+OpenStreetMap|openstreetmap.org
+Midjourney|midjourney.com
+Character.AI|character.ai
+Poe|poe.com
+Mistral AI|mistral.ai||Le Chat
+ElevenLabs|elevenlabs.io
+Runway|runwayml.com
+Suno|suno.com
+Gamma|gamma.app
+Descript|descript.com
+Otter.ai|otter.ai
+DeepL|deepl.com
+Grammarly|grammarly.com
+Evernote|evernote.com|com.evernote
+Todoist|todoist.com|com.todoist
+Obsidian|obsidian.md
+Coda|coda.io
+Airtable|airtable.com
+Smartsheet|smartsheet.com
+Basecamp|basecamp.com
+Wrike|wrike.com
+monday.com|monday.com
+ClickUp|clickup.com
+Linear|linear.app
+Loom|loom.com
+Calendly|calendly.com
+Doodle|doodle.com
+Typeform|typeform.com
+SurveyMonkey|surveymonkey.com
+Jotform|jotform.com
+Zapier|zapier.com
+IFTTT|ifttt.com
+Make|make.com
+Webex|webex.com
+GoTo|goto.com||GoToMeeting
+RingCentral|ringcentral.com
+DocuSign|docusign.com
+PandaDoc|pandadoc.com
+WeTransfer|wetransfer.com
+MEGA|mega.io,mega.nz
+pCloud|pcloud.com
+Sync.com|sync.com
+IDrive|idrive.com
+Box|box.com|com.box.android
+TeamViewer|teamviewer.com
+AnyDesk|anydesk.com
+Tailscale|tailscale.com
+Synology|synology.com
+QNAP|qnap.com
+Ubiquiti|ui.com||UniFi
+Netgear|netgear.com
+TP-Link|tp-link.com
+Webflow|webflow.com
+Framer|framer.com
+Squarespace|squarespace.com
+Wix|wix.com
+WordPress.com|wordpress.com
+Blogger|blogger.com
+Ghost|ghost.org
+Jimdo|jimdo.com
+GoDaddy|godaddy.com
+Namecheap|namecheap.com
+Porkbun|porkbun.com
+Hover|hover.com
+Gandi|gandi.net
+Dynadot|dynadot.com
+Name.com|name.com
+IONOS|ionos.com
+Bluehost|bluehost.com
+Hostinger|hostinger.com
+DreamHost|dreamhost.com
+SiteGround|siteground.com
+HostGator|hostgator.com
+WP Engine|wpengine.com
+Kinsta|kinsta.com
+Fastly|fastly.com
+Akamai|akamai.com
+Constant Contact|constantcontact.com
+Klaviyo|klaviyo.com
+Brevo|brevo.com||Sendinblue
+Kit|kit.com||ConvertKit
+beehiiv|beehiiv.com
+Substack|substack.com
+Patreon|patreon.com|com.patreon.android
+Ko-fi|ko-fi.com
+Buy Me a Coffee|buymeacoffee.com
+Gumroad|gumroad.com
+Linktree|linktr.ee
+Gravatar|gravatar.com
+Disqus|disqus.com
+Product Hunt|producthunt.com
+Hacker News|news.ycombinator.com
+Trustpilot|trustpilot.com
+WooCommerce|woocommerce.com
+BigCommerce|bigcommerce.com
+Square|squareup.com|com.squareup
+Adyen|adyen.com
+Paddle|paddle.com
+Razorpay|razorpay.com
+Paystack|paystack.com
+Flutterwave|flutterwave.com
+Payoneer|payoneer.com
+Skrill|skrill.com
+Neteller|neteller.com
+Brex|brex.com
+Ramp|ramp.com
+Mercury|mercury.com
+Expensify|expensify.com
+Gusto|gusto.com
+ADP|adp.com
+Paychex|paychex.com
+Workday|workday.com,myworkday.com
+BambooHR|bamboohr.com
+Rippling|rippling.com
+Deel|deel.com
+Xero|xero.com
+FreshBooks|freshbooks.com
+Wave|waveapps.com
+Sage|sage.com
+Intuit|intuit.com
+QuickBooks|quickbooks.intuit.com
+TurboTax|turbotax.intuit.com
+Mailgun|mailgun.com
+Shutterstock|shutterstock.com
+Getty Images|gettyimages.com
+Envato|envato.com
+Creative Market|creativemarket.com
+Freepik|freepik.com
+Flaticon|flaticon.com
+Unsplash|unsplash.com
+Pexels|pexels.com
+CapCut|capcut.com|com.lemon.lvoverseas
+Picsart|picsart.com|com.picsart.studio
+VSCO|vsco.co|com.vsco.cam
+Pixlr|pixlr.com
+remove.bg|remove.bg
+SmugMug|smugmug.com
+Shutterfly|shutterfly.com
+Snapfish|snapfish.com
+Flickr|flickr.com
+500px|500px.com
+Behance|behance.net|com.behance.behance
+Dribbble|dribbble.com
+DeviantArt|deviantart.com
+ArtStation|artstation.com
+Pixiv|pixiv.net
+Plex|plex.tv|com.plexapp.android
+Pluto TV|pluto.tv
+Tubi|tubitv.com
+Sling TV|sling.com
+Fubo|fubo.tv||fuboTV
+Philo|philo.com
+DAZN|dazn.com
+Starz|starz.com
+MGM+|mgmplus.com
+AMC+|amcplus.com
+BritBox|britbox.com
+MUBI|mubi.com
+Curiosity Stream|curiositystream.com
+Discovery+|discoveryplus.com
+Rakuten Viki|viki.com||Viki
+iQIYI|iq.com,iqiyi.com
+JioHotstar|hotstar.com|in.startv.hotstar|Hotstar,Disney+ Hotstar
+SonyLIV|sonyliv.com
+ZEE5|zee5.com
+ITVX|itv.com||ITV
+Channel 4|channel4.com
+Sky|sky.com||Sky Go
+Canal+|canalplus.com
+Stan|stan.com.au
+Binge|binge.com.au
+Crave|crave.ca
+Globo|globo.com||Globoplay
+Shahid|shahid.mbc.net
+ABEMA|abema.tv
+U-NEXT|unext.jp
+TVer|tver.jp
+Niconico|nicovideo.jp
+Deezer|deezer.com|deezer.android.app
+TIDAL|tidal.com|com.aspiro.tidal
+Pandora|pandora.com|com.pandora.android
+iHeartRadio|iheart.com
+Bandcamp|bandcamp.com
+Last.fm|last.fm
+Shazam|shazam.com|com.shazam.android
+Genius|genius.com
+Qobuz|qobuz.com
+Anghami|anghami.com
+JioSaavn|jiosaavn.com
+Gaana|gaana.com
+Melon|melon.com
+Kick|kick.com
+Rumble|rumble.com
+Dailymotion|dailymotion.com|com.dailymotion.dailymotion
+Bilibili|bilibili.com|tv.danmaku.bili
+Youku|youku.com
+Douyin|douyin.com
+Weibo|weibo.com|com.sina.weibo
+Zhihu|zhihu.com
+Xiaohongshu|xiaohongshu.com||RedNote
+Douban|douban.com
+Baidu|baidu.com
+QQ|qq.com|com.tencent.mobileqq|Tencent QQ
+NetEase|163.com
+Sina|sina.com.cn
+VK|vk.com|com.vkontakte.android|VKontakte
+OK|ok.ru||Odnoklassniki
+KakaoTalk|kakao.com|com.kakao.talk|Kakao
+Naver|naver.com|com.nhn.android.search
+Daum|daum.net
+Yahoo! JAPAN|yahoo.co.jp
+WEBTOON|webtoons.com
+Wattpad|wattpad.com|wp.wattpad
+Archive of Our Own|archiveofourown.org||AO3
+Fandom|fandom.com
+Goodreads|goodreads.com|com.goodreads
+Letterboxd|letterboxd.com
+IMDb|imdb.com|com.imdb.mobile
+Rotten Tomatoes|rottentomatoes.com
+MyAnimeList|myanimelist.net
+AniList|anilist.co
+Kobo|kobo.com||Rakuten Kobo
+Scribd|scribd.com|com.scribd.app.reader0|Everand
+Kindle|read.amazon.com||Kindle Cloud Reader
+Flipboard|flipboard.com
+Feedly|feedly.com
+Inoreader|inoreader.com
+Instapaper|instapaper.com
+Readwise|readwise.io
+Washington Post|washingtonpost.com
+Wall Street Journal|wsj.com||WSJ
+The Guardian|theguardian.com
+Fox News|foxnews.com
+NBC News|nbcnews.com
+Reuters|reuters.com
+AP News|apnews.com||Associated Press
+Bloomberg|bloomberg.com
+Financial Times|ft.com||FT
+The Economist|economist.com
+The Atlantic|theatlantic.com
+The New Yorker|newyorker.com
+WIRED|wired.com
+The Verge|theverge.com
+TechCrunch|techcrunch.com
+Ars Technica|arstechnica.com
+Forbes|forbes.com
+Business Insider|businessinsider.com
+USA Today|usatoday.com
+Los Angeles Times|latimes.com
+Politico|politico.com
+Axios|axios.com
+NPR|npr.org
+TIME|time.com
+Newsweek|newsweek.com
+The Times|thetimes.com,thetimes.co.uk
+The Telegraph|telegraph.co.uk
+Daily Mail|dailymail.co.uk
+The Independent|independent.co.uk
+Le Monde|lemonde.fr
+Le Figaro|lefigaro.fr
+Der Spiegel|spiegel.de
+Die Zeit|zeit.de
+Frankfurter Allgemeine|faz.net||FAZ
+Süddeutsche Zeitung|sueddeutsche.de
+Bild|bild.de
+El País|elpais.com
+El Mundo|elmundo.es
+Corriere della Sera|corriere.it
+la Repubblica|repubblica.it
+Neue Zürcher Zeitung|nzz.ch||NZZ
+The Times of India|indiatimes.com
+Hindustan Times|hindustantimes.com
+The Hindu|thehindu.com
+NDTV|ndtv.com
+The Indian Express|indianexpress.com
+South China Morning Post|scmp.com||SCMP
+Nikkei|nikkei.com
+The Japan Times|japantimes.co.jp
+ABC Australia|abc.net.au
+The Sydney Morning Herald|smh.com.au
+The Globe and Mail|theglobeandmail.com
+CBC|cbc.ca
+Al Jazeera|aljazeera.com
+Haaretz|haaretz.com
+UOL|uol.com.br
+Clarín|clarin.com
+Bleacher Report|bleacherreport.com
+NFL|nfl.com
+NBA|nba.com
+MLB|mlb.com
+NHL|nhl.com
+FIFA|fifa.com
+UEFA|uefa.com
+Premier League|premierleague.com
+Formula 1|formula1.com||F1 TV
+Sleeper|sleeper.com
+Minecraft|minecraft.net
+Battle.net|battle.net||Blizzard
+EA|ea.com||Electronic Arts,EA app
+Ubisoft|ubisoft.com
+Riot Games|riotgames.com||League of Legends,Valorant
+Rockstar Games|rockstargames.com
+GOG|gog.com
+Humble Bundle|humblebundle.com
+itch.io|itch.io
+Bethesda|bethesda.net
+Square Enix|square-enix.com
+Activision|activision.com||Call of Duty
+Wargaming|wargaming.net
+Garena|garena.com
+Supercell|supercell.com
+HoYoverse|hoyoverse.com||Genshin Impact
+Pokémon|pokemon.com
+CurseForge|curseforge.com
+Nexus Mods|nexusmods.com
+FACEIT|faceit.com
+Green Man Gaming|greenmangaming.com
+Fanatical|fanatical.com
+Poki|poki.com
+Chess.com|chess.com
+Lichess|lichess.org
+Kickstarter|kickstarter.com
+Indiegogo|indiegogo.com
+GoFundMe|gofundme.com
+Meetup|meetup.com|com.meetup
+Eventbrite|eventbrite.com|com.eventbrite.attendee
+Ticketmaster|ticketmaster.com
+Live Nation|livenation.com
+StubHub|stubhub.com|com.stubhub
+SeatGeek|seatgeek.com
+Vivid Seats|vividseats.com
+AXS|axs.com
+Fandango|fandango.com
+AMC Theatres|amctheatres.com
+Regal|regmovies.com
+Cinemark|cinemark.com
+BookMyShow|bookmyshow.com
+Disney|disney.com
+Bumble|bumble.com|com.bumble.app
+Hinge|hinge.co|co.hinge.app
+Match|match.com
+OkCupid|okcupid.com
+Plenty of Fish|pof.com||POF
+eharmony|eharmony.com
+Grindr|grindr.com
+Badoo|badoo.com
+Shaadi.com|shaadi.com
+BharatMatrimony|bharatmatrimony.com
+BeReal|bere.al|com.bereal.ft
+Element|element.io||Matrix
+Wire|wire.com
+Threema|threema.ch
+Zalo|zalo.me
+GroupMe|groupme.com
+TextNow|textnow.com
+Truecaller|truecaller.com
+Nextdoor|nextdoor.com|com.nextdoor
+Komoot|komoot.com
+AllTrails|alltrails.com
+Geocaching|geocaching.com
+Life360|life360.com
+Wayfair|wayfair.com
+Macy's|macys.com
+Nordstrom|nordstrom.com
+Kohl's|kohls.com
+Sephora|sephora.com
+Ulta Beauty|ulta.com
+adidas|adidas.com
+Zara|zara.com
+H&M|hm.com
+Uniqlo|uniqlo.com
+Gap|gap.com
+Old Navy|oldnavy.com
+Banana Republic|bananarepublic.com
+J.Crew|jcrew.com
+ASOS|asos.com|com.asos.app
+Zalando|zalando.com,zalando.de,zalando.co.uk,zalando.fr,zalando.it,zalando.es,zalando.nl
+Vinted|vinted.com,vinted.fr,vinted.de,vinted.co.uk,vinted.it,vinted.es,vinted.nl,vinted.pl|fr.vinted
+Depop|depop.com|com.depop
+Poshmark|poshmark.com|com.poshmark.app
+Mercari|mercari.com,jp.mercari.com|com.mercariapp.mercari
+OfferUp|offerup.com|com.offerup
+Craigslist|craigslist.org
+ThredUp|thredup.com
+The RealReal|therealreal.com
+Rent the Runway|renttherunway.com
+Stitch Fix|stitchfix.com
+Chewy|chewy.com
+Petco|petco.com
+PetSmart|petsmart.com
+CVS|cvs.com||CVS Pharmacy
+Walgreens|walgreens.com
+Kroger|kroger.com
+Shipt|shipt.com
+Gopuff|gopuff.com
+Thrive Market|thrivemarket.com
+FreshDirect|freshdirect.com
+Safeway|safeway.com
+Albertsons|albertsons.com
+Publix|publix.com
+H-E-B|heb.com
+Sam's Club|samsclub.com
+BJ's Wholesale Club|bjs.com
+Menards|menards.com
+Ace Hardware|acehardware.com
+Harbor Freight|harborfreight.com
+Tractor Supply|tractorsupply.com
+AutoZone|autozone.com
+Advance Auto Parts|advanceautoparts.com
+O'Reilly Auto Parts|oreillyauto.com
+RockAuto|rockauto.com
+Dollar General|dollargeneral.com
+Dollar Tree|dollartree.com
+Staples|staples.com
+Office Depot|officedepot.com
+Michaels|michaels.com
+Hobby Lobby|hobbylobby.com
+Barnes & Noble|barnesandnoble.com
+ThriftBooks|thriftbooks.com
+AbeBooks|abebooks.com
+Bookshop.org|bookshop.org
+Waterstones|waterstones.com
+GameStop|gamestop.com
+Newegg|newegg.com
+B&H Photo|bhphotovideo.com
+Micro Center|microcenter.com
+Groupon|groupon.com|com.groupon
+Woot|woot.com
+StockX|stockx.com
+GOAT|goat.com
+Farfetch|farfetch.com
+NET-A-PORTER|net-a-porter.com
+REVOLVE|revolve.com
+lululemon|lululemon.com
+Under Armour|underarmour.com
+PUMA|puma.com
+New Balance|newbalance.com
+Foot Locker|footlocker.com
+REI|rei.com
+Patagonia|patagonia.com
+The North Face|thenorthface.com
+Levi's|levi.com
+Abercrombie & Fitch|abercrombie.com
+American Eagle|ae.com
+Victoria's Secret|victoriassecret.com
+Bath & Body Works|bathandbodyworks.com
+Fashion Nova|fashionnova.com
+Wish|wish.com|com.contextlogic.wish
+Ralph Lauren|ralphlauren.com
+Coach|coach.com
+Tiffany & Co.|tiffany.com
+Warby Parker|warbyparker.com
+Zappos|zappos.com
+DSW|dsw.com
+Skechers|skechers.com
+Crocs|crocs.com
+Vans|vans.com
+Converse|converse.com
+Dick's Sporting Goods|dickssportinggoods.com
+Academy Sports + Outdoors|academy.com
+Bass Pro Shops|basspro.com
+Williams Sonoma|williams-sonoma.com
+Pottery Barn|potterybarn.com
+West Elm|westelm.com
+Crate & Barrel|crateandbarrel.com
+Saks Fifth Avenue|saksfifthavenue.com
+Neiman Marcus|neimanmarcus.com
+Bloomingdale's|bloomingdales.com
+JCPenney|jcpenney.com
+Dillard's|dillards.com
+QVC|qvc.com
+Glossier|glossier.com
+iHerb|iherb.com
+Cricut|cricut.com
+Zazzle|zazzle.com
+Vistaprint|vistaprint.com
+1-800-Flowers|1800flowers.com
+Redbubble|redbubble.com
+Printful|printful.com
+Honey|joinhoney.com
+RetailMeNot|retailmenot.com
+Rakuten|rakuten.com,rakuten.co.jp||Rakuten Rewards
+Ibotta|ibotta.com
+Fetch|fetch.com||Fetch Rewards
+Swagbucks|swagbucks.com
+Slickdeals|slickdeals.net
+Lenovo|lenovo.com
+ASUS|asus.com
+Acer|acer.com
+MSI|msi.com
+Razer|razer.com
+Corsair|corsair.com
+Logitech|logitech.com
+Sony|sony.com
+LG|lg.com
+Xiaomi|mi.com
+Huawei|huawei.com
+OnePlus|oneplus.com
+Motorola|motorola.com
+NVIDIA|nvidia.com||GeForce
+AMD|amd.com
+Intel|intel.com
+Western Digital|westerndigital.com
+Seagate|seagate.com
+GoPro|gopro.com
+DJI|dji.com
+Epson|epson.com
+Raspberry Pi|raspberrypi.com
+Arduino|arduino.cc
+Adafruit|adafruit.com
+SparkFun|sparkfun.com
+DigiKey|digikey.com
+Mouser|mouser.com
+Thingiverse|thingiverse.com
+Printables|printables.com
+Prusa Research|prusa3d.com
+Bambu Lab|bambulab.com
+Ring|ring.com
+SimpliSafe|simplisafe.com
+ADT|adt.com
+Arlo|arlo.com
+Wyze|wyze.com
+Philips Hue|philips-hue.com
+SmartThings|smartthings.com
+ecobee|ecobee.com
+Roku|roku.com
+Sonos|sonos.com
+Bose|bose.com
+Peloton|onepeloton.com|com.onepeloton.callisto
+Tesco|tesco.com
+Sainsbury's|sainsburys.co.uk
+Asda|asda.com
+Morrisons|morrisons.com
+Waitrose|waitrose.com
+Ocado|ocado.com
+Argos|argos.co.uk
+John Lewis|johnlewis.com
+Marks & Spencer|marksandspencer.com||M&S
+Boots|boots.com
+Superdrug|superdrug.com
+Holland & Barrett|hollandandbarrett.com
+Currys|currys.co.uk
+Next|next.co.uk
+Primark|primark.com
+Very|very.co.uk
+JD Sports|jdsports.co.uk
+Sports Direct|sportsdirect.com
+Selfridges|selfridges.com
+Harrods|harrods.com
+boohoo|boohoo.com
+PrettyLittleThing|prettylittlething.com
+New Look|newlook.com
+River Island|riverisland.com
+Dunelm|dunelm.com
+B&Q|diy.com
+Screwfix|screwfix.com
+Wickes|wickes.co.uk
+Halfords|halfords.com
+AO.com|ao.com
+Gumtree|gumtree.com
+Lidl|lidl.de,lidl.co.uk,lidl.fr,lidl.com
+Otto|otto.de
+MediaMarkt|mediamarkt.de
+Kaufland|kaufland.de
+dm|dm.de
+Rossmann|rossmann.de
+Douglas|douglas.de
+idealo|idealo.de
+CHECK24|check24.de
+Kleinanzeigen|kleinanzeigen.de||eBay Kleinanzeigen
+mobile.de|mobile.de
+AutoScout24|autoscout24.com
+WG-Gesucht|wg-gesucht.de
+Fnac|fnac.com
+Cdiscount|cdiscount.com
+leboncoin|leboncoin.fr
+Carrefour|carrefour.fr,carrefour.com
+Darty|darty.com
+Leroy Merlin|leroymerlin.fr
+Decathlon|decathlon.com,decathlon.fr,decathlon.co.uk
+Back Market|backmarket.com
+Vestiaire Collective|vestiairecollective.com
+Veepee|veepee.com
+Mango|mango.com
+Bershka|bershka.com
+Pull&Bear|pullandbear.com
+Massimo Dutti|massimodutti.com
+El Corte Inglés|elcorteingles.es
+Mercadona|mercadona.es
+Wallapop|wallapop.com
+Subito|subito.it
+YOOX|yoox.com
+bol|bol.com
+Coolblue|coolblue.nl
+Albert Heijn|ah.nl
+Marktplaats|marktplaats.nl
+Galaxus|galaxus.ch
+Digitec|digitec.ch
+Ricardo|ricardo.ch
+willhaben|willhaben.at
+Blocket|blocket.se
+FINN.no|finn.no
+DBA|dba.dk
+Allegro|allegro.pl
+OLX|olx.pl,olx.ro,olx.pt,olx.bg,olx.ua,olx.com.br
+InPost|inpost.pl
+Alza|alza.cz
+Rohlik|rohlik.cz
+eMAG|emag.ro
+Skroutz|skroutz.gr
+Trendyol|trendyol.com
+Hepsiburada|hepsiburada.com
+sahibinden.com|sahibinden.com
+Getir|getir.com
+Ozon|ozon.ru
+Wildberries|wildberries.ru
+Avito|avito.ru
+Rozetka|rozetka.com.ua
+Nova Poshta|novaposhta.ua
+Mercado Pago|mercadopago.com,mercadopago.com.br,mercadopago.com.mx,mercadopago.com.ar|com.mercadopago.wallet
+Magazine Luiza|magazineluiza.com.br||Magalu
+Americanas|americanas.com.br
+Casas Bahia|casasbahia.com.br
+Liverpool|liverpool.com.mx
+Coppel|coppel.com
+Falabella|falabella.com
+Despegar|despegar.com
+Tokopedia|tokopedia.com|com.tokopedia.tkpd
+Tiki|tiki.vn
+Carousell|carousell.com
+Myntra|myntra.com|com.myntra.android
+Meesho|meesho.com|com.meesho.supply
+Nykaa|nykaa.com
+AJIO|ajio.com
+BigBasket|bigbasket.com
+Blinkit|blinkit.com
+Zepto|zeptonow.com
+JioMart|jiomart.com
+Tata CLiQ|tatacliq.com
+Croma|croma.com
+Lenskart|lenskart.com
+Snapdeal|snapdeal.com
+FirstCry|firstcry.com
+Pepperfry|pepperfry.com
+Urban Company|urbancompany.com
+Justdial|justdial.com
+JD.com|jd.com
+Taobao|taobao.com|com.taobao.taobao
+Tmall|tmall.com
+Alipay|alipay.com|com.eg.android.AlipayGphone
+Meituan|meituan.com
+Ctrip|ctrip.com
+Coupang|coupang.com|com.coupang.mobile
+Gmarket|gmarket.co.kr
+Baemin|baemin.com||Baedal Minjok
+ZOZOTOWN|zozo.jp
+Kakaku.com|kakaku.com
+Cookpad|cookpad.com
+Tabelog|tabelog.com
+Jalan|jalan.net
+DMM|dmm.com
+noon|noon.com
+Namshi|namshi.com
+dubizzle|dubizzle.com
+Property Finder|propertyfinder.ae
+Bayut|bayut.com
+Tabby|tabby.ai
+Tamara|tamara.co
+Jumia|jumia.com.ng,jumia.co.ke,jumia.com.eg,jumia.ma
+Takealot|takealot.com
+Grubhub|grubhub.com|com.grubhub.android
+Deliveroo|deliveroo.com,deliveroo.co.uk|com.deliveroo.orderapp
+Just Eat|just-eat.co.uk|com.justeat.app.uk
+Lieferando|lieferando.de
+Thuisbezorgd|thuisbezorgd.nl
+Glovo|glovoapp.com|com.glovo
+Wolt|wolt.com|com.wolt.android
+foodpanda|foodpanda.com
+foodora|foodora.com
+talabat|talabat.com
+iFood|ifood.com.br|br.com.brainweb.ifood
+Rappi|rappi.com|com.grability.rappi
+PedidosYa|pedidosya.com
+Menulog|menulog.com.au
+Yemeksepeti|yemeksepeti.com
+Swiggy|swiggy.com|in.swiggy.android
+Zomato|zomato.com|com.application.zomato
+HelloFresh|hellofresh.com
+Home Chef|homechef.com
+Factor|factor75.com
+Domino's|dominos.com
+Pizza Hut|pizzahut.com
+Papa Johns|papajohns.com
+Chipotle|chipotle.com
+Taco Bell|tacobell.com
+Subway|subway.com
+Dunkin'|dunkindonuts.com
+Panera Bread|panerabread.com
+Chick-fil-A|chick-fil-a.com
+Wendy's|wendys.com
+Burger King|bk.com
+KFC|kfc.com
+OpenTable|opentable.com
+Resy|resy.com
+TheFork|thefork.com
+Hotels.com|hotels.com
+Vrbo|vrbo.com|com.vrbo.android
+KAYAK|kayak.com|com.kayak.android
+Skyscanner|skyscanner.net,skyscanner.com|net.skyscanner.android.main
+Trip.com|trip.com
+Agoda|agoda.com
+Priceline|priceline.com
+Hopper|hopper.com
+Orbitz|orbitz.com
+Travelocity|travelocity.com
+trivago|trivago.com
+Hostelworld|hostelworld.com
+Kiwi.com|kiwi.com
+Omio|omio.com
+Trainline|thetrainline.com
+Amtrak|amtrak.com
+Eurostar|eurostar.com
+Deutsche Bahn|bahn.de||DB Navigator
+SNCF Connect|sncf-connect.com||SNCF
+Renfe|renfe.com
+Trenitalia|trenitalia.com
+NS|ns.nl
+SBB|sbb.ch
+ÖBB|oebb.at
+National Express|nationalexpress.com
+Megabus|megabus.com
+FlixBus|flixbus.com
+Greyhound|greyhound.com
+Transport for London|tfl.gov.uk||TfL
+IRCTC|irctc.co.in|cris.org.in.prs.ima|Indian Railways
+redBus|redbus.in
+MakeMyTrip|makemytrip.com|com.makemytrip
+Goibibo|goibibo.com
+Cleartrip|cleartrip.com
+Yatra|yatra.com
+EaseMyTrip|easemytrip.com
+Traveloka|traveloka.com
+Klook|klook.com
+GetYourGuide|getyourguide.com
+Viator|viator.com
+JetBlue|jetblue.com
+Alaska Airlines|alaskaair.com
+Spirit Airlines|spirit.com
+Frontier Airlines|flyfrontier.com
+Hawaiian Airlines|hawaiianairlines.com
+Air Canada|aircanada.com||Aeroplan
+WestJet|westjet.com
+British Airways|britishairways.com
+Virgin Atlantic|virginatlantic.com
+Lufthansa|lufthansa.com||Miles & More
+Air France|airfrance.com||Flying Blue
+KLM|klm.com
+Iberia|iberia.com
+easyJet|easyjet.com
+Wizz Air|wizzair.com
+Vueling|vueling.com
+Norwegian|norwegian.com
+SAS|flysas.com||Scandinavian Airlines
+Finnair|finnair.com
+SWISS|swiss.com||Swiss International Air Lines
+Austrian Airlines|austrian.com
+TAP Air Portugal|flytap.com
+ITA Airways|ita-airways.com
+Aer Lingus|aerlingus.com
+Turkish Airlines|turkishairlines.com||Miles&Smiles
+Pegasus Airlines|flypgs.com
+Qatar Airways|qatarairways.com
+Etihad Airways|etihad.com
+Saudia|saudia.com
+flydubai|flydubai.com
+El Al|elal.com
+Singapore Airlines|singaporeair.com||KrisFlyer
+Cathay Pacific|cathaypacific.com
+Qantas|qantas.com
+Virgin Australia|virginaustralia.com
+Air New Zealand|airnewzealand.co.nz
+Jetstar|jetstar.com
+ANA|ana.co.jp||All Nippon Airways
+Japan Airlines|jal.co.jp||JAL
+Korean Air|koreanair.com
+Asiana Airlines|flyasiana.com
+EVA Air|evaair.com
+China Airlines|china-airlines.com
+Thai Airways|thaiairways.com
+Malaysia Airlines|malaysiaairlines.com
+AirAsia|airasia.com
+Garuda Indonesia|garuda-indonesia.com
+Philippine Airlines|philippineairlines.com
+Cebu Pacific|cebupacificair.com
+Vietnam Airlines|vietnamairlines.com
+Air India|airindia.com
+IndiGo|goindigo.in
+SpiceJet|spicejet.com
+Akasa Air|akasaair.com
+LATAM Airlines|latamairlines.com
+Avianca|avianca.com
+Copa Airlines|copaair.com
+Aeroméxico|aeromexico.com
+Volaris|volaris.com
+Azul|voeazul.com.br
+GOL|voegol.com.br
+Ethiopian Airlines|ethiopianairlines.com
+Kenya Airways|kenya-airways.com
+EgyptAir|egyptair.com
+Royal Air Maroc|royalairmaroc.com
+South African Airways|flysaa.com
+China Southern Airlines|csair.com
+China Eastern Airlines|ceair.com
+Hyatt|hyatt.com||World of Hyatt
+IHG|ihg.com||IHG One Rewards,Holiday Inn
+Wyndham|wyndhamhotels.com
+Choice Hotels|choicehotels.com
+Accor|accor.com||ALL Accor
+Best Western|bestwestern.com
+Radisson|radissonhotels.com
+Four Seasons|fourseasons.com
+MGM Resorts|mgmresorts.com
+Premier Inn|premierinn.com
+Travelodge|travelodge.co.uk
+OYO|oyorooms.com
+Hertz|hertz.com
+Avis|avis.com
+Enterprise|enterprise.com||Enterprise Rent-A-Car
+Budget|budget.com
+National Car Rental|nationalcar.com
+Alamo|alamo.com
+SIXT|sixt.com
+Europcar|europcar.com
+Turo|turo.com
+Zipcar|zipcar.com
+Bolt|bolt.eu|ee.mtakso.client
+Grab|grab.com|com.grabtaxi.passenger
+Gojek|gojek.com|com.gojek.app
+Careem|careem.com|com.careem.acma
+Ola|olacabs.com|com.olacabs.customer
+DiDi|didiglobal.com
+Cabify|cabify.com
+FREENOW|free-now.com
+Lime|li.me|com.limebike
+BlaBlaCar|blablacar.com
+inDrive|indrive.com
+Rapido|rapido.bike
+99|99app.com
+ParkMobile|parkmobile.io
+SpotHero|spothero.com
+PayByPhone|paybyphone.com
+RingGo|myringgo.co.uk
+JustPark|justpark.com
+GasBuddy|gasbuddy.com
+ChargePoint|chargepoint.com
+Electrify America|electrifyamerica.com
+Tesla|tesla.com|com.teslamotors.tesla
+Ford|ford.com||FordPass
+Toyota|toyota.com
+Honda|honda.com
+Chevrolet|chevrolet.com
+BMW|bmw.com
+Mercedes-Benz|mercedes-benz.com
+Audi|audi.com
+Volkswagen|volkswagen.com,vw.com||VW
+Hyundai|hyundai.com
+Kia|kia.com
+Subaru|subaru.com
+Volvo Cars|volvocars.com
+Porsche|porsche.com
+Rivian|rivian.com
+Lucid|lucidmotors.com
+Polestar|polestar.com
+Jeep|jeep.com
+Lexus|lexus.com
+CarMax|carmax.com
+Carvana|carvana.com
+Autotrader|autotrader.com
+Cars.com|cars.com
+Kelley Blue Book|kbb.com
+CarGurus|cargurus.com
+U.S. Bank|usbank.com|com.usbank.mobilebanking|US Bank
+PNC Bank|pnc.com
+Truist|truist.com
+TD Bank|tdbank.com
+Ally|ally.com
+Navy Federal Credit Union|navyfederal.org
+USAA|usaa.com
+E*TRADE|etrade.com
+Merrill|merrilledge.com,ml.com||Merrill Lynch,Merrill Edge
+Morgan Stanley|morganstanley.com
+Marcus by Goldman Sachs|marcus.com||Marcus
+SoFi|sofi.com
+Chime|chime.com
+Synchrony|synchrony.com
+Citizens Bank|citizensbank.com
+Fifth Third Bank|53.com
+KeyBank|key.com
+Huntington Bank|huntington.com
+Regions Bank|regions.com
+M&T Bank|mtb.com
+BMO|bmo.com
+HSBC|hsbc.com,hsbc.co.uk
+Santander|santander.co.uk,santanderbank.com,santander.com
+Remitly|remitly.com
+Western Union|westernunion.com
+MoneyGram|moneygram.com
+Xoom|xoom.com
+WorldRemit|worldremit.com
+Afterpay|afterpay.com
+Affirm|affirm.com
+Zip|zip.co
+NerdWallet|nerdwallet.com
+Experian|experian.com|com.experian.android
+Equifax|equifax.com
+TransUnion|transunion.com
+YNAB|ynab.com||You Need A Budget
+Monarch Money|monarchmoney.com
+Rocket Money|rocketmoney.com
+Empower|empower.com
+Acorns|acorns.com|com.acorns.android
+Betterment|betterment.com
+Wealthfront|wealthfront.com
+Stash|stash.com
+Webull|webull.com|org.dayup.stocks
+Interactive Brokers|interactivebrokers.com||IBKR
+tastytrade|tastytrade.com
+eToro|etoro.com|com.etoro.openbook
+Trading 212|trading212.com|com.avuscapital.trading212
+Public|public.com
+moomoo|moomoo.com
+Gemini|gemini.com|com.gemini.android.app
+Bitstamp|bitstamp.net
+Bybit|bybit.com
+OKX|okx.com
+KuCoin|kucoin.com
+Bitget|bitget.com
+Uphold|uphold.com
+MetaMask|metamask.io
+Ledger|ledger.com
+Trezor|trezor.io
+Exodus|exodus.com
+Blockchain.com|blockchain.com
+TradingView|tradingview.com
+H&R Block|hrblock.com
+TaxAct|taxact.com
+FreeTaxUSA|freetaxusa.com
+Sallie Mae|salliemae.com
+Nelnet|nelnet.com
+Rocket Mortgage|rocketmortgage.com
+Barclays|barclays.co.uk
+Lloyds Bank|lloydsbank.com
+Halifax|halifax.co.uk
+Bank of Scotland|bankofscotland.co.uk
+NatWest|natwest.com
+Royal Bank of Scotland|rbs.co.uk||RBS
+Nationwide Building Society|nationwide.co.uk
+Monzo|monzo.com|co.uk.getmondo
+Starling Bank|starlingbank.com
+Chase UK|chase.co.uk
+first direct|firstdirect.com
+TSB|tsb.co.uk
+Metro Bank|metrobankonline.co.uk
+Virgin Money|virginmoney.com
+The Co-operative Bank|co-operativebank.co.uk
+N26|n26.com|de.number26.android
+bunq|bunq.com
+ING|ing.com,ing.nl,ing.de,ing.be,ing.com.au
+ABN AMRO|abnamro.nl
+Rabobank|rabobank.nl
+Deutsche Bank|deutsche-bank.de
+Commerzbank|commerzbank.de
+Sparkasse|sparkasse.de
+DKB|dkb.de
+comdirect|comdirect.de
+Postbank|postbank.de
+BNP Paribas|bnpparibas.com
+Société Générale|societegenerale.com
+Crédit Agricole|credit-agricole.fr
+LCL|lcl.fr
+La Banque Postale|labanquepostale.fr
+BoursoBank|boursobank.com,boursorama.com||Boursorama
+CaixaBank|caixabank.es
+BBVA|bbva.com,bbva.es,bbva.mx
+Bankinter|bankinter.com
+Intesa Sanpaolo|intesasanpaolo.com
+UniCredit|unicredit.it
+Poste Italiane|poste.it
+Fineco|finecobank.com
+PKO Bank Polski|pkobp.pl
+mBank|mbank.pl
+Nordea|nordea.com
+Danske Bank|danskebank.com,danskebank.dk
+Swedbank|swedbank.se
+SEB|seb.se
+Handelsbanken|handelsbanken.se
+DNB|dnb.no
+Vipps|vipps.no
+UBS|ubs.com
+PostFinance|postfinance.ch
+monobank|monobank.ua
+PrivatBank|privatbank.ua
+RBC Royal Bank|rbcroyalbank.com,rbc.com||RBC
+TD Canada Trust|td.com||TD
+Scotiabank|scotiabank.com
+CIBC|cibc.com
+Tangerine|tangerine.ca
+Desjardins|desjardins.com
+Wealthsimple|wealthsimple.com
+Questrade|questrade.com
+CommBank|commbank.com.au||Commonwealth Bank
+Westpac|westpac.com.au
+ANZ|anz.com.au,anz.com
+NAB|nab.com.au||National Australia Bank
+Macquarie|macquarie.com,macquarie.com.au
+ASB|asb.co.nz
+Kiwibank|kiwibank.co.nz
+HDFC Bank|hdfcbank.com
+ICICI Bank|icicibank.com
+State Bank of India|onlinesbi.sbi,sbi.co.in||SBI,YONO
+Axis Bank|axisbank.com
+Kotak Mahindra Bank|kotak.com||Kotak
+PhonePe|phonepe.com|com.phonepe.app
+Zerodha|zerodha.com||Kite
+Groww|groww.in
+Upstox|upstox.com
+Angel One|angelone.in
+CRED|cred.club
+Policybazaar|policybazaar.com
+DBS|dbs.com.sg,dbs.com||POSB
+OCBC|ocbc.com
+UOB|uobgroup.com
+MUFG|mufg.jp
+SMBC|smbc.co.jp
+Mizuho|mizuhobank.co.jp
+PayPay|paypay.ne.jp
+Toss|toss.im
+KakaoBank|kakaobank.com
+Nubank|nubank.com.br|com.nu.production|Nu
+Itaú|itau.com.br
+Bradesco|bradesco.com.br
+Banco do Brasil|bb.com.br
+Caixa|caixa.gov.br
+Inter|inter.co||Banco Inter
+PicPay|picpay.com
+C6 Bank|c6bank.com.br
+Banorte|banorte.com
+Banamex|banamex.com
+Ualá|uala.com.ar
+FNB|fnb.co.za||First National Bank
+Standard Bank|standardbank.co.za
+Absa|absa.co.za
+Capitec|capitecbank.co.za
+Nedbank|nedbank.co.za
+Safaricom|safaricom.co.ke||M-Pesa
+Emirates NBD|emiratesnbd.com
+GCash|gcash.com
+Maya|maya.ph
+BDO|bdo.com.ph
+BPI|bpi.com.ph
+BCA|bca.co.id||Bank Central Asia
+Bank Mandiri|bankmandiri.co.id||Mandiri
+DANA|dana.id
+Maybank|maybank2u.com.my
+Kasikornbank|kasikornbank.com||KBank
+SCB|scb.co.th||Siam Commercial Bank
+Bangkok Bank|bangkokbank.com
+MoMo|momo.vn
+Vietcombank|vietcombank.com.vn
+Easypaisa|easypaisa.com.pk
+bKash|bkash.com
+eSewa|esewa.com.np
+Khalti|khalti.com
+GEICO|geico.com
+Progressive|progressive.com
+State Farm|statefarm.com
+Allstate|allstate.com
+Liberty Mutual|libertymutual.com
+Farmers Insurance|farmers.com
+Nationwide Insurance|nationwide.com
+Lemonade|lemonade.com
+Travelers|travelers.com
+The Hartford|thehartford.com
+Aetna|aetna.com
+Cigna|cigna.com
+UnitedHealthcare|uhc.com
+Anthem|anthem.com
+Blue Cross Blue Shield|bcbs.com||BCBS
+Humana|humana.com
+Kaiser Permanente|kp.org
+Oscar Health|hioscar.com
+MetLife|metlife.com
+Prudential|prudential.com
+Aflac|aflac.com
+AXA|axa.com
+Allianz|allianz.com
+Aviva|aviva.co.uk
+Direct Line|directline.com
+Admiral|admiral.com
+Compare the Market|comparethemarket.com
+MoneySupermarket|moneysupermarket.com
+Confused.com|confused.com
+GoCompare|gocompare.com
+MyChart|mychart.com
+Zocdoc|zocdoc.com
+Teladoc|teladoc.com
+GoodRx|goodrx.com
+One Medical|onemedical.com
+Hims|hims.com
+Hers|forhers.com
+Ro|ro.co
+23andMe|23andme.com
+Ancestry|ancestry.com
+MyHeritage|myheritage.com
+FamilySearch|familysearch.org
+Labcorp|labcorp.com
+Quest Diagnostics|questdiagnostics.com
+Express Scripts|express-scripts.com
+Optum|optum.com
+WHOOP|whoop.com
+Oura|ouraring.com
+Noom|noom.com
+WeightWatchers|weightwatchers.com||WW
+Calm|calm.com|com.calm.android
+Headspace|headspace.com|com.getsomeheadspace.android
+BetterHelp|betterhelp.com
+Talkspace|talkspace.com
+Flo|flo.health
+Clue|helloclue.com
+Planet Fitness|planetfitness.com
+ClassPass|classpass.com
+Mindbody|mindbodyonline.com
+Equinox|equinox.com
+LA Fitness|lafitness.com
+Orangetheory|orangetheory.com
+Doctolib|doctolib.fr,doctolib.de
+NHS login|login.nhs.uk||NHS,NHS App
+Practo|practo.com
+Tata 1mg|1mg.com||1mg
+Medicare|medicare.gov
+HealthCare.gov|healthcare.gov
+Social Security|ssa.gov||SSA,my Social Security
+Login.gov|login.gov
+ID.me|id.me
+USCIS|uscis.gov
+Federal Student Aid|studentaid.gov||FAFSA
+TreasuryDirect|treasurydirect.gov
+Royal Mail|royalmail.com
+Evri|evri.com
+DPD|dpd.com
+Canada Post|canadapost-postescanada.ca
+Australia Post|auspost.com.au
+Deutsche Post|deutschepost.de
+La Poste|laposte.fr
+PostNL|postnl.nl
+Aramex|aramex.com
+17TRACK|17track.net
+AfterShip|aftership.com
+myGov|my.gov.au
+Australian Taxation Office|ato.gov.au||ATO
+DigiLocker|digilocker.gov.in
+UIDAI|uidai.gov.in||Aadhaar
+Income Tax India|incometax.gov.in
+EPFO|epfindia.gov.in
+ELSTER|elster.de
+impots.gouv.fr|impots.gouv.fr
+ameli|ameli.fr
+FranceConnect|franceconnect.gouv.fr
+INPS|inps.it
+DigiD|digid.nl
+itsme|itsme-id.com
+Spectrum|spectrum.net,spectrum.com
+Cox|cox.com
+Optimum|optimum.net
+Mint Mobile|mintmobile.com
+Visible|visible.com
+Cricket Wireless|cricketwireless.com
+Boost Mobile|boostmobile.com
+Metro by T-Mobile|metrobyt-mobile.com
+Frontier|frontier.com
+CenturyLink|centurylink.com
+DIRECTV|directv.com
+DISH|dish.com
+Starlink|starlink.com
+PG&E|pge.com
+Con Edison|coned.com
+Duke Energy|duke-energy.com
+Southern California Edison|sce.com
+National Grid|nationalgrid.com
+BT|bt.com
+EE|ee.co.uk
+Vodafone|vodafone.com,vodafone.co.uk,vodafone.de
+O2|o2.co.uk
+Three|three.co.uk
+Virgin Media|virginmedia.com
+TalkTalk|talktalk.co.uk
+giffgaff|giffgaff.com
+Octopus Energy|octopus.energy
+British Gas|britishgas.co.uk
+EDF|edfenergy.com
+E.ON|eonenergy.com
+OVO Energy|ovoenergy.com
+Thames Water|thameswater.co.uk
+Telekom|telekom.de||Deutsche Telekom
+Orange|orange.fr,orange.com
+SFR|sfr.fr
+Bouygues Telecom|bouyguestelecom.fr
+Free|free.fr
+Movistar|movistar.es
+TIM|tim.it
+Swisscom|swisscom.ch
+KPN|kpn.com
+Telia|telia.se
+Telenor|telenor.no
+Telstra|telstra.com.au
+Optus|optus.com.au
+Rogers|rogers.com
+Bell|bell.ca
+TELUS|telus.com
+Jio|jio.com
+Airtel|airtel.in
+Vi|myvi.in||Vodafone Idea
+Globe|globe.com.ph
+Telkomsel|telkomsel.com
+MTN|mtn.com
+du|du.ae
+STC|stc.com.sa
+NTT docomo|docomo.ne.jp||docomo
+SoftBank|softbank.jp
+Nepal Telecom|ntc.net.np
+edX|edx.org
+Skillshare|skillshare.com
+MasterClass|masterclass.com
+Codecademy|codecademy.com
+freeCodeCamp|freecodecamp.org
+Brilliant|brilliant.org
+Pluralsight|pluralsight.com
+DataCamp|datacamp.com
+Course Hero|coursehero.com
+Brainly|brainly.com|co.brainly
+Babbel|babbel.com
+Rosetta Stone|rosettastone.com
+Busuu|busuu.com
+Memrise|memrise.com
+italki|italki.com
+Preply|preply.com
+Canvas|instructure.com||Instructure
+Blackboard|blackboard.com
+Schoology|schoology.com
+Kahoot!|kahoot.com,kahoot.it
+ClassDojo|classdojo.com
+ABCmouse|abcmouse.com
+BYJU'S|byjus.com
+Unacademy|unacademy.com
+Physics Wallah|pw.live
+Photomath|photomath.com
+Wolfram|wolfram.com,wolframalpha.com||Wolfram Alpha,Mathematica
+Overleaf|overleaf.com
+Zotero|zotero.org
+ResearchGate|researchgate.net
+Academia.edu|academia.edu
+JSTOR|jstor.org
+Common App|commonapp.org
+College Board|collegeboard.org||SAT
+ETS|ets.org||GRE,TOEFL
+Scratch|scratch.mit.edu
+Glassdoor|glassdoor.com|com.glassdoor.app
+ZipRecruiter|ziprecruiter.com
+Monster|monster.com
+Upwork|upwork.com
+Fiverr|fiverr.com|com.fiverr.fiverr
+Freelancer|freelancer.com
+Toptal|toptal.com
+Wellfound|wellfound.com||AngelList Talent
+Dice|dice.com
+Handshake|joinhandshake.com
+Naukri|naukri.com
+SEEK|seek.com.au
+Reed|reed.co.uk
+StepStone|stepstone.de
+XING|xing.com
+TaskRabbit|taskrabbit.com
+Thumbtack|thumbtack.com
+Angi|angi.com||Angie's List
+Care.com|care.com
+Rover|rover.com
+Redfin|redfin.com|com.redfin.android
+Realtor.com|realtor.com
+Trulia|trulia.com
+Apartments.com|apartments.com
+Zumper|zumper.com
+Opendoor|opendoor.com
+Rightmove|rightmove.co.uk
+Zoopla|zoopla.co.uk
+SpareRoom|spareroom.co.uk
+idealista|idealista.com
+ImmoScout24|immobilienscout24.de||ImmobilienScout24
+Funda|funda.nl
+realestate.com.au|realestate.com.au
+Domain|domain.com.au
+Housing.com|housing.com
+99acres|99acres.com
+MagicBricks|magicbricks.com
+Seznam|seznam.cz
+T-Online|t-online.de
+ShareChat|sharechat.com

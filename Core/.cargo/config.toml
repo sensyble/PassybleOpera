@@ -1,0 +1,15 @@
+# Keep local builds from taking over the machine. CI runners have fewer cores than this anyway.
+[build]
+jobs = 4
+
+# Android: 16 KB aligned LOAD segments, so the library loads on 16 KB page size devices and passes
+# Google Play's check. NDK r28+ does this for 64-bit targets already; the flags also cover older NDKs
+# and armeabi-v7a. RUSTFLAGS or CARGO_ENCODED_RUSTFLAGS replace these, so don't set them for Android.
+[target.aarch64-linux-android]
+rustflags = ["-C", "link-arg=-Wl,-z,max-page-size=16384", "-C", "link-arg=-Wl,-z,common-page-size=16384"]
+
+[target.x86_64-linux-android]
+rustflags = ["-C", "link-arg=-Wl,-z,max-page-size=16384", "-C", "link-arg=-Wl,-z,common-page-size=16384"]
+
+[target.armv7-linux-androideabi]
+rustflags = ["-C", "link-arg=-Wl,-z,max-page-size=16384", "-C", "link-arg=-Wl,-z,common-page-size=16384"]

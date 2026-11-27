@@ -1,0 +1,56 @@
+html, body { margin: 0; height: 100%; }
+body { display: flex; flex-direction: column; background: var(--bg); color: var(--text); font: var(--fs-body)/1.4 var(--font); }
+.muted { color: var(--text-2); }
+
+.top { display: flex; align-items: center; gap: 10px; height: 52px; margin: 8px var(--gutter) 0; padding: 0 14px;
+  border-radius: 999px; background: var(--surface); flex: none; }
+.top #logo { font-size: 21px; margin-top: -3px; }
+.top h1 { margin: 0 0 0 auto; color: var(--text-2); font-size: var(--fs-body); font-weight: 600; letter-spacing: 0; }
+
+main { flex: 1; min-height: 0; overflow: auto; }
+.view { display: flex; flex-direction: column; gap: var(--sp-2); padding: 12px var(--gutter); }
+
+.view.state { margin: 12px var(--gutter); padding: 28px 20px 20px; border-radius: 16px; background: var(--surface);
+  align-items: center; text-align: center; }
+.state h2 { margin: 6px 0 0; font-size: 22px; line-height: 1.1; text-wrap: balance; }
+.state p { margin: 0; }
+.state .state-lead { max-width: 290px; color: var(--text-2); font-size: var(--fs-md); line-height: 1.45; overflow-wrap: anywhere; }
+.state > .btn { align-self: stretch; margin-top: var(--sp-3); min-height: 42px; font-size: var(--fs-md); }
+.state-icon { display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: var(--surface-2); color: var(--text); }
+.state-icon.done { background: var(--ok-soft); color: var(--ok); }
+
+.spinner { width: 20px; height: 20px; margin: 48px auto; border-radius: 50%; border: 2.5px solid var(--border-strong);
+  border-top-color: var(--accent); animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* The selection: a few lines of it, so the user sees what is about to be saved. */
+.clip-preview { margin: 0; padding: 10px 14px; border-left: 3px solid var(--lime-mark); border-radius: 4px 12px 12px 4px;
+  background: var(--surface); color: var(--text); white-space: pre-wrap; overflow-wrap: anywhere;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; overflow: hidden; }
+.clip-check { display: flex; align-items: center; gap: 8px; padding: 2px 2px 4px; color: var(--text-2); cursor: pointer; }
+.clip-check input { width: 16px; height: 16px; margin: 0; accent-color: var(--accent); }
+
+.clip-list { list-style: none; margin: 0; padding: 4px; border-radius: 14px; background: var(--surface); }
+.clip-list:empty { display: none; }
+.clip-row { display: flex; align-items: center; gap: var(--sp-3); width: 100%; min-height: 44px; padding: 6px 10px;
+  border: 0; border-radius: 10px; background: none; color: var(--text); text-align: start; }
+.clip-row:hover:not(:disabled) { background: var(--fill-hover); }
+.clip-row:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.clip-row:disabled { cursor: default; color: var(--text-3); }
+.clip-row-icon { flex: none; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 9px;
+  background: var(--tile); color: var(--text-2); }
+.clip-row-text { display: flex; flex-direction: column; min-width: 0; }
+.clip-row-title { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; }
+.clip-row-sub { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text-3); font-size: var(--fs-sm); }
+.clip-new { background: var(--surface); border-radius: 14px; }
+.clip-new .clip-row-icon { background: var(--lime-soft); color: var(--lime-ink); }
+.clip-empty { margin: 4px 2px; }
+
+.clip-form { display: flex; flex-direction: column; gap: var(--sp-2); padding: 12px; border-radius: 14px; background: var(--surface); }
+.clip-label { color: var(--text-2); font-size: var(--fs-sm); font-weight: 600; }
+.clip-actions { display: flex; justify-content: flex-end; gap: var(--sp-2); margin-top: var(--sp-1); }
+
+.clip-msg { margin: 0 2px; font-size: var(--fs-sm); }
+.clip-msg:empty { display: none; }
+.clip-msg.error { color: var(--danger); }
+.clip-update { margin-bottom: 2px; }

@@ -1,0 +1,46 @@
+[workspace]
+resolver = "2"
+members = ["core", "agent", "wasm", "wasm/kdf"]
+# The desktop app is a workspace of its own: it needs the platform crates, which nothing else here
+# builds with.
+exclude = ["desktop-app/src-tauri"]
+# The WebAssembly crates are tested on their own: cargo test -p pass-wasm.
+
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0-or-later"
+repository = "https://github.com/sensyble/PassybleCore"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
+
+# Less debug info: smaller target dirs, much less RAM and time when linking. Backtraces still
+# have file and line numbers for our code; dependencies get none.
+[profile.dev]
+debug = "line-tables-only"
+
+[profile.dev.package."*"]
+debug = false
+
+# Benchmarks: optimized like a release, without the slow full LTO, so a run builds in minutes.
+[profile.perf]
+inherits = "release"
+lto = false
+codegen-units = 16
+incremental = true
+
+# The extension's main WebAssembly module is built for size; the Argon2id module keeps the release
+# profile, for speed.
+[profile.wasm-release]
+inherits = "release"
+opt-level = "z"
+
+# Argon2 with production parameters is painfully slow unoptimised; keep debug builds usable.
+[profile.dev.package.argon2]
+opt-level = 3
+[profile.dev.package.blake2]
+opt-level = 3

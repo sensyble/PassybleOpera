@@ -1,0 +1,3548 @@
+{
+  "catalogLocale": {
+    "message": "ja"
+  },
+  "extName": {
+    "message": "Passyble"
+  },
+  "extDescription": {
+    "message": "Passyble デスクトップアプリのパスワード、2FA コード、パスキーをブラウザーで自動入力します。"
+  },
+  "actionTitle": {
+    "message": "Passyble"
+  },
+  "cmdOpenPopup": {
+    "message": "Passyble を開いて保管庫を検索"
+  },
+  "cmdFillLogin": {
+    "message": "このサイトのログイン情報を入力"
+  },
+  "cmdFillOtp": {
+    "message": "このサイトの 2FA コードを入力または表示"
+  },
+  "cmdScanQr": {
+    "message": "このページの 2FA QR コードをスキャン"
+  },
+  "cmdGenerate": {
+    "message": "パスワードを生成（選択中の欄に入力、なければコピー）"
+  },
+  "cmdNewNote": {
+    "message": "新しいセキュアメモ"
+  },
+  "cmdLock": {
+    "message": "Passyble をロック"
+  },
+  "cmdSync": {
+    "message": "保管庫を今すぐ同期"
+  },
+  "cmdUseToolbar": {
+    "message": "続けるには、ブラウザのツールバーで Passyble をクリックしてください。"
+  },
+  "cmdGeneratedCopied": {
+    "message": "強力なパスワードをコピーしました（45 秒後に消去）"
+  },
+  "cmdGeneratedCopiedByApp": {
+    "message": "Passyble が強力なパスワードをコピーしました（45 秒後に消去）"
+  },
+  "cmdGenerateCopyFailed": {
+    "message": "パスワードをコピーできませんでした。もう一度お試しください。"
+  },
+  "cmdLocked": {
+    "message": "Passyble をロックしました。"
+  },
+  "syncNow": {
+    "message": "今すぐ同期"
+  },
+  "syncSyncing": {
+    "message": "同期中…"
+  },
+  "syncDone": {
+    "message": "たった今同期しました"
+  },
+  "syncFailed": {
+    "message": "$VAULT$ を同期できませんでした: $REASON$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$2",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedNoName": {
+    "message": "同期できませんでした: $REASON$",
+    "placeholders": {
+      "reason": {
+        "content": "$1",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedMany_other": {
+    "message": "$COUNT$ 件の保管庫を同期できませんでした。$VAULT$: $REASON$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$3",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncVaultUnnamed": {
+    "message": "保管庫"
+  },
+  "syncNeedsUpdate": {
+    "message": "ここから同期するには Passyble アプリを更新してください"
+  },
+  "syncNoneApp": {
+    "message": "同期している保管庫はまだありません。Passyble アプリで設定してください。"
+  },
+  "syncNoneBrowser": {
+    "message": "同期している保管庫はまだありません。この保管庫はこのブラウザーにしかありません。"
+  },
+  "commonCancel": {
+    "message": "キャンセル"
+  },
+  "commonSave": {
+    "message": "保存"
+  },
+  "commonUndo": {
+    "message": "元に戻す"
+  },
+  "commonDismiss": {
+    "message": "閉じる"
+  },
+  "commonClose": {
+    "message": "閉じる"
+  },
+  "commonMore": {
+    "message": "その他"
+  },
+  "commonUsername": {
+    "message": "ユーザー名"
+  },
+  "commonPassword": {
+    "message": "パスワード"
+  },
+  "commonNoUsername": {
+    "message": "（ユーザー名なし）"
+  },
+  "commonPasskey": {
+    "message": "パスキー"
+  },
+  "commonBadge2fa": {
+    "message": "2FA"
+  },
+  "commonShowPassword": {
+    "message": "パスワードを表示"
+  },
+  "commonHidePassword": {
+    "message": "パスワードを非表示"
+  },
+  "commonOpenPassyble": {
+    "message": "Passyble を開く"
+  },
+  "commonOpenInPassyble": {
+    "message": "Passyble で開く"
+  },
+  "commonOpenedInPassyble": {
+    "message": "Passyble で開きました"
+  },
+  "commonUnlockInApp": {
+    "message": "Passyble アプリでロック解除"
+  },
+  "commonConfirmHello": {
+    "message": "Windows Hello で確認…"
+  },
+  "commonNoLoginForm": {
+    "message": "このページにログインフォームが見つかりません。"
+  },
+  "commonIdentity": {
+    "message": "個人情報"
+  },
+  "commonNameAndAddress": {
+    "message": "氏名と住所"
+  },
+  "creditSensyble": {
+    "message": "Sensyble 制作"
+  },
+  "errAgentUnavailable": {
+    "message": "Passyble が起動していません。"
+  },
+  "errTimeout": {
+    "message": "Passyble が応答しませんでした。開いている Passyble のウィンドウを確認してください。"
+  },
+  "errExtensionReloaded": {
+    "message": "Passyble が更新されました。使用するにはこのページを再読み込みしてください。"
+  },
+  "errHostMissing": {
+    "message": "Passyble に接続できません。Passyble の「設定 → 自動入力」を確認してください。"
+  },
+  "errLocked": {
+    "message": "Passyble はロックされています。続行するにはロックを解除してください。"
+  },
+  "errUrlMismatch": {
+    "message": "そのログイン情報は別のサイト用に保存されています。"
+  },
+  "errCancelled": {
+    "message": "キャンセルしました。"
+  },
+  "errNotFound": {
+    "message": "このサイトにはまだ何も保存されていません。"
+  },
+  "errNotSupported": {
+    "message": "この操作には新しい Passyble アプリが必要です。Passyble を更新してから、もう一度お試しください。"
+  },
+  "errBadServerInput": {
+    "message": "サーバーアドレスでも pass+server:// リンクでもありません。"
+  },
+  "errAddressNeedsUpdate": {
+    "message": "アドレスでサーバーを追加するには Passyble デスクトップアプリを更新してください。または、pass+server:// リンクを貼り付けてください。"
+  },
+  "errStartFailed": {
+    "message": "スタートメニューから Passyble を開いてください。"
+  },
+  "errEditNeedsUpdate": {
+    "message": "ここでログイン情報を編集するには Passyble を更新してください。"
+  },
+  "errRateLimited": {
+    "message": "変更の回数が多すぎます。1 分ほど待ってください。"
+  },
+  "errWrongPassword": {
+    "message": "マスターパスワードが違います。Caps Lock を確認して、もう一度お試しください。"
+  },
+  "errTooManyAttempts": {
+    "message": "試行回数が多すぎます。1 分ほど待ってから、もう一度お試しください。"
+  },
+  "errUnlockNeedsUpdate": {
+    "message": "ここでロックを解除するには Passyble デスクトップアプリを更新してください。または、Passyble でロックを解除してください。"
+  },
+  "errUnlockFailed": {
+    "message": "Passyble のロックを解除できませんでした。もう一度試すか、Passyble アプリでロックを解除してください。"
+  },
+  "errAliasNotSupported": {
+    "message": "この Passyble アプリではメールエイリアスを作成できません。別の方法を選んでください。"
+  },
+  "errFormsOff": {
+    "message": "設定で「カードと住所を提案」をオンにしてください。"
+  },
+  "errWebPagesOnly": {
+    "message": "Passyble は通常のウェブページでのみ使用できます。"
+  },
+  "errPickInPopup": {
+    "message": "まず Passyble のポップアップでログイン情報を選んでください。"
+  },
+  "errNothingToSave": {
+    "message": "この保存の確認は期限切れです。ログイン情報を保存するには、もう一度サインインしてください。"
+  },
+  "errNothingToUndo": {
+    "message": "元に戻せる操作はもうありません。"
+  },
+  "errGenerateNotSetUp": {
+    "message": "先に Passyble デスクトップアプリで設定してください。Passyble →「設定」を開きます。"
+  },
+  "errAliasRateLimited": {
+    "message": "新しいエイリアスが多すぎます。1 分ほど待ってください。"
+  },
+  "errGeneric": {
+    "message": "問題が発生しました。もう一度お試しください。"
+  },
+  "ctxFill": {
+    "message": "Passyble で入力"
+  },
+  "ctxGenerate": {
+    "message": "パスワードを生成"
+  },
+  "ctxGenerateNoSymbols": {
+    "message": "パスワードを生成 (英字と数字のみ)"
+  },
+  "ctxGenerateUsername": {
+    "message": "ユーザー名を生成"
+  },
+  "ctxGenerateAlias": {
+    "message": "メールエイリアスを生成"
+  },
+  "commonCreatingAlias": {
+    "message": "メールエイリアスを作成しています…"
+  },
+  "badgeLogins_other": {
+    "message": "Passyble: このサイトのログイン情報 $COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "badgeLoginsLocked_other": {
+    "message": "Passyble（ロック中）: このサイトのログイン情報 $COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "badgeLocked": {
+    "message": "Passyble はロックされています"
+  },
+  "badgeNotRunning": {
+    "message": "Passyble デスクトップアプリが起動していません"
+  },
+  "bgNewPasswordTitle": {
+    "message": "$SITE$（新しいパスワード）",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "bgFormsNeedHttps": {
+    "message": "Passyble はカードと住所を安全な（https の）ページでのみ入力します"
+  },
+  "bgCannotRunHere": {
+    "message": "このページでは Passyble を実行できません"
+  },
+  "bgPageTooLarge": {
+    "message": "ページが大きすぎてスキャンできません"
+  },
+  "popupLock": {
+    "message": "Passyble をロック"
+  },
+  "popupMoreOptions": {
+    "message": "その他のオプション"
+  },
+  "popupLoading": {
+    "message": "読み込み中"
+  },
+  "popupStatusLocked": {
+    "message": "ロック中。クリックして解除"
+  },
+  "popupLockedTitle": {
+    "message": "Passyble はロックされています"
+  },
+  "popupMasterPassword": {
+    "message": "マスターパスワード"
+  },
+  "popupUnlock": {
+    "message": "ロック解除"
+  },
+  "popupUseHello": {
+    "message": "Windows Hello を使用"
+  },
+  "popupHelloOrPassword": {
+    "message": "Windows Hello で確認するか、マスターパスワードを入力してください。"
+  },
+  "popupUnlockEmpty": {
+    "message": "マスターパスワードを入力してください。"
+  },
+  "popupUnlocking": {
+    "message": "ロックを解除中…"
+  },
+  "popupWaitingWindow": {
+    "message": "Passyble のウィンドウを待っています…"
+  },
+  "popupOfflineTitle": {
+    "message": "Passyble が起動していません"
+  },
+  "popupHostTitle": {
+    "message": "Passyble に接続できません"
+  },
+  "popupStart": {
+    "message": "Passyble を起動"
+  },
+  "popupStarting": {
+    "message": "Passyble を起動しています…"
+  },
+  "popupStartWait": {
+    "message": "数秒かかることがあります。"
+  },
+  "popupRetry": {
+    "message": "再試行"
+  },
+  "popupSetupGuide": {
+    "message": "セットアップガイド"
+  },
+  "popupBack": {
+    "message": "戻る"
+  },
+  "popupBackEsc": {
+    "message": "戻る（Esc）"
+  },
+  "popupAddServer": {
+    "message": "Passyble Server を追加"
+  },
+  "popupSettings": {
+    "message": "設定"
+  },
+  "popupQuickSettings": {
+    "message": "クイック設定"
+  },
+  "popupMoreSettings": {
+    "message": "その他の設定"
+  },
+  "settingInlineMenu": {
+    "message": "インラインメニュー"
+  },
+  "settingInlineMenuDetails": {
+    "message": "ログイン欄に Passyble のアイコンとメニューを表示します。"
+  },
+  "settingAutoSuggest": {
+    "message": "候補を自動で開く"
+  },
+  "settingAutoSuggestDetails": {
+    "message": "オフ：↓ キーを押すか、アイコンをクリックします。"
+  },
+  "settingAutoGenerate": {
+    "message": "強力なパスワードを提案"
+  },
+  "settingAutoGenerateDetails": {
+    "message": "オフ：メニューからは引き続き使えます。"
+  },
+  "settingAutoFillOtp": {
+    "message": "2FA コードを自動入力"
+  },
+  "settingAutoFillOtpDetails": {
+    "message": "次の画面でコードを入力します。送信はしません。"
+  },
+  "settingSaveBanner": {
+    "message": "ログイン情報の保存を提案"
+  },
+  "settingFormFill": {
+    "message": "カードと住所を提案"
+  },
+  "settingFormFillDetails": {
+    "message": "安全な (https) ページのみ。"
+  },
+  "revealCaption": {
+    "message": "生成されたパスワード"
+  },
+  "settingPasskeys": {
+    "message": "パスキーに Passyble を使う"
+  },
+  "settingPasskeysDetails": {
+    "message": "オフ：ブラウザー標準のダイアログ。"
+  },
+  "settingAutoPasskey": {
+    "message": "パスキーでのサインインを提案"
+  },
+  "popupSearch": {
+    "message": "検索"
+  },
+  "popupSearchLabel": {
+    "message": "ログイン情報を検索"
+  },
+  "popupSearchVault": {
+    "message": "保管庫を検索"
+  },
+  "popupSiteLogins": {
+    "message": "このサイトのログイン情報"
+  },
+  "popupAddLogin": {
+    "message": "ログイン情報を追加"
+  },
+  "popupInVault": {
+    "message": "保管庫内"
+  },
+  "popupVaultLogins": {
+    "message": "保管庫のログイン情報"
+  },
+  "popupCardsAndAddresses": {
+    "message": "カードと住所"
+  },
+  "popupNothingHere": {
+    "message": "ここに入力できるものはありません"
+  },
+  "popupNoSiteMatches": {
+    "message": "このサイトに一致するものはありません。"
+  },
+  "popupNoSiteLogins": {
+    "message": "このサイトのログイン情報はまだありません。"
+  },
+  "popupNoOtherMatches": {
+    "message": "ほかに一致するログイン情報はありません。"
+  },
+  "popupSearchNeedsUpdate": {
+    "message": "保管庫全体を検索するには Passyble デスクトップアプリを更新してください。"
+  },
+  "popupLookUp": {
+    "message": "$SITE$ を検索",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "popupLoginsFor": {
+    "message": "$SITE$ のログイン情報",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "popupLookingUp": {
+    "message": "検索しています…"
+  },
+  "popupNothingForSite": {
+    "message": "そのサイトには何も保存されていません。"
+  },
+  "popupSearchKeywordsCard": {
+    "message": "カード"
+  },
+  "popupSearchKeywordsIdentity": {
+    "message": "住所 個人情報"
+  },
+  "popupUntitled": {
+    "message": "（無題）"
+  },
+  "popupUntitledLogin": {
+    "message": "ログイン情報"
+  },
+  "popupMoreFor": {
+    "message": "$NAME$ のその他の操作",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupEdit": {
+    "message": "編集"
+  },
+  "popupCopyUsername": {
+    "message": "ユーザー名をコピー"
+  },
+  "popupCopyPassword": {
+    "message": "パスワードをコピー"
+  },
+  "popupCopyPasswordOf": {
+    "message": "$NAME$ のパスワードをコピー",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupCopyOtp": {
+    "message": "2FA コードをコピー"
+  },
+  "popupFillHere": {
+    "message": "このページに入力"
+  },
+  "popupFillItem": {
+    "message": "$NAME$ を入力",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupFillHereConfirm": {
+    "message": "このページに入力（Passyble が先に確認します）"
+  },
+  "popupFillItemHere": {
+    "message": "このページに $NAME$ を入力",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupConfirmFill": {
+    "message": "入力するには Passyble アプリで確認してください。"
+  },
+  "popupOtpCode": {
+    "message": "2FA コード"
+  },
+  "popupNextStepOtp": {
+    "message": "次のステップ: 2FA コード"
+  },
+  "popupOtpStep": {
+    "message": "2FA ステップ"
+  },
+  "popupOtpPillLabel": {
+    "message": "2FA コード（クリックしてコピー）"
+  },
+  "popupOtpLockedTitle": {
+    "message": "ロックを解除して 2FA コードをコピー"
+  },
+  "popupOtpLockedLabel": {
+    "message": "2FA コード、ロック中。クリックしてロックを解除し、コピー"
+  },
+  "popupCopyFailed": {
+    "message": "コピーできませんでした"
+  },
+  "popupCopiedUsername": {
+    "message": "ユーザー名をコピーしました"
+  },
+  "popupCopiedPassword": {
+    "message": "パスワードをコピーしました"
+  },
+  "popupCopiedPasswordClears": {
+    "message": "パスワードをコピーしました（45 秒後に消去）"
+  },
+  "popupCopiedOtp": {
+    "message": "2FA コードをコピーしました"
+  },
+  "popupCopiedOtpClears": {
+    "message": "2FA コードをコピーしました（45 秒後に消去）"
+  },
+  "popupCopiedExpiry": {
+    "message": "有効期限をコピーしました"
+  },
+  "popupCopiedExpiryClears": {
+    "message": "有効期限をコピーしました（45 秒後に消去）"
+  },
+  "popupCopiedCardNumber": {
+    "message": "カード番号をコピーしました"
+  },
+  "popupCopiedCardNumberClears": {
+    "message": "カード番号をコピーしました（45 秒後に消去）"
+  },
+  "popupCopiedSecurityCode": {
+    "message": "セキュリティコードをコピーしました"
+  },
+  "popupCopiedSecurityCodeClears": {
+    "message": "セキュリティコードをコピーしました（45 秒後に消去）"
+  },
+  "popupCopiedName": {
+    "message": "氏名をコピーしました"
+  },
+  "popupCopiedEmail": {
+    "message": "メールアドレスをコピーしました"
+  },
+  "popupCopiedPhone": {
+    "message": "電話番号をコピーしました"
+  },
+  "popupCopiedAddress": {
+    "message": "住所をコピーしました"
+  },
+  "popupCopiedByAppPassword": {
+    "message": "Passyble がパスワードをコピーしました（45 秒後に消去）"
+  },
+  "popupCopiedByAppOtp": {
+    "message": "Passyble が 2FA コードをコピーしました（45 秒後に消去）"
+  },
+  "popupNotCopiedUsername": {
+    "message": "ユーザー名はコピーされませんでした"
+  },
+  "popupNotCopiedPassword": {
+    "message": "パスワードはコピーされませんでした"
+  },
+  "popupNotCopiedOtp": {
+    "message": "2FA コードはコピーされませんでした"
+  },
+  "popupNotCopiedCardNumber": {
+    "message": "カード番号はコピーされませんでした"
+  },
+  "popupNotCopiedSecurityCode": {
+    "message": "セキュリティコードはコピーされませんでした"
+  },
+  "popupCopyNeedsUpdate": {
+    "message": "検索結果からコピーするには Passyble デスクトップアプリを更新してください。"
+  },
+  "popupCopyCardNumber": {
+    "message": "カード番号をコピー"
+  },
+  "popupCopyNumberOf": {
+    "message": "$NAME$ の番号をコピー",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Visa •••• 4242"
+      }
+    }
+  },
+  "popupCopyExpiry": {
+    "message": "有効期限をコピー"
+  },
+  "popupCopySecurityCode": {
+    "message": "セキュリティコードをコピー"
+  },
+  "popupCardNoNumber": {
+    "message": "このカードにはカード番号がありません。"
+  },
+  "popupCardNoSecurityCode": {
+    "message": "このカードにはセキュリティコードがありません。"
+  },
+  "popupCardsNeedUpdate": {
+    "message": "カードの詳細をコピーするには Passyble デスクトップアプリを更新してください。"
+  },
+  "popupCopyName": {
+    "message": "氏名をコピー"
+  },
+  "popupCopyEmail": {
+    "message": "メールアドレスをコピー"
+  },
+  "popupCopyPhone": {
+    "message": "電話番号をコピー"
+  },
+  "popupCopyAddress": {
+    "message": "住所をコピー"
+  },
+  "popupCopyEmailOf": {
+    "message": "$NAME$ のメールアドレスをコピー",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Ada Lovelace"
+      }
+    }
+  },
+  "popupCopyNameOf": {
+    "message": "$NAME$ の氏名をコピー",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Ada Lovelace"
+      }
+    }
+  },
+  "popupNoNameSaved": {
+    "message": "氏名が保存されていません。"
+  },
+  "popupNoEmailSaved": {
+    "message": "メールアドレスが保存されていません。"
+  },
+  "popupNoPhoneSaved": {
+    "message": "電話番号が保存されていません。"
+  },
+  "popupNoAddressSaved": {
+    "message": "住所が保存されていません。"
+  },
+  "popupDeleted": {
+    "message": "$NAME$ を削除しました",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupRestored": {
+    "message": "復元しました"
+  },
+  "editorAddLogin": {
+    "message": "ログイン情報を追加"
+  },
+  "editorEditLogin": {
+    "message": "ログイン情報を編集"
+  },
+  "editorTitle": {
+    "message": "タイトル"
+  },
+  "editorTotp": {
+    "message": "2FA"
+  },
+  "editorWebsites": {
+    "message": "ウェブサイト"
+  },
+  "editorWebsite": {
+    "message": "ウェブサイト"
+  },
+  "editorMoreDetails": {
+    "message": "詳細",
+    "description": "Popup editor: the button that shows or hides a login's other websites, 2FA, notes and vault (closed for a new login)."
+  },
+  "editorAddWebsite": {
+    "message": "ウェブサイトを追加"
+  },
+  "editorRemoveWebsite": {
+    "message": "ウェブサイトを削除"
+  },
+  "editorNotes": {
+    "message": "メモ"
+  },
+  "editorNotesCount": {
+    "message": "$COUNT$ / $MAX$ 文字",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "18,500"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20,000"
+      }
+    }
+  },
+  "editorGenerate": {
+    "message": "パスワードを生成"
+  },
+  "editorGenerateUsername": {
+    "message": "ユーザー名を生成"
+  },
+  "editorGenRandomUsername": {
+    "message": "ランダムなユーザー名"
+  },
+  "editorGenPlus": {
+    "message": "プラスアドレス"
+  },
+  "editorGenCatchAll": {
+    "message": "キャッチオールアドレス"
+  },
+  "editorGenAlias": {
+    "message": "メールエイリアス（$SERVICE$）",
+    "placeholders": {
+      "service": {
+        "content": "$1",
+        "example": "SimpleLogin"
+      }
+    }
+  },
+  "editorGenMentionWebsite": {
+    "message": "このウェブサイト名を含める"
+  },
+  "editorMoreActions": {
+    "message": "その他の操作"
+  },
+  "editorLoginActions": {
+    "message": "ログイン情報の操作"
+  },
+  "editorDelete": {
+    "message": "ログイン情報を削除"
+  },
+  "editorSaved": {
+    "message": "保存しました"
+  },
+  "editorLoginFallback": {
+    "message": "ログイン情報"
+  },
+  "editorShowCode": {
+    "message": "現在のコードを表示"
+  },
+  "editorSecondsLeft": {
+    "message": "$SECONDS$ 秒",
+    "placeholders": {
+      "seconds": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "editorTotpOn": {
+    "message": "2FA オン"
+  },
+  "editorTotpNew": {
+    "message": "新規 · 「保存」で保存されます"
+  },
+  "editorTotpNewNamed": {
+    "message": "新規: $NAME$ · 「保存」で保存されます",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub · octocat"
+      }
+    }
+  },
+  "editorRemoveTotp": {
+    "message": "2FA を削除"
+  },
+  "editorAddTotp": {
+    "message": "2FA を追加"
+  },
+  "editorTotpRemoved": {
+    "message": "「保存」で 2FA が削除されます"
+  },
+  "editorSecretPlaceholder": {
+    "message": "シークレットまたは otpauth:// リンク"
+  },
+  "editorSecretLabel": {
+    "message": "2FA シークレットまたは otpauth リンク"
+  },
+  "editorScanQr": {
+    "message": "このページの QR をスキャン"
+  },
+  "editorAdd": {
+    "message": "追加"
+  },
+  "editorNoQr": {
+    "message": "このページに 2FA の QR コードはありません。"
+  },
+  "editorCantReadPage": {
+    "message": "Passyble はこのページを読み取れません。"
+  },
+  "editorOpenQrPageFirst": {
+    "message": "先に QR コードのあるページを開いてください。"
+  },
+  "editorTotpInvalid": {
+    "message": "この 2FA シークレットは無効です。確認してもう一度お試しください。"
+  },
+  "editorRuleMenu": {
+    "message": "このウェブサイトでの自動入力"
+  },
+  "editorRuleSubdomains": {
+    "message": "サブドメイン"
+  },
+  "editorRuleSubdomainsDetail": {
+    "message": "このサイトとそのすべてのサブドメイン。既定の設定です。"
+  },
+  "editorRuleHost": {
+    "message": "同じホストのみ"
+  },
+  "editorRuleHostDetail": {
+    "message": "このアドレスのみで、ほかのサブドメインは含みません。"
+  },
+  "editorRuleNever": {
+    "message": "表示しない"
+  },
+  "editorRuleNeverDetail": {
+    "message": "自動で候補に出したり入力したりしません。検索には表示されます。"
+  },
+  "editorRuleSuggested": {
+    "message": "おすすめ"
+  },
+  "editorRuleBadgeHost": {
+    "message": "同じホスト"
+  },
+  "editorRuleBadgeNever": {
+    "message": "非表示"
+  },
+  "editorPopularSites": {
+    "message": "人気のサイト"
+  },
+  "serverKindPairing": {
+    "message": "デバイスのペアリングリンク"
+  },
+  "serverKindInvite": {
+    "message": "サインインリンク: サインインは Passyble アプリで行います"
+  },
+  "serverKindAddress": {
+    "message": "サーバーアドレス: サインインは Passyble アプリで行います"
+  },
+  "serverHint": {
+    "message": "サーバーアドレスまたは pass+server:// リンク"
+  },
+  "serverSignInOpened": {
+    "message": "Passyble のサインインウィンドウを開きました。そちらで完了してください。"
+  },
+  "serverInputLabel": {
+    "message": "Passyble Server のアドレスまたはリンク"
+  },
+  "serverContinue": {
+    "message": "続行"
+  },
+  "serverContinueTitle": {
+    "message": "Passyble で続行（Enter）"
+  },
+  "serverRowServer": {
+    "message": "サーバー"
+  },
+  "serverRowAddress": {
+    "message": "アドレス"
+  },
+  "serverRowNext": {
+    "message": "次へ"
+  },
+  "serverNextSignIn": {
+    "message": "Passyble アプリでサインイン"
+  },
+  "serverRowLink": {
+    "message": "リンク"
+  },
+  "serverRowAccount": {
+    "message": "アカウント"
+  },
+  "serverRowDevice": {
+    "message": "デバイス"
+  },
+  "serverDeviceUnnamed": {
+    "message": "（名前なし）"
+  },
+  "serverRowCertificate": {
+    "message": "証明書"
+  },
+  "serverCertLinked": {
+    "message": "自己署名、このリンクで確認済み"
+  },
+  "serverCertPublic": {
+    "message": "公的に信頼された証明書"
+  },
+  "serverCertNone": {
+    "message": "なし（暗号化されていません）"
+  },
+  "serverRowPassword": {
+    "message": "パスワード"
+  },
+  "serverPasswordAsked": {
+    "message": "Passyble アプリで入力します"
+  },
+  "serverRowToken": {
+    "message": "サインインキー"
+  },
+  "serverTokenIncluded": {
+    "message": "含まれています（非表示）"
+  },
+  "serverHttpWarning": {
+    "message": "この接続は暗号化されていません。このコンピューター、自宅のネットワーク、または VPN 内のサーバーでのみ使用してください。"
+  },
+  "serverOpening": {
+    "message": "Passyble を開いています…"
+  },
+  "serverCheckWindow": {
+    "message": "Passyble のウィンドウで、$USER$ として $HOST$ への接続を完了してください。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "pass.example.com"
+      },
+      "user": {
+        "content": "$2",
+        "example": "ada"
+      }
+    }
+  },
+  "pairBadPercent": {
+    "message": "このリンクは壊れています。リンク全体をもう一度コピーして、ここに貼り付けてください。"
+  },
+  "pairAddressEmpty": {
+    "message": "Passyble Server のアドレス（pass.example.com など）を入力してください。"
+  },
+  "pairAddressTooLong": {
+    "message": "サーバーアドレスとしては長すぎます。"
+  },
+  "pairAddressSpaces": {
+    "message": "サーバーアドレスにスペースは使えません。pass.example.com のようにアドレスだけを貼り付けてください。"
+  },
+  "pairAddressScheme": {
+    "message": "サーバーアドレスは https:// で始まります（省略も可）。例: https://pass.example.com"
+  },
+  "pairAddressCredentials": {
+    "message": "サーバーアドレスにユーザー名やパスワードは含められません。"
+  },
+  "pairAddressEmail": {
+    "message": "メールアドレスのようです。代わりにサーバーのアドレス（pass.example.com など）を貼り付けてください。"
+  },
+  "pairAddressQuery": {
+    "message": "サーバーアドレスだけを貼り付けてください（例: pass.example.com）。ウェブアドレスの残りの部分は不要です。"
+  },
+  "pairAddressInvalid": {
+    "message": "有効なサーバーアドレスではありません。pass.example.com や https://pass.example.com:8443 のように入力してください。"
+  },
+  "pairInputEmpty": {
+    "message": "Passyble Server のアドレス、または pass+server:// リンクを貼り付けてください。"
+  },
+  "pairLinkEmpty": {
+    "message": "先にペアリングリンクを貼り付けてください。"
+  },
+  "pairLinkTooLong": {
+    "message": "Passyble Server のリンクとしては長すぎます。リンクだけをコピーして、もう一度お試しください。"
+  },
+  "pairLinkPrefix": {
+    "message": "Passyble Server のリンクではありません。pass+server:// で始まるリンクを貼り付けてください。"
+  },
+  "pairLinkAddress": {
+    "message": "このリンクには有効なサーバーアドレスがありません。サーバーで新しいリンクを作成して、もう一度お試しください。"
+  },
+  "pairLinkScheme": {
+    "message": "このリンクは壊れています。サーバーで新しいリンクを作成して、もう一度お試しください。"
+  },
+  "pairLinkNoVersion": {
+    "message": "このリンクは不完全です。サーバーで新しいリンクを作成して、もう一度お試しください。"
+  },
+  "pairLinkVersion": {
+    "message": "このリンクは新しい Passyble Server のものです。Passyble を更新してから、もう一度お試しください。"
+  },
+  "pairLinkPin": {
+    "message": "このリンクは壊れているか、新しい Passyble が必要です。Passyble を更新するか、サーバーで新しいリンクを作成してください。"
+  },
+  "pairLinkNoUser": {
+    "message": "このリンクには使用するアカウントが含まれていません。サーバーで新しいリンクを作成して、もう一度お試しください。"
+  },
+  "pairLinkEmptyToken": {
+    "message": "このペアリングリンクは不完全です。サーバーで新しいリンクを作成して、もう一度お試しください。"
+  },
+  "pairLinkTokenAndCode": {
+    "message": "このリンクは壊れています。サーバーで新しいリンクを作成して、もう一度お試しください。"
+  },
+  "pairLinkNoPath": {
+    "message": "このペアリングリンクは不完全です。サーバーで新しいリンクを作成して、もう一度お試しください。"
+  },
+  "pairLinkCodes": {
+    "message": "このサインインリンクは壊れています。サーバーで新しいリンクを作成して、もう一度お試しください。"
+  },
+  "optionsPageTitle": {
+    "message": "Passyble 設定"
+  },
+  "optionsTitle": {
+    "message": "設定"
+  },
+  "optionsAutofill": {
+    "message": "自動入力"
+  },
+  "optionsNeverSaveTitle": {
+    "message": "保存を確認しないサイト"
+  },
+  "optionsNeverSaveEmpty": {
+    "message": "まだありません"
+  },
+  "optionsRemove": {
+    "message": "削除"
+  },
+  "optionsRemoveSite": {
+    "message": "$SITE$ を削除",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "optionsRemoveSiteTitle": {
+    "message": "$SITE$ でログイン情報の保存を再び確認する",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "optionsRemoved": {
+    "message": "削除しました"
+  },
+  "optionsRemoveFailed": {
+    "message": "削除できませんでした"
+  },
+  "optionsSaved": {
+    "message": "保存しました"
+  },
+  "optionsPasskeys": {
+    "message": "パスキー"
+  },
+  "optionsShortcuts": {
+    "message": "キーボードショートカット"
+  },
+  "optionsServerHeading": {
+    "message": "Passyble Server"
+  },
+  "optionsShortcutFillLogin": {
+    "message": "ログイン情報を入力"
+  },
+  "optionsShortcutFillOtp": {
+    "message": "2FA コードを入力または表示"
+  },
+  "optionsShortcutOpenPopup": {
+    "message": "Passyble を開いて検索"
+  },
+  "optionsShortcutNotSet": {
+    "message": "未設定"
+  },
+  "optionsShortcutHelpFirefox": {
+    "message": "about:addons の歯車メニュー →「拡張機能のショートカットキーを管理」で変更できます。"
+  },
+  "optionsShortcutScanQr": {
+    "message": "QR コードをスキャン"
+  },
+  "optionsShortcutGenerate": {
+    "message": "パスワードを生成"
+  },
+  "optionsShortcutNewNote": {
+    "message": "新しいセキュアメモ"
+  },
+  "optionsShortcutLock": {
+    "message": "ロック"
+  },
+  "optionsShortcutSync": {
+    "message": "今すぐ同期"
+  },
+  "optionsShortcutRecord": {
+    "message": "変更"
+  },
+  "optionsShortcutRecordLabel": {
+    "message": "$NAME$ のショートカットを変更",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Scan QR code"
+      }
+    }
+  },
+  "optionsShortcutReset": {
+    "message": "リセット"
+  },
+  "optionsShortcutResetLabel": {
+    "message": "$NAME$ のショートカットをリセット",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Scan QR code"
+      }
+    }
+  },
+  "optionsShortcutRecording": {
+    "message": "新しいキーを押してください"
+  },
+  "optionsShortcutHelpFirefoxRecord": {
+    "message": "［変更］をクリックして新しいキーを押します。Esc でキャンセル、Backspace でショートカットを削除します。"
+  },
+  "optionsShortcutNeedsModifier": {
+    "message": "Ctrl か Alt（Mac では Command、Option、Control）を押しながら、文字、数字、またはファンクションキーを押してください。"
+  },
+  "optionsShortcutBadKey": {
+    "message": "このキーはショートカットに使えません。文字、数字、またはファンクションキーを使ってください。"
+  },
+  "optionsShortcutRefused": {
+    "message": "Firefox がこのショートカットを受け付けませんでした。すでに使われている可能性があります。"
+  },
+  "optionsAbout": {
+    "message": "バージョン情報"
+  },
+  "optionsDesktopApp": {
+    "message": "Passyble デスクトップアプリ"
+  },
+  "optionsNotChecked": {
+    "message": "未確認"
+  },
+  "optionsChecking": {
+    "message": "確認しています…"
+  },
+  "optionsConnected": {
+    "message": "接続済み · $APP$ · $STATE$",
+    "placeholders": {
+      "app": {
+        "content": "$1",
+        "example": "Passyble 1.4.0"
+      },
+      "state": {
+        "content": "$2",
+        "example": "unlocked"
+      }
+    }
+  },
+  "optionsStateLocked": {
+    "message": "ロック中"
+  },
+  "optionsStateUnlocked": {
+    "message": "ロック解除済み"
+  },
+  "optionsStart": {
+    "message": "起動"
+  },
+  "optionsStarting": {
+    "message": "Passyble を起動しています… 数秒かかることがあります。"
+  },
+  "optionsCheck": {
+    "message": "確認"
+  },
+  "optionsOpenGuide": {
+    "message": "開く"
+  },
+  "optionsVersion": {
+    "message": "バージョン"
+  },
+  "welcomePageTitle": {
+    "message": "Passyble へようこそ"
+  },
+  "welcomeTitle": {
+    "message": "Passyble をセットアップ"
+  },
+  "welcomeSetupHeading": {
+    "message": "はじめに"
+  },
+  "welcomeAllSetTitle": {
+    "message": "準備ができました"
+  },
+  "welcomeStepDone": {
+    "message": "完了"
+  },
+  "welcomeInstallTitle": {
+    "message": "Windows 版 Passyble をインストール"
+  },
+  "welcomeDownload": {
+    "message": "ダウンロード"
+  },
+  "welcomeInstallRetryHint": {
+    "message": "インストール済みなら、起動してから再試行してください。"
+  },
+  "welcomeStartTitle": {
+    "message": "Passyble を起動"
+  },
+  "welcomeStartNoVault": {
+    "message": "保管庫ができると接続されます。"
+  },
+  "welcomeVaultTitle": {
+    "message": "保管庫を作成またはロック解除"
+  },
+  "welcomeAccessTitle": {
+    "message": "ウェブサイトで Passyble を許可"
+  },
+  "welcomeAccessButton": {
+    "message": "アクセスを許可"
+  },
+  "welcomeAccessDeniedChromium": {
+    "message": "許可されていません。$PAGE$ → Passyble →「サイトへのアクセス」でオンにしてください。",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "chrome://extensions"
+      }
+    }
+  },
+  "welcomeAccessDeniedFirefox": {
+    "message": "許可されていません。about:addons → Passyble →「権限」でオンにしてください。"
+  },
+  "welcomePinTitle": {
+    "message": "Passyble をツールバーにピン留め"
+  },
+  "welcomePinChrome": {
+    "message": "パズルのピース → Passyble の横のピン"
+  },
+  "welcomePinEdge": {
+    "message": "パズルのピース → Passyble の横の目のアイコン"
+  },
+  "welcomePinOpera": {
+    "message": "キューブのアイコン → Passyble の横のピン"
+  },
+  "welcomePinFirefox": {
+    "message": "パズルのピース → Passyble の横の歯車 → ツールバーにピン留め"
+  },
+  "welcomePinMark": {
+    "message": "ピン留めしました"
+  },
+  "welcomeTipsTitle": {
+    "message": "Passyble の使い方"
+  },
+  "welcomeOpenSettings": {
+    "message": "設定を開く"
+  },
+  "menuLoading": {
+    "message": "読み込み中…"
+  },
+  "menuNoLogins": {
+    "message": "このサイトのログイン情報はありません。"
+  },
+  "menuNoMatches": {
+    "message": "一致するログイン情報はありません。"
+  },
+  "menuLocked": {
+    "message": "Passyble はロックされています。"
+  },
+  "menuUnlock": {
+    "message": "Passyble のロックを解除"
+  },
+  "menuUnlockHello": {
+    "message": "Windows Hello でロック解除"
+  },
+  "menuUnlockPassword": {
+    "message": "マスターパスワードを入力"
+  },
+  "menuUnlockToFill": {
+    "message": "$NAME$ を入力するには Passyble のロックを解除してください。",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "menuUnlockToFillOtp": {
+    "message": "$NAME$ の 2FA コードを入力するには Passyble のロックを解除してください。",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "menuUnlockToSee": {
+    "message": "ログイン情報を表示するには Passyble のロックを解除してください。"
+  },
+  "menuUnlockingInApp": {
+    "message": "Passyble アプリでロック解除…"
+  },
+  "menuHelloCancelled": {
+    "message": "Windows Hello がキャンセルされました。"
+  },
+  "menuUsePassword": {
+    "message": "代わりにマスターパスワードを使用"
+  },
+  "menuHelloCancelledPassword": {
+    "message": "Windows Hello がキャンセルされました。マスターパスワードを入力してください。"
+  },
+  "unlockFrameTitle": {
+    "message": "Passyble のマスターパスワード"
+  },
+  "unlockFrameNote": {
+    "message": "このウェブサイトには入力内容は見えません。"
+  },
+  "menuHeadingLocked": {
+    "message": "Passyble · ロック中"
+  },
+  "menuHeadingOtp": {
+    "message": "Passyble · 2FA"
+  },
+  "menuHeadingOtpLocked": {
+    "message": "Passyble · 2FA · ロック中"
+  },
+  "menuHeadingCards": {
+    "message": "Passyble · カード"
+  },
+  "menuHeadingCardsLocked": {
+    "message": "Passyble · カード · ロック中"
+  },
+  "menuHeadingAddresses": {
+    "message": "Passyble · 住所"
+  },
+  "menuHeadingAddressesLocked": {
+    "message": "Passyble · 住所 · ロック中"
+  },
+  "menuNoCards": {
+    "message": "Passyble にカードがありません。"
+  },
+  "menuNoAddresses": {
+    "message": "Passyble に住所がありません。"
+  },
+  "menuNoOtp": {
+    "message": "このサイトの 2FA コードはありません。"
+  },
+  "menuFillOtp": {
+    "message": "2FA コードを入力"
+  },
+  "menuOtpCodeFor": {
+    "message": "2FA コード · $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      }
+    }
+  },
+  "menuPasskeyFor": {
+    "message": "パスキーでサインイン · $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      }
+    }
+  },
+  "passkeyPromptTitle": {
+    "message": "パスキーでサインインしますか？"
+  },
+  "passkeyPromptChoose": {
+    "message": "サインインに使うパスキーを選択"
+  },
+  "passkeyPromptSignIn": {
+    "message": "サインイン"
+  },
+  "passkeyPromptUnlockSignIn": {
+    "message": "ロックを解除してサインイン"
+  },
+  "passkeyPromptSignInAs": {
+    "message": "$ACCOUNT$ としてサインイン",
+    "placeholders": {
+      "account": {
+        "content": "$1",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "passkeyPromptSigningIn": {
+    "message": "サインインしています…"
+  },
+  "passkeyPromptUnlocking": {
+    "message": "Passyble のロックを解除しています…"
+  },
+  "passkeyPromptTitleLocked": {
+    "message": "Passyble のパスキーでサインインしますか？"
+  },
+  "passkeyPromptLockedFull": {
+    "message": "Passyble はロックされています。このサイトのパスキーを使うには、ロックを解除してください。"
+  },
+  "passkeyElsewhere": {
+    "message": "別のデバイスを使う"
+  },
+  "passkeySaveTitle": {
+    "message": "$SITE$ のパスキーを Passyble に保存しますか？",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "passkeySaveKeepWith": {
+    "message": "保存先のログイン情報"
+  },
+  "passkeySaveNewLogin": {
+    "message": "新しいログイン情報"
+  },
+  "passkeySaveLoginUser": {
+    "message": "$TITLE$ · $USERNAME$",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "Example"
+      },
+      "username": {
+        "content": "$2",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "passkeySaveVault": {
+    "message": "保管庫: $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Personal"
+      }
+    }
+  },
+  "passkeySaveButton": {
+    "message": "パスキーを保存"
+  },
+  "passkeySaveUnlock": {
+    "message": "ロックを解除して保存"
+  },
+  "passkeySaveSaving": {
+    "message": "パスキーを保存しています…"
+  },
+  "passkeyUnlock": {
+    "message": "ロック解除"
+  },
+  "passkeyNoneTitle": {
+    "message": "このサイトの Passyble パスキーはありません"
+  },
+  "passkeyNoneNotice": {
+    "message": "Passyble に $SITE$ のパスキーはありません",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "passkeyNotRunningTitle": {
+    "message": "Passyble が起動していません"
+  },
+  "passkeyOpening": {
+    "message": "Passyble を開いています…"
+  },
+  "passkeyErrorTitle": {
+    "message": "Passyble は今は応答できません"
+  },
+  "passkeyTryAgain": {
+    "message": "再試行"
+  },
+  "passkeyFrameTitle": {
+    "message": "Passyble はここでは応答できません"
+  },
+  "passkeyNeedsVerification": {
+    "message": "このサイトでは Windows Hello が必要ですが、Passyble は今は使えません。"
+  },
+  "menuUnlockToSignIn": {
+    "message": "$ACCOUNT$ としてサインインするには Passyble のロックを解除してください。",
+    "placeholders": {
+      "account": {
+        "content": "$1",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "menuGenerateEntry": {
+    "message": "強力なパスワードを生成"
+  },
+  "menuGenerateNoSymbolsSub": {
+    "message": "記号なし (記号を使えないサイト向け)"
+  },
+  "menuGenerateSymbolsSub": {
+    "message": "記号を含む"
+  },
+  "menuGenerateTitle": {
+    "message": "強力なパスワードを生成して Passyble に保存"
+  },
+  "menuGenerateLabel": {
+    "message": "強力なパスワードを生成して保存"
+  },
+  "menuGenerated": {
+    "message": "生成されたパスワード"
+  },
+  "menuGeneratedHidden": {
+    "message": "生成されたパスワード（非表示）"
+  },
+  "genOptionsButton": {
+    "message": "パスワードのオプション"
+  },
+  "genOptionsTitle": {
+    "message": "パスワードジェネレーター"
+  },
+  "genOptionsEntry": {
+    "message": "パスワードのオプション"
+  },
+  "genOptionsEntrySub": {
+    "message": "長さ、文字の種類、パスフレーズ"
+  },
+  "genPassphraseEntry": {
+    "message": "パスフレーズを生成"
+  },
+  "genModeLabel": {
+    "message": "生成するもの"
+  },
+  "genModePassword": {
+    "message": "パスワード"
+  },
+  "genModePassphrase": {
+    "message": "パスフレーズ"
+  },
+  "genLength": {
+    "message": "長さ"
+  },
+  "genWords": {
+    "message": "単語数"
+  },
+  "genTypes": {
+    "message": "文字の種類"
+  },
+  "genUppercase": {
+    "message": "大文字 (A-Z)"
+  },
+  "genLowercase": {
+    "message": "小文字 (a-z)"
+  },
+  "genDigits": {
+    "message": "数字 (0-9)"
+  },
+  "genSymbols": {
+    "message": "特殊文字 (!@#)"
+  },
+  "genHyphensChip": {
+    "message": "ハイフン"
+  },
+  "genHyphens": {
+    "message": "単語間のハイフン"
+  },
+  "genRegenerate": {
+    "message": "再生成"
+  },
+  "genDone": {
+    "message": "完了"
+  },
+  "genNoteNoSymbols": {
+    "message": "このサイトでは特殊文字を使えません。"
+  },
+  "genNoteMaxLength_other": {
+    "message": "このサイトで使えるのは最大 $COUNT$ 文字です。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "16"
+      }
+    }
+  },
+  "genNoteMinLength_other": {
+    "message": "このサイトでは $COUNT$ 文字以上が必要です。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "24"
+      }
+    }
+  },
+  "genNotePassphraseTooLong": {
+    "message": "パスフレーズはこのサイトの長さ制限に収まらないため、パスワードを生成しました。"
+  },
+  "genNoteLettersDigits": {
+    "message": "文字の種類をすべてオフにした場合は、英字と数字が使われます。"
+  },
+  "menuPasswordStrength_other": {
+    "message": "$STRENGTH$ · $COUNT$ 文字",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "20"
+      },
+      "strength": {
+        "content": "$2",
+        "example": "Strong"
+      }
+    }
+  },
+  "menuNotRunningGenerate": {
+    "message": "保存するには、送信する前に Passyble を起動してください。"
+  },
+  "menuFormsNeedUpdate": {
+    "message": "カードと住所を入力するには Passyble を更新してください。"
+  },
+  "menuFormChanged": {
+    "message": "フォームが変更されました。もう一度選択してください。"
+  },
+  "strengthVeryStrong": {
+    "message": "非常に強い"
+  },
+  "strengthStrong": {
+    "message": "強い"
+  },
+  "strengthFair": {
+    "message": "普通"
+  },
+  "strengthWeak": {
+    "message": "弱い"
+  },
+  "noticeNoOtp": {
+    "message": "このサイトの 2FA コードは保存されていません。"
+  },
+  "toastOtpTitle": {
+    "message": "2FA コード · $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "toastCopy": {
+    "message": "コピー"
+  },
+  "toastCopyTitle": {
+    "message": "2FA コードをコピー"
+  },
+  "toastCopied": {
+    "message": "コピーしました"
+  },
+  "toastCopyFailed": {
+    "message": "コピーに失敗しました"
+  },
+  "toastShowDesktop": {
+    "message": "デスクトップで表示"
+  },
+  "toastShowDesktopTitle": {
+    "message": "デスクトップで表示（Passyble アプリ内）"
+  },
+  "toastShownDesktop": {
+    "message": "Passyble デスクトップアプリに表示しました。"
+  },
+  "toastSecondsLeft_other": {
+    "message": "残り $COUNT$ 秒",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "toastRefreshFailed": {
+    "message": "コードを更新できませんでした。$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "toastFilledSaveLater": {
+    "message": "パスワードを入力しました。送信時に Passyble が保存を確認します。"
+  },
+  "toastFilledNotSaved": {
+    "message": "パスワードを入力しましたが、まだ保存されていません。$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "toastDraftSaved": {
+    "message": "Passyble に保存しました"
+  },
+  "toastDraftUpdated": {
+    "message": "Passyble で更新しました"
+  },
+  "toastDraftChangeDetail": {
+    "message": "変更を送信するまで、別のログイン情報として保持されます。"
+  },
+  "toastDraftRemoved": {
+    "message": "Passyble から削除しました。"
+  },
+  "toastAutoUpdated": {
+    "message": "Passyble のパスワードを更新しました"
+  },
+  "toastAutoRestored": {
+    "message": "以前のパスワードに戻しました。"
+  },
+  "bannerSave": {
+    "message": "ログイン情報を Passyble に保存しますか？"
+  },
+  "bannerUpdatePassword": {
+    "message": "Passyble のパスワードを更新しますか？"
+  },
+  "bannerUpdateUsername": {
+    "message": "Passyble のユーザー名を更新しますか？"
+  },
+  "bannerUserOnSite": {
+    "message": "$SITE$ の $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      },
+      "site": {
+        "content": "$2",
+        "example": "github.com"
+      }
+    }
+  },
+  "bannerUpdate": {
+    "message": "更新"
+  },
+  "bannerNotNow": {
+    "message": "後で"
+  },
+  "bannerEdit": {
+    "message": "編集"
+  },
+  "bannerKeepPassword": {
+    "message": "入力したパスワードを保持"
+  },
+  "bannerEditFrameTitle": {
+    "message": "Passyble のユーザー名とパスワード"
+  },
+  "bannerNever": {
+    "message": "このサイトでは今後表示しない"
+  },
+  "bannerSaving": {
+    "message": "保存しています…"
+  },
+  "bannerSaved": {
+    "message": "Passyble に保存しました。"
+  },
+  "bannerPasswordUpdated": {
+    "message": "パスワードを更新しました。"
+  },
+  "bannerUsernameUpdated": {
+    "message": "ユーザー名を更新しました。"
+  },
+  "bannerAlreadySaved": {
+    "message": "すでに保存されています。"
+  },
+  "bannerSaveFailed": {
+    "message": "保存できませんでした。$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "bannerNeverDone": {
+    "message": "このサイトでは今後確認しません。"
+  },
+  "bannerNeverFailed": {
+    "message": "保存できませんでした。$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Something went wrong. Try again."
+      }
+    }
+  },
+  "cardsCard": {
+    "message": "カード"
+  },
+  "cardsBadge": {
+    "message": "CARD"
+  },
+  "browserAutofillOff": {
+    "message": "ブラウザーの自動入力をオフにしました。"
+  },
+  "browserAutofillBack": {
+    "message": "ブラウザーの自動入力をオンに戻しました。"
+  },
+  "issueListLabel": {
+    "message": "パスワードチェック"
+  },
+  "issueCommon": {
+    "message": "これは非常によく使われているパスワードの 1 つです。"
+  },
+  "issueWeak": {
+    "message": "このパスワードは推測されやすいです。"
+  },
+  "issueReused_other": {
+    "message": "このパスワードはほかの $COUNT$ 件のログイン情報でも使われています。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "issueUsedBefore": {
+    "message": "このログイン情報で以前に使ったパスワードです。"
+  },
+  "issueContainsUsername": {
+    "message": "このパスワードにはユーザー名が含まれています。"
+  },
+  "issueContainsSite": {
+    "message": "このパスワードにはサイト名が含まれています。"
+  },
+  "issueShort": {
+    "message": "短い: $MIN$ 文字以上にしてください。",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "issueUseStrong": {
+    "message": "代わりに強力なパスワードを使う"
+  },
+  "issueStrong": {
+    "message": "強い"
+  },
+  "errNoVault": {
+    "message": "このブラウザーにはまだ保管庫がありません。"
+  },
+  "errVerificationRequired": {
+    "message": "マスターパスワードで本人確認をしてから、もう一度お試しください。"
+  },
+  "errPasskeysNeedApp": {
+    "message": "現在、パスキーには Passyble アプリが必要です。"
+  },
+  "errBackupFirst": {
+    "message": "先にコピーをダウンロードしてください。"
+  },
+  "popupUseBrowserVault": {
+    "message": "このブラウザーに保管庫を置く"
+  },
+  "popupNoVaultTitle": {
+    "message": "まだ保管庫がありません"
+  },
+  "vaultCreate": {
+    "message": "保管庫を作成"
+  },
+  "popupAskConfirm": {
+    "message": "確認"
+  },
+  "popupAskFillButton": {
+    "message": "入力"
+  },
+  "popupDismiss": {
+    "message": "閉じる"
+  },
+  "popupStatusLockedBrowser": {
+    "message": "ロック中 (このブラウザーの保管庫)。クリックして解除"
+  },
+  "popupVerifyTitle": {
+    "message": "本人確認"
+  },
+  "popupCardConfirmTitle": {
+    "message": "このカードを入力しますか？"
+  },
+  "popupCardConfirmText": {
+    "message": "$SITE$ に $CARD$ を入力しますか？",
+    "placeholders": {
+      "card": {
+        "content": "$1",
+        "example": "Visa •••• 4242"
+      },
+      "site": {
+        "content": "$2",
+        "example": "shop.example.com"
+      }
+    }
+  },
+  "popupThisCard": {
+    "message": "このカード"
+  },
+  "popupCrossConfirmTitle": {
+    "message": "別のサイトのログイン情報を入力しますか？"
+  },
+  "popupCrossConfirmText": {
+    "message": "$SITE$ を信頼できる場合にだけ $LOGIN$ を入力してください。",
+    "placeholders": {
+      "login": {
+        "content": "$1",
+        "example": "GitHub"
+      },
+      "site": {
+        "content": "$2",
+        "example": "github.example.net"
+      }
+    }
+  },
+  "popupLookalikeTag": {
+    "message": "類似サイト"
+  },
+  "popupLookalikeHint": {
+    "message": "$HOST$ は $SITE$ に似ていますが、別のサイトです。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeTitle": {
+    "message": "偽サイトの可能性があります"
+  },
+  "popupLookalikeFillText": {
+    "message": "$HOST$ は $SITE$ ではありませんが、アドレスがよく似ています。フィッシングサイトはこの手口でログイン情報を盗みます。正しいサイトだと確信できる場合のみ入力してください。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeCopyText": {
+    "message": "$HOST$ は $SITE$ ではありませんが、アドレスがよく似ています。フィッシングサイトはこの手口でログイン情報を盗みます。正しいサイトだと確信できる場合のみコピーしてください。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeFillButton": {
+    "message": "それでも入力"
+  },
+  "popupLookalikeCopyButton": {
+    "message": "それでもコピー"
+  },
+  "popupIntlHost": {
+    "message": "国際化アドレス: $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "xn--bcher-kva.example"
+      }
+    }
+  },
+  "bannerLookalike": {
+    "message": "$HOST$ は $SITE$ ではありませんが、アドレスがよく似ています。このサイトを信頼できる場合のみ保存してください。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "commonIntlAddress": {
+    "message": "国際化アドレス"
+  },
+  "passkeyBrowserVaultTitle": {
+    "message": "パスキーには今のところ Passyble アプリが必要です"
+  },
+  "welcomeVaultHeading": {
+    "message": "あなたの保管庫"
+  },
+  "welcomeChoiceExisting": {
+    "message": "このブラウザーの保管庫を使う"
+  },
+  "welcomeRepeatPassword": {
+    "message": "マスターパスワードをもう一度入力"
+  },
+  "welcomeCreateWarning": {
+    "message": "Passyble ではマスターパスワードをリセットできません。書き留めておいてください。"
+  },
+  "welcomeCreateButton": {
+    "message": "保管庫を作成"
+  },
+  "welcomeVaultFile": {
+    "message": "保管庫ファイル (.vault)"
+  },
+  "welcomeOpenButton": {
+    "message": "保管庫を開く"
+  },
+  "welcomeVaultReadyTitle": {
+    "message": "保管庫の準備ができました"
+  },
+  "welcomeUseBrowserInstead": {
+    "message": "代わりにこのブラウザーに保管庫を置く"
+  },
+  "vaultMasterTooShort": {
+    "message": "$MIN$ 文字以上にしてください。",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "vaultMasterCommon": {
+    "message": "これは非常によく使われているパスワードの 1 つです。別のものにしてください。"
+  },
+  "vaultMasterContainsName": {
+    "message": "メールアドレス、ユーザー名、保管庫の名前は含めないでください。"
+  },
+  "vaultMasterPattern": {
+    "message": "同じ文字の繰り返し、abcd や 1234 のような連続、qwerty のようなキーボードの並びは避けてください。"
+  },
+  "vaultMasterGuessable": {
+    "message": "推測されやすすぎます。単語やランダムな文字を増やしてください。互いに関係のない 4 つ以上の単語がおすすめです。"
+  },
+  "vaultMasterStrongEnough": {
+    "message": "$STRENGTH$: マスターパスワードとして十分な強さです。",
+    "placeholders": {
+      "strength": {
+        "content": "$1",
+        "example": "良好"
+      }
+    }
+  },
+  "vaultStrengthOk": {
+    "message": "良好"
+  },
+  "vaultStrengthStrong": {
+    "message": "強い"
+  },
+  "welcomePasswordsDiffer": {
+    "message": "パスワードが一致しません。もう一度入力してください。"
+  },
+  "welcomeCreating": {
+    "message": "保管庫を作成しています…"
+  },
+  "welcomeVaultExists": {
+    "message": "このブラウザーにはすでに保管庫があります。それを使うか、先に設定で削除してください。"
+  },
+  "welcomePickFile": {
+    "message": "先に保管庫ファイルを選んでください。"
+  },
+  "welcomeNotVaultFile": {
+    "message": "これは Passyble の保管庫ファイルではありません。"
+  },
+  "optionsVaultModeHeading": {
+    "message": "保管庫"
+  },
+  "optionsVaultHeading": {
+    "message": "このブラウザーの保管庫"
+  },
+  "optionsAutoLock": {
+    "message": "自動ロックまでの時間"
+  },
+  "optionsAutoLockDetails": {
+    "message": "ブラウザーを閉じると必ずロックされます。"
+  },
+  "optionsAutoLockMinutes": {
+    "message": "$COUNT$ 分",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "optionsAutoLockBrowserClose": {
+    "message": "ブラウザーを閉じたときのみ"
+  },
+  "optionsLockOnIdle": {
+    "message": "コンピューターのロック時にロック"
+  },
+  "optionsVerifyEachFill": {
+    "message": "入力ごとに確認"
+  },
+  "optionsVerifyEachFillDetails": {
+    "message": "毎回マスターパスワードを確認します。"
+  },
+  "optionsDeleteVault": {
+    "message": "保管庫を削除"
+  },
+  "optionsDelete": {
+    "message": "削除"
+  },
+  "optionsDeleteWarn": {
+    "message": "このブラウザーの保管庫を完全に削除します。"
+  },
+  "optionsMasterTipBody": {
+    "message": "このマスターパスワードは、Passyble が新しいマスターパスワードに現在求める基準よりも推測されやすくなっています。引き続き使用できます。"
+  },
+  "optionsDeleteForGood": {
+    "message": "完全に削除"
+  },
+  "optionsDeleted": {
+    "message": "このブラウザーから保管庫を削除しました"
+  },
+  "optionsModeBrowser": {
+    "message": "このブラウザー"
+  },
+  "optionsModeApp": {
+    "message": "Passyble アプリ"
+  },
+  "optionsModeBrowserLocked": {
+    "message": "ロック中"
+  },
+  "optionsModeBrowserUnlocked": {
+    "message": "ロック解除中"
+  },
+  "optionsModeBrowserNone": {
+    "message": "保管庫はまだありません"
+  },
+  "optionsUseApp": {
+    "message": "アプリを使う"
+  },
+  "optionsUseBrowserVault": {
+    "message": "このブラウザーで保管庫を使う"
+  },
+  "welcomeGetApp": {
+    "message": "Windows アプリを入手"
+  },
+  "optionsShortcutChange": {
+    "message": "変更"
+  },
+  "accountSignIn": {
+    "message": "サインイン"
+  },
+  "accountSignOut": {
+    "message": "サインアウト"
+  },
+  "accountTitle": {
+    "message": "アカウント"
+  },
+  "accountSignedInAs": {
+    "message": "$EMAIL$ でサインイン中",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "ada@example.com"
+      }
+    }
+  },
+  "accountSignInFailed": {
+    "message": "サインインできませんでした。もう一度お試しください。"
+  },
+  "accountCloudSoon": {
+    "message": "Passyble Cloud のストレージは近日公開予定です。"
+  },
+  "accountUseDrive": {
+    "message": "Google ドライブを使う"
+  },
+  "accountViaApp": {
+    "message": "このコンピューターの Passyble アプリ経由でサインイン中"
+  },
+  "accountSignOutAppToo": {
+    "message": "このコンピューターの Passyble アプリからもサインアウトする"
+  },
+  "accountOtherInBrowser": {
+    "message": "Passyble アプリは $APP$ で、このブラウザーは $BROWSER$ でサインインしています。",
+    "placeholders": {
+      "app": {
+        "content": "$1",
+        "example": "ada@example.com"
+      },
+      "browser": {
+        "content": "$2",
+        "example": "grace@example.com"
+      }
+    }
+  },
+  "accountUseAppAccount": {
+    "message": "アプリのアカウントを使う"
+  },
+  "optionsDownloadCopy": {
+    "message": "コピーをダウンロード"
+  },
+  "vaultCopySaved": {
+    "message": "コピーを保存しました。"
+  },
+  "popupLockedText": {
+    "message": "ロックを解除すると、このサイトでログイン情報を入力できます。"
+  },
+  "popupOfflineText": {
+    "message": "ここでログイン情報を入力するには、このコンピューターで Passyble アプリを起動してください。"
+  },
+  "popupNoVaultText": {
+    "message": "このブラウザーに保管庫を作成するか、Google Drive で同期するなら Passyble アプリを使ってください。"
+  },
+  "optionsLead": {
+    "message": "このブラウザーで Passyble が入力、保存、サインインする方法です。"
+  },
+  "optionsVaultModeLead": {
+    "message": "このブラウザーが入力に使う保管庫の保存場所です。"
+  },
+  "optionsAutofillLead": {
+    "message": "ウェブサイトのログイン欄で Passyble が提案する内容です。"
+  },
+  "optionsNeverSaveLead": {
+    "message": "これらのサイトでは、Passyble はログイン情報やカードの保存を確認しません。"
+  },
+  "optionsPasskeysLead": {
+    "message": "保管庫のパスキーでウェブサイトにサインインします。"
+  },
+  "optionsShortcutsLead": {
+    "message": "このブラウザーのどのページでも使えるキーです。"
+  },
+  "optionsServerLead": {
+    "message": "チームや家族が運用するサーバーです。Passyble アプリがこのサーバーにサインインします。"
+  },
+  "optionsAboutLead": {
+    "message": "この拡張機能と、連携する Passyble アプリについて。"
+  },
+  "welcomeLead": {
+    "message": "いくつかの手順を終えると、Passyble がこのブラウザーでログイン情報を入力します。"
+  },
+  "popupHostText": {
+    "message": "Passyble の「設定 → 自動入力」を確認してから、もう一度お試しください。"
+  },
+  "popupOnThisSite": {
+    "message": "このサイト"
+  },
+  "settingSaveBannerDetails": {
+    "message": "サインイン後にログイン情報の保存を確認します。"
+  },
+  "settingAutoPasskeyDetails": {
+    "message": "サイトがパスキーを求めたときにカードを表示します。"
+  },
+  "welcomeChoiceDriveText": {
+    "message": "このコンピューターに Passyble アプリが必要です。"
+  },
+  "welcomeChoiceSignInText": {
+    "message": "Passyble Cloud、Family、Team 用の Passyble アカウントです。"
+  },
+  "welcomeChoiceExistingText": {
+    "message": "このブラウザーにすでにある保管庫です。"
+  },
+  "welcomeChoiceAppText": {
+    "message": "保管庫はこの PC の Passyble アプリに保存されます。"
+  },
+  "welcomeAllSetLead": {
+    "message": "Passyble がこのブラウザーでログイン情報を入力します。ツールバーのアイコンはいつでもクリックできます。"
+  },
+  "welcomeDone": {
+    "message": "完了"
+  },
+  "popupNoSiteLoginsText": {
+    "message": "今すぐ追加するか、サインイン時に Passyble が保存を確認します。"
+  },
+  "popupNothingHereText": {
+    "message": "保管庫を検索して、ログイン情報をコピーできます。"
+  },
+  "optionsAppRowTitle": {
+    "message": "Passyble アプリ"
+  },
+  "optionsAppRowText": {
+    "message": "このコンピューターの Passyble アプリに保管庫を置きます。"
+  },
+  "commonOr": {
+    "message": "または"
+  },
+  "commonNoSymbols": {
+    "message": "英字と数字のみ"
+  },
+  "welcomeRecommended": {
+    "message": "おすすめ"
+  },
+  "passkeySaveShort": {
+    "message": "パスキーを保存しますか？"
+  },
+  "serverAddressLabel": {
+    "message": "サーバーアドレス"
+  },
+  "welcomeStepOf": {
+    "message": "ステップ $CURRENT$ / $TOTAL$",
+    "placeholders": {
+      "current": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "4"
+      }
+    }
+  },
+  "optionsStorage": {
+    "message": "保存場所"
+  },
+  "optionsLocking": {
+    "message": "ロック"
+  },
+  "optionsDownloadCopyText": {
+    "message": "暗号化された保管庫ファイル (.vault) です。マスターパスワードでのみ開けます。"
+  },
+  "optionsSaveFile": {
+    "message": "ファイルを保存"
+  },
+  "passkeySaveVaultNamed": {
+    "message": "保存先: $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Work vault"
+      }
+    }
+  },
+  "updateRequiredTitle": {
+    "message": "更新が必要です"
+  },
+  "updateRequiredText": {
+    "message": "このバージョンの Passyble はサポートが終了しました。パスワードの入力と保存を続けるには更新してください。"
+  },
+  "updateNow": {
+    "message": "更新"
+  },
+  "updateViewPasswords": {
+    "message": "パスワードを表示"
+  },
+  "updateReadOnlyTitle": {
+    "message": "あなたのパスワード"
+  },
+  "updateReadOnlyNote": {
+    "message": "Passyble 拡張機能は、更新するまで読み取り専用です。パスワードの表示とコピーは引き続きできます。"
+  },
+  "updateAvailable": {
+    "message": "Passyble の新しいバージョンがあります。"
+  },
+  "updateChecking": {
+    "message": "更新を確認しています…"
+  },
+  "updateInstalling": {
+    "message": "更新をインストールしています…"
+  },
+  "updateSearchHint": {
+    "message": "ログイン情報を探すには 2 文字以上入力してください。"
+  },
+  "errAppUpdateRequired": {
+    "message": "入力を続けるには Passyble アプリを更新してください。"
+  },
+  "errExtensionUpdateRequired": {
+    "message": "入力を続けるには Passyble 拡張機能を更新してください。"
+  },
+  "driveSyncTitle": {
+    "message": "Google Drive 同期"
+  },
+  "driveNeedsAppTitle": {
+    "message": "Google Drive 同期には、このコンピューターの Passyble アプリが必要です"
+  },
+  "driveNeedsAppText": {
+    "message": "Passyble アプリが Google にサインインし、保管庫を同期します。アプリをインストールして Google Drive をオンにすると、このブラウザーの Passyble はアプリの保管庫から入力します。"
+  },
+  "driveNeedsAppMove": {
+    "message": "このブラウザーの保管庫を移すには、設定でコピーをダウンロードし、Passyble アプリで開いてください。"
+  },
+  "driveNeedsAppShort": {
+    "message": "Google Drive 同期にはアプリが必要"
+  },
+  "driveRecordText": {
+    "message": "この保管庫は以前のバージョンで Google Drive と同期していました。このブラウザーでは引き続き使えます。再び同期するには Passyble アプリを使ってください。"
+  },
+  "driveDownloadApp": {
+    "message": "Passyble アプリをダウンロード"
+  },
+  "driveCheckAgain": {
+    "message": "もう一度確認"
+  },
+  "driveAppFound": {
+    "message": "Passyble アプリはこのコンピューターにあります。アプリを使い、アプリで Google Drive をオンにしてください。"
+  },
+  "driveAppMissing": {
+    "message": "このコンピューターにはまだ Passyble アプリがありません。"
+  },
+  "driveTurnOnInApp": {
+    "message": "Google Drive で同期するには、Passyble アプリの「設定 → 同期」を開き、Google Drive をオンにしてください。"
+  },
+  "welcomeChoiceCreate": {
+    "message": "このブラウザーに保管庫を作成"
+  },
+  "welcomeChoiceCreateText": {
+    "message": "このデバイスにのみ保存されます。アプリは不要です。"
+  },
+  "welcomeChoiceOpen": {
+    "message": "保管庫ファイルを開く"
+  },
+  "welcomeChoiceOpenText": {
+    "message": "ほかのデバイスからのコピー、またはバックアップ。"
+  },
+  "localOnlyTitle": {
+    "message": "この保管庫はこのデバイスにしかありません"
+  },
+  "localOnlyBody": {
+    "message": "このデバイスの紛失、盗難、故障、リセットがあると、この保管庫のパスワードは完全に失われます。同期またはバックアップをオンにする（Google Drive は無料）か、定期的にバックアップのコピーをエクスポートしてください。"
+  },
+  "localOnlyCreateNotice": {
+    "message": "このデバイスにのみ保存されます。このデバイスを失うと、これらのパスワードも失われます。Google Drive へのバックアップは、今でも後からでもオンにできます。"
+  },
+  "localOnlySetUpSync": {
+    "message": "同期を設定"
+  },
+  "localOnlyNotNow": {
+    "message": "後で"
+  },
+  "localOnlyDetails": {
+    "message": "これの意味"
+  },
+  "errReadOnly": {
+    "message": "この保管庫のログインは使用できますが、変更はできません。"
+  },
+  "errFillOnly": {
+    "message": "このログインは入力できますが、表示やコピーはできません。"
+  },
+  "bannerSaveIn": {
+    "message": "保存先"
+  },
+  "bannerMyVault": {
+    "message": "個人用"
+  },
+  "bannerInVault": {
+    "message": "$VAULT$ 内",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupAllVaults": {
+    "message": "すべての保管庫"
+  },
+  "popupPinVault": {
+    "message": "保管庫を固定",
+    "description": "Popup: a vault row's context menu in the Filter menu or the vault switcher: pin that vault, so it comes right after the current vault in every vault list."
+  },
+  "popupUnpinVault": {
+    "message": "保管庫の固定を解除",
+    "description": "Popup: a pinned vault row's context menu in the Filter menu or the vault switcher: take its pin off."
+  },
+  "popupFilter": {
+    "message": "絞り込み",
+    "description": "Popup: the Filter button next to the search box while the list shows everything, and the name of its menu (vaults and kinds of item)."
+  },
+  "popupFilterShowing": {
+    "message": "絞り込み: $FILTER$",
+    "description": "Popup: tooltip and screen reader name of the Filter button while the list is narrowed. $FILTER$ is what it shows, e.g. \"Engineering · 2FA\".",
+    "placeholders": {
+      "filter": {
+        "content": "$1",
+        "example": "Engineering · 2FA"
+      }
+    }
+  },
+  "popupFilterVaults": {
+    "message": "保管庫",
+    "description": "Popup, Filter menu: heading of the section that picks the vault shown."
+  },
+  "popupFilterShow": {
+    "message": "表示",
+    "description": "Popup, Filter menu: heading of the section that picks the kind of item shown (All, Logins, 2FA, ...)."
+  },
+  "popupFilterClear": {
+    "message": "絞り込みを解除",
+    "description": "Popup: the x beside the Filter button and the last entry of its menu: show every vault and every kind again."
+  },
+  "popupPinNamed": {
+    "message": "$VAULT$ を固定",
+    "description": "Popup, a vault's row in the Filter menu or the vault switcher: its pin button. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupUnpinNamed": {
+    "message": "$VAULT$ の固定を解除",
+    "description": "Popup, a pinned vault's row in the Filter menu or the vault switcher: its pin button takes the pin off. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupVaultPinned": {
+    "message": "固定済み",
+    "description": "Popup: what a screen reader hears after a pinned vault's name in a vault list."
+  },
+  "popupPinLimit": {
+    "message": "固定できる保管庫は $COUNT$ 件までです。先にどれかの固定を解除してください。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "popupNoLoginsInVault": {
+    "message": "$VAULT$ にこのサイトのログイン情報はありません",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupSwitchVault": {
+    "message": "保管庫を切り替え"
+  },
+  "popupSwitchUnlockInApp": {
+    "message": "Passyble アプリで $VAULT$ のロックを解除してください",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Work"
+      }
+    }
+  },
+  "popupMovedTo": {
+    "message": "$VAULT$ に移動しました",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "editorVault": {
+    "message": "保管庫"
+  },
+  "editorMove": {
+    "message": "移動"
+  },
+  "editorMoveConfirm": {
+    "message": "$TITLE$ を $VAULT$ に移動しますか？ $VAULT$ にアクセスできる全員に表示されます。",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Engineering"
+      }
+    }
+  },
+  "teamsFillOnly": {
+    "message": "入力のみ"
+  },
+  "teamsOpenInPassyble": {
+    "message": "Passyble で開く"
+  },
+  "teamsNeedsUpdate": {
+    "message": "ここからチームとファミリーを開くには、Passyble アプリを更新してください。"
+  },
+  "teamsLineErrors_other": {
+    "message": "$COUNT$ 件を開けません",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineConfirm_other": {
+    "message": "確認待ち $COUNT$ 人",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineInvites_other": {
+    "message": "招待 $COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsRoleManage": {
+    "message": "管理できる"
+  },
+  "teamsRoleEdit": {
+    "message": "編集できる"
+  },
+  "teamsRoleView": {
+    "message": "閲覧できる"
+  },
+  "teamsRoleFill": {
+    "message": "入力できる"
+  },
+  "teamsErrNoKeyset": {
+    "message": "先に Passyble アプリで共有を設定してください"
+  },
+  "teamsErrNotMember": {
+    "message": "アクセス権がなくなりました"
+  },
+  "teamsErrKeysMismatch": {
+    "message": "アカウントの別の鍵で共有されています"
+  },
+  "teamsErrUntrusted": {
+    "message": "Passyble アプリでマネージャーのフィンガープリントを照合してください"
+  },
+  "teamsErrRollback": {
+    "message": "この端末にあったものより古いコピーです"
+  },
+  "teamsErrReadOnlyMember": {
+    "message": "あなたのロールでは変更できません"
+  },
+  "teamsErrSubscriptionInactive": {
+    "message": "読み取り専用: プランが有効ではありません"
+  },
+  "teamsErrAccountSuspended": {
+    "message": "アカウントが停止されています"
+  },
+  "teamsErrNetwork": {
+    "message": "サーバーに接続できませんでした"
+  },
+  "teamsErrInternal": {
+    "message": "この保管庫を開けませんでした"
+  },
+  "teamsErrVaultLimit": {
+    "message": "ご利用のプランでは、Passyble Cloud にこれ以上保管庫を置けません。追加する場合は Google Drive、WebDAV、フォルダを使うか、プランを変更してください。"
+  },
+  "teamsOpenConsole": {
+    "message": "ウェブサイトで管理"
+  },
+  "teamsRuleSecondTitle": {
+    "message": "チームが 2 つ目のパスワードを求めています"
+  },
+  "teamsRuleSecondBrowser": {
+    "message": "このブラウザーでは保管庫に 2 つ目のパスワードを設定できないため、ここではこのチームのアイテムを使えますが、変更はできません。Windows または Android の Passyble アプリを使うか、チームの管理者に相談してください。"
+  },
+  "teamsRuleOneTitle": {
+    "message": "チームではパスワードを 1 つだけ使います"
+  },
+  "teamsRuleOneBrowser": {
+    "message": "$VAULT$ にはまだ専用のパスワードがあり、このブラウザーでは Passyble パスワードに切り替えられません。Windows または Android の Passyble アプリを使うか、チームの管理者に相談してください。",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Personal"
+      }
+    }
+  },
+  "teamsConfirm": {
+    "message": "確認"
+  },
+  "teamsConfirmHint": {
+    "message": "相手に Passyble アプリのフィンガープリントを読み上げてもらい、ここに入力してください。"
+  },
+  "teamsConfirmPlaceholder": {
+    "message": "読み上げられたフィンガープリント"
+  },
+  "teamsConfirmTyped": {
+    "message": "$PERSON$ のフィンガープリント",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsConfirmed": {
+    "message": "$PERSON$ を確認しました",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsConfirmList": {
+    "message": "確認する人"
+  },
+  "teamsKeysChanged": {
+    "message": "$PERSON$ の鍵が変わりました。アクセスを与える前に、新しいフィンガープリントを $PERSON$ と照合してください。",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsLeftOut": {
+    "message": "アクセスを与えるには、フィンガープリントを $PERSON$ と照合してください。",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsFingerprintMismatch": {
+    "message": "フィンガープリントが一致しません。相手ともう一度照合してください。"
+  },
+  "teamsKeysWrong": {
+    "message": "サービスから送られた鍵がこのフィンガープリントと一致しません。何も変更されていません。"
+  },
+  "teamsSignerList": {
+    "message": "確認が必要な共有保管庫"
+  },
+  "teamsSignerUnverified": {
+    "message": "$VAULT$ はまだ確認されていません",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsSignerHint": {
+    "message": "共有した管理者に、Passyble アプリのフィンガープリントを読み上げてもらってください。次と同じ場合のみ確認してください:"
+  },
+  "teamsSignerChanged": {
+    "message": "$VAULT$: 管理者の鍵が変わりました",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsSignerChangedHint": {
+    "message": "確認済みの鍵ではありません。新しいフィンガープリントを管理者と照合するまで、この保管庫を信頼しないでください:"
+  },
+  "teamsSignerVerify": {
+    "message": "一致しています"
+  },
+  "teamsSignerVerified": {
+    "message": "$VAULT$ を確認しました",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsLineHeld_other": {
+    "message": "$COUNT$ 件が保留中",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineDeviceWaiting": {
+    "message": "このブラウザーは別のデバイスでの承認を待っています"
+  },
+  "optionsHelpSupport": {
+    "message": "ヘルプとサポート"
+  },
+  "popupHelpSupport": {
+    "message": "ヘルプとサポート"
+  },
+  "qaGroupLabel": {
+    "message": "クイック操作"
+  },
+  "qaScanQr": {
+    "message": "QR をスキャン"
+  },
+  "qaScanQrTitle": {
+    "message": "このページに表示されている 2FA の QR コードを追加"
+  },
+  "qaNewNote": {
+    "message": "新しいメモ"
+  },
+  "qaNewNoteTitle": {
+    "message": "安全なメモを追加（リカバリーコードなど）"
+  },
+  "qaGenerate": {
+    "message": "生成"
+  },
+  "qaGenerateTitle": {
+    "message": "強力なパスワードを生成"
+  },
+  "qaNoQr": {
+    "message": "このページに QR コードが見当たりません。QR コードが見えるまでスクロールして、もう一度お試しください。"
+  },
+  "qaNotAuthenticator": {
+    "message": "この QR コードは認証アプリ用ではありません。"
+  },
+  "qaMigration": {
+    "message": "この QR コードは Google Authenticator のエクスポートです。Passyble アプリでインポートしてください。"
+  },
+  "qaHotp": {
+    "message": "この QR コードはカウンター方式のコード（HOTP）用で、Passyble は対応していません。"
+  },
+  "qaInvalidQr": {
+    "message": "この 2FA の QR コードは読み取れません。代わりにシークレットキーでコードを追加してください。"
+  },
+  "qaAddTotpHeading": {
+    "message": "2FA コードを追加"
+  },
+  "qaUnnamedCode": {
+    "message": "2FA コード"
+  },
+  "qaAddTo": {
+    "message": "追加先"
+  },
+  "qaHasTotp": {
+    "message": "2FA あり"
+  },
+  "qaNewLoginFor": {
+    "message": "$SITE$ の新しいログイン情報",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "qaThisSite": {
+    "message": "このサイト"
+  },
+  "qaPickHint": {
+    "message": "追加するログイン情報を選んでください。"
+  },
+  "qaReplacesTotp": {
+    "message": "現在の 2FA コードは置き換えられます。"
+  },
+  "qaAddTotp": {
+    "message": "2FA を追加"
+  },
+  "qaTotpAdded": {
+    "message": "$TITLE$ に 2FA コードを追加しました",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "qaTotpSavedNew": {
+    "message": "新しいログイン情報として保存しました: $TITLE$",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "qaNoteHeading": {
+    "message": "新しいメモ"
+  },
+  "qaNoteTitle": {
+    "message": "タイトル"
+  },
+  "qaNoteText": {
+    "message": "メモ"
+  },
+  "qaNoteTextPlaceholder": {
+    "message": "リカバリーコードを貼り付けるか、メモを入力"
+  },
+  "qaNoteRecovery": {
+    "message": "リカバリーコード"
+  },
+  "qaNoteRecoveryFor": {
+    "message": "$SITE$ のリカバリーコード",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "qaNoteUntitled": {
+    "message": "安全なメモ"
+  },
+  "qaNoteHint": {
+    "message": "安全なメモとして保管庫に保存されます。"
+  },
+  "qaNoteSaved": {
+    "message": "メモを保存しました"
+  },
+  "qaNoteNeedsUpdate": {
+    "message": "ここでメモを追加するには Passyble を更新してください。"
+  },
+  "qaGenerateHeading": {
+    "message": "パスワードを生成"
+  },
+  "qaGeneratedLabel": {
+    "message": "生成されたパスワード"
+  },
+  "qaRegenerate": {
+    "message": "別のパスワード"
+  },
+  "qaCopy": {
+    "message": "コピー"
+  },
+  "qaGenerateHint": {
+    "message": "コピーしたパスワードは 45 秒後にクリップボードから消去されます。"
+  },
+  "vaultAppInstalledHere": {
+    "message": "このコンピューターには Passyble アプリがインストールされているため、ここではアプリを使います。"
+  },
+  "optionsAppGone": {
+    "message": "Passyble アプリはこのコンピューターにありません。代わりにこのブラウザーで保管庫を使えます。"
+  },
+  "moveOffer_other": {
+    "message": "このブラウザーの $COUNT$ 件のアイテムを Passyble アプリに移動",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "23"
+      }
+    }
+  },
+  "moveOfferAny": {
+    "message": "このブラウザーのアイテムを Passyble アプリに移動"
+  },
+  "moveText": {
+    "message": "ここで保管庫を削除するまで、アイテムはこのブラウザーにも残ります。"
+  },
+  "moveStart": {
+    "message": "アイテムを移動"
+  },
+  "moveConfirm": {
+    "message": "移動"
+  },
+  "moveInto": {
+    "message": "移動先の保管庫"
+  },
+  "moveMoving": {
+    "message": "移動しています…"
+  },
+  "moveDoneTitle": {
+    "message": "Passyble アプリに移動しました"
+  },
+  "moveDoneText": {
+    "message": "追加: $ADDED$ 件。アプリに既にあったもの: $SKIPPED$ 件。このブラウザーの保管庫は削除するまで残ります。",
+    "placeholders": {
+      "added": {
+        "content": "$1",
+        "example": "20"
+      },
+      "skipped": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "movePartialTitle": {
+    "message": "移動できなかったアイテムがあります"
+  },
+  "movePartialText": {
+    "message": "追加: $ADDED$ 件。アプリに既にあったもの: $SKIPPED$ 件。移動できなかったもの: $FAILED$ 件。それらはこのブラウザーに残っています。",
+    "placeholders": {
+      "added": {
+        "content": "$1",
+        "example": "18"
+      },
+      "skipped": {
+        "content": "$2",
+        "example": "3"
+      },
+      "failed": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "moveDeleteVault": {
+    "message": "このブラウザーの保管庫を削除"
+  },
+  "moveDeleteWarn": {
+    "message": "このブラウザーの保管庫を完全に削除します。アイテムは Passyble アプリに移動済みです。"
+  },
+  "cardBannerSave": {
+    "message": "カードを Passyble に保存しますか？"
+  },
+  "cardBannerUpdate": {
+    "message": "カードの有効期限を更新しますか？"
+  },
+  "cardBannerSaved": {
+    "message": "カードを Passyble に保存しました。"
+  },
+  "cardBannerUpdated": {
+    "message": "カードの有効期限を更新しました。"
+  },
+  "cardBannerNoCode": {
+    "message": "セキュリティコードは保存されません。Passyble でカードに追加できます。"
+  },
+  "cardBannerNeverDone": {
+    "message": "このサイトでは今後カードの保存を確認しません。"
+  },
+  "cardBannerEditFrameTitle": {
+    "message": "Passyble のカード情報"
+  },
+  "cardEditHolder": {
+    "message": "カード名義"
+  },
+  "cardEditExpiry": {
+    "message": "有効期限"
+  },
+  "cardEditExpiryPlaceholder": {
+    "message": "MM/YY"
+  },
+  "cardEditExpiryHint": {
+    "message": "MM/YY の形式で入力してください（例: 04/29）。"
+  },
+  "cardEditTitle": {
+    "message": "タイトル"
+  },
+  "settingCardSave": {
+    "message": "カードの保存を提案"
+  },
+  "settingCardSaveDetails": {
+    "message": "新しいカードで支払った後、カードの保存を確認します。"
+  },
+  "optionsNeverSaveCards": {
+    "message": "カード"
+  },
+  "popupPassyblePassword": {
+    "message": "Passyble パスワード"
+  },
+  "popupUnlockEmptyAccount": {
+    "message": "Passyble パスワードを入力してください。"
+  },
+  "accountEmailAddress": {
+    "message": "メールアドレス"
+  },
+  "accountSecretKey": {
+    "message": "シークレットキー"
+  },
+  "accountSecretKeyPlaceholder": {
+    "message": "シークレットキー（P1-...）"
+  },
+  "accountSecretKeyHint": {
+    "message": "このブラウザーで一度だけ入力します。緊急キットに記載されています。"
+  },
+  "accountSharedComputer": {
+    "message": "共有のコンピューターなので、シークレットキーを保持しない"
+  },
+  "accountApproveFromDevice": {
+    "message": "別のデバイスで承認"
+  },
+  "accountPageTitle": {
+    "message": "Passyble パスワード"
+  },
+  "accountPageLead": {
+    "message": "Passyble アカウントと、リンクされた保管庫に使う 1 つのパスワードです。このブラウザーの外に出ることはありません。"
+  },
+  "accountKeysInApp": {
+    "message": "このコンピューターの Passyble アプリが、Passyble パスワードで保管庫を開きます。アプリでサインインしてください。"
+  },
+  "accountPasswordSignIn": {
+    "message": "Passyble パスワードでサインイン"
+  },
+  "accountSigningIn": {
+    "message": "サインインしています…"
+  },
+  "accountSignedInUnlocked": {
+    "message": "$EMAIL$ でサインインしました。このブラウザーの保管庫のロックを解除しました。",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "ada@example.com"
+      }
+    }
+  },
+  "accountApproveLead": {
+    "message": "Passyble にサインインしているスマートフォンやコンピューターを使います。入力するのはメールアドレスだけです。"
+  },
+  "accountApproveAsk": {
+    "message": "承認をリクエスト"
+  },
+  "accountApproveQrLabel": {
+    "message": "別のデバイス用の QR コード"
+  },
+  "accountApproveQrHint": {
+    "message": "別のデバイスで Passyble を開いてデバイスを追加し、このコードを読み取ってください。カメラがない場合は、そのデバイスでこのブラウザーを承認し、ここに表示されたコードを入力してください。"
+  },
+  "accountApproveCodeHint": {
+    "message": "このコードを別のデバイスで入力してください。"
+  },
+  "accountApproveCheckHint": {
+    "message": "別のデバイスの「設定」の「Passyble パスワード」に、このフィンガープリントが表示されていることを確認してください。"
+  },
+  "accountApproveFingerprintLabel": {
+    "message": "アカウント鍵のフィンガープリント"
+  },
+  "accountApproveMatches": {
+    "message": "一致しています"
+  },
+  "accountApproveNoMatch": {
+    "message": "一致しません"
+  },
+  "accountApproveNotKept": {
+    "message": "鍵は保存されませんでした。フィンガープリントが一致しない場合、アカウントの鍵ではない可能性があります。別のデバイスからもう一度リクエストし、再び起きる場合はサポートにお問い合わせください。"
+  },
+  "accountApproveCancelledNotKept": {
+    "message": "キャンセルしました。届いた鍵は保存されていません。"
+  },
+  "accountApproveWaiting": {
+    "message": "別のデバイスを待っています…"
+  },
+  "accountApproveDone": {
+    "message": "このブラウザーが承認されました。ここでは Passyble パスワードで、リンクされた保管庫を開けます。"
+  },
+  "accountApproveDoneUnlocked": {
+    "message": "このブラウザーが承認され、このブラウザーの保管庫のロックを解除しました。"
+  },
+  "accountApproveDenied": {
+    "message": "別のデバイスで拒否されました。間違いだった場合は、最初からやり直してください。"
+  },
+  "accountApproveExpired": {
+    "message": "リクエストが終了しました。このブラウザーを承認するには、もう一度リクエストしてください。"
+  },
+  "accountKeysAppOnly": {
+    "message": "Passyble パスワード、シークレットキー、復旧コードの変更は Passyble アプリで行ってください。"
+  },
+  "accountPasswordButton": {
+    "message": "Passyble パスワード"
+  },
+  "welcomeChoicePassword": {
+    "message": "Passyble パスワードを使う"
+  },
+  "welcomeChoicePasswordText": {
+    "message": "ここでサインインするか、別のデバイスでこのブラウザーを承認します。"
+  },
+  "errWrongAccountPassword": {
+    "message": "Passyble パスワードまたはシークレットキーが違います。Caps Lock がオンになっていませんか？"
+  },
+  "errPasswordLimited": {
+    "message": "パスワードの誤りが多すぎます。しばらく待ってから、もう一度お試しください。"
+  },
+  "errAccountKeysOff": {
+    "message": "Passyble パスワードはまだ利用できません。"
+  },
+  "errNoAccountPassword": {
+    "message": "このアカウントにはまだ Passyble パスワードがありません。Passyble アプリで設定してください。"
+  },
+  "errAccountService": {
+    "message": "Passyble のアカウントサービスから予期しない応答がありました。しばらくしてから、もう一度お試しください。"
+  },
+  "errAccountOffline": {
+    "message": "Passyble アカウントに接続できません。インターネット接続を確認して、もう一度お試しください。"
+  },
+  "errAccountSignedOut": {
+    "message": "先に Passyble アカウントにサインインしてください。"
+  },
+  "errBadSecretKey": {
+    "message": "シークレットキーではありません。緊急キットからコピーしてください。シークレットキーは P1 で始まります。"
+  },
+  "errSecretKeyNeeded": {
+    "message": "このブラウザーで一度だけシークレットキーを入力してください。緊急キットに記載されています。"
+  },
+  "errEmailNeeded": {
+    "message": "アカウントのメールアドレスを入力してください。"
+  },
+  "errOtherAccount": {
+    "message": "このパスワードは、この保管庫とは別の Passyble アカウントのものです。"
+  },
+  "errOtherAccountKey": {
+    "message": "この保管庫は、アカウントの古いキーにリンクされています。一度 Passyble アプリで開いてください。"
+  },
+  "errApprovalMismatch": {
+    "message": "承認が一致しませんでした。両方のデバイスで最初からやり直してください。"
+  },
+  "accountSecretKeyExample": {
+    "message": "P1-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX"
+  },
+  "menuSimilarSites": {
+    "message": "関連サイト"
+  },
+  "menuSearchPassyble": {
+    "message": "Passyble で検索…"
+  },
+  "menuSearchUseToolbar": {
+    "message": "保管庫を検索するには、ブラウザのツールバーで Passyble をクリックしてください。"
+  },
+  "commonNoLoginsFor": {
+    "message": "$SITE$ のログイン情報はありません",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossTitle": {
+    "message": "このログイン情報を $SITE$ でも使いますか？",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossSavedFor": {
+    "message": "$SITE$ 用に保存済み",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.com"
+      }
+    }
+  },
+  "crossAdd": {
+    "message": "$SITE$ をこのログイン情報に追加",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossCopy": {
+    "message": "$SITE$ 用にコピーを保存",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossHint": {
+    "message": "追加すると、次回からここで確認なしに入力されます。コピーなら 2 つを別々に保てます。"
+  },
+  "crossAdded": {
+    "message": "$SITE$ を $TITLE$ に追加しました。",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      },
+      "title": {
+        "content": "$2",
+        "example": "Amazon"
+      }
+    }
+  },
+  "crossCopied": {
+    "message": "コピーを Passyble に保存しました。"
+  },
+  "crossLookalike": {
+    "message": "$HOST$ は $SITE$ ではありませんが、アドレスがよく似ています。このサイトを信頼できる場合のみ追加してください。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "changedTitle": {
+    "message": "このログイン情報を更新しますか？"
+  },
+  "changedUsername": {
+    "message": "ユーザー名を $USERNAME$ に変更しました",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "bob@example.com"
+      }
+    }
+  },
+  "changedPassword": {
+    "message": "パスワードを変更しました"
+  },
+  "changedFromSite": {
+    "message": "$SITE$ 用に保存されています。更新すると、このログイン情報に $HOST$ も追加されます。",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.com"
+      },
+      "host": {
+        "content": "$2",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "changedReadOnly": {
+    "message": "このログイン情報は変更できない共有保管庫にあります。代わりに新しいログイン情報として保存できます。"
+  },
+  "changedLookalike": {
+    "message": "$HOST$ は $SITE$ ではありませんが、アドレスがよく似ています。このサイトを信頼できる場合のみ更新または保存してください。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "changedUpdate": {
+    "message": "ログイン情報を更新"
+  },
+  "changedSaveNew": {
+    "message": "新しいログイン情報として保存"
+  },
+  "changedUpdated": {
+    "message": "Passyble のログイン情報を更新しました。"
+  },
+  "changedSavedNew": {
+    "message": "新しいログイン情報として保存しました。"
+  },
+  "popupTypeFilter": {
+    "message": "種類で絞り込む",
+    "description": "Popup, Filter menu: what a screen reader hears for its Show section, which narrows the list to one kind of item."
+  },
+  "popupTypeAll": {
+    "message": "すべて",
+    "description": "Popup, type filter chip: every kind of item."
+  },
+  "popupTypeLogins": {
+    "message": "ログイン",
+    "description": "Popup, type filter chip: only logins (not cards or addresses)."
+  },
+  "popupTypeCards": {
+    "message": "カード",
+    "description": "Popup, type filter chip: only payment cards."
+  },
+  "popupTypeAddresses": {
+    "message": "住所",
+    "description": "Popup, type filter chip: only addresses (identities)."
+  },
+  "popupTypeFavorites": {
+    "message": "お気に入り",
+    "description": "Popup, type filter chip: only items marked as favorites (logins, cards, addresses, notes)."
+  },
+  "popupTypeNotes": {
+    "message": "メモ",
+    "description": "Popup, type filter chip: only secure notes."
+  },
+  "popupSecureNotes": {
+    "message": "セキュアメモ",
+    "description": "Popup: heading of the list of secure notes (the Notes and Favorites filters)."
+  },
+  "popupSecureNote": {
+    "message": "セキュアメモ",
+    "description": "Popup: the line under a secure note's title in the list."
+  },
+  "popupShowNote": {
+    "message": "メモを表示",
+    "description": "Popup: tooltip of a secure note's row (opens the note and shows its text)."
+  },
+  "popupShowNoteOf": {
+    "message": "$NAME$ のメモを表示",
+    "description": "Popup: accessible name of a secure note's row (opens the note).",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Recovery codes"
+      }
+    }
+  },
+  "popupCopyNote": {
+    "message": "メモをコピー",
+    "description": "Popup: button that copies the text of a secure note."
+  },
+  "popupCopyNoteOf": {
+    "message": "$NAME$ のメモをコピー",
+    "description": "Popup: accessible name of the copy button of a secure note's row.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Recovery codes"
+      }
+    }
+  },
+  "popupCopiedNote": {
+    "message": "メモをコピーしました",
+    "description": "Notice after copying a secure note's text."
+  },
+  "popupCopiedNoteClears": {
+    "message": "メモをコピーしました（45 秒後に消去）",
+    "description": "Notice after copying a secure note's text; the clipboard is cleared after 45 seconds."
+  },
+  "popupNoteEmpty": {
+    "message": "このメモは空です。",
+    "description": "Popup: a secure note without text (in its viewer, or after Copy)."
+  },
+  "popupNoteText": {
+    "message": "メモの本文",
+    "description": "Popup: accessible name of a secure note's text in its viewer."
+  },
+  "popupNoFilterMatches": {
+    "message": "この種類のものはありません。",
+    "description": "Popup: empty state when the type filter chosen leaves nothing to show."
+  },
+  "ctxSaveSelection": {
+    "message": "選択したテキストを Passyble のメモに保存"
+  },
+  "clipHeading": {
+    "message": "メモに保存"
+  },
+  "clipSelection": {
+    "message": "選択したテキスト"
+  },
+  "clipAddAddress": {
+    "message": "ページのアドレスを追加"
+  },
+  "clipSearch": {
+    "message": "メモを検索"
+  },
+  "clipNewNote": {
+    "message": "新しいメモ"
+  },
+  "clipNotes": {
+    "message": "メモ"
+  },
+  "clipSaveNew": {
+    "message": "新しいメモとして保存"
+  },
+  "clipAdded": {
+    "message": "$NOTE$ に追加しました",
+    "placeholders": {
+      "note": {
+        "content": "$1",
+        "example": "Reading list"
+      }
+    }
+  },
+  "clipSavedNew": {
+    "message": "新しいメモとして保存しました"
+  },
+  "clipNoNotes": {
+    "message": "メモはまだありません。新しいメモとして保存してください。"
+  },
+  "clipNoMatch": {
+    "message": "一致するメモはありません。"
+  },
+  "clipViewOnly": {
+    "message": "このメモは変更できません"
+  },
+  "clipLockedText": {
+    "message": "選択したテキストをメモに追加するにはロックを解除してください。"
+  },
+  "clipAppendNeedsUpdate": {
+    "message": "メモに追加するには Passyble アプリを更新してください。"
+  },
+  "clipNeedsUpdate": {
+    "message": "ブラウザーからメモを保存するには Passyble アプリを更新してください。"
+  },
+  "clipGone": {
+    "message": "この選択はもうありません。テキストをもう一度選択して右クリックしてください。"
+  },
+  "clipTooLong": {
+    "message": "選択したテキストはメモには長すぎます。"
+  },
+  "clipNoteFull": {
+    "message": "このメモはいっぱいです。選択したテキストを新しいメモとして保存してください。"
+  }
+}

@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="optionsPageTitle">Passyble settings</title>
+  <link rel="stylesheet" href="../ui/tokens.css">
+  <link rel="stylesheet" href="options.css">
+  <script type="module" src="options.js"></script>
+</head>
+<body>
+  <header class="page-head">
+    <span class="logo" id="logo"></span>
+    <a class="btn head-link" href="../welcome/welcome.html" target="_blank" data-i18n="popupSetupGuide">Setup guide</a>
+  </header>
+  <div class="layout">
+  <nav class="side" id="side-nav" aria-label="Settings" data-i18n-aria-label="optionsTitle"></nav>
+  <main>
+    <div class="intro">
+      <h1 data-i18n="optionsTitle">Settings</h1>
+      <p class="lead" data-i18n="optionsLead">How Passyble fills, saves and signs in on this browser.</p>
+    </div>
+
+    <section class="group" id="vault-mode" aria-labelledby="h-vault-mode" hidden>
+      <h2 id="h-vault-mode" data-i18n="optionsVaultModeHeading">Vault</h2>
+      <p class="group-lead" data-i18n="optionsVaultModeLead">Where the vault this browser fills from is kept.</p>
+      <div class="card">
+        <div class="row">
+          <span class="row-icon" id="mode-icon" data-icon="monitor" data-icon-size="20"></span>
+          <span class="row-text"><span class="name" id="mode-name"></span><span class="muted mode-text" id="mode-text"></span></span>
+          <button class="btn" id="mode-switch" type="button"><span id="mode-switch-label"></span></button>
+        </div>
+      </div>
+      <div class="card" id="move" hidden>
+        <div class="row">
+          <span class="row-icon" data-icon="download" data-icon-size="20"></span>
+          <span class="row-text"><span class="name" id="move-title"></span><span class="caption" id="move-text"></span></span>
+          <button class="btn primary" id="move-start" type="button"><span data-i18n="moveStart">Move items</span></button>
+          <button class="btn" id="move-delete-start" type="button" hidden><span data-i18n="moveDeleteVault">Delete the vault in this browser</span></button>
+        </div>
+        <ul class="move-failed" id="move-failed" hidden></ul>
+        <form class="delete-form" id="move-form" hidden novalidate>
+          <label class="name" for="move-pw" id="move-pw-label" data-i18n="popupMasterPassword">Master password</label>
+          <input class="input" id="move-pw" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="1024">
+          <span id="move-sk-part" hidden>
+            <label class="name" for="move-secret-key" data-i18n="accountSecretKey">Secret Key</label>
+            <input class="input" id="move-secret-key" type="password" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="128">
+          </span>
+          <span id="move-vault-part" hidden>
+            <label class="name" for="move-vault" data-i18n="moveInto">Into this vault</label>
+            <select class="select" id="move-vault"></select>
+          </span>
+          <p class="muted form-msg" id="move-msg" role="status" aria-live="polite"></p>
+          <span class="status-actions">
+            <button class="btn primary" id="move-confirm" type="submit"><span data-i18n="moveConfirm">Move</span></button>
+            <button class="btn" id="move-cancel" type="button"><span data-i18n="bannerNotNow">Not now</span></button>
+          </span>
+        </form>
+        <form class="delete-form" id="move-delete-form" hidden novalidate>
+          <p class="warn-box" data-i18n="moveDeleteWarn">Deletes the vault in this browser for good. Its items are in the Passyble app now.</p>
+          <p class="muted form-msg" id="move-delete-msg" role="status" aria-live="polite"></p>
+          <span class="status-actions">
+            <button class="btn danger" id="move-delete-confirm" type="submit"><span data-i18n="optionsDeleteForGood">Delete for good</span></button>
+            <button class="btn" id="move-delete-cancel" type="button"><span data-i18n="commonCancel">Cancel</span></button>
+          </span>
+        </form>
+      </div>
+    </section>
+
+    <section class="group" id="vault" aria-label="Vault in this browser" data-i18n-aria-label="optionsVaultHeading" hidden>
+      <h3 class="card-label" data-i18n="optionsStorage">Storage</h3>
+      <div class="card">
+        <div class="row" id="local-only-row" hidden>
+          <span class="row-icon warn" data-icon="alert" data-icon-size="20"></span>
+          <span class="row-text"><span class="name warn" id="local-only-title"></span><span class="caption" id="local-only-text"></span></span>
+          <button class="btn primary" id="local-only-sync" type="button"><span data-i18n="localOnlySetUpSync">Set up sync</span></button>
+        </div>
+        <div class="row" id="app-row">
+          <span class="row-icon" data-icon="monitor" data-icon-size="20"></span>
+          <span class="row-text"><span class="name" data-i18n="optionsAppRowTitle">Passyble app</span><span class="caption" data-i18n="optionsAppRowText">Keep the vault in the Passyble app on this computer.</span></span>
+          <button class="btn" id="use-app" type="button"><span data-i18n="optionsUseApp">Use the app</span></button>
+        </div>
+        <div class="row">
+          <span class="row-icon" data-icon="download" data-icon-size="20"></span>
+          <span class="row-text"><span class="name" data-i18n="optionsDownloadCopy">Download a copy</span><span class="caption" data-i18n="optionsDownloadCopyText">The encrypted vault file (.vault). It opens only with your master password.</span></span>
+          <button class="btn" id="backup-download" type="button"><span data-i18n="optionsSaveFile">Save file</span></button>
+        </div>
+        <div class="row" id="delete-row">
+          <span class="row-icon" data-icon="trash" data-icon-size="20"></span>
+          <span class="row-text"><span class="name" data-i18n="optionsDeleteVault">Delete vault</span></span>
+          <button class="btn" id="delete-start" type="button"><span data-i18n="optionsDelete">Delete</span></button>
+        </div>
+        <form class="delete-form" id="delete-form" hidden novalidate>
+          <p class="warn-box" id="delete-warn" data-i18n="optionsDeleteWarn">Deletes the vault in this browser for good.</p>
+          <label class="name" for="delete-pw" data-i18n="popupMasterPassword">Master password</label>
+          <input class="input" id="delete-pw" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="1024">
+          <p class="muted form-msg" id="delete-msg" role="status" aria-live="polite"></p>
+          <span class="status-actions">
+            <button class="btn danger" id="delete-confirm" type="submit"><span data-i18n="optionsDeleteForGood">Delete for good</span></button>
+            <button class="btn" id="delete-cancel" type="button"><span data-i18n="commonCancel">Cancel</span></button>
+          </span>
+        </form>
+      </div>
+      <h3 class="card-label" data-i18n="optionsLocking">Locking</h3>
+      <div class="card">
+        <div class="row" id="master-tip-row" hidden>
+          <span class="row-icon" data-icon="key" data-icon-size="20"></span>
+          <span class="row-text"><span class="name" data-i18n="popupMasterPassword">Master password</span><span class="caption" data-i18n="optionsMasterTipBody">Your master password is easier to guess than Passyble now allows for new ones. It still works.</span></span>
+          <button class="btn" id="master-tip-dismiss" type="button"><span data-i18n="commonDismiss">Dismiss</span></button>
+        </div>
+        <div class="row">
+          <span class="row-icon" data-icon="timer" data-icon-size="20"></span>
+          <span class="row-text"><span class="row-label"><label class="name" for="v-autolock" data-i18n="optionsAutoLock">Lock after</label></span><span class="caption" id="d-autolock" data-i18n="optionsAutoLockDetails">Always locks when the browser closes.</span></span>
+          <select class="select" id="v-autolock" aria-describedby="d-autolock"></select>
+        </div>
+        <div class="row">
+          <span class="row-icon" data-icon="lock" data-icon-size="20"></span>
+          <span class="row-text"><label class="name" for="v-lockOnIdle" data-i18n="optionsLockOnIdle">Lock when the computer locks</label></span>
+          <label class="switch"><input type="checkbox" id="v-lockOnIdle" data-vault-key="vaultLockOnIdle"><i></i></label>
+        </div>
+        <div class="row">
+          <span class="row-icon" data-icon="shield" data-icon-size="20"></span>
+          <span class="row-text"><span class="row-label"><label class="name" for="v-verifyEachFill" data-i18n="optionsVerifyEachFill">Confirm each fill</label></span><span class="caption" id="d-verifyEachFill" data-i18n="optionsVerifyEachFillDetails">Asks for your master password each time.</span></span>
+          <label class="switch"><input type="checkbox" id="v-verifyEachFill" aria-describedby="d-verifyEachFill" data-vault-key="vaultVerifyEachFill"><i></i></label>
+        </div>
+      </div>
+    </section>
+
+    <section class="group" id="autofill" aria-labelledby="h-autofill">
+      <h2 id="h-autofill" data-i18n="optionsAutofill">Autofill</h2>
+      <p class="group-lead" data-i18n="optionsAutofillLead">What Passyble offers in the login fields of websites.</p>
+      <div class="card">
+        <div class="row">
+          <span class="row-icon" data-icon="fill" data-icon-size="20"></span>
+          <span class="row-text"><span class="row-label"><label class="name" for="s-inlineMenu" data-i18n="settingInlineMenu">Inline menu</label></span><span class="caption" id="d-inlineMenu" data-i18n="settingInlineMenuDetails">Shows the Passyble icon and menu in login fields.</span></span>
+          <label class="switch"><input type="checkbox" id="s-inlineMenu" aria-describedby="d-inlineMenu" data-key="inlineMenu"><i></i></label>
+        </div>
+        <div class="row">
+          <span class="row-icon" data-icon="logIn" data-icon-size="20"></span>
+          <span class="row-text"><span class="row-label"><label class="name" for="s-autoSuggest" data-i18n="settingAutoSuggest">Open suggestions automatically</label></span><span class="caption" id="d-autoSuggest" data-i18n="settingAutoSuggestDetails">Off: press ↓ or click the icon.</span></span>
+          <label class="switch"><input type="checkbox" id="s-autoSuggest" aria-describedby="d-autoSuggest" data-key="autoSuggest"><i></i></label>
+        </div>
+        <div class="row">
+          <span class="row-icon" data-icon="dice" data-icon-size="20"></span>
+          <span class="row-text"><span class="row-label"><label class="name" for="s-autoGenerate" data-i18n="settingAutoGenerate">Suggest strong passwords</label></span><span class="caption" id="d-autoGenerate" data-i18n="settingAutoGenerateDetails">Off: still in the menu.</span></span>
+          <label class="switch"><input type="checkbox" id="s-autoGenerate" aria-describedby="d-autoGenerate" data-key="autoGenerate"><i></i></label>
+        </div>
+        <div class="row">
+          <span class="row-icon" data-icon="clock" data-icon-size="20"></span>
+          <span class="row-text"><span class="row-label"><label class="name" for="s-autoFillOtp" data-i18n="settingAutoFillOtp">Autofill 2FA codes</label></span><span class="caption" id="d-autoFillOtp" data-i18n="settingAutoFillOtpDetails">Fills the code on the next step, never submits.</span></span>
+          <label class="switch"><input type="checkbox" id="s-autoFillOtp" aria-describedby="d-autoFillOtp" data-key="autoFillOtp"><i></i></label>
+        </div>
+        <div class="row">
+          <span class="row-icon" data-icon="download" data-icon-size="20"></span>
+          <span class="row-text"><label class="name" for="s-saveBanner" data-i18n="settingSaveBanner">Offer to save logins</label><span class="caption" id="d-saveBanner" data-i18n="settingSaveBannerDetails">Asks after you sign in with a new login.</span></span>
+          <label class="switch"><input type="checkbox" id="s-saveBanner" aria-describedby="d-saveBanner" data-key="saveBanner"><i></i></label>
+        </div>
+        <div class="row">
+          <span class="row-icon" data-icon="creditCard" data-icon-size="20"></span>
+          <span class="row-text"><span class="row-label"><label class="name" for="s-formFill" data-i18n="settingFormFill">Offer cards and addresses</label></span><span class="caption" id="d-formFill" data-i18n="settingFormFillDetails">Secure (https) pages only.</span></span>
+          <label class="switch"><input type="checkbox" id="s-formFill" aria-describedby="d-formFill" data-key="formFill"><i></i></label>
+        </div>
+        <div class="row">
+          <span class="row-icon" data-icon="download" data-icon-size="20"></span>
+          <span class="row-text"><label class="name" for="s-cardSave" data-i18n="settingCardSave">Offer to save cards</label><span class="caption" id="d-cardSave" data-i18n="settingCardSaveDetails">Asks to save a new card after you pay with it.</span></span>
+          <label class="switch"><input type="checkbox" id="s-cardSave" aria-describedby="d-cardSave" data-key="cardSave"><i></i></label>
+        </div>
+      </div>
+    </section>
+
+    <section class="group" id="never-save" aria-labelledby="h-never-save">
+      <h2 id="h-never-save" data-i18n="optionsNeverSaveTitle">Never save</h2>
+      <p class="group-lead" data-i18n="optionsNeverSaveLead">Passyble won't offer to save logins on these sites.</p>
+      <div class="card">
+        <div id="never-list"></div>
+        <p class="card-empty muted" id="never-empty" hidden data-i18n="optionsNeverSaveEmpty">No sites yet. Choose "Never for this site" when Passyble offers to save a login.</p>
+      </div>
+    </section>
+
+    <section class="group" id="passkeys" aria-labelledby="h-passkeys">
+      <h2 id="h-passkeys" data-i18n="optionsPasskeys">Passkeys</h2>
+      <p class="group-lead" data-i18n="optionsPasskeysLead">Sign in to websites with the passkeys in your vault.</p>
+      <div class="card">
+        <div class="row">
+          <span class="row-icon" data-icon="key" data-icon-size="20"></span>
+          <span class="row-text"><span class="row-label"><label class="name" for="s-passkeys" data-i18n="settingPasskeys">Use Passyble for passkeys</label></span><span class="caption" id="d-passkeys" data-i18n="settingPasskeysDetails">Off: the browser's own dialog.</span></span>
+          <label class="switch"><input type="checkbox" id="s-passkeys" aria-describedby="d-passkeys" data-key="passkeys"><i></i></label>
+        </div>
+        <div class="row">
+          <span class="row-icon" data-icon="logIn" data-icon-size="20"></span>
+          <span class="row-text"><label class="name" for="s-autoPasskey" data-i18n="settingAutoPasskey">Offer passkey sign-in</label><span class="caption" id="d-autoPasskey" data-i18n="settingAutoPasskeyDetails">Offers your passkey on a site's sign-in page.</span></span>
+          <label class="switch"><input type="checkbox" id="s-autoPasskey" aria-describedby="d-autoPasskey" data-key="autoPasskey"><i></i></label>
+        </div>
+      </div>
+    </section>
+
+    <section class="group" id="shortcuts-section" aria-labelledby="h-shortcuts">
+      <h2 id="h-shortcuts" data-i18n="optionsShortcuts">Keyboard shortcuts</h2>
+      <p class="group-lead" data-i18n="optionsShortcutsLead">Keys that work on any page in this browser.</p>
+      <div class="card">
+        <ul class="shortcuts" id="shortcuts"></ul>
+        <p class="form-msg error" id="shortcut-msg" role="status" aria-live="polite"></p>
+        <p class="card-foot" id="shortcut-help"><span id="shortcut-help-text"></span><button class="btn" id="shortcut-change" type="button" hidden><span data-i18n="optionsShortcutChange">Change shortcuts</span></button></p>
+      </div>
+    </section>
+
+    <section class="group" id="server" aria-labelledby="h-server">
+      <h2 id="h-server" data-i18n="optionsServerHeading">Passyble Server</h2>
+      <p class="group-lead" data-i18n="optionsServerLead">A server your team or family runs. The Passyble app signs in to it.</p>
+      <div class="card">
+        <div class="row server-row">
+          <span class="row-icon" data-icon="server" data-icon-size="20"></span>
+          <div class="row-text" id="server-pair"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="group" id="about" aria-labelledby="h-about">
+      <h2 id="h-about" data-i18n="optionsAbout">About</h2>
+      <p class="group-lead" data-i18n="optionsAboutLead">This extension and the Passyble app it works with.</p>
+      <div class="card">
+        <div class="row" id="account-row" hidden>
+          <span class="row-icon" data-icon="user" data-icon-size="20"></span>
+          <span class="row-text"><span class="name" id="account-name" data-i18n="accountTitle">Account</span><span class="caption" id="account-email" hidden></span><span class="caption" id="account-via" data-i18n="accountViaApp" hidden>Signed in through the Passyble app on this computer</span></span>
+          <a class="btn" id="account-password" href="../account/account.html" target="_blank" hidden><span data-i18n="accountPasswordButton">Passyble password</span></a>
+          <button class="btn" id="account-signin" type="button"><span data-i18n="accountSignIn">Sign in</span></button>
+          <button class="btn" id="account-signout" type="button" hidden><span data-i18n="accountSignOut">Sign out</span></button>
+        </div>
+        <form class="delete-form" id="account-signout-form" hidden novalidate>
+          <label class="check"><input type="checkbox" id="account-signout-app" checked> <span data-i18n="accountSignOutAppToo">Also sign out of the Passyble app on this computer</span></label>
+          <span class="status-actions">
+            <button class="btn" id="account-signout-confirm" type="submit"><span data-i18n="accountSignOut">Sign out</span></button>
+            <button class="btn" id="account-signout-cancel" type="button"><span data-i18n="commonCancel">Cancel</span></button>
+          </span>
+        </form>
+        <div class="delete-form" id="account-other" hidden>
+          <p class="muted" id="account-other-text" role="status"></p>
+          <span class="status-actions">
+            <button class="btn" id="account-use-app" type="button"><span data-i18n="accountUseAppAccount">Use the app's account</span></button>
+          </span>
+        </div>
+        <div class="row status" id="app-status-row">
+          <span class="row-icon" data-icon="monitor" data-icon-size="20"></span>
+          <span class="row-text">
+            <span class="name" data-i18n="optionsDesktopApp">Passyble desktop app</span>
+            <span class="muted agent-status" id="agent-status" role="status" aria-live="polite" data-i18n="optionsNotChecked">Not checked yet</span>
+          </span>
+          <span class="status-actions">
+            <button class="btn primary" id="start" type="button" hidden><span data-i18n="optionsStart">Start</span></button>
+            <button class="btn" id="check" type="button"><span data-i18n="optionsCheck">Check</span></button>
+          </span>
+        </div>
+        <div class="row">
+          <span class="row-icon" data-icon="fileText" data-icon-size="20"></span>
+          <span class="row-text"><span class="name" data-i18n="popupSetupGuide">Setup guide</span></span>
+          <a class="btn" id="setup-guide" href="../welcome/welcome.html" target="_blank" data-icon="external"><span data-i18n="optionsOpenGuide">Open</span></a>
+        </div>
+        <div class="row">
+          <span class="row-icon" data-icon="link" data-icon-size="20"></span>
+          <span class="row-text"><span class="name" data-i18n="optionsHelpSupport">Help and support</span></span>
+          <button class="btn" id="help-support" type="button" data-icon="external"><span data-i18n="optionsOpenGuide">Open</span></button>
+        </div>
+        <div class="row">
+          <span class="row-icon" data-icon="info" data-icon-size="20"></span>
+          <span class="row-text"><span class="name" data-i18n="optionsVersion">Version</span></span>
+          <span class="muted" id="version">-</span>
+        </div>
+      </div>
+    </section>
+
+    <p class="saved" id="saved" aria-live="polite"></p>
+
+    <footer class="credit">
+      <a id="sensyble" href="https://www.sensyble.net" target="_blank" rel="noopener noreferrer" data-i18n="creditSensyble">Made by Sensyble</a>
+    </footer>
+  </main>
+  </div>
+</body>
+</html>

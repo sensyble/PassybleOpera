@@ -1,0 +1,3548 @@
+{
+  "catalogLocale": {
+    "message": "zh-CN"
+  },
+  "extName": {
+    "message": "Passyble"
+  },
+  "extDescription": {
+    "message": "来自 Passyble 桌面应用的密码、2FA 验证码和通行密钥，可在浏览器中自动填充。"
+  },
+  "actionTitle": {
+    "message": "Passyble"
+  },
+  "cmdOpenPopup": {
+    "message": "打开 Passyble 并搜索密码库"
+  },
+  "cmdFillLogin": {
+    "message": "填充此网站的登录信息"
+  },
+  "cmdFillOtp": {
+    "message": "填充或显示此网站的 2FA 验证码"
+  },
+  "cmdScanQr": {
+    "message": "扫描此页面上的 2FA 二维码"
+  },
+  "cmdGenerate": {
+    "message": "生成密码（填入当前输入框，否则复制）"
+  },
+  "cmdNewNote": {
+    "message": "新建安全笔记"
+  },
+  "cmdLock": {
+    "message": "锁定 Passyble"
+  },
+  "cmdSync": {
+    "message": "立即同步你的密码库"
+  },
+  "cmdUseToolbar": {
+    "message": "要继续，请点击浏览器工具栏中的 Passyble。"
+  },
+  "cmdGeneratedCopied": {
+    "message": "已复制强密码（45 秒后清除）"
+  },
+  "cmdGeneratedCopiedByApp": {
+    "message": "Passyble 已复制强密码（45 秒后清除）"
+  },
+  "cmdGenerateCopyFailed": {
+    "message": "无法复制密码，请重试。"
+  },
+  "cmdLocked": {
+    "message": "Passyble 已锁定。"
+  },
+  "syncNow": {
+    "message": "立即同步"
+  },
+  "syncSyncing": {
+    "message": "正在同步…"
+  },
+  "syncDone": {
+    "message": "刚刚已同步"
+  },
+  "syncFailed": {
+    "message": "$VAULT$ 未能同步：$REASON$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$2",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedNoName": {
+    "message": "无法同步：$REASON$",
+    "placeholders": {
+      "reason": {
+        "content": "$1",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedMany_other": {
+    "message": "$COUNT$ 个密码库未能同步。$VAULT$：$REASON$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$3",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncVaultUnnamed": {
+    "message": "密码库"
+  },
+  "syncNeedsUpdate": {
+    "message": "请更新 Passyble 应用，以便从这里同步"
+  },
+  "syncNoneApp": {
+    "message": "还没有密码库在同步。请在 Passyble 应用中设置。"
+  },
+  "syncNoneBrowser": {
+    "message": "还没有密码库在同步：此密码库仅在此浏览器中。"
+  },
+  "commonCancel": {
+    "message": "取消"
+  },
+  "commonSave": {
+    "message": "保存"
+  },
+  "commonUndo": {
+    "message": "撤销"
+  },
+  "commonDismiss": {
+    "message": "关闭"
+  },
+  "commonClose": {
+    "message": "关闭"
+  },
+  "commonMore": {
+    "message": "更多"
+  },
+  "commonUsername": {
+    "message": "用户名"
+  },
+  "commonPassword": {
+    "message": "密码"
+  },
+  "commonNoUsername": {
+    "message": "（无用户名）"
+  },
+  "commonPasskey": {
+    "message": "通行密钥"
+  },
+  "commonBadge2fa": {
+    "message": "2FA"
+  },
+  "commonShowPassword": {
+    "message": "显示密码"
+  },
+  "commonHidePassword": {
+    "message": "隐藏密码"
+  },
+  "commonOpenPassyble": {
+    "message": "打开 Passyble"
+  },
+  "commonOpenInPassyble": {
+    "message": "在 Passyble 中打开"
+  },
+  "commonOpenedInPassyble": {
+    "message": "已在 Passyble 中打开"
+  },
+  "commonUnlockInApp": {
+    "message": "在 Passyble 应用中解锁"
+  },
+  "commonConfirmHello": {
+    "message": "请使用 Windows Hello 确认…"
+  },
+  "commonNoLoginForm": {
+    "message": "此页面上没有找到登录表单。"
+  },
+  "commonIdentity": {
+    "message": "身份信息"
+  },
+  "commonNameAndAddress": {
+    "message": "姓名和地址"
+  },
+  "creditSensyble": {
+    "message": "由 Sensyble 打造"
+  },
+  "errAgentUnavailable": {
+    "message": "Passyble 未运行。"
+  },
+  "errTimeout": {
+    "message": "Passyble 没有响应。请查看是否有打开的 Passyble 窗口。"
+  },
+  "errExtensionReloaded": {
+    "message": "Passyble 已更新。请刷新此页面以继续使用。"
+  },
+  "errHostMissing": {
+    "message": "无法连接到 Passyble。请检查 Passyble → 设置 → 自动填充。"
+  },
+  "errLocked": {
+    "message": "Passyble 已锁定。请解锁后继续。"
+  },
+  "errUrlMismatch": {
+    "message": "该登录信息保存的是另一个网站。"
+  },
+  "errCancelled": {
+    "message": "已取消。"
+  },
+  "errNotFound": {
+    "message": "还没有为此网站保存任何内容。"
+  },
+  "errNotSupported": {
+    "message": "此操作需要更新版本的 Passyble 应用。请更新 Passyble，然后重试。"
+  },
+  "errBadServerInput": {
+    "message": "这不是服务器地址或 pass+server:// 链接。"
+  },
+  "errAddressNeedsUpdate": {
+    "message": "请更新 Passyble 桌面应用以通过地址添加服务器，或改为粘贴 pass+server:// 链接。"
+  },
+  "errStartFailed": {
+    "message": "请从“开始”菜单打开 Passyble。"
+  },
+  "errEditNeedsUpdate": {
+    "message": "请更新 Passyble 以在此处编辑登录信息。"
+  },
+  "errRateLimited": {
+    "message": "更改过于频繁。请等待一分钟。"
+  },
+  "errWrongPassword": {
+    "message": "主密码错误。请检查大写锁定状态后重试。"
+  },
+  "errTooManyAttempts": {
+    "message": "尝试次数过多。请等待一分钟后重试。"
+  },
+  "errUnlockNeedsUpdate": {
+    "message": "请更新 Passyble 桌面应用以在此处解锁，或在 Passyble 中解锁。"
+  },
+  "errUnlockFailed": {
+    "message": "Passyble 无法解锁。请重试，或在 Passyble 应用中解锁。"
+  },
+  "errAliasNotSupported": {
+    "message": "此 Passyble 应用无法创建电子邮件别名。请选择其他选项。"
+  },
+  "errFormsOff": {
+    "message": "请在设置中开启“提供银行卡和地址”。"
+  },
+  "errWebPagesOnly": {
+    "message": "Passyble 只能在普通网页上使用。"
+  },
+  "errPickInPopup": {
+    "message": "请先在 Passyble 弹出窗口中选择登录信息。"
+  },
+  "errNothingToSave": {
+    "message": "此保存提示已过期。请重新登录以保存登录信息。"
+  },
+  "errNothingToUndo": {
+    "message": "已没有可撤销的操作。"
+  },
+  "errGenerateNotSetUp": {
+    "message": "请先在 Passyble 桌面应用中设置：打开 Passyble → 设置。"
+  },
+  "errAliasRateLimited": {
+    "message": "新建别名过于频繁。请等待一分钟。"
+  },
+  "errGeneric": {
+    "message": "出了点问题。请重试。"
+  },
+  "ctxFill": {
+    "message": "使用 Passyble 填充"
+  },
+  "ctxGenerate": {
+    "message": "生成密码"
+  },
+  "ctxGenerateNoSymbols": {
+    "message": "生成密码 (仅字母和数字)"
+  },
+  "ctxGenerateUsername": {
+    "message": "生成用户名"
+  },
+  "ctxGenerateAlias": {
+    "message": "生成电子邮件别名"
+  },
+  "commonCreatingAlias": {
+    "message": "正在创建电子邮件别名…"
+  },
+  "badgeLogins_other": {
+    "message": "Passyble：此网站有 $COUNT$ 个登录信息",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "badgeLoginsLocked_other": {
+    "message": "Passyble（已锁定）：此网站有 $COUNT$ 个登录信息",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "badgeLocked": {
+    "message": "Passyble 已锁定"
+  },
+  "badgeNotRunning": {
+    "message": "Passyble 桌面应用未运行"
+  },
+  "bgNewPasswordTitle": {
+    "message": "$SITE$（新密码）",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "bgFormsNeedHttps": {
+    "message": "Passyble 只会在安全（https）页面上填充银行卡和地址"
+  },
+  "bgCannotRunHere": {
+    "message": "Passyble 无法在此页面上运行"
+  },
+  "bgPageTooLarge": {
+    "message": "页面太大，无法扫描"
+  },
+  "popupLock": {
+    "message": "锁定 Passyble"
+  },
+  "popupMoreOptions": {
+    "message": "更多选项"
+  },
+  "popupLoading": {
+    "message": "正在加载"
+  },
+  "popupStatusLocked": {
+    "message": "已锁定。点击解锁"
+  },
+  "popupLockedTitle": {
+    "message": "Passyble 已锁定"
+  },
+  "popupMasterPassword": {
+    "message": "主密码"
+  },
+  "popupUnlock": {
+    "message": "解锁"
+  },
+  "popupUseHello": {
+    "message": "使用 Windows Hello"
+  },
+  "popupHelloOrPassword": {
+    "message": "请使用 Windows Hello 确认，或输入你的主密码。"
+  },
+  "popupUnlockEmpty": {
+    "message": "请输入主密码。"
+  },
+  "popupUnlocking": {
+    "message": "正在解锁…"
+  },
+  "popupWaitingWindow": {
+    "message": "正在等待 Passyble 窗口…"
+  },
+  "popupOfflineTitle": {
+    "message": "Passyble 未运行"
+  },
+  "popupHostTitle": {
+    "message": "无法连接到 Passyble"
+  },
+  "popupStart": {
+    "message": "启动 Passyble"
+  },
+  "popupStarting": {
+    "message": "正在启动 Passyble…"
+  },
+  "popupStartWait": {
+    "message": "这可能需要几秒钟。"
+  },
+  "popupRetry": {
+    "message": "重试"
+  },
+  "popupSetupGuide": {
+    "message": "设置指南"
+  },
+  "popupBack": {
+    "message": "返回"
+  },
+  "popupBackEsc": {
+    "message": "返回（Esc）"
+  },
+  "popupAddServer": {
+    "message": "添加 Passyble Server"
+  },
+  "popupSettings": {
+    "message": "设置"
+  },
+  "popupQuickSettings": {
+    "message": "快速设置"
+  },
+  "popupMoreSettings": {
+    "message": "更多设置"
+  },
+  "settingInlineMenu": {
+    "message": "内嵌菜单"
+  },
+  "settingInlineMenuDetails": {
+    "message": "在登录栏中显示 Passyble 图标和菜单。"
+  },
+  "settingAutoSuggest": {
+    "message": "自动打开建议"
+  },
+  "settingAutoSuggestDetails": {
+    "message": "关闭时：按 ↓ 或点击图标。"
+  },
+  "settingAutoGenerate": {
+    "message": "建议强密码"
+  },
+  "settingAutoGenerateDetails": {
+    "message": "关闭时：仍可在菜单中使用。"
+  },
+  "settingAutoFillOtp": {
+    "message": "自动填充 2FA 验证码"
+  },
+  "settingAutoFillOtpDetails": {
+    "message": "在下一步填入验证码，从不自动提交。"
+  },
+  "settingSaveBanner": {
+    "message": "提示保存登录信息"
+  },
+  "settingFormFill": {
+    "message": "提供银行卡和地址"
+  },
+  "settingFormFillDetails": {
+    "message": "仅限安全 (https) 页面。"
+  },
+  "revealCaption": {
+    "message": "生成的密码"
+  },
+  "settingPasskeys": {
+    "message": "使用 Passyble 管理通行密钥"
+  },
+  "settingPasskeysDetails": {
+    "message": "关闭时：使用浏览器自带的对话框。"
+  },
+  "settingAutoPasskey": {
+    "message": "提供通行密钥登录"
+  },
+  "popupSearch": {
+    "message": "搜索"
+  },
+  "popupSearchLabel": {
+    "message": "搜索登录信息"
+  },
+  "popupSearchVault": {
+    "message": "搜索密码库"
+  },
+  "popupSiteLogins": {
+    "message": "此网站的登录信息"
+  },
+  "popupAddLogin": {
+    "message": "添加登录信息"
+  },
+  "popupInVault": {
+    "message": "在你的密码库中"
+  },
+  "popupVaultLogins": {
+    "message": "密码库中的登录信息"
+  },
+  "popupCardsAndAddresses": {
+    "message": "银行卡和地址"
+  },
+  "popupNothingHere": {
+    "message": "这里没有可填充的内容"
+  },
+  "popupNoSiteMatches": {
+    "message": "此网站上没有匹配项。"
+  },
+  "popupNoSiteLogins": {
+    "message": "此网站还没有登录信息。"
+  },
+  "popupNoOtherMatches": {
+    "message": "没有其他匹配的登录信息。"
+  },
+  "popupSearchNeedsUpdate": {
+    "message": "请更新 Passyble 桌面应用以搜索整个密码库。"
+  },
+  "popupLookUp": {
+    "message": "查找 $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "popupLoginsFor": {
+    "message": "$SITE$ 的登录信息",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "popupLookingUp": {
+    "message": "正在查找…"
+  },
+  "popupNothingForSite": {
+    "message": "没有为该网站保存任何内容。"
+  },
+  "popupSearchKeywordsCard": {
+    "message": "card 银行卡 信用卡 卡"
+  },
+  "popupSearchKeywordsIdentity": {
+    "message": "address identity 地址 身份 身份信息"
+  },
+  "popupUntitled": {
+    "message": "（无标题）"
+  },
+  "popupUntitledLogin": {
+    "message": "登录信息"
+  },
+  "popupMoreFor": {
+    "message": "$NAME$ 的更多操作",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupEdit": {
+    "message": "编辑"
+  },
+  "popupCopyUsername": {
+    "message": "复制用户名"
+  },
+  "popupCopyPassword": {
+    "message": "复制密码"
+  },
+  "popupCopyPasswordOf": {
+    "message": "复制 $NAME$ 的密码",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupCopyOtp": {
+    "message": "复制 2FA 验证码"
+  },
+  "popupFillHere": {
+    "message": "在此页面上填充"
+  },
+  "popupFillItem": {
+    "message": "填充 $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupFillHereConfirm": {
+    "message": "在此页面上填充（Passyble 会先询问）"
+  },
+  "popupFillItemHere": {
+    "message": "在此页面上填充 $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupConfirmFill": {
+    "message": "请在 Passyble 应用中确认以填充。"
+  },
+  "popupOtpCode": {
+    "message": "2FA 验证码"
+  },
+  "popupNextStepOtp": {
+    "message": "下一步：2FA 验证码"
+  },
+  "popupOtpStep": {
+    "message": "2FA 步骤"
+  },
+  "popupOtpPillLabel": {
+    "message": "2FA 验证码，点击复制"
+  },
+  "popupOtpLockedTitle": {
+    "message": "解锁后复制 2FA 验证码"
+  },
+  "popupOtpLockedLabel": {
+    "message": "2FA 验证码，已锁定。点击解锁并复制"
+  },
+  "popupCopyFailed": {
+    "message": "无法复制"
+  },
+  "popupCopiedUsername": {
+    "message": "用户名已复制"
+  },
+  "popupCopiedPassword": {
+    "message": "密码已复制"
+  },
+  "popupCopiedPasswordClears": {
+    "message": "密码已复制（45 秒后清除）"
+  },
+  "popupCopiedOtp": {
+    "message": "2FA 验证码已复制"
+  },
+  "popupCopiedOtpClears": {
+    "message": "2FA 验证码已复制（45 秒后清除）"
+  },
+  "popupCopiedExpiry": {
+    "message": "有效期已复制"
+  },
+  "popupCopiedExpiryClears": {
+    "message": "有效期已复制（45 秒后清除）"
+  },
+  "popupCopiedCardNumber": {
+    "message": "卡号已复制"
+  },
+  "popupCopiedCardNumberClears": {
+    "message": "卡号已复制（45 秒后清除）"
+  },
+  "popupCopiedSecurityCode": {
+    "message": "安全码已复制"
+  },
+  "popupCopiedSecurityCodeClears": {
+    "message": "安全码已复制（45 秒后清除）"
+  },
+  "popupCopiedName": {
+    "message": "姓名已复制"
+  },
+  "popupCopiedEmail": {
+    "message": "电子邮件已复制"
+  },
+  "popupCopiedPhone": {
+    "message": "电话已复制"
+  },
+  "popupCopiedAddress": {
+    "message": "地址已复制"
+  },
+  "popupCopiedByAppPassword": {
+    "message": "Passyble 已复制密码（45 秒后清除）"
+  },
+  "popupCopiedByAppOtp": {
+    "message": "Passyble 已复制 2FA 验证码（45 秒后清除）"
+  },
+  "popupNotCopiedUsername": {
+    "message": "用户名未复制"
+  },
+  "popupNotCopiedPassword": {
+    "message": "密码未复制"
+  },
+  "popupNotCopiedOtp": {
+    "message": "2FA 验证码未复制"
+  },
+  "popupNotCopiedCardNumber": {
+    "message": "卡号未复制"
+  },
+  "popupNotCopiedSecurityCode": {
+    "message": "安全码未复制"
+  },
+  "popupCopyNeedsUpdate": {
+    "message": "请更新 Passyble 桌面应用以从搜索结果中复制。"
+  },
+  "popupCopyCardNumber": {
+    "message": "复制卡号"
+  },
+  "popupCopyNumberOf": {
+    "message": "复制 $NAME$ 的卡号",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Visa •••• 4242"
+      }
+    }
+  },
+  "popupCopyExpiry": {
+    "message": "复制有效期"
+  },
+  "popupCopySecurityCode": {
+    "message": "复制安全码"
+  },
+  "popupCardNoNumber": {
+    "message": "这张银行卡没有卡号。"
+  },
+  "popupCardNoSecurityCode": {
+    "message": "这张银行卡没有安全码。"
+  },
+  "popupCardsNeedUpdate": {
+    "message": "请更新 Passyble 桌面应用以复制银行卡信息。"
+  },
+  "popupCopyName": {
+    "message": "复制姓名"
+  },
+  "popupCopyEmail": {
+    "message": "复制电子邮件"
+  },
+  "popupCopyPhone": {
+    "message": "复制电话"
+  },
+  "popupCopyAddress": {
+    "message": "复制地址"
+  },
+  "popupCopyEmailOf": {
+    "message": "复制 $NAME$ 的电子邮件",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Ada Lovelace"
+      }
+    }
+  },
+  "popupCopyNameOf": {
+    "message": "复制 $NAME$ 的姓名",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Ada Lovelace"
+      }
+    }
+  },
+  "popupNoNameSaved": {
+    "message": "未保存姓名。"
+  },
+  "popupNoEmailSaved": {
+    "message": "未保存电子邮件。"
+  },
+  "popupNoPhoneSaved": {
+    "message": "未保存电话。"
+  },
+  "popupNoAddressSaved": {
+    "message": "未保存地址。"
+  },
+  "popupDeleted": {
+    "message": "已删除 $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupRestored": {
+    "message": "已恢复"
+  },
+  "editorAddLogin": {
+    "message": "添加登录信息"
+  },
+  "editorEditLogin": {
+    "message": "编辑登录信息"
+  },
+  "editorTitle": {
+    "message": "标题"
+  },
+  "editorTotp": {
+    "message": "2FA"
+  },
+  "editorWebsites": {
+    "message": "网站"
+  },
+  "editorWebsite": {
+    "message": "网站"
+  },
+  "editorMoreDetails": {
+    "message": "更多详情",
+    "description": "Popup editor: the button that shows or hides a login's other websites, 2FA, notes and vault (closed for a new login)."
+  },
+  "editorAddWebsite": {
+    "message": "添加网站"
+  },
+  "editorRemoveWebsite": {
+    "message": "移除网站"
+  },
+  "editorNotes": {
+    "message": "备注"
+  },
+  "editorNotesCount": {
+    "message": "$COUNT$ / $MAX$ 个字符",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "18,500"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20,000"
+      }
+    }
+  },
+  "editorGenerate": {
+    "message": "生成密码"
+  },
+  "editorGenerateUsername": {
+    "message": "生成用户名"
+  },
+  "editorGenRandomUsername": {
+    "message": "随机用户名"
+  },
+  "editorGenPlus": {
+    "message": "加号地址"
+  },
+  "editorGenCatchAll": {
+    "message": "全收地址"
+  },
+  "editorGenAlias": {
+    "message": "电子邮件别名（$SERVICE$）",
+    "placeholders": {
+      "service": {
+        "content": "$1",
+        "example": "SimpleLogin"
+      }
+    }
+  },
+  "editorGenMentionWebsite": {
+    "message": "注明此网站"
+  },
+  "editorMoreActions": {
+    "message": "更多操作"
+  },
+  "editorLoginActions": {
+    "message": "登录信息操作"
+  },
+  "editorDelete": {
+    "message": "删除登录信息"
+  },
+  "editorSaved": {
+    "message": "已保存"
+  },
+  "editorLoginFallback": {
+    "message": "登录信息"
+  },
+  "editorShowCode": {
+    "message": "显示当前验证码"
+  },
+  "editorSecondsLeft": {
+    "message": "$SECONDS$ 秒",
+    "placeholders": {
+      "seconds": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "editorTotpOn": {
+    "message": "已开启 2FA"
+  },
+  "editorTotpNew": {
+    "message": "新增 · 保存时存储"
+  },
+  "editorTotpNewNamed": {
+    "message": "新增：$NAME$ · 保存时存储",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub · octocat"
+      }
+    }
+  },
+  "editorRemoveTotp": {
+    "message": "移除 2FA"
+  },
+  "editorAddTotp": {
+    "message": "添加 2FA"
+  },
+  "editorTotpRemoved": {
+    "message": "保存时将移除 2FA"
+  },
+  "editorSecretPlaceholder": {
+    "message": "密钥或 otpauth:// 链接"
+  },
+  "editorSecretLabel": {
+    "message": "2FA 密钥或 otpauth 链接"
+  },
+  "editorScanQr": {
+    "message": "扫描此页面上的二维码"
+  },
+  "editorAdd": {
+    "message": "添加"
+  },
+  "editorNoQr": {
+    "message": "此页面上没有 2FA 二维码。"
+  },
+  "editorCantReadPage": {
+    "message": "Passyble 无法读取此页面。"
+  },
+  "editorOpenQrPageFirst": {
+    "message": "请先打开包含二维码的页面。"
+  },
+  "editorTotpInvalid": {
+    "message": "此 2FA 密钥无效。请检查后重试。"
+  },
+  "editorRuleMenu": {
+    "message": "在此网站上自动填充"
+  },
+  "editorRuleSubdomains": {
+    "message": "子域名"
+  },
+  "editorRuleSubdomainsDetail": {
+    "message": "此网站及其所有子域名。默认设置。"
+  },
+  "editorRuleHost": {
+    "message": "仅限同一主机"
+  },
+  "editorRuleHostDetail": {
+    "message": "仅此确切地址，不含其他子域名。"
+  },
+  "editorRuleNever": {
+    "message": "从不显示"
+  },
+  "editorRuleNeverDetail": {
+    "message": "不会自动建议或填充。仍可在搜索中找到。"
+  },
+  "editorRuleSuggested": {
+    "message": "推荐"
+  },
+  "editorRuleBadgeHost": {
+    "message": "同一主机"
+  },
+  "editorRuleBadgeNever": {
+    "message": "已隐藏"
+  },
+  "editorPopularSites": {
+    "message": "热门网站"
+  },
+  "serverKindPairing": {
+    "message": "设备配对链接"
+  },
+  "serverKindInvite": {
+    "message": "登录链接：你将在 Passyble 应用中登录"
+  },
+  "serverKindAddress": {
+    "message": "服务器地址：你将在 Passyble 应用中登录"
+  },
+  "serverHint": {
+    "message": "服务器地址或 pass+server:// 链接。"
+  },
+  "serverSignInOpened": {
+    "message": "Passyble 已打开登录窗口。请在那里完成登录。"
+  },
+  "serverInputLabel": {
+    "message": "Passyble Server 地址或链接"
+  },
+  "serverContinue": {
+    "message": "继续"
+  },
+  "serverContinueTitle": {
+    "message": "在 Passyble 中继续（Enter）"
+  },
+  "serverRowServer": {
+    "message": "服务器"
+  },
+  "serverRowAddress": {
+    "message": "地址"
+  },
+  "serverRowNext": {
+    "message": "下一步"
+  },
+  "serverNextSignIn": {
+    "message": "在 Passyble 应用中登录"
+  },
+  "serverRowLink": {
+    "message": "链接"
+  },
+  "serverRowAccount": {
+    "message": "账户"
+  },
+  "serverRowDevice": {
+    "message": "设备"
+  },
+  "serverDeviceUnnamed": {
+    "message": "（未命名）"
+  },
+  "serverRowCertificate": {
+    "message": "证书"
+  },
+  "serverCertLinked": {
+    "message": "自签名，已由此链接验证"
+  },
+  "serverCertPublic": {
+    "message": "受公共信任的证书"
+  },
+  "serverCertNone": {
+    "message": "无（未加密）"
+  },
+  "serverRowPassword": {
+    "message": "密码"
+  },
+  "serverPasswordAsked": {
+    "message": "在 Passyble 应用中询问"
+  },
+  "serverRowToken": {
+    "message": "登录密钥"
+  },
+  "serverTokenIncluded": {
+    "message": "已包含（已隐藏）"
+  },
+  "serverHttpWarning": {
+    "message": "此连接未加密。仅可用于本机、家庭网络或 VPN 中的服务器。"
+  },
+  "serverOpening": {
+    "message": "正在打开 Passyble…"
+  },
+  "serverCheckWindow": {
+    "message": "请查看 Passyble 窗口，以 $USER$ 的身份完成与 $HOST$ 的连接。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "pass.example.com"
+      },
+      "user": {
+        "content": "$2",
+        "example": "ada"
+      }
+    }
+  },
+  "pairBadPercent": {
+    "message": "此链接已损坏。请重新复制完整链接并粘贴到这里。"
+  },
+  "pairAddressEmpty": {
+    "message": "请输入你的 Passyble Server 地址，例如 pass.example.com。"
+  },
+  "pairAddressTooLong": {
+    "message": "内容太长，不可能是服务器地址。"
+  },
+  "pairAddressSpaces": {
+    "message": "服务器地址中没有空格。请只粘贴地址，例如 pass.example.com。"
+  },
+  "pairAddressScheme": {
+    "message": "服务器地址以 https:// 开头（或不带前缀），例如 https://pass.example.com。"
+  },
+  "pairAddressCredentials": {
+    "message": "服务器地址不能包含用户名或密码。"
+  },
+  "pairAddressEmail": {
+    "message": "这看起来像电子邮件地址。请改为粘贴服务器地址（例如 pass.example.com）。"
+  },
+  "pairAddressQuery": {
+    "message": "请只粘贴服务器地址，例如 pass.example.com，不要包含网址的其余部分。"
+  },
+  "pairAddressInvalid": {
+    "message": "这不是有效的服务器地址。请使用类似 pass.example.com 或 https://pass.example.com:8443 的地址。"
+  },
+  "pairInputEmpty": {
+    "message": "请粘贴你的 Passyble Server 地址或 pass+server:// 链接。"
+  },
+  "pairLinkEmpty": {
+    "message": "请先粘贴配对链接。"
+  },
+  "pairLinkTooLong": {
+    "message": "内容太长，不可能是 Passyble Server 链接。请只复制链接，然后重试。"
+  },
+  "pairLinkPrefix": {
+    "message": "这不是 Passyble Server 链接。请粘贴以 pass+server:// 开头的链接"
+  },
+  "pairLinkAddress": {
+    "message": "此链接中没有有效的服务器地址。请在服务器上创建新链接，然后重试。"
+  },
+  "pairLinkScheme": {
+    "message": "此链接已损坏。请在服务器上创建新链接，然后重试。"
+  },
+  "pairLinkNoVersion": {
+    "message": "此链接不完整。请在服务器上创建新链接，然后重试。"
+  },
+  "pairLinkVersion": {
+    "message": "此链接来自更新版本的 Passyble Server。请更新 Passyble，然后重试。"
+  },
+  "pairLinkPin": {
+    "message": "此链接已损坏或需要更新版本的 Passyble。请更新 Passyble，或在服务器上创建新链接。"
+  },
+  "pairLinkNoUser": {
+    "message": "此链接没有指明要使用的账户。请在服务器上创建新链接，然后重试。"
+  },
+  "pairLinkEmptyToken": {
+    "message": "此配对链接不完整。请在服务器上创建新链接，然后重试。"
+  },
+  "pairLinkTokenAndCode": {
+    "message": "此链接已损坏。请在服务器上创建新链接，然后重试。"
+  },
+  "pairLinkNoPath": {
+    "message": "此配对链接不完整。请在服务器上创建新链接，然后重试。"
+  },
+  "pairLinkCodes": {
+    "message": "此登录链接已损坏。请在服务器上创建新链接，然后重试。"
+  },
+  "optionsPageTitle": {
+    "message": "Passyble 设置"
+  },
+  "optionsTitle": {
+    "message": "设置"
+  },
+  "optionsAutofill": {
+    "message": "自动填充"
+  },
+  "optionsNeverSaveTitle": {
+    "message": "不提示保存的网站"
+  },
+  "optionsNeverSaveEmpty": {
+    "message": "暂无"
+  },
+  "optionsRemove": {
+    "message": "移除"
+  },
+  "optionsRemoveSite": {
+    "message": "移除 $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "optionsRemoveSiteTitle": {
+    "message": "再次在 $SITE$ 上提示保存登录信息",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "optionsRemoved": {
+    "message": "已移除"
+  },
+  "optionsRemoveFailed": {
+    "message": "无法移除"
+  },
+  "optionsSaved": {
+    "message": "已保存"
+  },
+  "optionsPasskeys": {
+    "message": "通行密钥"
+  },
+  "optionsShortcuts": {
+    "message": "键盘快捷键"
+  },
+  "optionsServerHeading": {
+    "message": "Passyble Server"
+  },
+  "optionsShortcutFillLogin": {
+    "message": "填充登录信息"
+  },
+  "optionsShortcutFillOtp": {
+    "message": "填充或显示 2FA 验证码"
+  },
+  "optionsShortcutOpenPopup": {
+    "message": "打开 Passyble 并搜索"
+  },
+  "optionsShortcutNotSet": {
+    "message": "未设置"
+  },
+  "optionsShortcutHelpFirefox": {
+    "message": "请在 about:addons → 齿轮菜单 → “管理扩展快捷键”中更改。"
+  },
+  "optionsShortcutScanQr": {
+    "message": "扫描二维码"
+  },
+  "optionsShortcutGenerate": {
+    "message": "生成密码"
+  },
+  "optionsShortcutNewNote": {
+    "message": "新建安全笔记"
+  },
+  "optionsShortcutLock": {
+    "message": "锁定"
+  },
+  "optionsShortcutSync": {
+    "message": "立即同步"
+  },
+  "optionsShortcutRecord": {
+    "message": "更改"
+  },
+  "optionsShortcutRecordLabel": {
+    "message": "更改“$NAME$”的快捷键",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Scan QR code"
+      }
+    }
+  },
+  "optionsShortcutReset": {
+    "message": "重置"
+  },
+  "optionsShortcutResetLabel": {
+    "message": "重置“$NAME$”的快捷键",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Scan QR code"
+      }
+    }
+  },
+  "optionsShortcutRecording": {
+    "message": "请按下新的按键"
+  },
+  "optionsShortcutHelpFirefoxRecord": {
+    "message": "点击“更改”，然后按下新的按键。按 Esc 取消，按 Backspace 删除快捷键。"
+  },
+  "optionsShortcutNeedsModifier": {
+    "message": "按住 Ctrl 或 Alt（Mac 上为 Command、Option 或 Control），再按一个字母、数字或功能键。"
+  },
+  "optionsShortcutBadKey": {
+    "message": "此键不能用作快捷键。请使用字母、数字或功能键。"
+  },
+  "optionsShortcutRefused": {
+    "message": "Firefox 未接受该快捷键，它可能已被占用。"
+  },
+  "optionsAbout": {
+    "message": "关于"
+  },
+  "optionsDesktopApp": {
+    "message": "Passyble 桌面应用"
+  },
+  "optionsNotChecked": {
+    "message": "尚未检查"
+  },
+  "optionsChecking": {
+    "message": "正在检查…"
+  },
+  "optionsConnected": {
+    "message": "已连接 · $APP$ · $STATE$",
+    "placeholders": {
+      "app": {
+        "content": "$1",
+        "example": "Passyble 1.4.0"
+      },
+      "state": {
+        "content": "$2",
+        "example": "unlocked"
+      }
+    }
+  },
+  "optionsStateLocked": {
+    "message": "已锁定"
+  },
+  "optionsStateUnlocked": {
+    "message": "已解锁"
+  },
+  "optionsStart": {
+    "message": "启动"
+  },
+  "optionsStarting": {
+    "message": "正在启动 Passyble… 这可能需要几秒钟。"
+  },
+  "optionsCheck": {
+    "message": "检查"
+  },
+  "optionsOpenGuide": {
+    "message": "打开"
+  },
+  "optionsVersion": {
+    "message": "版本"
+  },
+  "welcomePageTitle": {
+    "message": "欢迎使用 Passyble"
+  },
+  "welcomeTitle": {
+    "message": "设置 Passyble"
+  },
+  "welcomeSetupHeading": {
+    "message": "开始使用"
+  },
+  "welcomeAllSetTitle": {
+    "message": "一切就绪"
+  },
+  "welcomeStepDone": {
+    "message": "已完成"
+  },
+  "welcomeInstallTitle": {
+    "message": "安装 Windows 版 Passyble"
+  },
+  "welcomeDownload": {
+    "message": "下载"
+  },
+  "welcomeInstallRetryHint": {
+    "message": "已安装？打开它，然后重试。"
+  },
+  "welcomeStartTitle": {
+    "message": "启动 Passyble"
+  },
+  "welcomeStartNoVault": {
+    "message": "有了密码库后就会连接。"
+  },
+  "welcomeVaultTitle": {
+    "message": "创建或解锁密码库"
+  },
+  "welcomeAccessTitle": {
+    "message": "允许 Passyble 在网站上运行"
+  },
+  "welcomeAccessButton": {
+    "message": "允许访问"
+  },
+  "welcomeAccessDeniedChromium": {
+    "message": "未允许。请在 $PAGE$ → Passyble → 网站访问权限中开启。",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "chrome://extensions"
+      }
+    }
+  },
+  "welcomeAccessDeniedFirefox": {
+    "message": "未允许。请在 about:addons → Passyble → 权限中开启。"
+  },
+  "welcomePinTitle": {
+    "message": "将 Passyble 固定到工具栏"
+  },
+  "welcomePinChrome": {
+    "message": "拼图图标 → Passyble 旁的图钉"
+  },
+  "welcomePinEdge": {
+    "message": "拼图图标 → Passyble 旁的眼睛图标"
+  },
+  "welcomePinOpera": {
+    "message": "立方体图标 → Passyble 旁的图钉"
+  },
+  "welcomePinFirefox": {
+    "message": "拼图图标 → Passyble 旁的齿轮 → 固定到工具栏"
+  },
+  "welcomePinMark": {
+    "message": "我已固定"
+  },
+  "welcomeTipsTitle": {
+    "message": "如何使用 Passyble"
+  },
+  "welcomeOpenSettings": {
+    "message": "打开设置"
+  },
+  "menuLoading": {
+    "message": "正在加载…"
+  },
+  "menuNoLogins": {
+    "message": "此网站没有登录信息。"
+  },
+  "menuNoMatches": {
+    "message": "没有匹配的登录信息。"
+  },
+  "menuLocked": {
+    "message": "Passyble 已锁定。"
+  },
+  "menuUnlock": {
+    "message": "解锁 Passyble"
+  },
+  "menuUnlockHello": {
+    "message": "使用 Windows Hello 解锁"
+  },
+  "menuUnlockPassword": {
+    "message": "输入主密码"
+  },
+  "menuUnlockToFill": {
+    "message": "请解锁 Passyble 以填充 $NAME$。",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "menuUnlockToFillOtp": {
+    "message": "请解锁 Passyble 以填充 $NAME$ 的 2FA 验证码。",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "menuUnlockToSee": {
+    "message": "请解锁 Passyble 以查看你的登录信息。"
+  },
+  "menuUnlockingInApp": {
+    "message": "在 Passyble 应用中解锁…"
+  },
+  "menuHelloCancelled": {
+    "message": "Windows Hello 已取消。"
+  },
+  "menuUsePassword": {
+    "message": "改用主密码"
+  },
+  "menuHelloCancelledPassword": {
+    "message": "Windows Hello 已取消。请输入你的主密码。"
+  },
+  "unlockFrameTitle": {
+    "message": "Passyble 主密码"
+  },
+  "unlockFrameNote": {
+    "message": "此网站看不到你输入的内容。"
+  },
+  "menuHeadingLocked": {
+    "message": "Passyble · 已锁定"
+  },
+  "menuHeadingOtp": {
+    "message": "Passyble · 2FA"
+  },
+  "menuHeadingOtpLocked": {
+    "message": "Passyble · 2FA · 已锁定"
+  },
+  "menuHeadingCards": {
+    "message": "Passyble · 银行卡"
+  },
+  "menuHeadingCardsLocked": {
+    "message": "Passyble · 银行卡 · 已锁定"
+  },
+  "menuHeadingAddresses": {
+    "message": "Passyble · 地址"
+  },
+  "menuHeadingAddressesLocked": {
+    "message": "Passyble · 地址 · 已锁定"
+  },
+  "menuNoCards": {
+    "message": "Passyble 中没有银行卡。"
+  },
+  "menuNoAddresses": {
+    "message": "Passyble 中没有地址。"
+  },
+  "menuNoOtp": {
+    "message": "此网站没有 2FA 验证码。"
+  },
+  "menuFillOtp": {
+    "message": "填充 2FA 验证码"
+  },
+  "menuOtpCodeFor": {
+    "message": "2FA 验证码 · $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      }
+    }
+  },
+  "menuPasskeyFor": {
+    "message": "使用通行密钥登录 · $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      }
+    }
+  },
+  "passkeyPromptTitle": {
+    "message": "使用你的通行密钥登录？"
+  },
+  "passkeyPromptChoose": {
+    "message": "选择用于登录的通行密钥"
+  },
+  "passkeyPromptSignIn": {
+    "message": "登录"
+  },
+  "passkeyPromptUnlockSignIn": {
+    "message": "解锁并登录"
+  },
+  "passkeyPromptSignInAs": {
+    "message": "以 $ACCOUNT$ 身份登录",
+    "placeholders": {
+      "account": {
+        "content": "$1",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "passkeyPromptSigningIn": {
+    "message": "正在登录…"
+  },
+  "passkeyPromptUnlocking": {
+    "message": "正在解锁 Passyble…"
+  },
+  "passkeyPromptTitleLocked": {
+    "message": "使用 Passyble 通行密钥登录？"
+  },
+  "passkeyPromptLockedFull": {
+    "message": "Passyble 已锁定。解锁后才能使用你在此网站的通行密钥。"
+  },
+  "passkeyElsewhere": {
+    "message": "使用其他设备"
+  },
+  "passkeySaveTitle": {
+    "message": "要将 $SITE$ 的通行密钥保存到 Passyble 吗？",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "passkeySaveKeepWith": {
+    "message": "保存到"
+  },
+  "passkeySaveNewLogin": {
+    "message": "新登录信息"
+  },
+  "passkeySaveLoginUser": {
+    "message": "$TITLE$ · $USERNAME$",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "Example"
+      },
+      "username": {
+        "content": "$2",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "passkeySaveVault": {
+    "message": "密码库：$VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Personal"
+      }
+    }
+  },
+  "passkeySaveButton": {
+    "message": "保存通行密钥"
+  },
+  "passkeySaveUnlock": {
+    "message": "解锁并保存"
+  },
+  "passkeySaveSaving": {
+    "message": "正在保存通行密钥…"
+  },
+  "passkeyUnlock": {
+    "message": "解锁"
+  },
+  "passkeyNoneTitle": {
+    "message": "Passyble 中没有此网站的通行密钥"
+  },
+  "passkeyNoneNotice": {
+    "message": "Passyble 中没有 $SITE$ 的通行密钥",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "passkeyNotRunningTitle": {
+    "message": "Passyble 未在运行"
+  },
+  "passkeyOpening": {
+    "message": "正在打开 Passyble…"
+  },
+  "passkeyErrorTitle": {
+    "message": "Passyble 目前无法响应"
+  },
+  "passkeyTryAgain": {
+    "message": "重试"
+  },
+  "passkeyFrameTitle": {
+    "message": "Passyble 无法在此处响应"
+  },
+  "passkeyNeedsVerification": {
+    "message": "此网站要求使用 Windows Hello，但 Passyble 目前无法使用。"
+  },
+  "menuUnlockToSignIn": {
+    "message": "请解锁 Passyble 以 $ACCOUNT$ 身份登录。",
+    "placeholders": {
+      "account": {
+        "content": "$1",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "menuGenerateEntry": {
+    "message": "生成强密码"
+  },
+  "menuGenerateNoSymbolsSub": {
+    "message": "不含特殊字符，适用于不接受特殊字符的网站"
+  },
+  "menuGenerateSymbolsSub": {
+    "message": "包含特殊字符"
+  },
+  "menuGenerateTitle": {
+    "message": "生成强密码并保存到 Passyble"
+  },
+  "menuGenerateLabel": {
+    "message": "生成并保存强密码"
+  },
+  "menuGenerated": {
+    "message": "生成的密码"
+  },
+  "menuGeneratedHidden": {
+    "message": "生成的密码（已隐藏）"
+  },
+  "genOptionsButton": {
+    "message": "密码选项"
+  },
+  "genOptionsTitle": {
+    "message": "密码生成器"
+  },
+  "genOptionsEntry": {
+    "message": "密码选项"
+  },
+  "genOptionsEntrySub": {
+    "message": "长度、字符类型、密码短语"
+  },
+  "genPassphraseEntry": {
+    "message": "生成密码短语"
+  },
+  "genModeLabel": {
+    "message": "生成内容"
+  },
+  "genModePassword": {
+    "message": "密码"
+  },
+  "genModePassphrase": {
+    "message": "密码短语"
+  },
+  "genLength": {
+    "message": "长度"
+  },
+  "genWords": {
+    "message": "单词数"
+  },
+  "genTypes": {
+    "message": "字符类型"
+  },
+  "genUppercase": {
+    "message": "大写字母 (A-Z)"
+  },
+  "genLowercase": {
+    "message": "小写字母 (a-z)"
+  },
+  "genDigits": {
+    "message": "数字 (0-9)"
+  },
+  "genSymbols": {
+    "message": "特殊字符 (!@#)"
+  },
+  "genHyphensChip": {
+    "message": "连字符"
+  },
+  "genHyphens": {
+    "message": "单词之间的连字符"
+  },
+  "genRegenerate": {
+    "message": "重新生成"
+  },
+  "genDone": {
+    "message": "完成"
+  },
+  "genNoteNoSymbols": {
+    "message": "此网站不接受特殊字符。"
+  },
+  "genNoteMaxLength_other": {
+    "message": "此网站最多允许 $COUNT$ 个字符。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "16"
+      }
+    }
+  },
+  "genNoteMinLength_other": {
+    "message": "此网站至少需要 $COUNT$ 个字符。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "24"
+      }
+    }
+  },
+  "genNotePassphraseTooLong": {
+    "message": "密码短语超出此网站的长度限制，因此生成的是密码。"
+  },
+  "genNoteLettersDigits": {
+    "message": "未开启任何字符类型时，将使用字母和数字。"
+  },
+  "menuPasswordStrength_other": {
+    "message": "$STRENGTH$ · $COUNT$ 个字符",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "20"
+      },
+      "strength": {
+        "content": "$2",
+        "example": "Strong"
+      }
+    }
+  },
+  "menuNotRunningGenerate": {
+    "message": "提交前请启动 Passyble 以保存它。"
+  },
+  "menuFormsNeedUpdate": {
+    "message": "请更新 Passyble 以填充银行卡和地址。"
+  },
+  "menuFormChanged": {
+    "message": "表单已变化。请重新选择。"
+  },
+  "strengthVeryStrong": {
+    "message": "非常强"
+  },
+  "strengthStrong": {
+    "message": "强"
+  },
+  "strengthFair": {
+    "message": "一般"
+  },
+  "strengthWeak": {
+    "message": "弱"
+  },
+  "noticeNoOtp": {
+    "message": "此网站没有保存 2FA 验证码。"
+  },
+  "toastOtpTitle": {
+    "message": "2FA 验证码 · $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "toastCopy": {
+    "message": "复制"
+  },
+  "toastCopyTitle": {
+    "message": "复制 2FA 验证码"
+  },
+  "toastCopied": {
+    "message": "已复制"
+  },
+  "toastCopyFailed": {
+    "message": "复制失败"
+  },
+  "toastShowDesktop": {
+    "message": "在桌面应用中显示"
+  },
+  "toastShowDesktopTitle": {
+    "message": "在 Passyble 桌面应用中显示"
+  },
+  "toastShownDesktop": {
+    "message": "已在 Passyble 桌面应用中显示。"
+  },
+  "toastSecondsLeft_other": {
+    "message": "剩余 $COUNT$ 秒",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "toastRefreshFailed": {
+    "message": "无法刷新验证码。$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "toastFilledSaveLater": {
+    "message": "密码已填充。提交时 Passyble 会提示保存。"
+  },
+  "toastFilledNotSaved": {
+    "message": "密码已填充，但尚未保存。$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "toastDraftSaved": {
+    "message": "已保存到 Passyble"
+  },
+  "toastDraftUpdated": {
+    "message": "已在 Passyble 中更新"
+  },
+  "toastDraftChangeDetail": {
+    "message": "在你提交更改之前，会保留为单独的登录信息。"
+  },
+  "toastDraftRemoved": {
+    "message": "已从 Passyble 中移除。"
+  },
+  "toastAutoUpdated": {
+    "message": "已在 Passyble 中更新密码"
+  },
+  "toastAutoRestored": {
+    "message": "已恢复之前的密码。"
+  },
+  "bannerSave": {
+    "message": "要将登录信息保存到 Passyble 吗？"
+  },
+  "bannerUpdatePassword": {
+    "message": "要在 Passyble 中更新密码吗？"
+  },
+  "bannerUpdateUsername": {
+    "message": "要在 Passyble 中更新用户名吗？"
+  },
+  "bannerUserOnSite": {
+    "message": "$SITE$ 上的 $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      },
+      "site": {
+        "content": "$2",
+        "example": "github.com"
+      }
+    }
+  },
+  "bannerUpdate": {
+    "message": "更新"
+  },
+  "bannerNotNow": {
+    "message": "以后再说"
+  },
+  "bannerEdit": {
+    "message": "编辑"
+  },
+  "bannerKeepPassword": {
+    "message": "保留你输入的密码"
+  },
+  "bannerEditFrameTitle": {
+    "message": "Passyble 用户名和密码"
+  },
+  "bannerNever": {
+    "message": "此网站不再提示"
+  },
+  "bannerSaving": {
+    "message": "正在保存…"
+  },
+  "bannerSaved": {
+    "message": "已保存到 Passyble。"
+  },
+  "bannerPasswordUpdated": {
+    "message": "密码已更新。"
+  },
+  "bannerUsernameUpdated": {
+    "message": "用户名已更新。"
+  },
+  "bannerAlreadySaved": {
+    "message": "已保存过。"
+  },
+  "bannerSaveFailed": {
+    "message": "无法保存。$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "bannerNeverDone": {
+    "message": "此网站不再提示。"
+  },
+  "bannerNeverFailed": {
+    "message": "无法保存该设置。$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Something went wrong. Try again."
+      }
+    }
+  },
+  "cardsCard": {
+    "message": "银行卡"
+  },
+  "cardsBadge": {
+    "message": "卡"
+  },
+  "browserAutofillOff": {
+    "message": "已关闭浏览器自动填充。"
+  },
+  "browserAutofillBack": {
+    "message": "浏览器自动填充已重新开启。"
+  },
+  "issueListLabel": {
+    "message": "密码检查"
+  },
+  "issueCommon": {
+    "message": "这是最常见的密码之一。"
+  },
+  "issueWeak": {
+    "message": "此密码容易被猜到。"
+  },
+  "issueReused_other": {
+    "message": "你在另外 $COUNT$ 个登录信息中使用了此密码。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "issueUsedBefore": {
+    "message": "你以前在此登录信息中用过这个密码。"
+  },
+  "issueContainsUsername": {
+    "message": "此密码包含你的用户名。"
+  },
+  "issueContainsSite": {
+    "message": "此密码包含网站名称。"
+  },
+  "issueShort": {
+    "message": "太短：至少使用 $MIN$ 个字符。",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "issueUseStrong": {
+    "message": "改用强密码"
+  },
+  "issueStrong": {
+    "message": "强"
+  },
+  "errNoVault": {
+    "message": "此浏览器中还没有密码库。"
+  },
+  "errVerificationRequired": {
+    "message": "请用主密码确认是你本人，然后重试。"
+  },
+  "errPasskeysNeedApp": {
+    "message": "目前通行密钥需要 Passyble 应用。"
+  },
+  "errBackupFirst": {
+    "message": "请先下载一份副本。"
+  },
+  "popupUseBrowserVault": {
+    "message": "在此浏览器中保存密码库"
+  },
+  "popupNoVaultTitle": {
+    "message": "还没有保险库"
+  },
+  "vaultCreate": {
+    "message": "创建密码库"
+  },
+  "popupAskConfirm": {
+    "message": "确认"
+  },
+  "popupAskFillButton": {
+    "message": "填充"
+  },
+  "popupDismiss": {
+    "message": "关闭"
+  },
+  "popupStatusLockedBrowser": {
+    "message": "已锁定（此浏览器中的密码库）。点击解锁"
+  },
+  "popupVerifyTitle": {
+    "message": "确认是你本人"
+  },
+  "popupCardConfirmTitle": {
+    "message": "填充这张卡？"
+  },
+  "popupCardConfirmText": {
+    "message": "在 $SITE$ 上填充 $CARD$？",
+    "placeholders": {
+      "card": {
+        "content": "$1",
+        "example": "Visa •••• 4242"
+      },
+      "site": {
+        "content": "$2",
+        "example": "shop.example.com"
+      }
+    }
+  },
+  "popupThisCard": {
+    "message": "这张卡"
+  },
+  "popupCrossConfirmTitle": {
+    "message": "填充其他网站的登录信息？"
+  },
+  "popupCrossConfirmText": {
+    "message": "只有在你信任 $SITE$ 时才填充 $LOGIN$。",
+    "placeholders": {
+      "login": {
+        "content": "$1",
+        "example": "GitHub"
+      },
+      "site": {
+        "content": "$2",
+        "example": "github.example.net"
+      }
+    }
+  },
+  "popupLookalikeTag": {
+    "message": "仿冒网址"
+  },
+  "popupLookalikeHint": {
+    "message": "$HOST$ 看起来像 $SITE$，但它是另一个网站。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeTitle": {
+    "message": "这可能是假冒网站"
+  },
+  "popupLookalikeFillText": {
+    "message": "$HOST$ 不是 $SITE$，只是地址看起来很像。钓鱼网站会用这种方式窃取登录信息。只有在确定这是正确的网站时才填充登录信息。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeCopyText": {
+    "message": "$HOST$ 不是 $SITE$，只是地址看起来很像。钓鱼网站会用这种方式窃取登录信息。只有在确定这是正确的网站时才复制登录信息。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeFillButton": {
+    "message": "仍然填充"
+  },
+  "popupLookalikeCopyButton": {
+    "message": "仍然复制"
+  },
+  "popupIntlHost": {
+    "message": "国际化地址：$HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "xn--bcher-kva.example"
+      }
+    }
+  },
+  "bannerLookalike": {
+    "message": "$HOST$ 不是 $SITE$，只是地址看起来很像。只有在信任此网站时才保存。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "commonIntlAddress": {
+    "message": "国际化地址"
+  },
+  "passkeyBrowserVaultTitle": {
+    "message": "目前通行密钥需要 Passyble 应用"
+  },
+  "welcomeVaultHeading": {
+    "message": "你的密码库"
+  },
+  "welcomeChoiceExisting": {
+    "message": "使用此浏览器中的密码库"
+  },
+  "welcomeRepeatPassword": {
+    "message": "再次输入主密码"
+  },
+  "welcomeCreateWarning": {
+    "message": "Passyble 无法重置你的主密码。请把它记下来。"
+  },
+  "welcomeCreateButton": {
+    "message": "创建密码库"
+  },
+  "welcomeVaultFile": {
+    "message": "密码库文件（.vault）"
+  },
+  "welcomeOpenButton": {
+    "message": "打开密码库"
+  },
+  "welcomeVaultReadyTitle": {
+    "message": "你的密码库已就绪"
+  },
+  "welcomeUseBrowserInstead": {
+    "message": "改为在此浏览器中保存密码库"
+  },
+  "vaultMasterTooShort": {
+    "message": "至少使用 $MIN$ 个字符。",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "vaultMasterCommon": {
+    "message": "这是最常见的密码之一。请换一个。"
+  },
+  "vaultMasterContainsName": {
+    "message": "不要包含你的电子邮件地址、用户名和密码库名称。"
+  },
+  "vaultMasterPattern": {
+    "message": "避免重复字符、abcd 或 1234 这样的序列，以及 qwerty 这样的键盘连续键。"
+  },
+  "vaultMasterGuessable": {
+    "message": "太容易被猜到。请添加更多单词或随机字符：四个或更多互不相关的单词效果很好。"
+  },
+  "vaultMasterStrongEnough": {
+    "message": "$STRENGTH$：作为主密码已足够强。",
+    "placeholders": {
+      "strength": {
+        "content": "$1",
+        "example": "良好"
+      }
+    }
+  },
+  "vaultStrengthOk": {
+    "message": "良好"
+  },
+  "vaultStrengthStrong": {
+    "message": "强"
+  },
+  "welcomePasswordsDiffer": {
+    "message": "两次输入的密码不一致，请重新输入。"
+  },
+  "welcomeCreating": {
+    "message": "正在创建你的密码库…"
+  },
+  "welcomeVaultExists": {
+    "message": "此浏览器中已有一个密码库。请使用它，或先在设置中删除它。"
+  },
+  "welcomePickFile": {
+    "message": "请先选择一个密码库文件。"
+  },
+  "welcomeNotVaultFile": {
+    "message": "这不是 Passyble 密码库文件。"
+  },
+  "optionsVaultModeHeading": {
+    "message": "密码库"
+  },
+  "optionsVaultHeading": {
+    "message": "此浏览器中的密码库"
+  },
+  "optionsAutoLock": {
+    "message": "自动锁定时间"
+  },
+  "optionsAutoLockDetails": {
+    "message": "关闭浏览器时总会锁定。"
+  },
+  "optionsAutoLockMinutes": {
+    "message": "$COUNT$ 分钟",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "optionsAutoLockBrowserClose": {
+    "message": "仅在关闭浏览器时"
+  },
+  "optionsLockOnIdle": {
+    "message": "电脑锁定时锁定"
+  },
+  "optionsVerifyEachFill": {
+    "message": "每次填充前确认"
+  },
+  "optionsVerifyEachFillDetails": {
+    "message": "每次都要求输入主密码。"
+  },
+  "optionsDeleteVault": {
+    "message": "删除密码库"
+  },
+  "optionsDelete": {
+    "message": "删除"
+  },
+  "optionsDeleteWarn": {
+    "message": "永久删除此浏览器中的密码库。"
+  },
+  "optionsMasterTipBody": {
+    "message": "你的主密码比 Passyble 现在对新主密码的要求更容易被猜到。它仍然可以正常使用。"
+  },
+  "optionsDeleteForGood": {
+    "message": "永久删除"
+  },
+  "optionsDeleted": {
+    "message": "已从此浏览器中删除密码库"
+  },
+  "optionsModeBrowser": {
+    "message": "在此浏览器中"
+  },
+  "optionsModeApp": {
+    "message": "在 Passyble 应用中"
+  },
+  "optionsModeBrowserLocked": {
+    "message": "已锁定"
+  },
+  "optionsModeBrowserUnlocked": {
+    "message": "已解锁"
+  },
+  "optionsModeBrowserNone": {
+    "message": "尚无密码库"
+  },
+  "optionsUseApp": {
+    "message": "使用应用"
+  },
+  "optionsUseBrowserVault": {
+    "message": "使用此浏览器中的密码库"
+  },
+  "welcomeGetApp": {
+    "message": "获取 Windows 应用"
+  },
+  "optionsShortcutChange": {
+    "message": "更改"
+  },
+  "accountSignIn": {
+    "message": "登录"
+  },
+  "accountSignOut": {
+    "message": "退出登录"
+  },
+  "accountTitle": {
+    "message": "账户"
+  },
+  "accountSignedInAs": {
+    "message": "已登录为 $EMAIL$",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "ada@example.com"
+      }
+    }
+  },
+  "accountSignInFailed": {
+    "message": "无法登录，请重试。"
+  },
+  "accountCloudSoon": {
+    "message": "Passyble Cloud 存储即将推出。"
+  },
+  "accountUseDrive": {
+    "message": "使用 Google 云端硬盘"
+  },
+  "accountViaApp": {
+    "message": "已通过这台电脑上的 Passyble 应用登录"
+  },
+  "accountSignOutAppToo": {
+    "message": "同时退出这台电脑上的 Passyble 应用"
+  },
+  "accountOtherInBrowser": {
+    "message": "Passyble 应用已登录为 $APP$，此浏览器为 $BROWSER$。",
+    "placeholders": {
+      "app": {
+        "content": "$1",
+        "example": "ada@example.com"
+      },
+      "browser": {
+        "content": "$2",
+        "example": "grace@example.com"
+      }
+    }
+  },
+  "accountUseAppAccount": {
+    "message": "使用应用的账户"
+  },
+  "optionsDownloadCopy": {
+    "message": "下载副本"
+  },
+  "vaultCopySaved": {
+    "message": "副本已保存。"
+  },
+  "popupLockedText": {
+    "message": "解锁后即可在此网站上填充你的登录信息。"
+  },
+  "popupOfflineText": {
+    "message": "请在这台电脑上启动 Passyble 应用，以便在此处填充你的登录信息。"
+  },
+  "popupNoVaultText": {
+    "message": "在此浏览器中创建密码库，或使用 Passyble 应用进行 Google Drive 同步。"
+  },
+  "optionsLead": {
+    "message": "Passyble 在此浏览器中如何填充、保存和登录。"
+  },
+  "optionsVaultModeLead": {
+    "message": "此浏览器填充所用密码库的存放位置。"
+  },
+  "optionsAutofillLead": {
+    "message": "Passyble 在网站登录栏中提供的功能。"
+  },
+  "optionsNeverSaveLead": {
+    "message": "Passyble 不会在这些网站上提示保存登录信息或银行卡。"
+  },
+  "optionsPasskeysLead": {
+    "message": "使用密码库中的通行密钥登录网站。"
+  },
+  "optionsShortcutsLead": {
+    "message": "在此浏览器的任何页面上都可使用的按键。"
+  },
+  "optionsServerLead": {
+    "message": "由你的团队或家人运行的服务器。Passyble 应用会登录到该服务器。"
+  },
+  "optionsAboutLead": {
+    "message": "此扩展及与其配合使用的 Passyble 应用。"
+  },
+  "welcomeLead": {
+    "message": "只需几步，Passyble 就能在此浏览器中填充你的登录信息。"
+  },
+  "popupHostText": {
+    "message": "请检查 Passyble → 设置 → 自动填充，然后重试。"
+  },
+  "popupOnThisSite": {
+    "message": "在此网站上"
+  },
+  "settingSaveBannerDetails": {
+    "message": "登录后提示保存登录信息。"
+  },
+  "settingAutoPasskeyDetails": {
+    "message": "网站请求通行密钥时显示卡片。"
+  },
+  "welcomeChoiceDriveText": {
+    "message": "需要在这台电脑上安装 Passyble 应用。"
+  },
+  "welcomeChoiceSignInText": {
+    "message": "你的 Passyble 账户，用于 Passyble Cloud、Family 和 Team。"
+  },
+  "welcomeChoiceExistingText": {
+    "message": "此浏览器中已有的密码库。"
+  },
+  "welcomeChoiceAppText": {
+    "message": "你的密码库保留在这台电脑上的 Passyble 应用中。"
+  },
+  "welcomeAllSetLead": {
+    "message": "Passyble 会在此浏览器中填充你的登录信息。随时点击工具栏中的 Passyble 图标即可使用。"
+  },
+  "welcomeDone": {
+    "message": "完成"
+  },
+  "popupNoSiteLoginsText": {
+    "message": "立即添加一个，或在你登录时由 Passyble 提示保存。"
+  },
+  "popupNothingHereText": {
+    "message": "搜索你的密码库，从中复制登录信息。"
+  },
+  "optionsAppRowTitle": {
+    "message": "Passyble 应用"
+  },
+  "optionsAppRowText": {
+    "message": "将密码库保留在这台电脑上的 Passyble 应用中。"
+  },
+  "commonOr": {
+    "message": "或"
+  },
+  "commonNoSymbols": {
+    "message": "仅字母和数字"
+  },
+  "welcomeRecommended": {
+    "message": "推荐"
+  },
+  "passkeySaveShort": {
+    "message": "保存通行密钥？"
+  },
+  "serverAddressLabel": {
+    "message": "服务器地址"
+  },
+  "welcomeStepOf": {
+    "message": "第 $CURRENT$ 步，共 $TOTAL$ 步",
+    "placeholders": {
+      "current": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "4"
+      }
+    }
+  },
+  "optionsStorage": {
+    "message": "存储"
+  },
+  "optionsLocking": {
+    "message": "锁定"
+  },
+  "optionsDownloadCopyText": {
+    "message": "加密的密码库文件（.vault）。只能用你的主密码打开。"
+  },
+  "optionsSaveFile": {
+    "message": "保存文件"
+  },
+  "passkeySaveVaultNamed": {
+    "message": "保存到 $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Work vault"
+      }
+    }
+  },
+  "updateRequiredTitle": {
+    "message": "需要更新"
+  },
+  "updateRequiredText": {
+    "message": "此版本的 Passyble 已不再受支持。请更新，以继续填充和保存密码。"
+  },
+  "updateNow": {
+    "message": "更新"
+  },
+  "updateViewPasswords": {
+    "message": "查看我的密码"
+  },
+  "updateReadOnlyTitle": {
+    "message": "你的密码"
+  },
+  "updateReadOnlyNote": {
+    "message": "在你更新之前，Passyble 扩展为只读状态。你仍可查看和复制你的密码。"
+  },
+  "updateAvailable": {
+    "message": "Passyble 有新版本可用。"
+  },
+  "updateChecking": {
+    "message": "正在检查更新…"
+  },
+  "updateInstalling": {
+    "message": "正在安装更新…"
+  },
+  "updateSearchHint": {
+    "message": "至少输入 2 个字符以查找登录信息。"
+  },
+  "errAppUpdateRequired": {
+    "message": "请更新 Passyble 应用以继续填充。"
+  },
+  "errExtensionUpdateRequired": {
+    "message": "请更新 Passyble 扩展以继续填充。"
+  },
+  "driveSyncTitle": {
+    "message": "Google Drive 同步"
+  },
+  "driveNeedsAppTitle": {
+    "message": "Google Drive 同步需要这台电脑上的 Passyble 应用"
+  },
+  "driveNeedsAppText": {
+    "message": "Passyble 应用会登录 Google 并保持你的密码库同步。安装该应用，在应用中开启 Google Drive，此浏览器中的 Passyble 就会从应用的密码库中填充。"
+  },
+  "driveNeedsAppMove": {
+    "message": "要带走此浏览器中的密码库，请在设置中下载副本，然后在 Passyble 应用中打开它。"
+  },
+  "driveNeedsAppShort": {
+    "message": "Google Drive 同步需要应用"
+  },
+  "driveRecordText": {
+    "message": "此密码库在旧版本中曾与 Google Drive 同步。它在此浏览器中仍可正常使用；如需再次同步，请使用 Passyble 应用。"
+  },
+  "driveDownloadApp": {
+    "message": "下载 Passyble 应用"
+  },
+  "driveCheckAgain": {
+    "message": "重新检查"
+  },
+  "driveAppFound": {
+    "message": "这台电脑上已有 Passyble 应用。请使用它，然后在应用中开启 Google Drive。"
+  },
+  "driveAppMissing": {
+    "message": "这台电脑上还没有 Passyble 应用。"
+  },
+  "driveTurnOnInApp": {
+    "message": "如需 Google Drive 同步，请在 Passyble 应用中打开“设置”，再进入“同步”，然后开启 Google Drive。"
+  },
+  "welcomeChoiceCreate": {
+    "message": "在此浏览器中创建密码库"
+  },
+  "welcomeChoiceCreateText": {
+    "message": "仅保存在此设备上。无需应用。"
+  },
+  "welcomeChoiceOpen": {
+    "message": "打开密码库文件"
+  },
+  "welcomeChoiceOpenText": {
+    "message": "来自其他设备的副本，或备份。"
+  },
+  "localOnlyTitle": {
+    "message": "此密码库仅在此设备上"
+  },
+  "localOnlyBody": {
+    "message": "如果此设备丢失、被盗、损坏或重置，此密码库中的密码将永久丢失。请开启同步或备份（Google Drive 免费），或定期导出备份副本。"
+  },
+  "localOnlyCreateNotice": {
+    "message": "仅保存在此设备上。如果丢失此设备，你就会失去这些密码。你可以现在或以后开启 Google Drive 备份。"
+  },
+  "localOnlySetUpSync": {
+    "message": "设置同步"
+  },
+  "localOnlyNotNow": {
+    "message": "以后再说"
+  },
+  "localOnlyDetails": {
+    "message": "这是什么意思"
+  },
+  "errReadOnly": {
+    "message": "你可以使用此密码库中的登录信息，但不能更改。"
+  },
+  "errFillOnly": {
+    "message": "此登录信息可以填写，但不能显示或复制。"
+  },
+  "bannerSaveIn": {
+    "message": "保存到"
+  },
+  "bannerMyVault": {
+    "message": "个人"
+  },
+  "bannerInVault": {
+    "message": "在 $VAULT$ 中",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupAllVaults": {
+    "message": "所有密码库"
+  },
+  "popupPinVault": {
+    "message": "固定密码库",
+    "description": "Popup: a vault row's context menu in the Filter menu or the vault switcher: pin that vault, so it comes right after the current vault in every vault list."
+  },
+  "popupUnpinVault": {
+    "message": "取消固定密码库",
+    "description": "Popup: a pinned vault row's context menu in the Filter menu or the vault switcher: take its pin off."
+  },
+  "popupFilter": {
+    "message": "筛选",
+    "description": "Popup: the Filter button next to the search box while the list shows everything, and the name of its menu (vaults and kinds of item)."
+  },
+  "popupFilterShowing": {
+    "message": "筛选：$FILTER$",
+    "description": "Popup: tooltip and screen reader name of the Filter button while the list is narrowed. $FILTER$ is what it shows, e.g. \"Engineering · 2FA\".",
+    "placeholders": {
+      "filter": {
+        "content": "$1",
+        "example": "Engineering · 2FA"
+      }
+    }
+  },
+  "popupFilterVaults": {
+    "message": "密码库",
+    "description": "Popup, Filter menu: heading of the section that picks the vault shown."
+  },
+  "popupFilterShow": {
+    "message": "显示",
+    "description": "Popup, Filter menu: heading of the section that picks the kind of item shown (All, Logins, 2FA, ...)."
+  },
+  "popupFilterClear": {
+    "message": "清除筛选",
+    "description": "Popup: the x beside the Filter button and the last entry of its menu: show every vault and every kind again."
+  },
+  "popupPinNamed": {
+    "message": "固定 $VAULT$",
+    "description": "Popup, a vault's row in the Filter menu or the vault switcher: its pin button. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupUnpinNamed": {
+    "message": "取消固定 $VAULT$",
+    "description": "Popup, a pinned vault's row in the Filter menu or the vault switcher: its pin button takes the pin off. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupVaultPinned": {
+    "message": "已固定",
+    "description": "Popup: what a screen reader hears after a pinned vault's name in a vault list."
+  },
+  "popupPinLimit": {
+    "message": "最多可固定 $COUNT$ 个密码库。请先取消固定一个。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "popupNoLoginsInVault": {
+    "message": "$VAULT$ 中没有此网站的登录信息",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupSwitchVault": {
+    "message": "切换密码库"
+  },
+  "popupSwitchUnlockInApp": {
+    "message": "请在 Passyble 应用中解锁 $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Work"
+      }
+    }
+  },
+  "popupMovedTo": {
+    "message": "已移动到 $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "editorVault": {
+    "message": "密码库"
+  },
+  "editorMove": {
+    "message": "移动"
+  },
+  "editorMoveConfirm": {
+    "message": "要将 $TITLE$ 移动到 $VAULT$ 吗？所有能访问 $VAULT$ 的人都会看到它。",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Engineering"
+      }
+    }
+  },
+  "teamsFillOnly": {
+    "message": "仅填写"
+  },
+  "teamsOpenInPassyble": {
+    "message": "在 Passyble 中打开"
+  },
+  "teamsNeedsUpdate": {
+    "message": "请更新 Passyble 应用，以便从这里打开团队和家庭。"
+  },
+  "teamsLineErrors_other": {
+    "message": "$COUNT$ 个无法打开",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineConfirm_other": {
+    "message": "$COUNT$ 人待确认",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineInvites_other": {
+    "message": "$COUNT$ 个邀请",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsRoleManage": {
+    "message": "可管理"
+  },
+  "teamsRoleEdit": {
+    "message": "可编辑"
+  },
+  "teamsRoleView": {
+    "message": "可查看"
+  },
+  "teamsRoleFill": {
+    "message": "可填写"
+  },
+  "teamsErrNoKeyset": {
+    "message": "请先在 Passyble 应用中设置共享"
+  },
+  "teamsErrNotMember": {
+    "message": "你已无权访问"
+  },
+  "teamsErrKeysMismatch": {
+    "message": "是用你账户的其他密钥共享的"
+  },
+  "teamsErrUntrusted": {
+    "message": "请在 Passyble 应用中核对管理者的指纹"
+  },
+  "teamsErrRollback": {
+    "message": "比此设备已有的副本更旧"
+  },
+  "teamsErrReadOnlyMember": {
+    "message": "你的角色不允许更改"
+  },
+  "teamsErrSubscriptionInactive": {
+    "message": "只读：套餐未生效"
+  },
+  "teamsErrAccountSuspended": {
+    "message": "你的账户已被停用"
+  },
+  "teamsErrNetwork": {
+    "message": "无法连接服务器"
+  },
+  "teamsErrInternal": {
+    "message": "无法打开此密码库"
+  },
+  "teamsErrVaultLimit": {
+    "message": "你的套餐无法在 Passyble Cloud 上托管更多密码库。可使用 Google Drive、WebDAV 或文件夹来存放更多，或更换套餐。"
+  },
+  "teamsOpenConsole": {
+    "message": "在网站上管理"
+  },
+  "teamsRuleSecondTitle": {
+    "message": "你的团队要求设置第二个密码"
+  },
+  "teamsRuleSecondBrowser": {
+    "message": "此浏览器无法为其密码库设置第二个密码，因此你可以在这里使用此团队的项目，但不能更改。请使用 Windows 或 Android 上的 Passyble 应用，或询问你的团队管理员。"
+  },
+  "teamsRuleOneTitle": {
+    "message": "你的团队只使用一个密码"
+  },
+  "teamsRuleOneBrowser": {
+    "message": "$VAULT$ 仍有自己的密码，此浏览器无法将其切换为你的 Passyble 密码。请使用 Windows 或 Android 上的 Passyble 应用，或询问你的团队管理员。",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Personal"
+      }
+    }
+  },
+  "teamsConfirm": {
+    "message": "确认"
+  },
+  "teamsConfirmHint": {
+    "message": "请对方读出其 Passyble 应用中的指纹，然后在这里输入。"
+  },
+  "teamsConfirmPlaceholder": {
+    "message": "对方读出的指纹"
+  },
+  "teamsConfirmTyped": {
+    "message": "$PERSON$ 的指纹",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsConfirmed": {
+    "message": "已确认 $PERSON$",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsConfirmList": {
+    "message": "待确认的人"
+  },
+  "teamsKeysChanged": {
+    "message": "$PERSON$ 的密钥已更改。授予访问权限前，请与 $PERSON$ 核对新的指纹。",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsLeftOut": {
+    "message": "请先与 $PERSON$ 核对指纹，再授予访问权限。",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsFingerprintMismatch": {
+    "message": "该指纹不匹配。请再与对方核对一次。"
+  },
+  "teamsKeysWrong": {
+    "message": "服务发送的密钥与此指纹不匹配。未做任何更改。"
+  },
+  "teamsSignerList": {
+    "message": "待验证的共享密码库"
+  },
+  "teamsSignerUnverified": {
+    "message": "$VAULT$ 尚未验证",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsSignerHint": {
+    "message": "请共享它的管理员读出其 Passyble 应用中的指纹。仅当与下面一致时才验证："
+  },
+  "teamsSignerChanged": {
+    "message": "$VAULT$：管理员的密钥已更改",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsSignerChangedHint": {
+    "message": "这不是你验证过的密钥。在与管理员核对新指纹之前，请不要信任此密码库："
+  },
+  "teamsSignerVerify": {
+    "message": "一致"
+  },
+  "teamsSignerVerified": {
+    "message": "$VAULT$ 已验证",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsLineHeld_other": {
+    "message": "$COUNT$ 个已暂停",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineDeviceWaiting": {
+    "message": "此浏览器正在等待另一台设备批准"
+  },
+  "optionsHelpSupport": {
+    "message": "帮助与支持"
+  },
+  "popupHelpSupport": {
+    "message": "帮助与支持"
+  },
+  "qaGroupLabel": {
+    "message": "快捷操作"
+  },
+  "qaScanQr": {
+    "message": "扫描二维码"
+  },
+  "qaScanQrTitle": {
+    "message": "添加此页面上显示的 2FA 二维码"
+  },
+  "qaNewNote": {
+    "message": "新建笔记"
+  },
+  "qaNewNoteTitle": {
+    "message": "添加安全笔记，例如恢复码"
+  },
+  "qaGenerate": {
+    "message": "生成"
+  },
+  "qaGenerateTitle": {
+    "message": "生成强密码"
+  },
+  "qaNoQr": {
+    "message": "此页面上看不到二维码。请滚动页面让它显示出来，然后重试。"
+  },
+  "qaNotAuthenticator": {
+    "message": "此二维码不是用于身份验证器应用的。"
+  },
+  "qaMigration": {
+    "message": "此二维码是 Google Authenticator 的导出数据。请在 Passyble 应用中导入。"
+  },
+  "qaHotp": {
+    "message": "此二维码用于基于计数器的验证码（HOTP），Passyble 不支持。"
+  },
+  "qaInvalidQr": {
+    "message": "无法读取此 2FA 二维码。请改用密钥添加验证码。"
+  },
+  "qaAddTotpHeading": {
+    "message": "添加 2FA 验证码"
+  },
+  "qaUnnamedCode": {
+    "message": "2FA 验证码"
+  },
+  "qaAddTo": {
+    "message": "添加到"
+  },
+  "qaHasTotp": {
+    "message": "已有 2FA"
+  },
+  "qaNewLoginFor": {
+    "message": "$SITE$ 的新登录信息",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "qaThisSite": {
+    "message": "此网站"
+  },
+  "qaPickHint": {
+    "message": "请选择要添加到的登录信息。"
+  },
+  "qaReplacesTotp": {
+    "message": "它当前的 2FA 验证码将被替换。"
+  },
+  "qaAddTotp": {
+    "message": "添加 2FA"
+  },
+  "qaTotpAdded": {
+    "message": "已将 2FA 验证码添加到 $TITLE$",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "qaTotpSavedNew": {
+    "message": "已保存为新登录信息：$TITLE$",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "qaNoteHeading": {
+    "message": "新建笔记"
+  },
+  "qaNoteTitle": {
+    "message": "标题"
+  },
+  "qaNoteText": {
+    "message": "笔记"
+  },
+  "qaNoteTextPlaceholder": {
+    "message": "粘贴恢复码或输入笔记"
+  },
+  "qaNoteRecovery": {
+    "message": "恢复码"
+  },
+  "qaNoteRecoveryFor": {
+    "message": "$SITE$ 的恢复码",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "qaNoteUntitled": {
+    "message": "安全笔记"
+  },
+  "qaNoteHint": {
+    "message": "将作为安全笔记保存在你的保险库中。"
+  },
+  "qaNoteSaved": {
+    "message": "笔记已保存"
+  },
+  "qaNoteNeedsUpdate": {
+    "message": "请更新 Passyble 以在此处添加笔记。"
+  },
+  "qaGenerateHeading": {
+    "message": "生成密码"
+  },
+  "qaGeneratedLabel": {
+    "message": "生成的密码"
+  },
+  "qaRegenerate": {
+    "message": "换一个密码"
+  },
+  "qaCopy": {
+    "message": "复制"
+  },
+  "qaGenerateHint": {
+    "message": "复制的密码会在 45 秒后从剪贴板清除。"
+  },
+  "vaultAppInstalledHere": {
+    "message": "此电脑上已安装 Passyble 应用，因此 Passyble 在这里使用该应用。"
+  },
+  "optionsAppGone": {
+    "message": "此电脑上已没有 Passyble 应用。可以改为在此浏览器中使用密码库。"
+  },
+  "moveOffer_other": {
+    "message": "将此浏览器中的 $COUNT$ 个项目移到 Passyble 应用",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "23"
+      }
+    }
+  },
+  "moveOfferAny": {
+    "message": "将此浏览器中的项目移到 Passyble 应用"
+  },
+  "moveText": {
+    "message": "在这里删除密码库之前，这些项目也会保留在此浏览器中。"
+  },
+  "moveStart": {
+    "message": "移动项目"
+  },
+  "moveConfirm": {
+    "message": "移动"
+  },
+  "moveInto": {
+    "message": "移到此密码库"
+  },
+  "moveMoving": {
+    "message": "正在移动…"
+  },
+  "moveDoneTitle": {
+    "message": "已移到 Passyble 应用"
+  },
+  "moveDoneText": {
+    "message": "已添加：$ADDED$。应用中已有：$SKIPPED$。此浏览器中的密码库会一直保留，直到将其删除。",
+    "placeholders": {
+      "added": {
+        "content": "$1",
+        "example": "20"
+      },
+      "skipped": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "movePartialTitle": {
+    "message": "部分项目无法移动"
+  },
+  "movePartialText": {
+    "message": "已添加：$ADDED$。应用中已有：$SKIPPED$。无法移动：$FAILED$。这些项目仍在此浏览器中。",
+    "placeholders": {
+      "added": {
+        "content": "$1",
+        "example": "18"
+      },
+      "skipped": {
+        "content": "$2",
+        "example": "3"
+      },
+      "failed": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "moveDeleteVault": {
+    "message": "删除此浏览器中的密码库"
+  },
+  "moveDeleteWarn": {
+    "message": "永久删除此浏览器中的密码库。其中的项目现在已在 Passyble 应用中。"
+  },
+  "cardBannerSave": {
+    "message": "要将银行卡保存到 Passyble 吗？"
+  },
+  "cardBannerUpdate": {
+    "message": "要更新银行卡有效期吗？"
+  },
+  "cardBannerSaved": {
+    "message": "银行卡已保存到 Passyble。"
+  },
+  "cardBannerUpdated": {
+    "message": "银行卡有效期已更新。"
+  },
+  "cardBannerNoCode": {
+    "message": "不会保存安全码。你可以在 Passyble 中把它添加到这张卡。"
+  },
+  "cardBannerNeverDone": {
+    "message": "此网站不再提示保存银行卡。"
+  },
+  "cardBannerEditFrameTitle": {
+    "message": "Passyble 银行卡信息"
+  },
+  "cardEditHolder": {
+    "message": "持卡人姓名"
+  },
+  "cardEditExpiry": {
+    "message": "有效期"
+  },
+  "cardEditExpiryPlaceholder": {
+    "message": "MM/YY"
+  },
+  "cardEditExpiryHint": {
+    "message": "请使用 MM/YY 格式，例如 04/29。"
+  },
+  "cardEditTitle": {
+    "message": "标题"
+  },
+  "settingCardSave": {
+    "message": "提示保存银行卡"
+  },
+  "settingCardSaveDetails": {
+    "message": "使用新银行卡付款后提示保存。"
+  },
+  "optionsNeverSaveCards": {
+    "message": "银行卡"
+  },
+  "popupPassyblePassword": {
+    "message": "Passyble 密码"
+  },
+  "popupUnlockEmptyAccount": {
+    "message": "请输入你的 Passyble 密码。"
+  },
+  "accountEmailAddress": {
+    "message": "电子邮件地址"
+  },
+  "accountSecretKey": {
+    "message": "秘密密钥"
+  },
+  "accountSecretKeyPlaceholder": {
+    "message": "秘密密钥（P1-...）"
+  },
+  "accountSecretKeyHint": {
+    "message": "在此浏览器中只需输入一次。它在你的紧急工具包中。"
+  },
+  "accountSharedComputer": {
+    "message": "这是共用电脑：不要保存我的秘密密钥"
+  },
+  "accountApproveFromDevice": {
+    "message": "从另一台设备批准"
+  },
+  "accountPageTitle": {
+    "message": "你的 Passyble 密码"
+  },
+  "accountPageLead": {
+    "message": "一个密码，用于你的 Passyble 账户以及关联到它的密码库。它绝不会离开此浏览器。"
+  },
+  "accountKeysInApp": {
+    "message": "这台电脑上的 Passyble 应用会用你的 Passyble 密码打开你的密码库。请在那里登录。"
+  },
+  "accountPasswordSignIn": {
+    "message": "使用你的 Passyble 密码登录"
+  },
+  "accountSigningIn": {
+    "message": "正在登录…"
+  },
+  "accountSignedInUnlocked": {
+    "message": "已登录为 $EMAIL$。你在此浏览器中的密码库已解锁。",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "ada@example.com"
+      }
+    }
+  },
+  "accountApproveLead": {
+    "message": "使用已登录 Passyble 的手机或电脑。除了你的电子邮件地址，无需输入任何内容。"
+  },
+  "accountApproveAsk": {
+    "message": "请求批准"
+  },
+  "accountApproveQrLabel": {
+    "message": "供你的另一台设备扫描的二维码"
+  },
+  "accountApproveQrHint": {
+    "message": "在你的另一台设备上打开 Passyble 并添加设备，然后扫描此码。没有摄像头？请在那台设备上批准此浏览器，并输入这里显示的代码。"
+  },
+  "accountApproveCodeHint": {
+    "message": "请在你的另一台设备上输入此代码。"
+  },
+  "accountApproveCheckHint": {
+    "message": "请检查你的另一台设备在“设置”的“Passyble 密码”中是否显示此指纹。"
+  },
+  "accountApproveFingerprintLabel": {
+    "message": "账户密钥指纹"
+  },
+  "accountApproveMatches": {
+    "message": "一致"
+  },
+  "accountApproveNoMatch": {
+    "message": "不一致"
+  },
+  "accountApproveNotKept": {
+    "message": "密钥未保留。指纹不一致意味着它们可能不是你账户的密钥。请从你的另一台设备重新请求，如果再次发生，请联系支持。"
+  },
+  "accountApproveCancelledNotKept": {
+    "message": "已取消。收到的密钥未保留。"
+  },
+  "accountApproveWaiting": {
+    "message": "正在等待你的另一台设备…"
+  },
+  "accountApproveDone": {
+    "message": "此浏览器已获批准。你的 Passyble 密码现在可以在这里打开你关联的密码库。"
+  },
+  "accountApproveDoneUnlocked": {
+    "message": "此浏览器已获批准，你在此浏览器中的密码库已解锁。"
+  },
+  "accountApproveDenied": {
+    "message": "你的另一台设备拒绝了请求。如果这是误操作，请重新开始。"
+  },
+  "accountApproveExpired": {
+    "message": "请求已结束。请重新请求批准此浏览器。"
+  },
+  "accountKeysAppOnly": {
+    "message": "请在 Passyble 应用中更改你的 Passyble 密码、秘密密钥或恢复码。"
+  },
+  "accountPasswordButton": {
+    "message": "Passyble 密码"
+  },
+  "welcomeChoicePassword": {
+    "message": "使用你的 Passyble 密码"
+  },
+  "welcomeChoicePasswordText": {
+    "message": "在这里登录，或从另一台设备批准此浏览器。"
+  },
+  "errWrongAccountPassword": {
+    "message": "Passyble 密码或秘密密钥错误。大写锁定是否已开启？"
+  },
+  "errPasswordLimited": {
+    "message": "密码错误次数过多。请稍等片刻后重试。"
+  },
+  "errAccountKeysOff": {
+    "message": "Passyble 密码暂不可用。"
+  },
+  "errNoAccountPassword": {
+    "message": "此账户还没有 Passyble 密码。请在 Passyble 应用中设置。"
+  },
+  "errAccountService": {
+    "message": "Passyble 账户服务的回应异常。请稍后重试。"
+  },
+  "errAccountOffline": {
+    "message": "无法连接到你的 Passyble 账户。请检查网络连接后重试。"
+  },
+  "errAccountSignedOut": {
+    "message": "请先登录你的 Passyble 账户。"
+  },
+  "errBadSecretKey": {
+    "message": "这不是秘密密钥。请从你的紧急工具包中复制：它以 P1 开头。"
+  },
+  "errSecretKeyNeeded": {
+    "message": "请在此浏览器中输入一次你的秘密密钥。它在你的紧急工具包中。"
+  },
+  "errEmailNeeded": {
+    "message": "请输入你账户的电子邮件地址。"
+  },
+  "errOtherAccount": {
+    "message": "此密码属于另一个 Passyble 账户，而不是此密码库所关联的账户。"
+  },
+  "errOtherAccountKey": {
+    "message": "此密码库关联的是你账户的旧密钥。请在 Passyble 应用中打开它一次。"
+  },
+  "errApprovalMismatch": {
+    "message": "批准不匹配。请在两台设备上重新开始。"
+  },
+  "accountSecretKeyExample": {
+    "message": "P1-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX"
+  },
+  "menuSimilarSites": {
+    "message": "相关网站"
+  },
+  "menuSearchPassyble": {
+    "message": "在 Passyble 中搜索…"
+  },
+  "menuSearchUseToolbar": {
+    "message": "要搜索密码库，请点击浏览器工具栏中的 Passyble。"
+  },
+  "commonNoLoginsFor": {
+    "message": "$SITE$ 没有登录信息",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossTitle": {
+    "message": "也在 $SITE$ 上使用此登录信息吗？",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossSavedFor": {
+    "message": "为 $SITE$ 保存",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.com"
+      }
+    }
+  },
+  "crossAdd": {
+    "message": "将 $SITE$ 添加到此登录信息",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossCopy": {
+    "message": "为 $SITE$ 保存一份副本",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossHint": {
+    "message": "添加后，下次会在此处直接填写，无需确认。保存副本则让两者保持独立。"
+  },
+  "crossAdded": {
+    "message": "已将 $SITE$ 添加到 $TITLE$。",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      },
+      "title": {
+        "content": "$2",
+        "example": "Amazon"
+      }
+    }
+  },
+  "crossCopied": {
+    "message": "副本已保存到 Passyble。"
+  },
+  "crossLookalike": {
+    "message": "$HOST$ 不是 $SITE$，只是地址看起来很像。只有在信任此网站时才添加。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "changedTitle": {
+    "message": "要更新此登录信息吗？"
+  },
+  "changedUsername": {
+    "message": "用户名已改为 $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "bob@example.com"
+      }
+    }
+  },
+  "changedPassword": {
+    "message": "密码已更改"
+  },
+  "changedFromSite": {
+    "message": "为 $SITE$ 保存。更新后还会把 $HOST$ 添加到此登录信息。",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.com"
+      },
+      "host": {
+        "content": "$2",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "changedReadOnly": {
+    "message": "此登录信息位于你无法更改的共享密码库中。你可以改为保存一个新的登录信息。"
+  },
+  "changedLookalike": {
+    "message": "$HOST$ 不是 $SITE$，只是地址看起来很像。只有在信任此网站时才更新或保存。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "changedUpdate": {
+    "message": "更新登录信息"
+  },
+  "changedSaveNew": {
+    "message": "另存为新登录信息"
+  },
+  "changedUpdated": {
+    "message": "已在 Passyble 中更新登录信息。"
+  },
+  "changedSavedNew": {
+    "message": "已另存为新登录信息。"
+  },
+  "popupTypeFilter": {
+    "message": "按类型筛选",
+    "description": "Popup, Filter menu: what a screen reader hears for its Show section, which narrows the list to one kind of item."
+  },
+  "popupTypeAll": {
+    "message": "全部",
+    "description": "Popup, type filter chip: every kind of item."
+  },
+  "popupTypeLogins": {
+    "message": "登录信息",
+    "description": "Popup, type filter chip: only logins (not cards or addresses)."
+  },
+  "popupTypeCards": {
+    "message": "银行卡",
+    "description": "Popup, type filter chip: only payment cards."
+  },
+  "popupTypeAddresses": {
+    "message": "地址",
+    "description": "Popup, type filter chip: only addresses (identities)."
+  },
+  "popupTypeFavorites": {
+    "message": "收藏",
+    "description": "Popup, type filter chip: only items marked as favorites (logins, cards, addresses, notes)."
+  },
+  "popupTypeNotes": {
+    "message": "笔记",
+    "description": "Popup, type filter chip: only secure notes."
+  },
+  "popupSecureNotes": {
+    "message": "安全笔记",
+    "description": "Popup: heading of the list of secure notes (the Notes and Favorites filters)."
+  },
+  "popupSecureNote": {
+    "message": "安全笔记",
+    "description": "Popup: the line under a secure note's title in the list."
+  },
+  "popupShowNote": {
+    "message": "显示笔记",
+    "description": "Popup: tooltip of a secure note's row (opens the note and shows its text)."
+  },
+  "popupShowNoteOf": {
+    "message": "显示笔记 $NAME$",
+    "description": "Popup: accessible name of a secure note's row (opens the note).",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Recovery codes"
+      }
+    }
+  },
+  "popupCopyNote": {
+    "message": "复制笔记",
+    "description": "Popup: button that copies the text of a secure note."
+  },
+  "popupCopyNoteOf": {
+    "message": "复制笔记 $NAME$",
+    "description": "Popup: accessible name of the copy button of a secure note's row.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Recovery codes"
+      }
+    }
+  },
+  "popupCopiedNote": {
+    "message": "笔记已复制",
+    "description": "Notice after copying a secure note's text."
+  },
+  "popupCopiedNoteClears": {
+    "message": "笔记已复制（45 秒后清除）",
+    "description": "Notice after copying a secure note's text; the clipboard is cleared after 45 seconds."
+  },
+  "popupNoteEmpty": {
+    "message": "此笔记为空。",
+    "description": "Popup: a secure note without text (in its viewer, or after Copy)."
+  },
+  "popupNoteText": {
+    "message": "笔记内容",
+    "description": "Popup: accessible name of a secure note's text in its viewer."
+  },
+  "popupNoFilterMatches": {
+    "message": "这里没有此类内容。",
+    "description": "Popup: empty state when the type filter chosen leaves nothing to show."
+  },
+  "ctxSaveSelection": {
+    "message": "将所选内容保存到 Passyble 笔记"
+  },
+  "clipHeading": {
+    "message": "保存到笔记"
+  },
+  "clipSelection": {
+    "message": "所选内容"
+  },
+  "clipAddAddress": {
+    "message": "添加页面地址"
+  },
+  "clipSearch": {
+    "message": "搜索笔记"
+  },
+  "clipNewNote": {
+    "message": "新建笔记"
+  },
+  "clipNotes": {
+    "message": "笔记"
+  },
+  "clipSaveNew": {
+    "message": "保存为新笔记"
+  },
+  "clipAdded": {
+    "message": "已添加到 $NOTE$",
+    "placeholders": {
+      "note": {
+        "content": "$1",
+        "example": "Reading list"
+      }
+    }
+  },
+  "clipSavedNew": {
+    "message": "已保存为新笔记"
+  },
+  "clipNoNotes": {
+    "message": "还没有笔记。请将其保存为新笔记。"
+  },
+  "clipNoMatch": {
+    "message": "没有匹配的笔记。"
+  },
+  "clipViewOnly": {
+    "message": "你无法更改此笔记"
+  },
+  "clipLockedText": {
+    "message": "解锁后即可将所选内容添加到笔记。"
+  },
+  "clipAppendNeedsUpdate": {
+    "message": "请更新 Passyble 应用以添加到笔记。"
+  },
+  "clipNeedsUpdate": {
+    "message": "请更新 Passyble 应用以从浏览器保存笔记。"
+  },
+  "clipGone": {
+    "message": "此所选内容已不存在。请重新选择文本并右键点击。"
+  },
+  "clipTooLong": {
+    "message": "所选内容太长，无法放入笔记。"
+  },
+  "clipNoteFull": {
+    "message": "该笔记已满。请将所选内容保存为新笔记。"
+  }
+}

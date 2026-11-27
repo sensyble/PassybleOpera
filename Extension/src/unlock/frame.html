@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Passyble</title>
+  <link rel="stylesheet" href="../ui/tokens.css">
+  <link rel="stylesheet" href="frame.css">
+  <script type="module" src="frame.js"></script>
+</head>
+<body>
+  <!-- Extension page in an iframe of another origin, so the web page around it can't read what is typed here. -->
+  <form class="unlock" id="form" novalidate>
+    <label class="lbl" for="master" data-i18n="popupMasterPassword">Master password</label>
+    <div class="row">
+      <input class="input" id="master" type="password" autocomplete="off" autocapitalize="off" spellcheck="false"
+        maxlength="1024" aria-label="Master password"
+        data-i18n-aria-label="popupMasterPassword" aria-describedby="msg">
+      <button class="btn primary" id="submit" type="submit"><span data-i18n="popupUnlock">Unlock</span></button>
+    </div>
+    <p class="msg" id="msg" role="status" aria-live="polite" data-i18n="unlockFrameNote">Only Passyble sees what you type here, not this website.</p>
+  </form>
+</body>
+</html>

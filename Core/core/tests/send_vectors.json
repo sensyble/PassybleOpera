@@ -1,0 +1,38 @@
+[
+  {
+    "ciphertext": "ICAgICAgICAgICAgICAgICAgICAgICAgJVp1qyGnzjoXkknGJ-VOHq6JhmWcYpx4DFL1n76azBVmkFlJLkBaxsUNRStUtnyfDEOZIdTvsjH-_-Vqjl3d7DENv2O2WLa_B9BxlYQ1Pj53MOjcLok4SrJrmw",
+    "data": "V2ktRmk6IGRlbW8tbmV0d29yayAvIGRlbW8tcGFzcy0yMDI0",
+    "expires_at": 1730086400000,
+    "key": "EBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBA",
+    "kind": "text",
+    "link_key": "EBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBA",
+    "max_views": 3,
+    "meta": "{\"v\":1,\"expires_at\":1730086400000,\"max_views\":3,\"size\":36}",
+    "mime": "",
+    "name": "",
+    "nonce": "ICAgICAgICAgICAgICAgICAgICAgICAg",
+    "now": 1730000000000,
+    "password": null,
+    "password_auth": null,
+    "salt": "MDAwMDAwMDAwMDAwMDAwMA",
+    "what": "a text without a password"
+  },
+  {
+    "ciphertext": "ISEhISEhISEhISEhISEhISEhISEhISEhKxAshvJPLPeZTUeGc4N4HB6VPnP6wjwmiSMOQ7Yu9tYFlc3IW4b6C2JgDv0c3WOPFhPA46yIYZTPrK_qPd1sviBq4dX4JuljLOi_mzkvngNeuf8kLgbPSy5jqfxY",
+    "data": "ZGVtbyBmaWxlIGNvbnRlbnRzCg",
+    "expires_at": 1730086400000,
+    "key": "ERERERERERERERERERERERERERERERERERERERERERE",
+    "kind": "file",
+    "link_key": "ERERERERERERERERERERERERERERERERERERERERERE",
+    "max_views": 3,
+    "meta": "{\"v\":1,\"expires_at\":1730086400000,\"max_views\":3,\"size\":19,\"kdf\":{\"alg\":\"argon2id\",\"m_kib\":64,\"t\":1,\"p\":1,\"salt\":\"MTExMTExMTExMTExMTExMQ\"}}",
+    "mime": "text/plain",
+    "name": "notes.txt",
+    "nonce": "ISEhISEhISEhISEhISEhISEhISEhISEh",
+    "now": 1730000000000,
+    "password": "demo password",
+    "password_auth": "cfn8TaWqV4vXadCw14u46nqxo2tyi4bUwhq65vB-Th8",
+    "salt": "MTExMTExMTExMTExMTExMQ",
+    "what": "a file with a password"
+  }
+]

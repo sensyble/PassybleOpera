@@ -1,0 +1,15 @@
+[package]
+name = "pass-wasm-kdf"
+description = "Argon2id alone, as a tiny WebAssembly module the browser extension instantiates for one run and drops"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+# `cdylib` with raw exports and no JavaScript glue; `rlib` for the native test.
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+# The same `argon2` as pass-core, without the password-hash string format.
+argon2 = { version = "0.5", default-features = false, features = ["alloc"] }

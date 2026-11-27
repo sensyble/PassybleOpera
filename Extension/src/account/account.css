@@ -1,0 +1,17 @@
+main > .card + .card, main > .card + form, main > form + form { margin-top: var(--sp-4); }
+.vault-form .check { margin-top: 12px; }
+.sk-part, #ap-ask { display: flex; flex-direction: column; }
+.sk-part .muted { margin: 6px 0 0; }
+.ap-wait, .ap-code { display: flex; flex-direction: column; align-items: center; gap: 10px; margin-top: 16px; text-align: center; }
+.ap-wait[hidden], .ap-code[hidden] { display: none; }
+/* The QR on white with its quiet zone, whatever the theme: phones read dark modules on light. */
+.ap-qr { width: 220px; height: 220px; padding: 0; border-radius: 12px; background: #fff; }
+.ap-qr svg { display: block; width: 100%; height: 100%; }
+.ap-qr path { fill: #000; }
+.ap-digits { margin: 0; font-size: 34px; font-weight: 700; letter-spacing: 0.12em; font-variant-numeric: tabular-nums; }
+.ap-fingerprint { margin: 0; font-family: ui-monospace, monospace; font-size: 18px; font-weight: 700; letter-spacing: 0.06em;
+  overflow-wrap: anywhere; }
+.form-msg.loud { padding: 10px 12px; border-radius: 10px; background: var(--danger-soft); box-shadow: inset 0 0 0 1px var(--danger);
+  color: var(--danger); font-weight: 600; }
+.app-only { margin-top: var(--sp-4); }
+.app-only .text-link { margin-inline-start: 4px; }

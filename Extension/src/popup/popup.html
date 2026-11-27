@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Passyble</title>
+  <link rel="stylesheet" href="../ui/tokens.css">
+  <link rel="stylesheet" href="popup.css">
+  <script type="module" src="popup.js"></script>
+</head>
+<body>
+  <header class="top">
+    <span class="logo" id="logo"></span>
+    <button class="vault-switch" id="vault-switch" type="button" title="Switch vault" data-i18n-title="popupSwitchVault" aria-haspopup="menu" aria-expanded="false" hidden></button>
+    <button class="icon-btn sync-btn" id="sync-btn" type="button" title="Sync now" aria-label="Sync now" data-i18n-title="syncNow" data-i18n-aria-label="syncNow" hidden data-icon="sync" data-icon-size="18"></button>
+    <button class="icon-btn" id="lock-btn" type="button" title="Lock Passyble" aria-label="Lock Passyble" data-i18n-title="popupLock" data-i18n-aria-label="popupLock" hidden data-icon="lock" data-icon-size="18"></button>
+    <button class="icon-btn" id="menu-btn" type="button" title="More" aria-label="More options" data-i18n-title="commonMore" data-i18n-aria-label="popupMoreOptions" aria-haspopup="menu" aria-expanded="false" data-icon="more" data-icon-size="18"></button>
+  </header>
+
+  <main id="main">
+    <div class="app-tip switch-tip" id="switch-tip" role="status" hidden></div>
+    <section class="view" id="view-loading"><div class="spinner" aria-label="Loading" data-i18n-aria-label="popupLoading"></div></section>
+
+    <section class="view state" id="view-locked" hidden>
+      <div class="state-icon" aria-hidden="true" data-icon="lock" data-icon-size="24"></div>
+      <h2 data-i18n="popupLockedTitle">Passyble is locked</h2>
+      <p class="state-lead" data-i18n="popupLockedText">Unlock to fill your logins on this site.</p>
+      <!-- Our own master password: no autofill, no password manager suggestions. -->
+      <form class="unlock-form" id="unlock-form" hidden novalidate>
+        <input class="input" id="unlock-email" type="email" autocomplete="username" autocapitalize="off" spellcheck="false"
+          maxlength="254" hidden placeholder="E-mail address" aria-label="E-mail address" data-i18n-placeholder="accountEmailAddress" data-i18n-aria-label="accountEmailAddress">
+        <input class="input" id="master" type="password" autocomplete="off" autocapitalize="off" spellcheck="false"
+          maxlength="1024" placeholder="Master password" aria-label="Master password" data-i18n-placeholder="popupMasterPassword" data-i18n-aria-label="popupMasterPassword" aria-describedby="unlock-msg">
+        <input class="input" id="unlock-secret-key" type="password" autocomplete="off" autocapitalize="characters" spellcheck="false"
+          maxlength="128" hidden placeholder="Secret Key (P1-...)" aria-label="Secret Key" data-i18n-placeholder="accountSecretKeyPlaceholder" data-i18n-aria-label="accountSecretKey">
+        <label class="unlock-check" id="unlock-shared-row" hidden><input type="checkbox" id="unlock-shared"> <span data-i18n="accountSharedComputer">This is a shared computer: don't keep my Secret Key</span></label>
+        <button class="btn primary" id="unlock-submit" type="submit"><span data-i18n="popupUnlock">Unlock</span></button>
+        <button class="btn" id="unlock-hello" type="button" data-icon="hello" hidden><span data-i18n="popupUseHello">Use Windows Hello</span></button>
+      </form>
+      <button class="btn primary" id="unlock" type="button"><span data-i18n="popupUnlock">Unlock</span></button>
+      <p class="muted small" id="unlock-msg" role="status" aria-live="polite"></p>
+      <div class="unlock-alt" id="unlock-alt" hidden>
+        <button class="text-link" id="unlock-app" type="button" title="Unlock in the Passyble app" data-i18n-title="commonUnlockInApp"><span data-i18n="commonOpenPassyble">Open Passyble</span></button>
+        <button class="text-link" id="unlock-approve" type="button" hidden><span data-i18n="accountApproveFromDevice">Approve from another device</span></button>
+        <button class="text-link" id="unlock-cancel" type="button" hidden><span data-i18n="commonCancel">Cancel</span></button>
+      </div>
+    </section>
+
+    <section class="view state" id="view-update" hidden>
+      <div class="state-icon" aria-hidden="true" data-icon="update" data-icon-size="24"></div>
+      <h2 data-i18n="updateRequiredTitle">Update required</h2>
+      <p class="state-lead" data-i18n="updateRequiredText">This version of Passyble is no longer supported. Update it to keep filling and saving passwords.</p>
+      <p class="update-message" id="update-message" hidden></p>
+      <button class="btn primary" id="update-now" type="button"><span data-i18n="updateNow">Update</span></button>
+      <button class="btn" id="update-view" type="button"><span data-i18n="updateViewPasswords">View my passwords</span></button>
+      <p class="muted small" id="update-msg" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="view" id="view-readonly" hidden>
+      <div class="view-head">
+        <button class="icon-btn" id="ro-back" type="button" title="Back (Esc)" aria-label="Back" data-i18n-title="popupBackEsc" data-i18n-aria-label="popupBack" data-icon="back" data-icon-size="18"></button>
+        <h2 data-i18n="updateReadOnlyTitle">Your passwords</h2>
+      </div>
+      <div class="ro-note" id="ro-note" role="note">
+        <span class="ro-note-icon" aria-hidden="true" data-icon="alert" data-icon-size="16"></span>
+        <span class="ro-note-text" id="ro-note-text" data-i18n="updateReadOnlyNote">The Passyble extension is read-only until you update it. You can still view and copy your passwords.</span>
+      </div>
+      <div class="search" id="ro-search-box">
+        <span class="search-icon" aria-hidden="true" data-icon="search"></span>
+        <input id="ro-search" type="search" placeholder="Search vault" autocomplete="off" spellcheck="false" aria-label="Search logins" data-i18n-placeholder="popupSearchVault" data-i18n-aria-label="popupSearchLabel">
+      </div>
+      <p class="muted results-msg" id="ro-msg" role="status" aria-live="polite"></p>
+      <ul class="list" id="ro-list" aria-label="Logins in your vault" data-i18n-aria-label="popupVaultLogins"></ul>
+    </section>
+
+    <section class="view state" id="view-offline" hidden>
+      <div class="state-icon" id="offline-icon" aria-hidden="true" data-icon="monitor" data-icon-size="24"></div>
+      <h2 id="offline-title" data-i18n="popupOfflineTitle">Passyble isn't running</h2>
+      <p class="muted" id="offline-text" hidden></p>
+      <button class="btn primary" id="start" type="button"><span data-i18n="popupStart">Start Passyble</span></button>
+      <button class="btn primary" id="retry" type="button" hidden><span data-i18n="popupRetry">Try again</span></button>
+      <button class="btn" id="browser-vault" type="button" hidden><span data-i18n="popupUseBrowserVault">Use a browser vault instead</span></button>
+      <button class="text-link" id="setup-guide" type="button"><span data-i18n="popupSetupGuide">Setup guide</span></button>
+      <p class="muted small" id="start-msg" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="view state" id="view-novault" hidden>
+      <div class="state-icon" aria-hidden="true" data-icon="shield" data-icon-size="24"></div>
+      <h2 data-i18n="popupNoVaultTitle">No vault yet</h2>
+      <p class="state-lead" data-i18n="popupNoVaultText">Create a vault in this browser, or use the Passyble app for Google Drive sync.</p>
+      <button class="btn primary" id="novault-create" type="button"><span data-i18n="vaultCreate">Create a vault</span></button>
+      <button class="btn" id="novault-drive" type="button"><span data-i18n="driveSyncTitle">Google Drive sync</span></button>
+      <button class="btn" id="novault-signin" type="button"><span data-i18n="accountSignIn">Sign in</span></button>
+    </section>
+
+    <section class="view state" id="view-ask" hidden>
+      <div class="state-icon" id="ask-icon" aria-hidden="true" data-icon="shield" data-icon-size="24"></div>
+      <h2 id="ask-title"></h2>
+      <p class="muted" id="ask-text"></p>
+      <form class="unlock-form" id="ask-form" novalidate>
+        <input class="input" id="ask-password" type="password" autocomplete="off" autocapitalize="off" spellcheck="false"
+          maxlength="1024" placeholder="Master password" aria-label="Master password" data-i18n-placeholder="popupMasterPassword" data-i18n-aria-label="popupMasterPassword" aria-describedby="ask-msg">
+        <button class="btn primary" id="ask-submit" type="submit"><span id="ask-submit-label" data-i18n="popupAskConfirm">Confirm</span></button>
+      </form>
+      <p class="muted small" id="ask-msg" role="status" aria-live="polite"></p>
+      <div class="unlock-alt">
+        <button class="text-link" id="ask-cancel" type="button"><span data-i18n="commonCancel">Cancel</span></button>
+      </div>
+    </section>
+
+    <section class="view" id="view-server" hidden>
+      <div class="view-head">
+        <button class="icon-btn" id="server-back" type="button" title="Back (Esc)" aria-label="Back" data-i18n-title="popupBackEsc" data-i18n-aria-label="popupBack" data-icon="back" data-icon-size="18"></button>
+        <h2 data-i18n="popupAddServer">Add Passyble Server</h2>
+      </div>
+      <div id="server-pair"></div>
+    </section>
+
+    <section class="view" id="view-quick" hidden>
+      <div class="view-head">
+        <button class="icon-btn" id="quick-back" type="button" title="Back (Esc)" aria-label="Back" data-i18n-title="popupBackEsc" data-i18n-aria-label="popupBack" data-icon="back" data-icon-size="18"></button>
+        <h2 data-i18n="popupQuickSettings">Quick settings</h2>
+      </div>
+      <div class="qcard" id="quick-list">
+        <div class="qrow">
+          <span class="qrow-icon" data-icon="fill" data-icon-size="20"></span>
+          <span class="qrow-text"><label class="qrow-name" for="q-inlineMenu" data-i18n="settingInlineMenu">Inline menu</label><span class="qrow-cap" data-i18n="settingInlineMenuDetails">Shows the Passyble icon and menu in login fields.</span></span>
+          <label class="switch"><input type="checkbox" id="q-inlineMenu" data-key="inlineMenu"><i></i></label>
+        </div>
+        <div class="qrow">
+          <span class="qrow-icon" data-icon="logIn" data-icon-size="20"></span>
+          <span class="qrow-text"><label class="qrow-name" for="q-autoSuggest" data-i18n="settingAutoSuggest">Open suggestions automatically</label><span class="qrow-cap" data-i18n="settingAutoSuggestDetails">Off: press ↓ or click the icon.</span></span>
+          <label class="switch"><input type="checkbox" id="q-autoSuggest" data-key="autoSuggest"><i></i></label>
+        </div>
+        <div class="qrow">
+          <span class="qrow-icon" data-icon="dice" data-icon-size="20"></span>
+          <span class="qrow-text"><label class="qrow-name" for="q-autoGenerate" data-i18n="settingAutoGenerate">Suggest strong passwords</label><span class="qrow-cap" data-i18n="settingAutoGenerateDetails">Off: still in the menu.</span></span>
+          <label class="switch"><input type="checkbox" id="q-autoGenerate" data-key="autoGenerate"><i></i></label>
+        </div>
+        <div class="qrow">
+          <span class="qrow-icon" data-icon="clock" data-icon-size="20"></span>
+          <span class="qrow-text"><label class="qrow-name" for="q-autoFillOtp" data-i18n="settingAutoFillOtp">Autofill 2FA codes</label><span class="qrow-cap" data-i18n="settingAutoFillOtpDetails">Fills the code on the next step, never submits.</span></span>
+          <label class="switch"><input type="checkbox" id="q-autoFillOtp" data-key="autoFillOtp"><i></i></label>
+        </div>
+        <div class="qrow">
+          <span class="qrow-icon" data-icon="download" data-icon-size="20"></span>
+          <span class="qrow-text"><label class="qrow-name" for="q-saveBanner" data-i18n="settingSaveBanner">Offer to save logins</label><span class="qrow-cap" data-i18n="settingSaveBannerDetails">Asks after you sign in with a new login.</span></span>
+          <label class="switch"><input type="checkbox" id="q-saveBanner" data-key="saveBanner"><i></i></label>
+        </div>
+      </div>
+      <button class="qmore" id="quick-more" type="button">
+        <span class="qrow-icon" data-icon="gear" data-icon-size="20"></span>
+        <span class="qrow-name" data-i18n="popupMoreSettings">More settings</span>
+        <span class="qrow-chev" data-icon="chevronRight" data-icon-size="16"></span>
+      </button>
+      <p class="credit"><button class="credit-link" id="sensyble" type="button" data-i18n="creditSensyble">Made by Sensyble</button></p>
+    </section>
+
+    <section class="view" id="view-list" hidden>
+      <div class="app-tip" id="update-tip" role="note" hidden>
+        <span class="app-tip-text" data-i18n="updateAvailable">A new version of Passyble is available.</span>
+        <button class="btn ghost" id="update-tip-now" type="button"><span data-i18n="updateNow">Update</span></button>
+        <button class="icon-btn" id="update-tip-close" type="button" title="Dismiss" aria-label="Dismiss" data-i18n-title="popupDismiss" data-i18n-aria-label="popupDismiss" data-icon="close" data-icon-size="16"></button>
+      </div>
+      <div class="app-tip" id="move-tip" role="note" hidden>
+        <span class="app-tip-text" id="move-tip-text"></span>
+        <button class="btn ghost" id="move-tip-move" type="button"><span data-i18n="moveConfirm">Move</span></button>
+        <button class="icon-btn" id="move-tip-close" type="button" title="Not now" aria-label="Not now" data-i18n-title="bannerNotNow" data-i18n-aria-label="bannerNotNow" data-icon="close" data-icon-size="16"></button>
+      </div>
+      <div class="local-reminder" id="local-reminder" role="note" hidden>
+        <span class="local-reminder-icon" data-icon="alert" data-icon-size="18" aria-hidden="true"></span>
+        <div class="local-reminder-body">
+          <div class="local-reminder-head">
+            <p class="local-reminder-title" data-i18n="localOnlyTitle">This vault is only on this device</p>
+            <button class="local-reminder-info" id="local-reminder-info" type="button" aria-label="What this means" data-i18n-aria-label="localOnlyDetails" data-icon="info" data-icon-size="16"></button>
+          </div>
+          <div class="local-reminder-actions">
+            <button class="btn primary" id="local-reminder-sync" type="button"><span data-i18n="localOnlySetUpSync">Set up sync</span></button>
+            <button class="btn ghost" id="local-reminder-later" type="button"><span data-i18n="localOnlyNotNow">Not now</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="search-row">
+        <div class="search">
+          <span class="search-icon" aria-hidden="true" data-icon="search"></span>
+          <input id="search" type="search" placeholder="Search" autocomplete="off" spellcheck="false" aria-label="Search logins" data-i18n-placeholder="popupSearch" data-i18n-aria-label="popupSearchLabel">
+        </div>
+        <div class="filter">
+          <button class="filter-btn" id="filter" type="button" aria-haspopup="menu" aria-expanded="false"><span class="filter-name" data-i18n="popupFilter">Filter</span><span data-icon="chevronDown" data-icon-size="14"></span></button>
+          <button class="filter-clear" id="filter-clear" type="button" hidden data-icon="close" data-icon-size="14"></button>
+        </div>
+      </div>
+      <div class="qa-row" id="qa-row" hidden></div>
+      <div id="lookup" hidden></div>
+      <!-- An international (xn--) address: most are real sites, so no alarm here. -->
+      <p class="host-note" id="host-note" hidden></p>
+      <h3 class="section-title" id="site-title" hidden data-i18n="popupOnThisSite">On this site</h3>
+      <ul class="list" id="list" aria-label="Logins for this site" data-i18n-aria-label="popupSiteLogins"></ul>
+      <div class="empty" id="empty-state" hidden>
+        <div class="state-icon" id="empty-icon" aria-hidden="true" data-icon="key" data-icon-size="22"></div>
+        <p class="empty-title" id="empty"></p>
+        <p class="empty-text" id="empty-text"></p>
+        <button class="btn primary" id="search-vault" type="button" hidden><span data-i18n="popupSearchVault">Search vault</span></button>
+      </div>
+      <!-- Similar sites, never a lookalike: each is another site's, so "Fill on this page" asks in the desktop app first. -->
+      <div id="similar" hidden>
+        <h3 class="section-title" data-i18n="menuSimilarSites">Similar sites</h3>
+        <ul class="list" id="similar-list" role="listbox" aria-label="Similar sites" data-i18n-aria-label="menuSimilarSites"></ul>
+      </div>
+      <button class="btn ghost add-login" id="add-login" type="button" data-icon="plus" hidden><span data-i18n="popupAddLogin">Add login</span></button>
+      <div id="results" hidden>
+        <h3 class="section-title" id="results-title" data-i18n="popupInVault">In your vault</h3>
+        <ul class="list" id="result-list" role="listbox" aria-label="Logins in your vault" data-i18n-aria-label="popupVaultLogins"></ul>
+        <p class="muted results-msg" id="results-msg" role="status" aria-live="polite" hidden></p>
+      </div>
+      <div id="forms" hidden>
+        <h3 class="section-title" id="forms-title" data-i18n="popupCardsAndAddresses">Cards and addresses</h3>
+        <ul class="list" id="forms-list" aria-label="Cards and addresses" data-i18n-aria-label="popupCardsAndAddresses"></ul>
+      </div>
+      <div id="notes" hidden>
+        <h3 class="section-title" id="notes-title" data-i18n="popupSecureNotes">Secure notes</h3>
+        <ul class="list" id="notes-list" aria-label="Secure notes" data-i18n-aria-label="popupSecureNotes"></ul>
+      </div>
+      <div id="other" hidden>
+        <h3 class="section-title" id="other-title"></h3>
+        <ul class="list" id="other-list"></ul>
+      </div>
+      <div class="vault-foot" id="vault-foot" hidden>
+        <button class="chip warn sync-chip" id="drive-app-chip" type="button" data-icon="cloudOff" data-icon-size="14"><span data-i18n="driveNeedsAppShort">Google Drive sync needs the app</span></button>
+      </div>
+    </section>
+
+    <section class="view" id="view-qa" hidden>
+      <div class="view-head">
+        <button class="icon-btn" id="qa-back" type="button" title="Back (Esc)" aria-label="Back" data-i18n-title="popupBackEsc" data-i18n-aria-label="popupBack" data-icon="back" data-icon-size="18"></button>
+        <h2 id="qa-heading"></h2>
+      </div>
+      <div id="qa-body"></div>
+    </section>
+
+    <section class="view" id="view-note" hidden>
+      <div class="view-head">
+        <button class="icon-btn" id="note-back" type="button" title="Back (Esc)" aria-label="Back" data-i18n-title="popupBackEsc" data-i18n-aria-label="popupBack" data-icon="back" data-icon-size="18"></button>
+        <h2 id="note-heading"></h2>
+      </div>
+      <div id="note-body"></div>
+    </section>
+
+    <section class="view" id="view-edit" hidden>
+      <div class="view-head">
+        <button class="icon-btn" id="edit-back" type="button" title="Back (Esc)" aria-label="Back" data-i18n-title="popupBackEsc" data-i18n-aria-label="popupBack" data-icon="back" data-icon-size="18"></button>
+        <h2 id="edit-heading" data-i18n="editorEditLogin">Edit login</h2>
+        <span class="view-tools" id="edit-tools"></span>
+      </div>
+      <div id="editor"></div>
+    </section>
+  </main>
+
+  <div class="snack" id="snack" role="status" aria-live="polite"></div>
+</body>
+</html>

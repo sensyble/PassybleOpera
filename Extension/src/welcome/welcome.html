@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="welcomePageTitle">Welcome to Passyble</title>
+  <link rel="stylesheet" href="../ui/tokens.css">
+  <link rel="stylesheet" href="../options/options.css">
+  <link rel="stylesheet" href="welcome.css">
+  <script type="module" src="welcome.js"></script>
+</head>
+<body>
+  <header class="page-head">
+    <span class="logo" id="logo"></span>
+    <a class="btn ghost head-link" id="guides" href="https://help.passyble.com/" target="_blank" rel="noopener noreferrer"><span data-i18n="welcomeTipsTitle">How to use Passyble</span></a>
+    <a class="btn head-link" id="open-settings" href="../options/options.html" target="_blank"><span data-i18n="welcomeOpenSettings">Open settings</span></a>
+  </header>
+  <div class="layout single">
+  <main>
+    <div class="intro">
+      <h1 data-i18n="welcomeTitle">Set up Passyble</h1>
+      <p class="lead" data-i18n="welcomeLead">A few steps, then Passyble fills your logins in this browser.</p>
+    </div>
+
+    <section class="group" id="vault" aria-labelledby="h-vault" hidden>
+      <h2 id="h-vault" class="sr-only" data-i18n="welcomeVaultHeading">Your vault</h2>
+      <div class="card choice" id="vault-choice" hidden>
+        <button class="choice-item recommended" id="choose-drive" type="button">
+          <span class="tip-icon" data-icon="cloud" data-icon-size="18" aria-hidden="true"></span>
+          <span class="choice-text"><span class="choice-head"><span class="choice-title" data-i18n="driveSyncTitle">Google Drive sync</span><span class="rec-chip" data-i18n="welcomeRecommended">Recommended</span></span><span class="choice-cap" data-i18n="welcomeChoiceDriveText">Needs the Passyble app on this computer.</span></span>
+        </button>
+        <button class="choice-item" id="choose-create" type="button">
+          <span class="tip-icon" data-icon="plus" data-icon-size="18" aria-hidden="true"></span>
+          <span class="choice-text"><span class="choice-title" data-i18n="welcomeChoiceCreate">Create a vault in this browser</span><span class="choice-cap" data-i18n="welcomeChoiceCreateText">Kept only on this device. No app needed.</span></span>
+        </button>
+        <button class="choice-item" id="choose-open" type="button">
+          <span class="tip-icon" data-icon="upload" data-icon-size="18" aria-hidden="true"></span>
+          <span class="choice-text"><span class="choice-title" data-i18n="welcomeChoiceOpen">Open a vault file</span><span class="choice-cap" data-i18n="welcomeChoiceOpenText">A copy from another device, or a backup.</span></span>
+        </button>
+        <p class="muted small form-msg error" id="choice-msg" role="status" aria-live="polite" hidden></p>
+        <button class="choice-item" id="choose-existing" type="button" hidden>
+          <span class="tip-icon" data-icon="lockOpen" data-icon-size="18" aria-hidden="true"></span>
+          <span class="choice-text"><span class="choice-title" data-i18n="welcomeChoiceExisting">Use the vault in this browser</span><span class="choice-cap" data-i18n="welcomeChoiceExistingText">The vault this browser already keeps.</span></span>
+        </button>
+        <a class="choice-item" id="choose-app" href="https://github.com/sensyble/pass-releases/releases/latest" target="_blank" rel="noopener noreferrer" hidden>
+          <span class="tip-icon" data-icon="monitor" data-icon-size="18" aria-hidden="true"></span>
+          <span class="choice-text"><span class="choice-title" data-i18n="welcomeGetApp">Get the Windows app</span><span class="choice-cap" data-i18n="welcomeChoiceAppText">Your vault stays in the Passyble app on this PC.</span></span>
+        </a>
+        <button class="choice-item" id="choose-signin" type="button" hidden>
+          <span class="tip-icon" data-icon="logIn" data-icon-size="18" aria-hidden="true"></span>
+          <span class="choice-text"><span class="choice-title" data-i18n="accountSignIn">Sign in</span><span class="choice-cap" data-i18n="welcomeChoiceSignInText">Your Passyble account, for Passyble Cloud, Family and Team.</span></span>
+        </button>
+        <a class="choice-item" id="choose-password" href="../account/account.html" target="_blank" hidden>
+          <span class="tip-icon" data-icon="key" data-icon-size="18" aria-hidden="true"></span>
+          <span class="choice-text"><span class="choice-title" data-i18n="welcomeChoicePassword">Use your Passyble password</span><span class="choice-cap" data-i18n="welcomeChoicePasswordText">Sign in here, or approve this browser from another device.</span></span>
+        </a>
+        <div class="choice-item static" id="signed-in" hidden>
+          <span class="tip-icon" data-icon="user" data-icon-size="18" aria-hidden="true"></span>
+          <span class="choice-text"><span class="choice-title" id="signed-in-as"></span><span class="choice-cap" id="signed-in-via" data-i18n="accountViaApp" hidden>Signed in through the Passyble app on this computer</span></span>
+        </div>
+        <div class="cloud-soon" id="cloud-soon" hidden>
+          <p class="muted small" data-i18n="accountCloudSoon">Passyble Cloud storage is coming soon.</p>
+          <button class="btn" id="cloud-use-drive" type="button"><span data-i18n="accountUseDrive">Use Google Drive</span></button>
+        </div>
+        <p class="muted small form-msg error" id="signin-msg" role="status" aria-live="polite" hidden></p>
+      </div>
+
+      <form class="card pad vault-form" id="vault-create" hidden novalidate>
+        <h3 data-i18n="vaultCreate">Create a vault</h3>
+        <label class="field-label" for="create-pw" data-i18n="popupMasterPassword">Master password</label>
+        <input class="input" id="create-pw" type="password" autocomplete="new-password" autocapitalize="off" spellcheck="false" maxlength="1024" aria-describedby="create-strength">
+        <div class="small strength" id="create-strength" aria-live="polite"></div>
+        <label class="field-label" for="create-pw2" data-i18n="welcomeRepeatPassword">Repeat the master password</label>
+        <input class="input" id="create-pw2" type="password" autocomplete="new-password" autocapitalize="off" spellcheck="false" maxlength="1024">
+        <p class="warn-box" data-i18n="welcomeCreateWarning">Passyble can't reset your master password. Write it down.</p>
+        <div class="warn-box local-notice" id="create-local">
+          <p data-i18n="localOnlyCreateNotice">Only on this device. If you lose this device you lose these passwords. You can turn on Google Drive backup now or later.</p>
+          <button class="btn" id="create-sync" type="button"><span data-i18n="localOnlySetUpSync">Set up sync</span></button>
+        </div>
+        <p class="muted small form-msg" id="create-msg" role="status" aria-live="polite"></p>
+        <div class="step-actions">
+          <button class="btn primary" id="create-submit" type="submit"><span data-i18n="welcomeCreateButton">Create vault</span></button>
+          <button class="btn" type="button" data-back><span data-i18n="popupBack">Back</span></button>
+        </div>
+      </form>
+
+      <form class="card pad vault-form" id="vault-open" hidden novalidate>
+        <h3 data-i18n="welcomeChoiceOpen">Open a vault file</h3>
+        <label class="field-label" for="open-file" data-i18n="welcomeVaultFile">Vault file (.vault)</label>
+        <input class="file-input" id="open-file" type="file" accept=".vault">
+        <div class="open-account" id="open-email-part" hidden>
+          <label class="field-label" for="open-email" data-i18n="accountEmailAddress">E-mail address</label>
+          <input class="input" id="open-email" type="email" autocomplete="username" autocapitalize="off" spellcheck="false" maxlength="254">
+        </div>
+        <label class="field-label" for="open-pw" id="open-pw-label" data-i18n="popupMasterPassword">Master password</label>
+        <input class="input" id="open-pw" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="1024">
+        <div class="open-account" id="open-sk-part" hidden>
+          <label class="field-label" for="open-secret-key" data-i18n="accountSecretKey">Secret Key</label>
+          <input class="input" id="open-secret-key" type="password" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="128"
+            placeholder="P1-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX" data-i18n-placeholder="accountSecretKeyExample">
+          <p class="muted small" data-i18n="accountSecretKeyHint">Only once in this browser. It's in your Emergency Kit.</p>
+          <label class="check"><input type="checkbox" id="open-shared"> <span data-i18n="accountSharedComputer">This is a shared computer: don't keep my Secret Key</span></label>
+        </div>
+        <p class="muted small form-msg" id="open-msg" role="status" aria-live="polite"></p>
+        <div class="step-actions">
+          <button class="btn primary" id="open-submit" type="submit"><span data-i18n="welcomeOpenButton">Open vault</span></button>
+          <button class="btn" type="button" data-back><span data-i18n="popupBack">Back</span></button>
+        </div>
+      </form>
+
+      <div class="card pad vault-form" id="vault-drive" hidden>
+        <h3 data-i18n="driveNeedsAppTitle">Google Drive sync needs the Passyble app on this computer</h3>
+        <p class="muted small" data-i18n="driveNeedsAppText">The Passyble app signs in to Google and keeps your vaults in sync. Install it, turn on Google Drive in the app, and Passyble in this browser fills from the app's vaults.</p>
+        <p class="muted small" id="drive-move-hint" data-i18n="driveNeedsAppMove" hidden>To take the vault of this browser along, download a copy in Settings and open it in the Passyble app.</p>
+        <p class="muted small form-msg" id="drive-check-msg" role="status" aria-live="polite"></p>
+        <div class="step-actions">
+          <a class="btn primary" id="drive-download" href="https://www.passyble.com/download" target="_blank" rel="noopener noreferrer"><span data-i18n="driveDownloadApp">Download the Passyble app</span></a>
+          <button class="btn" id="drive-check" type="button"><span data-i18n="driveCheckAgain">Check again</span></button>
+          <button class="btn primary" id="drive-use-app" type="button" hidden><span data-i18n="optionsUseApp">Use the app</span></button>
+          <button class="btn" type="button" data-back><span data-i18n="popupBack">Back</span></button>
+        </div>
+      </div>
+
+      <div class="card all-set" id="vault-ready" hidden>
+        <span class="all-set-icon" data-icon="check" data-icon-size="22" aria-hidden="true"></span>
+        <div>
+          <h3 data-i18n="welcomeVaultReadyTitle">Your vault is ready</h3>
+          <div class="warn-box local-notice" id="ready-notice" hidden>
+            <p class="notice-title" id="ready-notice-title"></p>
+            <p id="ready-notice-text"></p>
+            <button class="btn" id="ready-sync" type="button"><span data-i18n="localOnlySetUpSync">Set up sync</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="group" id="setup" aria-labelledby="h-setup">
+      <h2 id="h-setup" class="sr-only" data-i18n="welcomeSetupHeading">Get started</h2>
+      <div class="all-set" id="all-set" hidden>
+        <h3 data-i18n="welcomeAllSetTitle">You're all set</h3>
+        <p class="lead" data-i18n="welcomeAllSetLead">Passyble fills your logins in this browser. Click its icon in the toolbar any time.</p>
+        <p class="all-set-actions"><button class="btn primary" id="all-set-done" type="button"><span data-i18n="welcomeDone">Done</span></button></p>
+      </div>
+      <p class="step-count" id="step-count" aria-live="polite"></p>
+      <ol class="card steps" id="steps">
+        <li class="step" id="step-install" data-step="install">
+          <span class="step-mark" aria-hidden="true"><span class="step-num"></span><span class="step-check" data-icon="check" data-icon-size="16"></span></span>
+          <div class="step-body">
+            <h3><span data-i18n="welcomeInstallTitle">Install Passyble for Windows</span> <span class="step-state" data-step-state></span></h3>
+            <div class="step-actions" data-show="active">
+              <a class="btn primary" id="download" href="https://github.com/sensyble/pass-releases/releases/latest" target="_blank" rel="noopener noreferrer"><span data-i18n="welcomeDownload">Download</span></a>
+              <button class="btn" id="retry" type="button"><span data-i18n="popupRetry">Try again</span></button>
+            </div>
+            <p class="muted small" data-show="active" data-i18n="welcomeInstallRetryHint">Installed? Open it, then try again.</p>
+          </div>
+        </li>
+        <li class="step" id="step-start" data-step="start">
+          <span class="step-mark" aria-hidden="true"><span class="step-num"></span><span class="step-check" data-icon="check" data-icon-size="16"></span></span>
+          <div class="step-body">
+            <h3><span data-i18n="welcomeStartTitle">Start Passyble</span> <span class="step-state" data-step-state></span></h3>
+            <div class="step-actions" data-show="active">
+              <button class="btn primary" id="start" type="button"><span data-i18n="popupStart">Start Passyble</span></button>
+            </div>
+            <p class="muted small" id="start-msg" role="status" aria-live="polite"></p>
+            <p class="muted small" data-show="active" data-i18n="welcomeStartNoVault">It connects once it has a vault.</p>
+          </div>
+        </li>
+        <li class="step" id="step-vault" data-step="vault">
+          <span class="step-mark" aria-hidden="true"><span class="step-num"></span><span class="step-check" data-icon="check" data-icon-size="16"></span></span>
+          <div class="step-body">
+            <h3><span data-i18n="welcomeVaultTitle">Create or unlock your vault</span> <span class="step-state" data-step-state></span></h3>
+            <p class="muted small" id="drive-in-app" data-i18n="driveTurnOnInApp">For Google Drive sync, open Settings in the Passyble app, then Sync, and turn on Google Drive.</p>
+          </div>
+        </li>
+        <li class="step" id="step-access" data-step="access" hidden>
+          <span class="step-mark" aria-hidden="true"><span class="step-num"></span><span class="step-check" data-icon="check" data-icon-size="16"></span></span>
+          <div class="step-body">
+            <h3><span data-i18n="welcomeAccessTitle">Allow Passyble on websites</span> <span class="step-state" data-step-state></span></h3>
+            <div class="step-actions" data-show="active">
+              <button class="btn primary" id="allow-access" type="button"><span data-i18n="welcomeAccessButton">Allow access</span></button>
+            </div>
+            <p class="muted small" id="access-msg" role="status" aria-live="polite"></p>
+          </div>
+        </li>
+        <li class="step" id="step-pin" data-step="pin">
+          <span class="step-mark" aria-hidden="true"><span class="step-num"></span><span class="step-check" data-icon="check" data-icon-size="16"></span></span>
+          <div class="step-body">
+            <h3><span data-i18n="welcomePinTitle">Pin Passyble to the toolbar</span> <span class="step-state" data-step-state></span></h3>
+            <p class="muted" data-show="todo" id="pin-how" data-i18n="welcomePinChrome">Click the puzzle piece in the toolbar, then the pin next to Passyble.</p>
+            <label class="check" data-show="active"><input type="checkbox" id="pin-done"> <span data-i18n="welcomePinMark">I pinned it</span></label>
+          </div>
+        </li>
+      </ol>
+      <p class="muted check-status" id="check-status" role="status" aria-live="polite"></p>
+      <p class="muted small" id="browser-link" hidden><a href="#browser" id="use-browser" data-i18n="welcomeUseBrowserInstead">Keep a vault in this browser instead</a></p>
+      <p class="muted small" id="app-installed-line" data-i18n="vaultAppInstalledHere" hidden>The Passyble app is installed on this computer, so Passyble uses it here.</p>
+    </section>
+
+    <footer class="credit">
+      <a id="sensyble" href="https://www.sensyble.net" target="_blank" rel="noopener noreferrer" data-i18n="creditSensyble">Made by Sensyble</a>
+    </footer>
+  </main>
+  </div>
+</body>
+</html>

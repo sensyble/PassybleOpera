@@ -1,0 +1,3743 @@
+{
+  "catalogLocale": {
+    "message": "fr"
+  },
+  "extName": {
+    "message": "Passyble"
+  },
+  "extDescription": {
+    "message": "Mots de passe, codes 2FA et clés d’accès de l’application de bureau Passyble, remplis dans le navigateur."
+  },
+  "actionTitle": {
+    "message": "Passyble"
+  },
+  "cmdOpenPopup": {
+    "message": "Ouvrir Passyble et rechercher dans votre coffre"
+  },
+  "cmdFillLogin": {
+    "message": "Remplir l’identifiant de ce site"
+  },
+  "cmdFillOtp": {
+    "message": "Remplir ou afficher le code 2FA de ce site"
+  },
+  "cmdScanQr": {
+    "message": "Scanner un code QR 2FA sur cette page"
+  },
+  "cmdGenerate": {
+    "message": "Générer un mot de passe (rempli dans le champ actif, sinon copié)"
+  },
+  "cmdNewNote": {
+    "message": "Nouvelle note sécurisée"
+  },
+  "cmdLock": {
+    "message": "Verrouiller Passyble"
+  },
+  "cmdSync": {
+    "message": "Synchroniser vos coffres maintenant"
+  },
+  "cmdUseToolbar": {
+    "message": "Pour continuer, cliquez sur Passyble dans la barre d’outils du navigateur."
+  },
+  "cmdGeneratedCopied": {
+    "message": "Mot de passe fort copié (effacé dans 45 s)"
+  },
+  "cmdGeneratedCopiedByApp": {
+    "message": "Mot de passe fort copié par Passyble (effacé dans 45 s)"
+  },
+  "cmdGenerateCopyFailed": {
+    "message": "Impossible de copier le mot de passe. Réessayez."
+  },
+  "cmdLocked": {
+    "message": "Passyble est verrouillé."
+  },
+  "syncNow": {
+    "message": "Synchroniser maintenant"
+  },
+  "syncSyncing": {
+    "message": "Synchronisation…"
+  },
+  "syncDone": {
+    "message": "Synchronisé à l'instant"
+  },
+  "syncFailed": {
+    "message": "$VAULT$ n'a pas été synchronisé : $REASON$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$2",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedNoName": {
+    "message": "Échec de la synchronisation : $REASON$",
+    "placeholders": {
+      "reason": {
+        "content": "$1",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedMany_one": {
+    "message": "$COUNT$ coffre n'a pas été synchronisé. $VAULT$ : $REASON$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$3",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedMany_many": {
+    "message": "$COUNT$ coffres n'ont pas été synchronisés. $VAULT$ : $REASON$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$3",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncFailedMany_other": {
+    "message": "$COUNT$ coffres n'ont pas été synchronisés. $VAULT$ : $REASON$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Family"
+      },
+      "reason": {
+        "content": "$3",
+        "example": "Couldn't reach the server"
+      }
+    }
+  },
+  "syncVaultUnnamed": {
+    "message": "Coffre"
+  },
+  "syncNeedsUpdate": {
+    "message": "Mettez à jour l'app Passyble pour synchroniser d'ici"
+  },
+  "syncNoneApp": {
+    "message": "Aucun coffre n'est encore synchronisé. Configurez-le dans l'app Passyble."
+  },
+  "syncNoneBrowser": {
+    "message": "Aucun coffre n'est encore synchronisé : ce coffre se trouve uniquement dans ce navigateur."
+  },
+  "commonCancel": {
+    "message": "Annuler"
+  },
+  "commonSave": {
+    "message": "Enregistrer"
+  },
+  "commonUndo": {
+    "message": "Annuler"
+  },
+  "commonDismiss": {
+    "message": "Ignorer"
+  },
+  "commonClose": {
+    "message": "Fermer"
+  },
+  "commonMore": {
+    "message": "Plus"
+  },
+  "commonUsername": {
+    "message": "Nom d’utilisateur"
+  },
+  "commonPassword": {
+    "message": "Mot de passe"
+  },
+  "commonNoUsername": {
+    "message": "(sans nom d’utilisateur)"
+  },
+  "commonPasskey": {
+    "message": "Clé d’accès"
+  },
+  "commonBadge2fa": {
+    "message": "2FA"
+  },
+  "commonShowPassword": {
+    "message": "Afficher le mot de passe"
+  },
+  "commonHidePassword": {
+    "message": "Masquer le mot de passe"
+  },
+  "commonOpenPassyble": {
+    "message": "Ouvrir Passyble"
+  },
+  "commonOpenInPassyble": {
+    "message": "Ouvrir dans Passyble"
+  },
+  "commonOpenedInPassyble": {
+    "message": "Ouvert dans Passyble"
+  },
+  "commonUnlockInApp": {
+    "message": "Déverrouiller dans l’application Passyble"
+  },
+  "commonConfirmHello": {
+    "message": "Confirmez avec Windows Hello…"
+  },
+  "commonNoLoginForm": {
+    "message": "Aucun formulaire de connexion trouvé sur cette page."
+  },
+  "commonIdentity": {
+    "message": "Identité"
+  },
+  "commonNameAndAddress": {
+    "message": "Nom et adresse"
+  },
+  "creditSensyble": {
+    "message": "Créé par Sensyble"
+  },
+  "errAgentUnavailable": {
+    "message": "Passyble n’est pas lancé."
+  },
+  "errTimeout": {
+    "message": "Passyble n’a pas répondu. Cherchez une fenêtre Passyble ouverte."
+  },
+  "errExtensionReloaded": {
+    "message": "Passyble a été mis à jour. Rechargez cette page pour l’utiliser."
+  },
+  "errHostMissing": {
+    "message": "Connexion à Passyble impossible. Vérifiez Passyble → Paramètres → Saisie automatique."
+  },
+  "errLocked": {
+    "message": "Passyble est verrouillé. Déverrouillez-le pour continuer."
+  },
+  "errUrlMismatch": {
+    "message": "Cet identifiant est enregistré pour un autre site."
+  },
+  "errCancelled": {
+    "message": "Annulé."
+  },
+  "errNotFound": {
+    "message": "Rien d’enregistré pour ce site pour l’instant."
+  },
+  "errNotSupported": {
+    "message": "Cela nécessite une application Passyble plus récente. Mettez à jour Passyble, puis réessayez."
+  },
+  "errBadServerInput": {
+    "message": "Ce n’est ni une adresse de serveur ni un lien pass+server://."
+  },
+  "errAddressNeedsUpdate": {
+    "message": "Mettez à jour l’application de bureau Passyble pour ajouter un serveur par son adresse, ou collez plutôt le lien pass+server://."
+  },
+  "errStartFailed": {
+    "message": "Ouvrez Passyble depuis le menu Démarrer."
+  },
+  "errEditNeedsUpdate": {
+    "message": "Mettez à jour Passyble pour modifier les identifiants ici."
+  },
+  "errRateLimited": {
+    "message": "Trop de modifications. Patientez une minute."
+  },
+  "errWrongPassword": {
+    "message": "Mot de passe principal incorrect. Vérifiez la touche Verr. Maj et réessayez."
+  },
+  "errTooManyAttempts": {
+    "message": "Trop de tentatives. Patientez une minute, puis réessayez."
+  },
+  "errUnlockNeedsUpdate": {
+    "message": "Mettez à jour l’application de bureau Passyble pour déverrouiller ici, ou déverrouillez dans Passyble."
+  },
+  "errUnlockFailed": {
+    "message": "Passyble n’a pas pu se déverrouiller. Réessayez, ou déverrouillez dans l’application Passyble."
+  },
+  "errAliasNotSupported": {
+    "message": "Cette application Passyble ne peut pas créer d’alias e-mail. Choisissez une autre option."
+  },
+  "errFormsOff": {
+    "message": "Activez « Proposer les cartes et les adresses » dans les paramètres."
+  },
+  "errWebPagesOnly": {
+    "message": "Passyble fonctionne uniquement sur les pages web normales."
+  },
+  "errPickInPopup": {
+    "message": "Choisissez d’abord l’identifiant dans la fenêtre Passyble."
+  },
+  "errNothingToSave": {
+    "message": "Cette proposition d’enregistrement a expiré. Reconnectez-vous pour enregistrer l’identifiant."
+  },
+  "errNothingToUndo": {
+    "message": "Il n’y a plus rien à annuler."
+  },
+  "errGenerateNotSetUp": {
+    "message": "Configurez d’abord cette option dans l’application de bureau Passyble : ouvrez Passyble → Paramètres."
+  },
+  "errAliasRateLimited": {
+    "message": "Trop de nouveaux alias. Patientez une minute."
+  },
+  "errGeneric": {
+    "message": "Un problème est survenu. Réessayez."
+  },
+  "ctxFill": {
+    "message": "Remplir avec Passyble"
+  },
+  "ctxGenerate": {
+    "message": "Générer un mot de passe"
+  },
+  "ctxGenerateNoSymbols": {
+    "message": "Générer un mot de passe (lettres et chiffres uniquement)"
+  },
+  "ctxGenerateUsername": {
+    "message": "Générer un nom d’utilisateur"
+  },
+  "ctxGenerateAlias": {
+    "message": "Générer un alias e-mail"
+  },
+  "commonCreatingAlias": {
+    "message": "Création de l’alias e-mail…"
+  },
+  "badgeLogins_one": {
+    "message": "Passyble : $COUNT$ identifiant pour ce site",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "badgeLogins_many": {
+    "message": "Passyble : $COUNT$ identifiants pour ce site",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "badgeLogins_other": {
+    "message": "Passyble : $COUNT$ identifiants pour ce site",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "badgeLoginsLocked_one": {
+    "message": "Passyble (verrouillé) : $COUNT$ identifiant pour ce site",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "badgeLoginsLocked_many": {
+    "message": "Passyble (verrouillé) : $COUNT$ identifiants pour ce site",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "badgeLoginsLocked_other": {
+    "message": "Passyble (verrouillé) : $COUNT$ identifiants pour ce site",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "badgeLocked": {
+    "message": "Passyble est verrouillé"
+  },
+  "badgeNotRunning": {
+    "message": "L’application de bureau Passyble n’est pas en cours d’exécution"
+  },
+  "bgNewPasswordTitle": {
+    "message": "$SITE$ (nouveau mot de passe)",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "bgFormsNeedHttps": {
+    "message": "Passyble ne remplit les cartes et les adresses que sur les pages sécurisées (https)"
+  },
+  "bgCannotRunHere": {
+    "message": "Passyble ne peut pas fonctionner sur cette page"
+  },
+  "bgPageTooLarge": {
+    "message": "La page est trop volumineuse pour être analysée"
+  },
+  "popupLock": {
+    "message": "Verrouiller Passyble"
+  },
+  "popupMoreOptions": {
+    "message": "Plus d’options"
+  },
+  "popupLoading": {
+    "message": "Chargement"
+  },
+  "popupStatusLocked": {
+    "message": "Verrouillé. Cliquez pour déverrouiller"
+  },
+  "popupLockedTitle": {
+    "message": "Passyble est verrouillé"
+  },
+  "popupMasterPassword": {
+    "message": "Mot de passe principal"
+  },
+  "popupUnlock": {
+    "message": "Déverrouiller"
+  },
+  "popupUseHello": {
+    "message": "Utiliser Windows Hello"
+  },
+  "popupHelloOrPassword": {
+    "message": "Confirmez avec Windows Hello, ou saisissez votre mot de passe principal."
+  },
+  "popupUnlockEmpty": {
+    "message": "Saisissez votre mot de passe principal."
+  },
+  "popupUnlocking": {
+    "message": "Déverrouillage…"
+  },
+  "popupWaitingWindow": {
+    "message": "En attente de la fenêtre Passyble…"
+  },
+  "popupOfflineTitle": {
+    "message": "Passyble n’est pas en cours d’exécution"
+  },
+  "popupHostTitle": {
+    "message": "Passyble est injoignable"
+  },
+  "popupStart": {
+    "message": "Lancer Passyble"
+  },
+  "popupStarting": {
+    "message": "Lancement de Passyble…"
+  },
+  "popupStartWait": {
+    "message": "Cela peut prendre quelques secondes."
+  },
+  "popupRetry": {
+    "message": "Réessayer"
+  },
+  "popupSetupGuide": {
+    "message": "Guide de configuration"
+  },
+  "popupBack": {
+    "message": "Retour"
+  },
+  "popupBackEsc": {
+    "message": "Retour (Échap)"
+  },
+  "popupAddServer": {
+    "message": "Ajouter Passyble Server"
+  },
+  "popupSettings": {
+    "message": "Paramètres"
+  },
+  "popupQuickSettings": {
+    "message": "Paramètres rapides"
+  },
+  "popupMoreSettings": {
+    "message": "Plus de paramètres"
+  },
+  "settingInlineMenu": {
+    "message": "Menu intégré"
+  },
+  "settingInlineMenuDetails": {
+    "message": "Affiche l’icône et le menu Passyble dans les champs d’identifiant."
+  },
+  "settingAutoSuggest": {
+    "message": "Ouvrir les suggestions automatiquement"
+  },
+  "settingAutoSuggestDetails": {
+    "message": "Désactivé : appuyez sur ↓ ou cliquez sur l’icône."
+  },
+  "settingAutoGenerate": {
+    "message": "Suggérer des mots de passe forts"
+  },
+  "settingAutoGenerateDetails": {
+    "message": "Désactivé : toujours dans le menu."
+  },
+  "settingAutoFillOtp": {
+    "message": "Remplir automatiquement les codes 2FA"
+  },
+  "settingAutoFillOtpDetails": {
+    "message": "Remplit le code à l’étape suivante, sans jamais valider."
+  },
+  "settingSaveBanner": {
+    "message": "Proposer d’enregistrer les identifiants"
+  },
+  "settingFormFill": {
+    "message": "Proposer les cartes et les adresses"
+  },
+  "settingFormFillDetails": {
+    "message": "Sur les pages sécurisées (https) uniquement."
+  },
+  "revealCaption": {
+    "message": "Mot de passe généré"
+  },
+  "settingPasskeys": {
+    "message": "Utiliser Passyble pour les clés d’accès"
+  },
+  "settingPasskeysDetails": {
+    "message": "Désactivé : la boîte de dialogue du navigateur."
+  },
+  "settingAutoPasskey": {
+    "message": "Proposer la connexion par clé d’accès"
+  },
+  "popupSearch": {
+    "message": "Rechercher"
+  },
+  "popupSearchLabel": {
+    "message": "Rechercher des identifiants"
+  },
+  "popupSearchVault": {
+    "message": "Rechercher dans le coffre"
+  },
+  "popupSiteLogins": {
+    "message": "Identifiants pour ce site"
+  },
+  "popupAddLogin": {
+    "message": "Ajouter un identifiant"
+  },
+  "popupInVault": {
+    "message": "Dans votre coffre"
+  },
+  "popupVaultLogins": {
+    "message": "Identifiants dans votre coffre"
+  },
+  "popupCardsAndAddresses": {
+    "message": "Cartes et adresses"
+  },
+  "popupNothingHere": {
+    "message": "Rien à remplir ici"
+  },
+  "popupNoSiteMatches": {
+    "message": "Aucun résultat sur ce site."
+  },
+  "popupNoSiteLogins": {
+    "message": "Aucun identifiant pour ce site pour l’instant."
+  },
+  "popupNoOtherMatches": {
+    "message": "Aucun autre identifiant ne correspond."
+  },
+  "popupSearchNeedsUpdate": {
+    "message": "Mettez à jour l’application de bureau Passyble pour rechercher dans tout votre coffre."
+  },
+  "popupLookUp": {
+    "message": "Rechercher $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "popupLoginsFor": {
+    "message": "Identifiants pour $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "popupLookingUp": {
+    "message": "Recherche…"
+  },
+  "popupNothingForSite": {
+    "message": "Rien d’enregistré pour ce site."
+  },
+  "popupSearchKeywordsCard": {
+    "message": "carte"
+  },
+  "popupSearchKeywordsIdentity": {
+    "message": "adresse identité"
+  },
+  "popupUntitled": {
+    "message": "(sans titre)"
+  },
+  "popupUntitledLogin": {
+    "message": "identifiant"
+  },
+  "popupMoreFor": {
+    "message": "Plus d’options pour $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupEdit": {
+    "message": "Modifier"
+  },
+  "popupCopyUsername": {
+    "message": "Copier le nom d’utilisateur"
+  },
+  "popupCopyPassword": {
+    "message": "Copier le mot de passe"
+  },
+  "popupCopyPasswordOf": {
+    "message": "Copier le mot de passe de $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupCopyOtp": {
+    "message": "Copier le code 2FA"
+  },
+  "popupFillHere": {
+    "message": "Remplir sur cette page"
+  },
+  "popupFillItem": {
+    "message": "Remplir $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupFillHereConfirm": {
+    "message": "Remplir sur cette page (Passyble demande confirmation)"
+  },
+  "popupFillItemHere": {
+    "message": "Remplir $NAME$ sur cette page",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupConfirmFill": {
+    "message": "Confirmez dans l’application Passyble pour remplir."
+  },
+  "popupOtpCode": {
+    "message": "Code 2FA"
+  },
+  "popupNextStepOtp": {
+    "message": "Étape suivante : code 2FA"
+  },
+  "popupOtpStep": {
+    "message": "Étape 2FA"
+  },
+  "popupOtpPillLabel": {
+    "message": "Code 2FA, cliquez pour copier"
+  },
+  "popupOtpLockedTitle": {
+    "message": "Déverrouillez pour copier le code 2FA"
+  },
+  "popupOtpLockedLabel": {
+    "message": "Code 2FA, verrouillé. Cliquez pour déverrouiller et copier"
+  },
+  "popupCopyFailed": {
+    "message": "Copie impossible"
+  },
+  "popupCopiedUsername": {
+    "message": "Nom d’utilisateur copié"
+  },
+  "popupCopiedPassword": {
+    "message": "Mot de passe copié"
+  },
+  "popupCopiedPasswordClears": {
+    "message": "Mot de passe copié (effacé dans 45 s)"
+  },
+  "popupCopiedOtp": {
+    "message": "Code 2FA copié"
+  },
+  "popupCopiedOtpClears": {
+    "message": "Code 2FA copié (effacé dans 45 s)"
+  },
+  "popupCopiedExpiry": {
+    "message": "Date d’expiration copiée"
+  },
+  "popupCopiedExpiryClears": {
+    "message": "Date d’expiration copiée (effacée dans 45 s)"
+  },
+  "popupCopiedCardNumber": {
+    "message": "Numéro de carte copié"
+  },
+  "popupCopiedCardNumberClears": {
+    "message": "Numéro de carte copié (effacé dans 45 s)"
+  },
+  "popupCopiedSecurityCode": {
+    "message": "Code de sécurité copié"
+  },
+  "popupCopiedSecurityCodeClears": {
+    "message": "Code de sécurité copié (effacé dans 45 s)"
+  },
+  "popupCopiedName": {
+    "message": "Nom copié"
+  },
+  "popupCopiedEmail": {
+    "message": "E-mail copié"
+  },
+  "popupCopiedPhone": {
+    "message": "Téléphone copié"
+  },
+  "popupCopiedAddress": {
+    "message": "Adresse copiée"
+  },
+  "popupCopiedByAppPassword": {
+    "message": "Mot de passe copié par Passyble (effacé dans 45 s)"
+  },
+  "popupCopiedByAppOtp": {
+    "message": "Code 2FA copié par Passyble (effacé dans 45 s)"
+  },
+  "popupNotCopiedUsername": {
+    "message": "Nom d’utilisateur non copié"
+  },
+  "popupNotCopiedPassword": {
+    "message": "Mot de passe non copié"
+  },
+  "popupNotCopiedOtp": {
+    "message": "Code 2FA non copié"
+  },
+  "popupNotCopiedCardNumber": {
+    "message": "Numéro de carte non copié"
+  },
+  "popupNotCopiedSecurityCode": {
+    "message": "Code de sécurité non copié"
+  },
+  "popupCopyNeedsUpdate": {
+    "message": "Mettez à jour l’application de bureau Passyble pour copier depuis la recherche."
+  },
+  "popupCopyCardNumber": {
+    "message": "Copier le numéro de carte"
+  },
+  "popupCopyNumberOf": {
+    "message": "Copier le numéro de $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Visa •••• 4242"
+      }
+    }
+  },
+  "popupCopyExpiry": {
+    "message": "Copier la date d’expiration"
+  },
+  "popupCopySecurityCode": {
+    "message": "Copier le code de sécurité"
+  },
+  "popupCardNoNumber": {
+    "message": "Cette carte n’a pas de numéro."
+  },
+  "popupCardNoSecurityCode": {
+    "message": "Cette carte n’a pas de code de sécurité."
+  },
+  "popupCardsNeedUpdate": {
+    "message": "Mettez à jour l’application de bureau Passyble pour copier les informations de la carte."
+  },
+  "popupCopyName": {
+    "message": "Copier le nom"
+  },
+  "popupCopyEmail": {
+    "message": "Copier l’e-mail"
+  },
+  "popupCopyPhone": {
+    "message": "Copier le téléphone"
+  },
+  "popupCopyAddress": {
+    "message": "Copier l’adresse"
+  },
+  "popupCopyEmailOf": {
+    "message": "Copier l’e-mail de $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Ada Lovelace"
+      }
+    }
+  },
+  "popupCopyNameOf": {
+    "message": "Copier le nom de $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Ada Lovelace"
+      }
+    }
+  },
+  "popupNoNameSaved": {
+    "message": "Aucun nom enregistré."
+  },
+  "popupNoEmailSaved": {
+    "message": "Aucun e-mail enregistré."
+  },
+  "popupNoPhoneSaved": {
+    "message": "Aucun téléphone enregistré."
+  },
+  "popupNoAddressSaved": {
+    "message": "Aucune adresse enregistrée."
+  },
+  "popupDeleted": {
+    "message": "$NAME$ supprimé",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "popupRestored": {
+    "message": "Restauré"
+  },
+  "editorAddLogin": {
+    "message": "Ajouter un identifiant"
+  },
+  "editorEditLogin": {
+    "message": "Modifier l’identifiant"
+  },
+  "editorTitle": {
+    "message": "Titre"
+  },
+  "editorTotp": {
+    "message": "2FA"
+  },
+  "editorWebsites": {
+    "message": "Sites web"
+  },
+  "editorWebsite": {
+    "message": "Site web"
+  },
+  "editorMoreDetails": {
+    "message": "Plus de détails",
+    "description": "Popup editor: the button that shows or hides a login's other websites, 2FA, notes and vault (closed for a new login)."
+  },
+  "editorAddWebsite": {
+    "message": "Ajouter un site web"
+  },
+  "editorRemoveWebsite": {
+    "message": "Supprimer le site web"
+  },
+  "editorNotes": {
+    "message": "Notes"
+  },
+  "editorNotesCount": {
+    "message": "$COUNT$ sur $MAX$ caractères",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "18,500"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20,000"
+      }
+    }
+  },
+  "editorGenerate": {
+    "message": "Générer un mot de passe"
+  },
+  "editorGenerateUsername": {
+    "message": "Générer un nom d’utilisateur"
+  },
+  "editorGenRandomUsername": {
+    "message": "Nom d’utilisateur aléatoire"
+  },
+  "editorGenPlus": {
+    "message": "Adresse avec +"
+  },
+  "editorGenCatchAll": {
+    "message": "Adresse fourre-tout"
+  },
+  "editorGenAlias": {
+    "message": "Alias e-mail ($SERVICE$)",
+    "placeholders": {
+      "service": {
+        "content": "$1",
+        "example": "SimpleLogin"
+      }
+    }
+  },
+  "editorGenMentionWebsite": {
+    "message": "Mentionner ce site"
+  },
+  "editorMoreActions": {
+    "message": "Plus d’actions"
+  },
+  "editorLoginActions": {
+    "message": "Actions sur l’identifiant"
+  },
+  "editorDelete": {
+    "message": "Supprimer l’identifiant"
+  },
+  "editorSaved": {
+    "message": "Enregistré"
+  },
+  "editorLoginFallback": {
+    "message": "Identifiant"
+  },
+  "editorShowCode": {
+    "message": "Afficher le code actuel"
+  },
+  "editorSecondsLeft": {
+    "message": "$SECONDS$ s",
+    "placeholders": {
+      "seconds": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "editorTotpOn": {
+    "message": "2FA activée"
+  },
+  "editorTotpNew": {
+    "message": "Nouveau · ajouté à l’enregistrement"
+  },
+  "editorTotpNewNamed": {
+    "message": "Nouveau : $NAME$ · ajouté à l’enregistrement",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub · octocat"
+      }
+    }
+  },
+  "editorRemoveTotp": {
+    "message": "Supprimer la 2FA"
+  },
+  "editorAddTotp": {
+    "message": "Ajouter la 2FA"
+  },
+  "editorTotpRemoved": {
+    "message": "2FA supprimée à l’enregistrement"
+  },
+  "editorSecretPlaceholder": {
+    "message": "Secret ou lien otpauth://"
+  },
+  "editorSecretLabel": {
+    "message": "Secret 2FA ou lien otpauth"
+  },
+  "editorScanQr": {
+    "message": "Scanner le code QR de cette page"
+  },
+  "editorAdd": {
+    "message": "Ajouter"
+  },
+  "editorNoQr": {
+    "message": "Aucun code QR 2FA sur cette page."
+  },
+  "editorCantReadPage": {
+    "message": "Passyble ne peut pas lire cette page."
+  },
+  "editorOpenQrPageFirst": {
+    "message": "Ouvrez d’abord la page avec le code QR."
+  },
+  "editorTotpInvalid": {
+    "message": "Ce secret 2FA n’est pas valide. Vérifiez-le et réessayez."
+  },
+  "editorRuleMenu": {
+    "message": "Remplissage automatique sur ce site"
+  },
+  "editorRuleSubdomains": {
+    "message": "Sous-domaines"
+  },
+  "editorRuleSubdomainsDetail": {
+    "message": "Ce site et tous ses sous-domaines. Par défaut."
+  },
+  "editorRuleHost": {
+    "message": "Même hôte uniquement"
+  },
+  "editorRuleHostDetail": {
+    "message": "Uniquement cette adresse exacte, pas ses autres sous-domaines."
+  },
+  "editorRuleNever": {
+    "message": "Ne jamais afficher"
+  },
+  "editorRuleNeverDetail": {
+    "message": "Jamais suggéré ni rempli automatiquement. Toujours dans la recherche."
+  },
+  "editorRuleSuggested": {
+    "message": "Suggéré"
+  },
+  "editorRuleBadgeHost": {
+    "message": "Même hôte"
+  },
+  "editorRuleBadgeNever": {
+    "message": "Masqué"
+  },
+  "editorPopularSites": {
+    "message": "Sites populaires"
+  },
+  "serverKindPairing": {
+    "message": "Lien d’appairage d’appareil"
+  },
+  "serverKindInvite": {
+    "message": "Lien de connexion : vous vous connecterez dans l’application Passyble"
+  },
+  "serverKindAddress": {
+    "message": "Adresse du serveur : vous vous connecterez dans l’application Passyble"
+  },
+  "serverHint": {
+    "message": "Adresse du serveur ou lien pass+server://."
+  },
+  "serverSignInOpened": {
+    "message": "Passyble a ouvert la fenêtre de connexion. Terminez-y l’opération."
+  },
+  "serverInputLabel": {
+    "message": "Adresse ou lien Passyble Server"
+  },
+  "serverContinue": {
+    "message": "Continuer"
+  },
+  "serverContinueTitle": {
+    "message": "Continuer dans Passyble (Entrée)"
+  },
+  "serverRowServer": {
+    "message": "Serveur"
+  },
+  "serverRowAddress": {
+    "message": "Adresse"
+  },
+  "serverRowNext": {
+    "message": "Ensuite"
+  },
+  "serverNextSignIn": {
+    "message": "Se connecter dans l’application Passyble"
+  },
+  "serverRowLink": {
+    "message": "Lien"
+  },
+  "serverRowAccount": {
+    "message": "Compte"
+  },
+  "serverRowDevice": {
+    "message": "Appareil"
+  },
+  "serverDeviceUnnamed": {
+    "message": "(sans nom)"
+  },
+  "serverRowCertificate": {
+    "message": "Certificat"
+  },
+  "serverCertLinked": {
+    "message": "Auto-signé, vérifié par ce lien"
+  },
+  "serverCertPublic": {
+    "message": "Certificat approuvé publiquement"
+  },
+  "serverCertNone": {
+    "message": "Aucun (non chiffré)"
+  },
+  "serverRowPassword": {
+    "message": "Mot de passe"
+  },
+  "serverPasswordAsked": {
+    "message": "Demandé dans l’application Passyble"
+  },
+  "serverRowToken": {
+    "message": "Clé de connexion"
+  },
+  "serverTokenIncluded": {
+    "message": "Inclus (masqué)"
+  },
+  "serverHttpWarning": {
+    "message": "Cette connexion n’est pas chiffrée. Utilisez-la uniquement pour un serveur sur cet ordinateur, sur votre réseau domestique ou via un VPN."
+  },
+  "serverOpening": {
+    "message": "Ouverture de Passyble…"
+  },
+  "serverCheckWindow": {
+    "message": "Consultez la fenêtre Passyble pour terminer la connexion à $HOST$ en tant que $USER$.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "pass.example.com"
+      },
+      "user": {
+        "content": "$2",
+        "example": "ada"
+      }
+    }
+  },
+  "pairBadPercent": {
+    "message": "Ce lien est endommagé. Copiez de nouveau le lien en entier et collez-le ici."
+  },
+  "pairAddressEmpty": {
+    "message": "Saisissez l’adresse de votre Passyble Server, par exemple pass.example.com."
+  },
+  "pairAddressTooLong": {
+    "message": "C’est trop long pour une adresse de serveur."
+  },
+  "pairAddressSpaces": {
+    "message": "Une adresse de serveur ne contient pas d’espaces. Collez uniquement l’adresse, par exemple pass.example.com."
+  },
+  "pairAddressScheme": {
+    "message": "Une adresse de serveur commence par https:// (ou par rien), par exemple https://pass.example.com."
+  },
+  "pairAddressCredentials": {
+    "message": "Une adresse de serveur ne peut pas contenir de nom d’utilisateur ni de mot de passe."
+  },
+  "pairAddressEmail": {
+    "message": "Cela ressemble à une adresse e-mail. Collez plutôt l’adresse du serveur (par exemple pass.example.com)."
+  },
+  "pairAddressQuery": {
+    "message": "Collez uniquement l’adresse du serveur, comme pass.example.com, sans le reste de l’adresse web."
+  },
+  "pairAddressInvalid": {
+    "message": "Ce n’est pas une adresse de serveur valide. Utilisez une adresse comme pass.example.com ou https://pass.example.com:8443."
+  },
+  "pairInputEmpty": {
+    "message": "Collez l’adresse de votre Passyble Server ou le lien pass+server://."
+  },
+  "pairLinkEmpty": {
+    "message": "Collez d’abord un lien d’appairage."
+  },
+  "pairLinkTooLong": {
+    "message": "C’est trop long pour un lien Passyble Server. Copiez uniquement le lien et réessayez."
+  },
+  "pairLinkPrefix": {
+    "message": "Ce n’est pas un lien Passyble Server. Collez le lien qui commence par pass+server://"
+  },
+  "pairLinkAddress": {
+    "message": "Ce lien ne contient pas d’adresse de serveur valide. Créez un nouveau lien sur le serveur et réessayez."
+  },
+  "pairLinkScheme": {
+    "message": "Ce lien est endommagé. Créez-en un nouveau sur le serveur et réessayez."
+  },
+  "pairLinkNoVersion": {
+    "message": "Ce lien est incomplet. Créez-en un nouveau sur le serveur et réessayez."
+  },
+  "pairLinkVersion": {
+    "message": "Ce lien provient d’un Passyble Server plus récent. Mettez à jour Passyble, puis réessayez."
+  },
+  "pairLinkPin": {
+    "message": "Ce lien est endommagé ou nécessite un Passyble plus récent. Mettez à jour Passyble ou créez un nouveau lien sur le serveur."
+  },
+  "pairLinkNoUser": {
+    "message": "Ce lien n’indique pas quel compte utiliser. Créez-en un nouveau sur le serveur et réessayez."
+  },
+  "pairLinkEmptyToken": {
+    "message": "Ce lien d’appairage est incomplet. Créez-en un nouveau sur le serveur et réessayez."
+  },
+  "pairLinkTokenAndCode": {
+    "message": "Ce lien est endommagé. Créez-en un nouveau sur le serveur et réessayez."
+  },
+  "pairLinkNoPath": {
+    "message": "Ce lien d’appairage est incomplet. Créez-en un nouveau sur le serveur et réessayez."
+  },
+  "pairLinkCodes": {
+    "message": "Ce lien de connexion est endommagé. Créez-en un nouveau sur le serveur et réessayez."
+  },
+  "optionsPageTitle": {
+    "message": "Paramètres de Passyble"
+  },
+  "optionsTitle": {
+    "message": "Paramètres"
+  },
+  "optionsAutofill": {
+    "message": "Saisie automatique"
+  },
+  "optionsNeverSaveTitle": {
+    "message": "Sites sans proposition d’enregistrement"
+  },
+  "optionsNeverSaveEmpty": {
+    "message": "Aucun pour l’instant"
+  },
+  "optionsRemove": {
+    "message": "Retirer"
+  },
+  "optionsRemoveSite": {
+    "message": "Retirer $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "optionsRemoveSiteTitle": {
+    "message": "Proposer à nouveau d’enregistrer les identifiants sur $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "optionsRemoved": {
+    "message": "Retiré"
+  },
+  "optionsRemoveFailed": {
+    "message": "Impossible de le retirer"
+  },
+  "optionsSaved": {
+    "message": "Enregistré"
+  },
+  "optionsPasskeys": {
+    "message": "Clés d’accès"
+  },
+  "optionsShortcuts": {
+    "message": "Raccourcis clavier"
+  },
+  "optionsServerHeading": {
+    "message": "Passyble Server"
+  },
+  "optionsShortcutFillLogin": {
+    "message": "Remplir l’identifiant"
+  },
+  "optionsShortcutFillOtp": {
+    "message": "Remplir ou afficher le code 2FA"
+  },
+  "optionsShortcutOpenPopup": {
+    "message": "Ouvrir Passyble et rechercher"
+  },
+  "optionsShortcutNotSet": {
+    "message": "non défini"
+  },
+  "optionsShortcutHelpFirefox": {
+    "message": "Modifiez-les dans about:addons → menu en forme d’engrenage → Gérer les raccourcis d’extensions."
+  },
+  "optionsShortcutScanQr": {
+    "message": "Scanner un code QR"
+  },
+  "optionsShortcutGenerate": {
+    "message": "Générer un mot de passe"
+  },
+  "optionsShortcutNewNote": {
+    "message": "Nouvelle note sécurisée"
+  },
+  "optionsShortcutLock": {
+    "message": "Verrouiller"
+  },
+  "optionsShortcutSync": {
+    "message": "Synchroniser"
+  },
+  "optionsShortcutRecord": {
+    "message": "Modifier"
+  },
+  "optionsShortcutRecordLabel": {
+    "message": "Modifier le raccourci de $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Scan QR code"
+      }
+    }
+  },
+  "optionsShortcutReset": {
+    "message": "Réinitialiser"
+  },
+  "optionsShortcutResetLabel": {
+    "message": "Réinitialiser le raccourci de $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Scan QR code"
+      }
+    }
+  },
+  "optionsShortcutRecording": {
+    "message": "Appuyez sur les nouvelles touches"
+  },
+  "optionsShortcutHelpFirefoxRecord": {
+    "message": "Cliquez sur Modifier, puis appuyez sur les nouvelles touches. Échap annule, Retour arrière supprime le raccourci."
+  },
+  "optionsShortcutNeedsModifier": {
+    "message": "Maintenez Ctrl ou Alt (sur Mac : Commande, Option ou Contrôle) et appuyez sur une lettre, un chiffre ou une touche de fonction."
+  },
+  "optionsShortcutBadKey": {
+    "message": "Cette touche ne peut pas servir de raccourci. Utilisez une lettre, un chiffre ou une touche de fonction."
+  },
+  "optionsShortcutRefused": {
+    "message": "Firefox n’a pas accepté ce raccourci. Il est peut-être déjà utilisé."
+  },
+  "optionsAbout": {
+    "message": "À propos"
+  },
+  "optionsDesktopApp": {
+    "message": "Application de bureau Passyble"
+  },
+  "optionsNotChecked": {
+    "message": "Pas encore vérifié"
+  },
+  "optionsChecking": {
+    "message": "Vérification…"
+  },
+  "optionsConnected": {
+    "message": "Connecté · $APP$ · $STATE$",
+    "placeholders": {
+      "app": {
+        "content": "$1",
+        "example": "Passyble 1.4.0"
+      },
+      "state": {
+        "content": "$2",
+        "example": "unlocked"
+      }
+    }
+  },
+  "optionsStateLocked": {
+    "message": "verrouillé"
+  },
+  "optionsStateUnlocked": {
+    "message": "déverrouillé"
+  },
+  "optionsStart": {
+    "message": "Lancer"
+  },
+  "optionsStarting": {
+    "message": "Lancement de Passyble… Cela peut prendre quelques secondes."
+  },
+  "optionsCheck": {
+    "message": "Vérifier"
+  },
+  "optionsOpenGuide": {
+    "message": "Ouvrir"
+  },
+  "optionsVersion": {
+    "message": "Version"
+  },
+  "welcomePageTitle": {
+    "message": "Bienvenue dans Passyble"
+  },
+  "welcomeTitle": {
+    "message": "Configurer Passyble"
+  },
+  "welcomeSetupHeading": {
+    "message": "Pour commencer"
+  },
+  "welcomeAllSetTitle": {
+    "message": "Tout est prêt"
+  },
+  "welcomeStepDone": {
+    "message": "Terminé"
+  },
+  "welcomeInstallTitle": {
+    "message": "Installer Passyble pour Windows"
+  },
+  "welcomeDownload": {
+    "message": "Télécharger"
+  },
+  "welcomeInstallRetryHint": {
+    "message": "Déjà installée ? Ouvrez-la, puis réessayez."
+  },
+  "welcomeStartTitle": {
+    "message": "Lancer Passyble"
+  },
+  "welcomeStartNoVault": {
+    "message": "Elle se connecte dès qu’elle a un coffre."
+  },
+  "welcomeVaultTitle": {
+    "message": "Créer ou déverrouiller votre coffre"
+  },
+  "welcomeAccessTitle": {
+    "message": "Autoriser Passyble sur les sites web"
+  },
+  "welcomeAccessButton": {
+    "message": "Autoriser l’accès"
+  },
+  "welcomeAccessDeniedChromium": {
+    "message": "Non autorisé. Activez-le dans $PAGE$ → Passyble → Accès aux sites.",
+    "placeholders": {
+      "page": {
+        "content": "$1",
+        "example": "chrome://extensions"
+      }
+    }
+  },
+  "welcomeAccessDeniedFirefox": {
+    "message": "Non autorisé. Activez-le dans about:addons → Passyble → Permissions."
+  },
+  "welcomePinTitle": {
+    "message": "Épingler Passyble à la barre d’outils"
+  },
+  "welcomePinChrome": {
+    "message": "Pièce de puzzle → épingle à côté de Passyble."
+  },
+  "welcomePinEdge": {
+    "message": "Pièce de puzzle → œil à côté de Passyble."
+  },
+  "welcomePinOpera": {
+    "message": "Cube → épingle à côté de Passyble."
+  },
+  "welcomePinFirefox": {
+    "message": "Pièce de puzzle → roue dentée à côté de Passyble → Épingler à la barre d’outils."
+  },
+  "welcomePinMark": {
+    "message": "C’est épinglé"
+  },
+  "welcomeTipsTitle": {
+    "message": "Utiliser Passyble"
+  },
+  "welcomeOpenSettings": {
+    "message": "Ouvrir les paramètres"
+  },
+  "menuLoading": {
+    "message": "Chargement…"
+  },
+  "menuNoLogins": {
+    "message": "Aucun identifiant pour ce site."
+  },
+  "menuNoMatches": {
+    "message": "Aucun identifiant ne correspond."
+  },
+  "menuLocked": {
+    "message": "Passyble est verrouillé."
+  },
+  "menuUnlock": {
+    "message": "Déverrouiller Passyble"
+  },
+  "menuUnlockHello": {
+    "message": "Déverrouiller avec Windows Hello"
+  },
+  "menuUnlockPassword": {
+    "message": "Saisir le mot de passe principal"
+  },
+  "menuUnlockToFill": {
+    "message": "Déverrouillez Passyble pour remplir $NAME$.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "menuUnlockToFillOtp": {
+    "message": "Déverrouillez Passyble pour remplir le code 2FA de $NAME$.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "menuUnlockToSee": {
+    "message": "Déverrouillez Passyble pour voir vos identifiants."
+  },
+  "menuUnlockingInApp": {
+    "message": "Déverrouillez dans l’application Passyble…"
+  },
+  "menuHelloCancelled": {
+    "message": "Windows Hello a été annulé."
+  },
+  "menuUsePassword": {
+    "message": "Utiliser plutôt le mot de passe principal"
+  },
+  "menuHelloCancelledPassword": {
+    "message": "Windows Hello a été annulé. Saisissez votre mot de passe principal."
+  },
+  "unlockFrameTitle": {
+    "message": "Mot de passe principal Passyble"
+  },
+  "unlockFrameNote": {
+    "message": "Ce site ne voit pas ce que vous saisissez."
+  },
+  "menuHeadingLocked": {
+    "message": "Passyble · verrouillé"
+  },
+  "menuHeadingOtp": {
+    "message": "Passyble · 2FA"
+  },
+  "menuHeadingOtpLocked": {
+    "message": "Passyble · 2FA · verrouillé"
+  },
+  "menuHeadingCards": {
+    "message": "Passyble · Cartes"
+  },
+  "menuHeadingCardsLocked": {
+    "message": "Passyble · Cartes · verrouillé"
+  },
+  "menuHeadingAddresses": {
+    "message": "Passyble · Adresses"
+  },
+  "menuHeadingAddressesLocked": {
+    "message": "Passyble · Adresses · verrouillé"
+  },
+  "menuNoCards": {
+    "message": "Aucune carte dans Passyble."
+  },
+  "menuNoAddresses": {
+    "message": "Aucune adresse dans Passyble."
+  },
+  "menuNoOtp": {
+    "message": "Aucun code 2FA pour ce site."
+  },
+  "menuFillOtp": {
+    "message": "Remplir le code 2FA"
+  },
+  "menuOtpCodeFor": {
+    "message": "Code 2FA · $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      }
+    }
+  },
+  "menuPasskeyFor": {
+    "message": "Se connecter avec une clé d’accès · $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      }
+    }
+  },
+  "passkeyPromptTitle": {
+    "message": "Se connecter avec votre clé d’accès ?"
+  },
+  "passkeyPromptChoose": {
+    "message": "Choisissez une clé d’accès pour vous connecter"
+  },
+  "passkeyPromptSignIn": {
+    "message": "Se connecter"
+  },
+  "passkeyPromptUnlockSignIn": {
+    "message": "Déverrouiller et se connecter"
+  },
+  "passkeyPromptSignInAs": {
+    "message": "Se connecter en tant que $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "passkeyPromptSigningIn": {
+    "message": "Connexion…"
+  },
+  "passkeyPromptUnlocking": {
+    "message": "Déverrouillage de Passyble…"
+  },
+  "passkeyPromptTitleLocked": {
+    "message": "Se connecter avec une clé d’accès Passyble ?"
+  },
+  "passkeyPromptLockedFull": {
+    "message": "Passyble est verrouillé. Déverrouillez-le pour utiliser vos clés d’accès pour ce site."
+  },
+  "passkeyElsewhere": {
+    "message": "Utiliser un autre appareil"
+  },
+  "passkeySaveTitle": {
+    "message": "Enregistrer une clé d’accès pour $SITE$ dans Passyble ?",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "passkeySaveKeepWith": {
+    "message": "Enregistrer avec"
+  },
+  "passkeySaveNewLogin": {
+    "message": "Nouvel identifiant"
+  },
+  "passkeySaveLoginUser": {
+    "message": "$TITLE$ · $USERNAME$",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "Example"
+      },
+      "username": {
+        "content": "$2",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "passkeySaveVault": {
+    "message": "Coffre : $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Personal"
+      }
+    }
+  },
+  "passkeySaveButton": {
+    "message": "Enregistrer la clé d’accès"
+  },
+  "passkeySaveUnlock": {
+    "message": "Déverrouiller et enregistrer"
+  },
+  "passkeySaveSaving": {
+    "message": "Enregistrement de la clé d’accès…"
+  },
+  "passkeyUnlock": {
+    "message": "Déverrouiller"
+  },
+  "passkeyNoneTitle": {
+    "message": "Aucune clé d’accès Passyble pour ce site"
+  },
+  "passkeyNoneNotice": {
+    "message": "Aucune clé d’accès pour $SITE$ dans Passyble",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "passkeyNotRunningTitle": {
+    "message": "Passyble n’est pas lancé"
+  },
+  "passkeyOpening": {
+    "message": "Ouverture de Passyble…"
+  },
+  "passkeyErrorTitle": {
+    "message": "Passyble ne peut pas répondre pour le moment"
+  },
+  "passkeyTryAgain": {
+    "message": "Réessayer"
+  },
+  "passkeyFrameTitle": {
+    "message": "Passyble ne peut pas répondre ici"
+  },
+  "passkeyNeedsVerification": {
+    "message": "Ce site exige Windows Hello, que Passyble ne peut pas utiliser pour le moment."
+  },
+  "menuUnlockToSignIn": {
+    "message": "Déverrouillez Passyble pour vous connecter en tant que $ACCOUNT$.",
+    "placeholders": {
+      "account": {
+        "content": "$1",
+        "example": "alice@example.com"
+      }
+    }
+  },
+  "menuGenerateEntry": {
+    "message": "Générer un mot de passe fort"
+  },
+  "menuGenerateNoSymbolsSub": {
+    "message": "Sans caractères spéciaux, pour les sites qui les refusent"
+  },
+  "menuGenerateSymbolsSub": {
+    "message": "Avec caractères spéciaux"
+  },
+  "menuGenerateTitle": {
+    "message": "Générer un mot de passe fort et l’enregistrer dans Passyble"
+  },
+  "menuGenerateLabel": {
+    "message": "Générer et enregistrer un mot de passe fort"
+  },
+  "menuGenerated": {
+    "message": "Mot de passe généré"
+  },
+  "menuGeneratedHidden": {
+    "message": "Mot de passe généré (masqué)"
+  },
+  "genOptionsButton": {
+    "message": "Options du mot de passe"
+  },
+  "genOptionsTitle": {
+    "message": "Générateur de mots de passe"
+  },
+  "genOptionsEntry": {
+    "message": "Options du mot de passe"
+  },
+  "genOptionsEntrySub": {
+    "message": "Longueur, types de caractères, phrase secrète"
+  },
+  "genPassphraseEntry": {
+    "message": "Générer une phrase secrète"
+  },
+  "genModeLabel": {
+    "message": "Que générer"
+  },
+  "genModePassword": {
+    "message": "Mot de passe"
+  },
+  "genModePassphrase": {
+    "message": "Phrase secrète"
+  },
+  "genLength": {
+    "message": "Longueur"
+  },
+  "genWords": {
+    "message": "Mots"
+  },
+  "genTypes": {
+    "message": "Types de caractères"
+  },
+  "genUppercase": {
+    "message": "Majuscules (A-Z)"
+  },
+  "genLowercase": {
+    "message": "Minuscules (a-z)"
+  },
+  "genDigits": {
+    "message": "Chiffres (0-9)"
+  },
+  "genSymbols": {
+    "message": "Caractères spéciaux (!@#)"
+  },
+  "genHyphensChip": {
+    "message": "Traits d'union"
+  },
+  "genHyphens": {
+    "message": "Traits d'union entre les mots"
+  },
+  "genRegenerate": {
+    "message": "Régénérer"
+  },
+  "genDone": {
+    "message": "Terminé"
+  },
+  "genNoteNoSymbols": {
+    "message": "Ce site n'accepte pas les caractères spéciaux."
+  },
+  "genNoteMaxLength_one": {
+    "message": "Ce site accepte au maximum $COUNT$ caractère.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "genNoteMaxLength_other": {
+    "message": "Ce site accepte au maximum $COUNT$ caractères.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "16"
+      }
+    }
+  },
+  "genNoteMinLength_one": {
+    "message": "Ce site exige au moins $COUNT$ caractère.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "genNoteMinLength_other": {
+    "message": "Ce site exige au moins $COUNT$ caractères.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "24"
+      }
+    }
+  },
+  "genNotePassphraseTooLong": {
+    "message": "Une phrase secrète ne rentre pas dans la limite de longueur de ce site, un mot de passe a donc été généré."
+  },
+  "genNoteLettersDigits": {
+    "message": "Sans type de caractère activé, des lettres et des chiffres sont utilisés."
+  },
+  "menuPasswordStrength_one": {
+    "message": "$STRENGTH$ · $COUNT$ caractère",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      },
+      "strength": {
+        "content": "$2",
+        "example": "Strong"
+      }
+    }
+  },
+  "menuPasswordStrength_many": {
+    "message": "$STRENGTH$ · $COUNT$ caractères",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "20"
+      },
+      "strength": {
+        "content": "$2",
+        "example": "Strong"
+      }
+    }
+  },
+  "menuPasswordStrength_other": {
+    "message": "$STRENGTH$ · $COUNT$ caractères",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "20"
+      },
+      "strength": {
+        "content": "$2",
+        "example": "Strong"
+      }
+    }
+  },
+  "menuNotRunningGenerate": {
+    "message": "Lancez Passyble avant de valider pour l’enregistrer."
+  },
+  "menuFormsNeedUpdate": {
+    "message": "Mettez à jour Passyble pour remplir les cartes et les adresses."
+  },
+  "menuFormChanged": {
+    "message": "Le formulaire a changé. Choisissez-le à nouveau."
+  },
+  "strengthVeryStrong": {
+    "message": "Très fort"
+  },
+  "strengthStrong": {
+    "message": "Fort"
+  },
+  "strengthFair": {
+    "message": "Moyen"
+  },
+  "strengthWeak": {
+    "message": "Faible"
+  },
+  "noticeNoOtp": {
+    "message": "Aucun code 2FA enregistré pour ce site."
+  },
+  "toastOtpTitle": {
+    "message": "Code 2FA · $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "toastCopy": {
+    "message": "Copier"
+  },
+  "toastCopyTitle": {
+    "message": "Copier le code 2FA"
+  },
+  "toastCopied": {
+    "message": "Copié"
+  },
+  "toastCopyFailed": {
+    "message": "Échec de la copie"
+  },
+  "toastShowDesktop": {
+    "message": "Afficher sur le bureau"
+  },
+  "toastShowDesktopTitle": {
+    "message": "Afficher sur le bureau (dans l’application Passyble)"
+  },
+  "toastShownDesktop": {
+    "message": "Affiché dans l’application de bureau Passyble."
+  },
+  "toastSecondsLeft_one": {
+    "message": "$COUNT$ s restante",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "toastSecondsLeft_many": {
+    "message": "$COUNT$ s restantes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "toastSecondsLeft_other": {
+    "message": "$COUNT$ s restantes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "toastRefreshFailed": {
+    "message": "Impossible d’actualiser le code. $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "toastFilledSaveLater": {
+    "message": "Mot de passe rempli. Passyble proposera de l’enregistrer à la validation."
+  },
+  "toastFilledNotSaved": {
+    "message": "Mot de passe rempli, pas encore enregistré. $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "toastDraftSaved": {
+    "message": "Enregistré dans Passyble"
+  },
+  "toastDraftUpdated": {
+    "message": "Mis à jour dans Passyble"
+  },
+  "toastDraftChangeDetail": {
+    "message": "Conservé comme identifiant distinct jusqu’à ce que vous validiez le changement."
+  },
+  "toastDraftRemoved": {
+    "message": "Supprimé de Passyble."
+  },
+  "toastAutoUpdated": {
+    "message": "Mot de passe mis à jour dans Passyble"
+  },
+  "toastAutoRestored": {
+    "message": "Ancien mot de passe rétabli."
+  },
+  "bannerSave": {
+    "message": "Enregistrer l’identifiant dans Passyble ?"
+  },
+  "bannerUpdatePassword": {
+    "message": "Mettre à jour le mot de passe dans Passyble ?"
+  },
+  "bannerUpdateUsername": {
+    "message": "Mettre à jour le nom d’utilisateur dans Passyble ?"
+  },
+  "bannerUserOnSite": {
+    "message": "$USERNAME$ sur $SITE$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "octocat"
+      },
+      "site": {
+        "content": "$2",
+        "example": "github.com"
+      }
+    }
+  },
+  "bannerUpdate": {
+    "message": "Mettre à jour"
+  },
+  "bannerNotNow": {
+    "message": "Plus tard"
+  },
+  "bannerEdit": {
+    "message": "Modifier"
+  },
+  "bannerKeepPassword": {
+    "message": "Conserver le mot de passe saisi"
+  },
+  "bannerEditFrameTitle": {
+    "message": "Nom d’utilisateur et mot de passe Passyble"
+  },
+  "bannerNever": {
+    "message": "Jamais pour ce site"
+  },
+  "bannerSaving": {
+    "message": "Enregistrement…"
+  },
+  "bannerSaved": {
+    "message": "Enregistré dans Passyble."
+  },
+  "bannerPasswordUpdated": {
+    "message": "Mot de passe mis à jour."
+  },
+  "bannerUsernameUpdated": {
+    "message": "Nom d’utilisateur mis à jour."
+  },
+  "bannerAlreadySaved": {
+    "message": "Déjà enregistré."
+  },
+  "bannerSaveFailed": {
+    "message": "Enregistrement impossible. $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Passyble is locked. Unlock it to continue."
+      }
+    }
+  },
+  "bannerNeverDone": {
+    "message": "Ne sera plus proposé sur ce site."
+  },
+  "bannerNeverFailed": {
+    "message": "Enregistrement impossible. $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Something went wrong. Try again."
+      }
+    }
+  },
+  "cardsCard": {
+    "message": "Carte"
+  },
+  "cardsBadge": {
+    "message": "CB"
+  },
+  "browserAutofillOff": {
+    "message": "Saisie automatique du navigateur désactivée."
+  },
+  "browserAutofillBack": {
+    "message": "La saisie automatique du navigateur est réactivée."
+  },
+  "issueListLabel": {
+    "message": "Vérification du mot de passe"
+  },
+  "issueCommon": {
+    "message": "C’est l’un des mots de passe les plus courants."
+  },
+  "issueWeak": {
+    "message": "Ce mot de passe est facile à deviner."
+  },
+  "issueReused_one": {
+    "message": "Vous utilisez ce mot de passe pour $COUNT$ autre identifiant.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "issueReused_many": {
+    "message": "Vous utilisez ce mot de passe pour $COUNT$ autres identifiants.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "issueReused_other": {
+    "message": "Vous utilisez ce mot de passe pour $COUNT$ autres identifiants.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "issueUsedBefore": {
+    "message": "Vous avez déjà utilisé ce mot de passe pour cet identifiant."
+  },
+  "issueContainsUsername": {
+    "message": "Ce mot de passe contient votre nom d’utilisateur."
+  },
+  "issueContainsSite": {
+    "message": "Ce mot de passe contient le nom du site."
+  },
+  "issueShort": {
+    "message": "Trop court : utilisez au moins $MIN$ caractères.",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "issueUseStrong": {
+    "message": "Utiliser plutôt un mot de passe fort"
+  },
+  "issueStrong": {
+    "message": "Fort"
+  },
+  "errNoVault": {
+    "message": "Pas encore de coffre dans ce navigateur."
+  },
+  "errVerificationRequired": {
+    "message": "Confirmez votre identité avec votre mot de passe principal, puis réessayez."
+  },
+  "errPasskeysNeedApp": {
+    "message": "Pour l’instant, les clés d’accès nécessitent l’application Passyble."
+  },
+  "errBackupFirst": {
+    "message": "Téléchargez d'abord une copie."
+  },
+  "popupUseBrowserVault": {
+    "message": "Garder un coffre dans ce navigateur"
+  },
+  "popupNoVaultTitle": {
+    "message": "Pas encore de coffre"
+  },
+  "vaultCreate": {
+    "message": "Créer un coffre"
+  },
+  "popupAskConfirm": {
+    "message": "Confirmer"
+  },
+  "popupAskFillButton": {
+    "message": "Remplir"
+  },
+  "popupDismiss": {
+    "message": "Masquer"
+  },
+  "popupStatusLockedBrowser": {
+    "message": "Verrouillé (coffre dans ce navigateur). Cliquez pour déverrouiller"
+  },
+  "popupVerifyTitle": {
+    "message": "Confirmez votre identité"
+  },
+  "popupCardConfirmTitle": {
+    "message": "Remplir cette carte ?"
+  },
+  "popupCardConfirmText": {
+    "message": "Remplir $CARD$ sur $SITE$ ?",
+    "placeholders": {
+      "card": {
+        "content": "$1",
+        "example": "Visa •••• 4242"
+      },
+      "site": {
+        "content": "$2",
+        "example": "shop.example.com"
+      }
+    }
+  },
+  "popupThisCard": {
+    "message": "cette carte"
+  },
+  "popupCrossConfirmTitle": {
+    "message": "Remplir l’identifiant d’un autre site ?"
+  },
+  "popupCrossConfirmText": {
+    "message": "Ne remplissez $LOGIN$ que si vous faites confiance à $SITE$.",
+    "placeholders": {
+      "login": {
+        "content": "$1",
+        "example": "GitHub"
+      },
+      "site": {
+        "content": "$2",
+        "example": "github.example.net"
+      }
+    }
+  },
+  "popupLookalikeTag": {
+    "message": "Site ressemblant"
+  },
+  "popupLookalikeHint": {
+    "message": "$HOST$ ressemble à $SITE$, mais c’est un autre site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeTitle": {
+    "message": "Ce site est peut-être un faux"
+  },
+  "popupLookalikeFillText": {
+    "message": "$HOST$ n’est pas $SITE$, même si son adresse lui ressemble. Les sites d’hameçonnage font cela pour voler des identifiants. Ne remplissez votre identifiant que si vous êtes sûr qu’il s’agit du bon site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeCopyText": {
+    "message": "$HOST$ n’est pas $SITE$, même si son adresse lui ressemble. Les sites d’hameçonnage font cela pour voler des identifiants. Ne copiez votre identifiant que si vous êtes sûr qu’il s’agit du bon site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "popupLookalikeFillButton": {
+    "message": "Remplir quand même"
+  },
+  "popupLookalikeCopyButton": {
+    "message": "Copier quand même"
+  },
+  "popupIntlHost": {
+    "message": "Adresse internationale : $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "xn--bcher-kva.example"
+      }
+    }
+  },
+  "bannerLookalike": {
+    "message": "$HOST$ n’est pas $SITE$, même si son adresse lui ressemble. N’enregistrez que si vous faites confiance à ce site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "commonIntlAddress": {
+    "message": "Adresse internationale"
+  },
+  "passkeyBrowserVaultTitle": {
+    "message": "Les clés d’accès nécessitent l’application Passyble pour l’instant"
+  },
+  "welcomeVaultHeading": {
+    "message": "Votre coffre"
+  },
+  "welcomeChoiceExisting": {
+    "message": "Utiliser le coffre de ce navigateur"
+  },
+  "welcomeRepeatPassword": {
+    "message": "Répétez le mot de passe principal"
+  },
+  "welcomeCreateWarning": {
+    "message": "Passyble ne peut pas réinitialiser votre mot de passe principal. Notez-le."
+  },
+  "welcomeCreateButton": {
+    "message": "Créer le coffre"
+  },
+  "welcomeVaultFile": {
+    "message": "Fichier de coffre (.vault)"
+  },
+  "welcomeOpenButton": {
+    "message": "Ouvrir le coffre"
+  },
+  "welcomeVaultReadyTitle": {
+    "message": "Votre coffre est prêt"
+  },
+  "welcomeUseBrowserInstead": {
+    "message": "Garder plutôt un coffre dans ce navigateur"
+  },
+  "vaultMasterTooShort": {
+    "message": "Utilisez au moins $MIN$ caractères.",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "vaultMasterCommon": {
+    "message": "C’est l’un des mots de passe les plus courants. Choisissez-en un autre."
+  },
+  "vaultMasterContainsName": {
+    "message": "N’y mettez pas votre adresse e-mail, votre nom d’utilisateur ni le nom du coffre."
+  },
+  "vaultMasterPattern": {
+    "message": "Évitez les caractères répétés, les suites comme abcd ou 1234 et les rangées du clavier comme azerty."
+  },
+  "vaultMasterGuessable": {
+    "message": "Trop facile à deviner. Ajoutez des mots ou des caractères aléatoires : quatre mots sans lien entre eux, ou plus, fonctionnent bien."
+  },
+  "vaultMasterStrongEnough": {
+    "message": "$STRENGTH$ : assez solide pour un mot de passe principal.",
+    "placeholders": {
+      "strength": {
+        "content": "$1",
+        "example": "Bon"
+      }
+    }
+  },
+  "vaultStrengthOk": {
+    "message": "Bon"
+  },
+  "vaultStrengthStrong": {
+    "message": "Fort"
+  },
+  "welcomePasswordsDiffer": {
+    "message": "Les mots de passe ne correspondent pas. Saisissez-les à nouveau."
+  },
+  "welcomeCreating": {
+    "message": "Création de votre coffre…"
+  },
+  "welcomeVaultExists": {
+    "message": "Ce navigateur a déjà un coffre. Utilisez-le ou supprimez-le d’abord dans les paramètres."
+  },
+  "welcomePickFile": {
+    "message": "Choisissez d’abord un fichier de coffre."
+  },
+  "welcomeNotVaultFile": {
+    "message": "Ce n’est pas un fichier de coffre Passyble."
+  },
+  "optionsVaultModeHeading": {
+    "message": "Coffre"
+  },
+  "optionsVaultHeading": {
+    "message": "Coffre dans ce navigateur"
+  },
+  "optionsAutoLock": {
+    "message": "Verrouiller après"
+  },
+  "optionsAutoLockDetails": {
+    "message": "Se verrouille toujours à la fermeture du navigateur."
+  },
+  "optionsAutoLockMinutes": {
+    "message": "$COUNT$ min",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "optionsAutoLockBrowserClose": {
+    "message": "Seulement à la fermeture du navigateur"
+  },
+  "optionsLockOnIdle": {
+    "message": "Verrouiller avec l’ordinateur"
+  },
+  "optionsVerifyEachFill": {
+    "message": "Confirmer chaque remplissage"
+  },
+  "optionsVerifyEachFillDetails": {
+    "message": "Demande votre mot de passe principal à chaque fois."
+  },
+  "optionsDeleteVault": {
+    "message": "Supprimer le coffre"
+  },
+  "optionsDelete": {
+    "message": "Supprimer"
+  },
+  "optionsDeleteWarn": {
+    "message": "Supprime définitivement le coffre de ce navigateur."
+  },
+  "optionsMasterTipBody": {
+    "message": "Votre mot de passe principal est plus facile à deviner que ce que Passyble autorise désormais pour les nouveaux. Il fonctionne toujours."
+  },
+  "optionsDeleteForGood": {
+    "message": "Supprimer définitivement"
+  },
+  "optionsDeleted": {
+    "message": "Coffre supprimé de ce navigateur"
+  },
+  "optionsModeBrowser": {
+    "message": "Dans ce navigateur"
+  },
+  "optionsModeApp": {
+    "message": "Dans l’application Passyble"
+  },
+  "optionsModeBrowserLocked": {
+    "message": "Verrouillé"
+  },
+  "optionsModeBrowserUnlocked": {
+    "message": "Déverrouillé"
+  },
+  "optionsModeBrowserNone": {
+    "message": "Pas encore de coffre"
+  },
+  "optionsUseApp": {
+    "message": "Utiliser l’application"
+  },
+  "optionsUseBrowserVault": {
+    "message": "Utiliser un coffre dans ce navigateur"
+  },
+  "welcomeGetApp": {
+    "message": "Obtenir l’application Windows"
+  },
+  "optionsShortcutChange": {
+    "message": "Modifier"
+  },
+  "accountSignIn": {
+    "message": "Se connecter"
+  },
+  "accountSignOut": {
+    "message": "Se déconnecter"
+  },
+  "accountTitle": {
+    "message": "Compte"
+  },
+  "accountSignedInAs": {
+    "message": "Connecté en tant que $EMAIL$",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "ada@example.com"
+      }
+    }
+  },
+  "accountSignInFailed": {
+    "message": "Connexion impossible. Réessayez."
+  },
+  "accountCloudSoon": {
+    "message": "Le stockage Passyble Cloud arrive bientôt."
+  },
+  "accountUseDrive": {
+    "message": "Utiliser Google Drive"
+  },
+  "accountViaApp": {
+    "message": "Connecté via l’application Passyble sur cet ordinateur"
+  },
+  "accountSignOutAppToo": {
+    "message": "Se déconnecter aussi de l’application Passyble sur cet ordinateur"
+  },
+  "accountOtherInBrowser": {
+    "message": "L’application Passyble est connectée en tant que $APP$ ; ce navigateur, en tant que $BROWSER$.",
+    "placeholders": {
+      "app": {
+        "content": "$1",
+        "example": "ada@example.com"
+      },
+      "browser": {
+        "content": "$2",
+        "example": "grace@example.com"
+      }
+    }
+  },
+  "accountUseAppAccount": {
+    "message": "Utiliser le compte de l’application"
+  },
+  "optionsDownloadCopy": {
+    "message": "Télécharger une copie"
+  },
+  "vaultCopySaved": {
+    "message": "Copie enregistrée."
+  },
+  "popupLockedText": {
+    "message": "Déverrouillez pour remplir vos identifiants sur ce site."
+  },
+  "popupOfflineText": {
+    "message": "Lancez l’application Passyble sur cet ordinateur pour remplir vos identifiants ici."
+  },
+  "popupNoVaultText": {
+    "message": "Créez un coffre dans ce navigateur, ou utilisez l’application Passyble pour la synchronisation Google Drive."
+  },
+  "optionsLead": {
+    "message": "Comment Passyble remplit, enregistre et vous connecte dans ce navigateur."
+  },
+  "optionsVaultModeLead": {
+    "message": "Où se trouve le coffre utilisé par ce navigateur pour remplir."
+  },
+  "optionsAutofillLead": {
+    "message": "Ce que Passyble propose dans les champs de connexion des sites web."
+  },
+  "optionsNeverSaveLead": {
+    "message": "Passyble ne proposera pas d’enregistrer les identifiants ni les cartes sur ces sites."
+  },
+  "optionsPasskeysLead": {
+    "message": "Connectez-vous aux sites web avec les clés d’accès de votre coffre."
+  },
+  "optionsShortcutsLead": {
+    "message": "Des touches qui fonctionnent sur toutes les pages de ce navigateur."
+  },
+  "optionsServerLead": {
+    "message": "Un serveur géré par votre équipe ou votre famille. L’application Passyble s’y connecte."
+  },
+  "optionsAboutLead": {
+    "message": "Cette extension et l’application Passyble avec laquelle elle fonctionne."
+  },
+  "welcomeLead": {
+    "message": "Quelques étapes, puis Passyble remplit vos identifiants dans ce navigateur."
+  },
+  "popupHostText": {
+    "message": "Vérifiez Passyble → Paramètres → Saisie automatique, puis réessayez."
+  },
+  "popupOnThisSite": {
+    "message": "Sur ce site"
+  },
+  "settingSaveBannerDetails": {
+    "message": "Propose d’enregistrer l’identifiant après votre connexion."
+  },
+  "settingAutoPasskeyDetails": {
+    "message": "Affiche un encadré quand un site demande une clé d’accès."
+  },
+  "welcomeChoiceDriveText": {
+    "message": "Nécessite l’application Passyble sur cet ordinateur."
+  },
+  "welcomeChoiceSignInText": {
+    "message": "Votre compte Passyble, pour Passyble Cloud, Family et Team."
+  },
+  "welcomeChoiceExistingText": {
+    "message": "Le coffre déjà conservé dans ce navigateur."
+  },
+  "welcomeChoiceAppText": {
+    "message": "Votre coffre reste dans l’application Passyble sur ce PC."
+  },
+  "welcomeAllSetLead": {
+    "message": "Passyble remplit vos identifiants dans ce navigateur. Cliquez sur son icône dans la barre d’outils à tout moment."
+  },
+  "welcomeDone": {
+    "message": "Terminé"
+  },
+  "popupNoSiteLoginsText": {
+    "message": "Ajoutez-en un maintenant, ou Passyble proposera de l’enregistrer à votre connexion."
+  },
+  "popupNothingHereText": {
+    "message": "Recherchez dans votre coffre pour copier un identifiant."
+  },
+  "optionsAppRowTitle": {
+    "message": "Application Passyble"
+  },
+  "optionsAppRowText": {
+    "message": "Garder le coffre dans l’application Passyble sur cet ordinateur."
+  },
+  "commonOr": {
+    "message": "ou"
+  },
+  "commonNoSymbols": {
+    "message": "Lettres et chiffres uniquement"
+  },
+  "welcomeRecommended": {
+    "message": "Recommandé"
+  },
+  "passkeySaveShort": {
+    "message": "Enregistrer la clé d’accès ?"
+  },
+  "serverAddressLabel": {
+    "message": "Adresse du serveur"
+  },
+  "welcomeStepOf": {
+    "message": "Étape $CURRENT$ sur $TOTAL$",
+    "placeholders": {
+      "current": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "4"
+      }
+    }
+  },
+  "optionsStorage": {
+    "message": "Stockage"
+  },
+  "optionsLocking": {
+    "message": "Verrouillage"
+  },
+  "optionsDownloadCopyText": {
+    "message": "Le fichier de coffre chiffré (.vault). Il s’ouvre uniquement avec votre mot de passe principal."
+  },
+  "optionsSaveFile": {
+    "message": "Enregistrer le fichier"
+  },
+  "passkeySaveVaultNamed": {
+    "message": "Dans $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Work vault"
+      }
+    }
+  },
+  "updateRequiredTitle": {
+    "message": "Mise à jour requise"
+  },
+  "updateRequiredText": {
+    "message": "Cette version de Passyble n’est plus prise en charge. Mettez-la à jour pour continuer à remplir et enregistrer des mots de passe."
+  },
+  "updateNow": {
+    "message": "Mettre à jour"
+  },
+  "updateViewPasswords": {
+    "message": "Voir mes mots de passe"
+  },
+  "updateReadOnlyTitle": {
+    "message": "Vos mots de passe"
+  },
+  "updateReadOnlyNote": {
+    "message": "L’extension Passyble est en lecture seule jusqu’à sa mise à jour. Vous pouvez toujours consulter et copier vos mots de passe."
+  },
+  "updateAvailable": {
+    "message": "Une nouvelle version de Passyble est disponible."
+  },
+  "updateChecking": {
+    "message": "Recherche d’une mise à jour…"
+  },
+  "updateInstalling": {
+    "message": "Installation de la mise à jour…"
+  },
+  "updateSearchHint": {
+    "message": "Saisissez au moins 2 caractères pour trouver un identifiant."
+  },
+  "errAppUpdateRequired": {
+    "message": "Mettez à jour l’application Passyble pour continuer à remplir."
+  },
+  "errExtensionUpdateRequired": {
+    "message": "Mettez à jour l’extension Passyble pour continuer à remplir."
+  },
+  "driveSyncTitle": {
+    "message": "Synchronisation Google Drive"
+  },
+  "driveNeedsAppTitle": {
+    "message": "La synchronisation Google Drive nécessite l’application Passyble sur cet ordinateur"
+  },
+  "driveNeedsAppText": {
+    "message": "L’application Passyble se connecte à Google et synchronise vos coffres. Installez-la, activez Google Drive dans l’application, et Passyble remplit alors vos identifiants dans ce navigateur à partir des coffres de l’application."
+  },
+  "driveNeedsAppMove": {
+    "message": "Pour emporter le coffre de ce navigateur, téléchargez une copie dans les paramètres et ouvrez-la dans l’application Passyble."
+  },
+  "driveNeedsAppShort": {
+    "message": "Google Drive nécessite l’application"
+  },
+  "driveRecordText": {
+    "message": "Ce coffre était synchronisé avec Google Drive dans une ancienne version. Il fonctionne toujours dans ce navigateur ; pour le synchroniser à nouveau, utilisez l’application Passyble."
+  },
+  "driveDownloadApp": {
+    "message": "Télécharger l’application Passyble"
+  },
+  "driveCheckAgain": {
+    "message": "Vérifier à nouveau"
+  },
+  "driveAppFound": {
+    "message": "L’application Passyble est installée sur cet ordinateur. Utilisez-la, puis activez Google Drive dans l’application."
+  },
+  "driveAppMissing": {
+    "message": "L’application Passyble n’est pas encore installée sur cet ordinateur."
+  },
+  "driveTurnOnInApp": {
+    "message": "Pour la synchronisation Google Drive, ouvrez Paramètres dans l’application Passyble, puis Synchronisation, et activez Google Drive."
+  },
+  "welcomeChoiceCreate": {
+    "message": "Créer un coffre dans ce navigateur"
+  },
+  "welcomeChoiceCreateText": {
+    "message": "Conservé uniquement sur cet appareil. Aucune application nécessaire."
+  },
+  "welcomeChoiceOpen": {
+    "message": "Ouvrir un fichier de coffre"
+  },
+  "welcomeChoiceOpenText": {
+    "message": "Une copie provenant d’un autre appareil, ou une sauvegarde."
+  },
+  "localOnlyTitle": {
+    "message": "Ce coffre se trouve uniquement sur cet appareil"
+  },
+  "localOnlyBody": {
+    "message": "Si cet appareil est perdu, volé, endommagé ou réinitialisé, les mots de passe de ce coffre seront définitivement perdus. Activez la synchronisation ou la sauvegarde (Google Drive est gratuit), ou exportez régulièrement une copie de sauvegarde."
+  },
+  "localOnlyCreateNotice": {
+    "message": "Uniquement sur cet appareil. Si vous perdez cet appareil, vous perdez ces mots de passe. Vous pouvez activer la sauvegarde Google Drive maintenant ou plus tard."
+  },
+  "localOnlySetUpSync": {
+    "message": "Configurer la synchronisation"
+  },
+  "localOnlyNotNow": {
+    "message": "Plus tard"
+  },
+  "localOnlyDetails": {
+    "message": "Ce que cela signifie"
+  },
+  "errReadOnly": {
+    "message": "Vous pouvez utiliser les identifiants de ce coffre, mais pas les modifier."
+  },
+  "errFillOnly": {
+    "message": "Cet identifiant peut être rempli, mais pas affiché ni copié."
+  },
+  "bannerSaveIn": {
+    "message": "Enregistrer dans"
+  },
+  "bannerMyVault": {
+    "message": "Personnel"
+  },
+  "bannerInVault": {
+    "message": "Dans $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupAllVaults": {
+    "message": "Tous les coffres"
+  },
+  "popupPinVault": {
+    "message": "Épingler le coffre",
+    "description": "Popup: a vault row's context menu in the Filter menu or the vault switcher: pin that vault, so it comes right after the current vault in every vault list."
+  },
+  "popupUnpinVault": {
+    "message": "Désépingler le coffre",
+    "description": "Popup: a pinned vault row's context menu in the Filter menu or the vault switcher: take its pin off."
+  },
+  "popupFilter": {
+    "message": "Filtrer",
+    "description": "Popup: the Filter button next to the search box while the list shows everything, and the name of its menu (vaults and kinds of item)."
+  },
+  "popupFilterShowing": {
+    "message": "Filtre : $FILTER$",
+    "description": "Popup: tooltip and screen reader name of the Filter button while the list is narrowed. $FILTER$ is what it shows, e.g. \"Engineering · 2FA\".",
+    "placeholders": {
+      "filter": {
+        "content": "$1",
+        "example": "Engineering · 2FA"
+      }
+    }
+  },
+  "popupFilterVaults": {
+    "message": "Coffres",
+    "description": "Popup, Filter menu: heading of the section that picks the vault shown."
+  },
+  "popupFilterShow": {
+    "message": "Afficher",
+    "description": "Popup, Filter menu: heading of the section that picks the kind of item shown (All, Logins, 2FA, ...)."
+  },
+  "popupFilterClear": {
+    "message": "Effacer le filtre",
+    "description": "Popup: the x beside the Filter button and the last entry of its menu: show every vault and every kind again."
+  },
+  "popupPinNamed": {
+    "message": "Épingler $VAULT$",
+    "description": "Popup, a vault's row in the Filter menu or the vault switcher: its pin button. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupUnpinNamed": {
+    "message": "Désépingler $VAULT$",
+    "description": "Popup, a pinned vault's row in the Filter menu or the vault switcher: its pin button takes the pin off. $VAULT$ is the vault's name.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupVaultPinned": {
+    "message": "Épinglé",
+    "description": "Popup: what a screen reader hears after a pinned vault's name in a vault list."
+  },
+  "popupPinLimit": {
+    "message": "Vous pouvez épingler jusqu’à $COUNT$ coffres. Désépinglez-en un d’abord.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "popupNoLoginsInVault": {
+    "message": "Aucun identifiant pour ce site dans $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "popupSwitchVault": {
+    "message": "Changer de coffre"
+  },
+  "popupSwitchUnlockInApp": {
+    "message": "Déverrouillez $VAULT$ dans l’application Passyble",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Work"
+      }
+    }
+  },
+  "popupMovedTo": {
+    "message": "Déplacé vers $VAULT$",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Engineering"
+      }
+    }
+  },
+  "editorVault": {
+    "message": "Coffre"
+  },
+  "editorMove": {
+    "message": "Déplacer"
+  },
+  "editorMoveConfirm": {
+    "message": "Déplacer $TITLE$ vers $VAULT$ ? Toutes les personnes ayant accès à $VAULT$ le verront.",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      },
+      "vault": {
+        "content": "$2",
+        "example": "Engineering"
+      }
+    }
+  },
+  "teamsFillOnly": {
+    "message": "Remplissage seul"
+  },
+  "teamsOpenInPassyble": {
+    "message": "Ouvrir dans Passyble"
+  },
+  "teamsNeedsUpdate": {
+    "message": "Mettez à jour l’app Passyble pour ouvrir Équipes et Famille d’ici."
+  },
+  "teamsLineErrors_one": {
+    "message": "$COUNT$ ne peut pas s’ouvrir",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineErrors_other": {
+    "message": "$COUNT$ ne peuvent pas s’ouvrir",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineConfirm_one": {
+    "message": "$COUNT$ personne à confirmer",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineConfirm_other": {
+    "message": "$COUNT$ personnes à confirmer",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineInvites_one": {
+    "message": "$COUNT$ invitation",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineInvites_other": {
+    "message": "$COUNT$ invitations",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsRoleManage": {
+    "message": "Peut gérer"
+  },
+  "teamsRoleEdit": {
+    "message": "Peut modifier"
+  },
+  "teamsRoleView": {
+    "message": "Peut voir"
+  },
+  "teamsRoleFill": {
+    "message": "Peut remplir"
+  },
+  "teamsErrNoKeyset": {
+    "message": "Configurez d’abord le partage dans l’app Passyble"
+  },
+  "teamsErrNotMember": {
+    "message": "Vous n’y avez plus accès"
+  },
+  "teamsErrKeysMismatch": {
+    "message": "Partagé avec d’autres clés de votre compte"
+  },
+  "teamsErrUntrusted": {
+    "message": "Comparez l’empreinte du gestionnaire dans l’app Passyble"
+  },
+  "teamsErrRollback": {
+    "message": "Une copie plus ancienne que celle de cet appareil"
+  },
+  "teamsErrReadOnlyMember": {
+    "message": "Votre rôle ne permet pas de modifications"
+  },
+  "teamsErrSubscriptionInactive": {
+    "message": "Lecture seule : l’abonnement n’est pas actif"
+  },
+  "teamsErrAccountSuspended": {
+    "message": "Votre compte est suspendu"
+  },
+  "teamsErrNetwork": {
+    "message": "Serveur injoignable"
+  },
+  "teamsErrInternal": {
+    "message": "Ce coffre n’a pas pu s’ouvrir"
+  },
+  "teamsErrVaultLimit": {
+    "message": "Votre abonnement n’héberge pas d’autres coffres sur Passyble Cloud. Utilisez Google Drive, WebDAV ou un dossier pour en avoir plus, ou changez d’abonnement."
+  },
+  "teamsOpenConsole": {
+    "message": "Gérer sur le site web"
+  },
+  "teamsRuleSecondTitle": {
+    "message": "Votre équipe exige un second mot de passe"
+  },
+  "teamsRuleSecondBrowser": {
+    "message": "Ce navigateur ne peut pas donner un second mot de passe à son coffre : vous pouvez utiliser ici les éléments de cette équipe, mais pas les modifier. Utilisez l'app Passyble sur Windows ou Android, ou demandez à l'administrateur de votre équipe."
+  },
+  "teamsRuleOneTitle": {
+    "message": "Votre équipe utilise un seul mot de passe"
+  },
+  "teamsRuleOneBrowser": {
+    "message": "$VAULT$ a encore son propre mot de passe, et ce navigateur ne peut pas le remplacer par votre mot de passe Passyble. Utilisez l'app Passyble sur Windows ou Android, ou demandez à l'administrateur de votre équipe.",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Personal"
+      }
+    }
+  },
+  "teamsConfirm": {
+    "message": "Confirmer"
+  },
+  "teamsConfirmHint": {
+    "message": "Demandez-lui de lire l’empreinte dans son app Passyble, puis saisissez-la ici."
+  },
+  "teamsConfirmPlaceholder": {
+    "message": "Empreinte lue"
+  },
+  "teamsConfirmTyped": {
+    "message": "Empreinte de $PERSON$",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsConfirmed": {
+    "message": "$PERSON$ est confirmé",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsConfirmList": {
+    "message": "Personnes à confirmer"
+  },
+  "teamsKeysChanged": {
+    "message": "Les clés de $PERSON$ ont changé. Comparez la nouvelle empreinte avec $PERSON$ avant de donner l’accès.",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsLeftOut": {
+    "message": "Comparez l’empreinte avec $PERSON$ pour donner l’accès.",
+    "placeholders": {
+      "person": {
+        "content": "$1",
+        "example": "alex@example.com"
+      }
+    }
+  },
+  "teamsFingerprintMismatch": {
+    "message": "Cette empreinte ne correspond pas. Comparez-la de nouveau avec la personne."
+  },
+  "teamsKeysWrong": {
+    "message": "Les clés envoyées par le service ne correspondent pas à cette empreinte. Rien n’a été modifié."
+  },
+  "teamsSignerList": {
+    "message": "Coffres partagés à vérifier"
+  },
+  "teamsSignerUnverified": {
+    "message": "$VAULT$ n’est pas encore vérifié",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsSignerHint": {
+    "message": "Demandez à la personne qui l’a partagé de lire son empreinte dans son app Passyble. Vérifiez seulement si c’est celle-ci :"
+  },
+  "teamsSignerChanged": {
+    "message": "$VAULT$ : les clés de la personne qui le gère ont changé",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsSignerChangedHint": {
+    "message": "Ce ne sont pas les clés que vous avez vérifiées. Ne vous fiez pas à ce coffre avant d’avoir comparé la nouvelle empreinte avec la personne qui le gère :"
+  },
+  "teamsSignerVerify": {
+    "message": "Elle correspond"
+  },
+  "teamsSignerVerified": {
+    "message": "$VAULT$ est vérifié",
+    "placeholders": {
+      "vault": {
+        "content": "$1",
+        "example": "Demo Team"
+      }
+    }
+  },
+  "teamsLineHeld_one": {
+    "message": "$COUNT$ suspendu",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineHeld_other": {
+    "message": "$COUNT$ suspendus",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "teamsLineDeviceWaiting": {
+    "message": "ce navigateur attend une approbation sur un autre appareil"
+  },
+  "optionsHelpSupport": {
+    "message": "Aide et assistance"
+  },
+  "popupHelpSupport": {
+    "message": "Aide et assistance"
+  },
+  "qaGroupLabel": {
+    "message": "Actions rapides"
+  },
+  "qaScanQr": {
+    "message": "Scanner QR"
+  },
+  "qaScanQrTitle": {
+    "message": "Ajouter le code QR 2FA affiché sur cette page"
+  },
+  "qaNewNote": {
+    "message": "Nouvelle note"
+  },
+  "qaNewNoteTitle": {
+    "message": "Ajouter une note sécurisée, par exemple des codes de récupération"
+  },
+  "qaGenerate": {
+    "message": "Générer"
+  },
+  "qaGenerateTitle": {
+    "message": "Générer un mot de passe fort"
+  },
+  "qaNoQr": {
+    "message": "Aucun code QR visible sur cette page. Faites-le défiler à l’écran et réessayez."
+  },
+  "qaNotAuthenticator": {
+    "message": "Ce code QR n’est pas destiné à une application d’authentification."
+  },
+  "qaMigration": {
+    "message": "Ce code QR est un export de Google Authenticator. Importez-le dans l’application Passyble."
+  },
+  "qaHotp": {
+    "message": "Ce code QR concerne des codes basés sur un compteur (HOTP), que Passyble ne prend pas en charge."
+  },
+  "qaInvalidQr": {
+    "message": "Impossible de lire ce code QR 2FA. Ajoutez plutôt le code avec sa clé secrète."
+  },
+  "qaAddTotpHeading": {
+    "message": "Ajouter un code 2FA"
+  },
+  "qaUnnamedCode": {
+    "message": "Code 2FA"
+  },
+  "qaAddTo": {
+    "message": "Ajouter à"
+  },
+  "qaHasTotp": {
+    "message": "2FA présent"
+  },
+  "qaNewLoginFor": {
+    "message": "Nouvel identifiant pour $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "qaThisSite": {
+    "message": "ce site"
+  },
+  "qaPickHint": {
+    "message": "Choisissez l’identifiant auquel l’ajouter."
+  },
+  "qaReplacesTotp": {
+    "message": "Son code 2FA actuel sera remplacé."
+  },
+  "qaAddTotp": {
+    "message": "Ajouter la 2FA"
+  },
+  "qaTotpAdded": {
+    "message": "Code 2FA ajouté à $TITLE$",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "qaTotpSavedNew": {
+    "message": "Enregistré comme nouvel identifiant : $TITLE$",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "GitHub"
+      }
+    }
+  },
+  "qaNoteHeading": {
+    "message": "Nouvelle note"
+  },
+  "qaNoteTitle": {
+    "message": "Titre"
+  },
+  "qaNoteText": {
+    "message": "Note"
+  },
+  "qaNoteTextPlaceholder": {
+    "message": "Collez des codes de récupération ou écrivez une note"
+  },
+  "qaNoteRecovery": {
+    "message": "Codes de récupération"
+  },
+  "qaNoteRecoveryFor": {
+    "message": "Codes de récupération pour $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "github.com"
+      }
+    }
+  },
+  "qaNoteUntitled": {
+    "message": "Note sécurisée"
+  },
+  "qaNoteHint": {
+    "message": "Enregistrée comme note sécurisée dans votre coffre."
+  },
+  "qaNoteSaved": {
+    "message": "Note enregistrée"
+  },
+  "qaNoteNeedsUpdate": {
+    "message": "Mettez à jour Passyble pour ajouter des notes ici."
+  },
+  "qaGenerateHeading": {
+    "message": "Générer un mot de passe"
+  },
+  "qaGeneratedLabel": {
+    "message": "Mot de passe généré"
+  },
+  "qaRegenerate": {
+    "message": "Nouveau mot de passe"
+  },
+  "qaCopy": {
+    "message": "Copier"
+  },
+  "qaGenerateHint": {
+    "message": "Un mot de passe copié est effacé du presse-papiers au bout de 45 secondes."
+  },
+  "vaultAppInstalledHere": {
+    "message": "L’application Passyble est installée sur cet ordinateur, Passyble l’utilise donc ici."
+  },
+  "optionsAppGone": {
+    "message": "L’application Passyble n’est plus sur cet ordinateur. Vous pouvez utiliser un coffre dans ce navigateur à la place."
+  },
+  "moveOffer_one": {
+    "message": "Déplacer $COUNT$ élément de ce navigateur vers l’application Passyble",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "23"
+      }
+    }
+  },
+  "moveOffer_other": {
+    "message": "Déplacer $COUNT$ éléments de ce navigateur vers l’application Passyble",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "23"
+      }
+    }
+  },
+  "moveOfferAny": {
+    "message": "Déplacer les éléments de ce navigateur vers l’application Passyble"
+  },
+  "moveText": {
+    "message": "Ils restent aussi dans ce navigateur jusqu’à ce que vous supprimiez le coffre ici."
+  },
+  "moveStart": {
+    "message": "Déplacer les éléments"
+  },
+  "moveConfirm": {
+    "message": "Déplacer"
+  },
+  "moveInto": {
+    "message": "Dans ce coffre"
+  },
+  "moveMoving": {
+    "message": "Déplacement…"
+  },
+  "moveDoneTitle": {
+    "message": "Déplacés dans l’application Passyble"
+  },
+  "moveDoneText": {
+    "message": "Ajoutés : $ADDED$. Déjà dans l’application : $SKIPPED$. Le coffre de ce navigateur est conservé jusqu’à ce que vous le supprimiez.",
+    "placeholders": {
+      "added": {
+        "content": "$1",
+        "example": "20"
+      },
+      "skipped": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "movePartialTitle": {
+    "message": "Certains éléments n’ont pas pu être déplacés"
+  },
+  "movePartialText": {
+    "message": "Ajoutés : $ADDED$. Déjà dans l’application : $SKIPPED$. Non déplacés : $FAILED$. Ceux-ci restent dans ce navigateur.",
+    "placeholders": {
+      "added": {
+        "content": "$1",
+        "example": "18"
+      },
+      "skipped": {
+        "content": "$2",
+        "example": "3"
+      },
+      "failed": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "moveDeleteVault": {
+    "message": "Supprimer le coffre de ce navigateur"
+  },
+  "moveDeleteWarn": {
+    "message": "Supprime définitivement le coffre de ce navigateur. Ses éléments sont maintenant dans l’application Passyble."
+  },
+  "cardBannerSave": {
+    "message": "Enregistrer la carte dans Passyble ?"
+  },
+  "cardBannerUpdate": {
+    "message": "Mettre à jour la date d’expiration ?"
+  },
+  "cardBannerSaved": {
+    "message": "Carte enregistrée dans Passyble."
+  },
+  "cardBannerUpdated": {
+    "message": "Date d’expiration mise à jour."
+  },
+  "cardBannerNoCode": {
+    "message": "Le cryptogramme n’est pas enregistré. Vous pouvez l’ajouter à la carte dans Passyble."
+  },
+  "cardBannerNeverDone": {
+    "message": "L’enregistrement des cartes ne sera plus proposé sur ce site."
+  },
+  "cardBannerEditFrameTitle": {
+    "message": "Données de la carte dans Passyble"
+  },
+  "cardEditHolder": {
+    "message": "Nom sur la carte"
+  },
+  "cardEditExpiry": {
+    "message": "Expiration"
+  },
+  "cardEditExpiryPlaceholder": {
+    "message": "MM/AA"
+  },
+  "cardEditExpiryHint": {
+    "message": "Utilisez MM/AA, par exemple 04/29."
+  },
+  "cardEditTitle": {
+    "message": "Titre"
+  },
+  "settingCardSave": {
+    "message": "Proposer d’enregistrer les cartes"
+  },
+  "settingCardSaveDetails": {
+    "message": "Propose d’enregistrer une nouvelle carte après un paiement."
+  },
+  "optionsNeverSaveCards": {
+    "message": "Cartes"
+  },
+  "popupPassyblePassword": {
+    "message": "Mot de passe Passyble"
+  },
+  "popupUnlockEmptyAccount": {
+    "message": "Saisissez votre mot de passe Passyble."
+  },
+  "accountEmailAddress": {
+    "message": "Adresse e-mail"
+  },
+  "accountSecretKey": {
+    "message": "Clé secrète"
+  },
+  "accountSecretKeyPlaceholder": {
+    "message": "Clé secrète (P1-...)"
+  },
+  "accountSecretKeyHint": {
+    "message": "Une seule fois dans ce navigateur. Elle se trouve dans votre kit d’urgence."
+  },
+  "accountSharedComputer": {
+    "message": "Cet ordinateur est partagé : ne pas conserver ma clé secrète"
+  },
+  "accountApproveFromDevice": {
+    "message": "Approuver depuis un autre appareil"
+  },
+  "accountPageTitle": {
+    "message": "Votre mot de passe Passyble"
+  },
+  "accountPageLead": {
+    "message": "Un seul mot de passe pour votre compte Passyble et les coffres qui y sont liés. Il ne quitte jamais ce navigateur."
+  },
+  "accountKeysInApp": {
+    "message": "L’application Passyble de cet ordinateur ouvre vos coffres avec votre mot de passe Passyble. Connectez-vous dans l’application."
+  },
+  "accountPasswordSignIn": {
+    "message": "Se connecter avec votre mot de passe Passyble"
+  },
+  "accountSigningIn": {
+    "message": "Connexion…"
+  },
+  "accountSignedInUnlocked": {
+    "message": "Connecté en tant que $EMAIL$. Votre coffre dans ce navigateur est déverrouillé.",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "ada@example.com"
+      }
+    }
+  },
+  "accountApproveLead": {
+    "message": "Utilisez un téléphone ou un ordinateur sur lequel vous êtes connecté à Passyble. Seule votre adresse e-mail est à saisir."
+  },
+  "accountApproveAsk": {
+    "message": "Demander l’approbation"
+  },
+  "accountApproveQrLabel": {
+    "message": "Code QR pour votre autre appareil"
+  },
+  "accountApproveQrHint": {
+    "message": "Sur votre autre appareil, ouvrez Passyble et ajoutez un appareil, puis scannez ce code. Pas de caméra ? Approuvez ce navigateur sur l’autre appareil et saisissez le code affiché ici."
+  },
+  "accountApproveCodeHint": {
+    "message": "Saisissez ce code sur votre autre appareil."
+  },
+  "accountApproveCheckHint": {
+    "message": "Vérifiez que votre autre appareil affiche cette empreinte dans Réglages, Mot de passe Passyble."
+  },
+  "accountApproveFingerprintLabel": {
+    "message": "Empreinte de la clé du compte"
+  },
+  "accountApproveMatches": {
+    "message": "Elle correspond"
+  },
+  "accountApproveNoMatch": {
+    "message": "Elle ne correspond pas"
+  },
+  "accountApproveNotKept": {
+    "message": "Les clés n’ont pas été conservées. Une empreinte qui ne correspond pas signifie qu’il ne s’agit peut-être pas des clés de votre compte. Refaites la demande depuis votre autre appareil et contactez l’assistance si cela se reproduit."
+  },
+  "accountApproveCancelledNotKept": {
+    "message": "Annulé. Les clés reçues n’ont pas été conservées."
+  },
+  "accountApproveWaiting": {
+    "message": "En attente de votre autre appareil…"
+  },
+  "accountApproveDone": {
+    "message": "Ce navigateur est approuvé. Votre mot de passe Passyble ouvre ici vos coffres liés."
+  },
+  "accountApproveDoneUnlocked": {
+    "message": "Ce navigateur est approuvé, et votre coffre dans ce navigateur est déverrouillé."
+  },
+  "accountApproveDenied": {
+    "message": "Votre autre appareil a refusé. Recommencez s’il s’agit d’une erreur."
+  },
+  "accountApproveExpired": {
+    "message": "La demande a pris fin. Refaites une demande pour approuver ce navigateur."
+  },
+  "accountKeysAppOnly": {
+    "message": "Changez votre mot de passe Passyble, votre clé secrète ou votre code de récupération dans l’application Passyble."
+  },
+  "accountPasswordButton": {
+    "message": "Mot de passe Passyble"
+  },
+  "welcomeChoicePassword": {
+    "message": "Utiliser votre mot de passe Passyble"
+  },
+  "welcomeChoicePasswordText": {
+    "message": "Connectez-vous ici, ou approuvez ce navigateur depuis un autre appareil."
+  },
+  "errWrongAccountPassword": {
+    "message": "Mot de passe Passyble ou clé secrète incorrect. La touche Verr. Maj est-elle activée ?"
+  },
+  "errPasswordLimited": {
+    "message": "Trop de mots de passe incorrects. Patientez un moment, puis réessayez."
+  },
+  "errAccountKeysOff": {
+    "message": "Le mot de passe Passyble n’est pas encore disponible."
+  },
+  "errNoAccountPassword": {
+    "message": "Ce compte n’a pas encore de mot de passe Passyble. Définissez-en un dans l’application Passyble."
+  },
+  "errAccountService": {
+    "message": "Le service de comptes Passyble n’a pas répondu comme prévu. Réessayez plus tard."
+  },
+  "errAccountOffline": {
+    "message": "Impossible de joindre votre compte Passyble. Vérifiez votre connexion Internet et réessayez."
+  },
+  "errAccountSignedOut": {
+    "message": "Connectez-vous d’abord à votre compte Passyble."
+  },
+  "errBadSecretKey": {
+    "message": "Ce n’est pas une clé secrète. Copiez-la depuis votre kit d’urgence : elle commence par P1."
+  },
+  "errSecretKeyNeeded": {
+    "message": "Saisissez une fois votre clé secrète dans ce navigateur. Elle se trouve dans votre kit d’urgence."
+  },
+  "errEmailNeeded": {
+    "message": "Saisissez l’adresse e-mail de votre compte."
+  },
+  "errOtherAccount": {
+    "message": "Ce mot de passe correspond à un autre compte Passyble que celui de ce coffre."
+  },
+  "errOtherAccountKey": {
+    "message": "Ce coffre est lié à une ancienne clé de votre compte. Ouvrez-le une fois dans l’application Passyble."
+  },
+  "errApprovalMismatch": {
+    "message": "L’approbation ne correspond pas. Recommencez sur les deux appareils."
+  },
+  "accountSecretKeyExample": {
+    "message": "P1-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX"
+  },
+  "menuSimilarSites": {
+    "message": "Sites apparentés"
+  },
+  "menuSearchPassyble": {
+    "message": "Rechercher dans Passyble…"
+  },
+  "menuSearchUseToolbar": {
+    "message": "Pour rechercher dans votre coffre, cliquez sur Passyble dans la barre d’outils du navigateur."
+  },
+  "commonNoLoginsFor": {
+    "message": "Aucun identifiant pour $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossTitle": {
+    "message": "Utiliser aussi cet identifiant sur $SITE$ ?",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossSavedFor": {
+    "message": "enregistré pour $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.com"
+      }
+    }
+  },
+  "crossAdd": {
+    "message": "Ajouter $SITE$ à cet identifiant",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossCopy": {
+    "message": "Enregistrer une copie pour $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "crossHint": {
+    "message": "Si vous l’ajoutez, cet identifiant sera rempli ici sans confirmation la prochaine fois. Une copie garde les deux séparés."
+  },
+  "crossAdded": {
+    "message": "$SITE$ ajouté à $TITLE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.co.uk"
+      },
+      "title": {
+        "content": "$2",
+        "example": "Amazon"
+      }
+    }
+  },
+  "crossCopied": {
+    "message": "Copie enregistrée dans Passyble."
+  },
+  "crossLookalike": {
+    "message": "$HOST$ n’est pas $SITE$, même si son adresse lui ressemble. Ne l’ajoutez que si vous faites confiance à ce site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "changedTitle": {
+    "message": "Mettre à jour cet identifiant ?"
+  },
+  "changedUsername": {
+    "message": "Nom d’utilisateur changé en $USERNAME$",
+    "placeholders": {
+      "username": {
+        "content": "$1",
+        "example": "bob@example.com"
+      }
+    }
+  },
+  "changedPassword": {
+    "message": "Mot de passe changé"
+  },
+  "changedFromSite": {
+    "message": "Enregistré pour $SITE$. La mise à jour ajoute aussi $HOST$ à cet identifiant.",
+    "placeholders": {
+      "site": {
+        "content": "$1",
+        "example": "amazon.com"
+      },
+      "host": {
+        "content": "$2",
+        "example": "amazon.co.uk"
+      }
+    }
+  },
+  "changedReadOnly": {
+    "message": "Cet identifiant se trouve dans un coffre partagé que vous ne pouvez pas modifier. Vous pouvez enregistrer un nouvel identifiant."
+  },
+  "changedLookalike": {
+    "message": "$HOST$ n’est pas $SITE$, mais son adresse y ressemble. Ne mettez à jour ou n’enregistrez que si vous faites confiance à ce site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "paypa1.example"
+      },
+      "site": {
+        "content": "$2",
+        "example": "paypal.com"
+      }
+    }
+  },
+  "changedUpdate": {
+    "message": "Mettre à jour l’identifiant"
+  },
+  "changedSaveNew": {
+    "message": "Enregistrer comme nouvel identifiant"
+  },
+  "changedUpdated": {
+    "message": "Identifiant mis à jour dans Passyble."
+  },
+  "changedSavedNew": {
+    "message": "Enregistré comme nouvel identifiant."
+  },
+  "popupTypeFilter": {
+    "message": "Filtrer par type",
+    "description": "Popup, Filter menu: what a screen reader hears for its Show section, which narrows the list to one kind of item."
+  },
+  "popupTypeAll": {
+    "message": "Tout",
+    "description": "Popup, type filter chip: every kind of item."
+  },
+  "popupTypeLogins": {
+    "message": "Identifiants",
+    "description": "Popup, type filter chip: only logins (not cards or addresses)."
+  },
+  "popupTypeCards": {
+    "message": "Cartes",
+    "description": "Popup, type filter chip: only payment cards."
+  },
+  "popupTypeAddresses": {
+    "message": "Adresses",
+    "description": "Popup, type filter chip: only addresses (identities)."
+  },
+  "popupTypeFavorites": {
+    "message": "Favoris",
+    "description": "Popup, type filter chip: only items marked as favorites (logins, cards, addresses, notes)."
+  },
+  "popupTypeNotes": {
+    "message": "Notes",
+    "description": "Popup, type filter chip: only secure notes."
+  },
+  "popupSecureNotes": {
+    "message": "Notes sécurisées",
+    "description": "Popup: heading of the list of secure notes (the Notes and Favorites filters)."
+  },
+  "popupSecureNote": {
+    "message": "Note sécurisée",
+    "description": "Popup: the line under a secure note's title in the list."
+  },
+  "popupShowNote": {
+    "message": "Afficher la note",
+    "description": "Popup: tooltip of a secure note's row (opens the note and shows its text)."
+  },
+  "popupShowNoteOf": {
+    "message": "Afficher la note $NAME$",
+    "description": "Popup: accessible name of a secure note's row (opens the note).",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Recovery codes"
+      }
+    }
+  },
+  "popupCopyNote": {
+    "message": "Copier la note",
+    "description": "Popup: button that copies the text of a secure note."
+  },
+  "popupCopyNoteOf": {
+    "message": "Copier la note $NAME$",
+    "description": "Popup: accessible name of the copy button of a secure note's row.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Recovery codes"
+      }
+    }
+  },
+  "popupCopiedNote": {
+    "message": "Note copiée",
+    "description": "Notice after copying a secure note's text."
+  },
+  "popupCopiedNoteClears": {
+    "message": "Note copiée (effacée dans 45 s)",
+    "description": "Notice after copying a secure note's text; the clipboard is cleared after 45 seconds."
+  },
+  "popupNoteEmpty": {
+    "message": "Cette note est vide.",
+    "description": "Popup: a secure note without text (in its viewer, or after Copy)."
+  },
+  "popupNoteText": {
+    "message": "Texte de la note",
+    "description": "Popup: accessible name of a secure note's text in its viewer."
+  },
+  "popupNoFilterMatches": {
+    "message": "Rien de ce type ici.",
+    "description": "Popup: empty state when the type filter chosen leaves nothing to show."
+  },
+  "ctxSaveSelection": {
+    "message": "Enregistrer la sélection dans une note Passyble"
+  },
+  "clipHeading": {
+    "message": "Enregistrer dans une note"
+  },
+  "clipSelection": {
+    "message": "Sélection"
+  },
+  "clipAddAddress": {
+    "message": "Ajouter l'adresse de la page"
+  },
+  "clipSearch": {
+    "message": "Rechercher dans les notes"
+  },
+  "clipNewNote": {
+    "message": "Nouvelle note"
+  },
+  "clipNotes": {
+    "message": "Notes"
+  },
+  "clipSaveNew": {
+    "message": "Enregistrer comme nouvelle note"
+  },
+  "clipAdded": {
+    "message": "Ajouté à $NOTE$",
+    "placeholders": {
+      "note": {
+        "content": "$1",
+        "example": "Reading list"
+      }
+    }
+  },
+  "clipSavedNew": {
+    "message": "Enregistré comme nouvelle note"
+  },
+  "clipNoNotes": {
+    "message": "Aucune note pour l'instant. Enregistrez-la comme nouvelle note."
+  },
+  "clipNoMatch": {
+    "message": "Aucune note ne correspond."
+  },
+  "clipViewOnly": {
+    "message": "Vous ne pouvez pas modifier cette note"
+  },
+  "clipLockedText": {
+    "message": "Déverrouillez pour ajouter la sélection à une note."
+  },
+  "clipAppendNeedsUpdate": {
+    "message": "Mettez à jour l'app Passyble pour ajouter du texte à une note."
+  },
+  "clipNeedsUpdate": {
+    "message": "Mettez à jour l'app Passyble pour enregistrer des notes depuis le navigateur."
+  },
+  "clipGone": {
+    "message": "Cette sélection n'est plus disponible. Sélectionnez à nouveau le texte et faites un clic droit dessus."
+  },
+  "clipTooLong": {
+    "message": "La sélection est trop longue pour une note."
+  },
+  "clipNoteFull": {
+    "message": "Cette note est pleine. Enregistrez la sélection comme nouvelle note."
+  }
+}
